@@ -1,0 +1,16 @@
+id: pda-07
+categoria: pda
+critical: false
+pregunta: 'Vivienda en Concón: ¿el PPA de Concón-Quintero-Puchuncaví fija exigencias de envolvente?'
+esperado:
+  hechos:
+  - descripcion: No fija envolvente; rige 4.1.10
+    patrones:
+    - no|4\.1\.10
+  citas:
+  - '105'
+  prohibidos: []
+  cierre: true
+rubrica: DS 105/2018 sin envolvente.
+fuentes:
+- ppa-cqp-ds105-2018

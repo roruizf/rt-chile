@@ -1,0 +1,20 @@
+id: zona-05
+categoria: zona
+critical: false
+pregunta: ¿Qué zona térmica tiene Punta Arenas y cuánto es el U máximo de techumbre?
+esperado:
+  hechos:
+  - descripcion: Zona I
+    patrones:
+    - zona\s*(t[eé]rmica\s*)?I\b
+  - descripcion: U techo 0,25
+    patrones:
+    - 0[,.]25
+  citas:
+  - Tabla\s*1
+  prohibidos: []
+  cierre: true
+rubrica: Punta Arenas zona I; techumbre U ≤ 0,25 (Tabla 1).
+fuentes:
+- ds15-tabla-zonas
+- ds15-2024

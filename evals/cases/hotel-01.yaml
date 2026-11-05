@@ -1,0 +1,27 @@
+id: hotel-01
+categoria: hotel
+critical: true
+pregunta: 'Hotel en Valparaíso: ¿qué exigencias térmicas aplican? ¿Necesito ensayo de infiltración y memoria de condensación?'
+esperado:
+  hechos:
+  - descripcion: Exento de condensación
+    patrones:
+    - exent|no (requiere|aplica|exige)[\s\S]{0,40}condensaci
+  - descripcion: Exento de infiltración
+    patrones:
+    - infiltraci
+  - descripcion: Ventanas por Tabla 12
+    patrones:
+    - Tabla\s*12
+  - descripcion: Envolvente Tabla 1
+    patrones:
+    - Tabla\s*1\b
+  citas:
+  - DS\s*(N[°º]\s*)?15
+  prohibidos:
+  - (?<!no es la )(?<!no usa la )(?<!no se usa la )(?<!no usar la )(?<!no usar )(?<!no )Tabla\s*10[^\n]{0,60}(muro|envolvente|techumbre)
+  cierre: true
+rubrica: 'Hotel: Tabla 1 (opacos), Tabla 12 (ventanas), exento de B, C y D. No usar Tabla 10 para opacos.'
+fuentes:
+- ds15-2024
+- references/alcance-y-vigencia.md

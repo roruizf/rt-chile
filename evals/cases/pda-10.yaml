@@ -1,0 +1,17 @@
+id: pda-10
+categoria: pda
+critical: false
+pregunta: 'Vivienda nueva en Temuco: ¿puedo instalar estufa a leña?'
+esperado:
+  hechos:
+  - descripcion: 'No: calefacción no-leña acreditada en el permiso'
+    patrones:
+    - no|prohib|leña
+  citas:
+  - DS\s*(N[°º]\s*)?8|Art\.?\s*15
+  prohibidos: []
+  cierre: true
+rubrica: PDA Temuco Art. 15.
+fuentes:
+- pda-temuco-ds8-2025
+- references/pda-ppa.md

@@ -1,0 +1,5 @@
+orientacion,azimut_desde_incl,azimut_hasta_excl
+Norte,315,45
+Oriente,45,135
+Sur,135,225
+Poniente,225,315

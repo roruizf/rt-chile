@@ -1,0 +1,23 @@
+# Proyecto ficticio para probar scripts/informe.py. Las λ son valores de ejemplo: reemplázalas por fichas técnicas,
+# NCh 853 en el visor oficial o un ensayo. Uso: python scripts/informe.py examples/proyecto-ejemplo.yaml
+nombre: "Vivienda de ejemplo (ficticia)"
+uso: residencial
+comuna: "Santiago"
+fecha_ingreso: 2026-11-05
+lote_viviendas: 24
+elementos:
+  - elemento: muro
+    capas:
+      - {nombre: "Yeso-cartón", e_m: 0.0125, lambda: 0.25, fuente: "valor de ejemplo"}
+      - {nombre: "EPS", e_m: 0.04, lambda: 0.038, fuente: "valor de ejemplo"}
+      - {nombre: "Albañilería de ladrillo", e_m: 0.14, lambda: 0.46, fuente: "valor de ejemplo"}
+  - elemento: techumbre
+    u_declarado: 0.35
+    acreditacion: "ficha LOSCAT de ejemplo; indicar código y vigencia"
+ventanas:
+  opcion: pct
+  exposicion_muros_pct: 100
+  orientaciones:
+    - {orientacion: Norte, sup_paramentos_m2: 30, sup_ventanas_m2: 9, u_ventana: 2.8}
+    - {orientacion: Poniente, sup_paramentos_m2: 12, sup_ventanas_m2: 5.4, u_ventana: 3.6}
+    - {orientacion: Sur, sup_paramentos_m2: 30, sup_ventanas_m2: 16, u_ventana: 3.6}

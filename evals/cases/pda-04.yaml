@@ -1,0 +1,19 @@
+id: pda-04
+categoria: pda
+critical: false
+pregunta: 'Vivienda nueva en Quillota: U de ventana e infiltración máxima.'
+esperado:
+  hechos:
+  - descripcion: Ventana 4,00
+    patrones:
+    - 4[,.]0
+  - descripcion: 8 ach
+    patrones:
+    - \b8\b
+  citas:
+  - DS\s*(N[°º]\s*)?18
+  prohibidos: []
+  cierre: true
+rubrica: PPA Quillota Tabla 29 ventana 4,00; infiltración 8 ach.
+fuentes:
+- ppa-quillota-ds18-2023

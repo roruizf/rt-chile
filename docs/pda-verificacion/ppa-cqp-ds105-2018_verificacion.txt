@@ -1,0 +1,8 @@
+VERIFICACIÓN ppa-cqp-ds105-2018
+No hay tablas térmicas de vivienda que transcribir (CSV solo con encabezado).
+Comprobación de ausencia:
+1) Capa de texto completa (31 páginas, todas con texto, 1.995-6.233 caracteres/página): 0 ocurrencias de "viviend"; ninguna de
+   "transmitancia", "R100", "aislaci", "envolvente", "infiltración de aire", "permeabilidad", "Vivienda y Urbanismo".
+   "térmic*" solo aparece en contexto de inversión térmica, potencia/eficiencia térmica de calderas y Central/Complejo Termoeléctrico.
+2) OCR (RapidOCR) de todas las imágenes de contenido (gráficos y tablas en pp. 4-9, 11, 14-18, 21; excluida la marca de agua):
+   ningún término de vivienda/envolvente; el único "Termica" es "Potencia Térmica Nominal" de calderas (Tabla Art. 4). Ver ocr_imagenes.txt.

@@ -1,0 +1,19 @@
+id: exigencia-06
+categoria: exigencia
+critical: false
+pregunta: 'Hospital en zona H: ¿qué U máximo de ventana se exige?'
+esperado:
+  hechos:
+  - descripcion: 2,40
+    patrones:
+    - 2[,.]40?\b
+  - descripcion: Tabla 12
+    patrones:
+    - Tabla\s*12
+  citas:
+  - Tabla\s*12
+  prohibidos: []
+  cierre: true
+rubrica: 'Educación/salud ventanas Tabla 12: zona H U ≤ 2,40.'
+fuentes:
+- ds15-2024

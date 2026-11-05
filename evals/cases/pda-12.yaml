@@ -1,0 +1,22 @@
+id: pda-12
+categoria: pda
+critical: false
+pregunta: 'Vivienda nueva en Padre Las Casas: ¿con qué humedad relativa interior verifico la condensación?'
+esperado:
+  hechos:
+  - descripcion: 76 % del Art. 27 N°2
+    patrones:
+    - 76\s*%
+  - descripcion: Res. Ex. 9868 escenarios
+    patrones:
+    - 9\.?868|65|80
+  citas:
+  - Art\.?\s*27
+  prohibidos: []
+  cierre: true
+rubrica: 'DS 8/2023 Art. 27 N°2: no condensación a menos de 76 % HR; criterios MINVU (Res. 9868: 65/75/80 %, julio, 19 °C).
+  Criterio declarado.'
+fuentes:
+- pda-temuco-ds8-2025
+- res-9868-2018
+- references/pda-ppa.md

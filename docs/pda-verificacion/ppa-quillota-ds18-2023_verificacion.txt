@@ -1,0 +1,18 @@
+VERIFICACIÓN ppa-quillota-ds18-2023
+Método: cada tabla se renderizó a PNG (200 dpi, pymupdf) y se pasó por RapidOCR; se comparó el multiconjunto de números del OCR
+(coma->punto, redondeo 2 dec.) con los valores numéricos de la columna `valor` del CSV para esa tabla. Además se buscó cada valor en la
+capa de texto de la página (get_text). "EXTRA" = números del OCR que no son celdas de valor (n.º de tabla, encabezados de columna
+de U de ventana, 50 Pa, 100 Pa, x100, rangos de lote 11/50/51/500/501, NCh2251, etc.): son esperados y no constituyen discrepancia.
+Detalle crudo (incluye tokens OCR): _ocr_raw.txt en esta carpeta.
+
+Fuente: tablas con capa de texto extraíble (PDF es copia de recorte de prensa del D.O., con cabecera "Fecha/Vpe/Tirada";
+el cuerpo es el D.O. N° 44.282 del 23-10-2025). Verificación doble: texto + OCR + lectura de PNG.
+RESULTADO: todas las tablas 24-37 -> 0 valores faltantes en la capa de texto.
+- Tabla 24 (p.32): 0.38/0.80/0.60/1.70 OK; "DVH*" (ventana) confirmado en imagen y texto (no numérico).
+  Nota: el orden de filas de la imagen es Techo, Ventana, Muro, Piso ventilado, Puerta.
+- Tabla 29 (p.35): OCR faltó 0.8 -> leyó "08'0" (extras 0/8). Imagen y texto: Muro 0,80. RESUELTO. Ventanas 4,00 confirmado.
+- Tabla 31 (p.35): 40 celdas, 0 faltantes (OCR separó "5 4 %", "4 4%", juntado al normalizar espacios). Columnas ≤0,6…≤4 (10 columnas;
+  a diferencia de O'Higgins NO tiene ≤4,4 ni ≤5,8). Extra 31 = n.º de tabla. OK.
+- Tablas 25, 26 (8 ach), 27, 28, 30, 32, 33 (21 Upvm), 34 (45), 35 (8 ach), 36 (2), 37: 0 faltantes. OK.
+Observaciones: Tablas 25 y 30 imprimen R100 en "[W/(m2K)]x100" (errata). La nota de Tabla 37 remite a "Tabla 37" (debiera ser 35).
+Sin discrepancias pendientes.

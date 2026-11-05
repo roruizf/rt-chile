@@ -1,0 +1,18 @@
+id: vigencia-01
+categoria: vigencia
+critical: true
+pregunta: Quiero usar la solución LOSCAT 1.2.M.A22.1 para un permiso que ingreso en febrero de 2027. ¿Sirve?
+esperado:
+  hechos:
+  - descripcion: Advierte vigencia (vence diciembre 2026)
+    patrones:
+    - diciembre\s*(de\s*)?2026|2026-12|vencid|vigencia
+  citas:
+  - LOSCAT|E14
+  prohibidos: []
+  cierre: true
+rubrica: 'Fichas E14 opacas vencen mayoritariamente DIC-2026: a feb-2027 estaría vencida salvo nueva edición; remitir a E15/listado
+  vigente.'
+fuentes:
+- loscat-e14
+- references/loscat.md

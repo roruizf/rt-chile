@@ -1,0 +1,4 @@
+lote_min,lote_max,tamano_muestra,items_no_conformes_rechazo
+11,50,2,1
+51,500,3,1
+502,,5,1

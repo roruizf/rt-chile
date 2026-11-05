@@ -1,0 +1,17 @@
+id: vias-03
+categoria: vias
+critical: false
+pregunta: ¿El ensayo de infiltración (blower door) se presenta con el permiso de edificación?
+esperado:
+  hechos:
+  - descripcion: 'No: obra terminada, recepción'
+    patrones:
+    - recepci|terminad
+  citas:
+  - '3295'
+  prohibidos: []
+  cierre: true
+rubrica: NCh 3295 en obra terminada; recepción.
+fuentes:
+- ds15-2024
+- references/roles-firmas-expediente.md

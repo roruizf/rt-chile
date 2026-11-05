@@ -1,0 +1,18 @@
+id: trampa-06
+categoria: trampa
+critical: false
+pregunta: La alternativa Upvm solo se puede usar en comunas sin plan de descontaminación, ¿cierto?
+esperado:
+  hechos:
+  - descripcion: 'No: hay planes que la admiten'
+    patrones:
+    - O.?Higgins|Quillota
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Falso: los planes de O''Higgins (DS 1/2021) y Quillota (DS 18/2023) admiten una vía Upvm propia, con sus condiciones.
+  En el DS 15, Upvm rige en zonas B a I. Falla si afirma que es exclusiva de comunas sin plan.'
+fuentes:
+- pda-ohiggins-ds1-2021
+- ppa-quillota-ds18-2023
+- references/trampas.md

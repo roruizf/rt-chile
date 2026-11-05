@@ -1,0 +1,17 @@
+id: firmas-04
+categoria: trampa
+critical: false
+pregunta: ¿Basta un 'informe térmico' firmado por el arquitecto para todo?
+esperado:
+  hechos:
+  - descripcion: 'No: varios documentos distintos'
+    patrones:
+    - no|distint|varios
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'No: son documentos distintos: U/Rt (cálculo, ensayo, LOSCAT o R100), % de ventanas o Upvm, memoria de condensación,
+  ensayo de infiltración en obra terminada, permeabilidad e informe de ventilación. El arquitecto suscribe informes y memorias,
+  pero no reemplaza los ensayos de laboratorio DS 10.'
+fuentes:
+- references/trampas.md

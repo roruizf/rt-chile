@@ -1,0 +1,16 @@
+id: pda-09
+categoria: pda
+critical: false
+pregunta: ¿Qué dice el PDA de Santiago sobre la envolvente de una vivienda nueva?
+esperado:
+  hechos:
+  - descripcion: No fija envolvente; rige 4.1.10
+    patrones:
+    - no (fija|exige|establece)|4\.1\.10
+  citas:
+  - DS\s*(N[°º]\s*)?31
+  prohibidos: []
+  cierre: true
+rubrica: PPDA RM DS 31/2016 sin envolvente para vivienda nueva.
+fuentes:
+- ppda-rm-ds31-2016

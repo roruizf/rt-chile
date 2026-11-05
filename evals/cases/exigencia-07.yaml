@@ -1,0 +1,21 @@
+id: exigencia-07
+categoria: exigencia
+critical: false
+pregunta: 'Vivienda en zona F con radier: ¿qué exigencia tiene el sobrecimiento?'
+esperado:
+  hechos:
+  - descripcion: R100 91
+    patrones:
+    - \b91\b
+  - descripcion: Aislante por el exterior
+    patrones:
+    - exterior
+  citas:
+  - Tabla\s*6
+  prohibidos: []
+  cierre: true
+rubrica: Sobrecimiento R100 ≥ 91 (Tabla 6), por el exterior hasta el hombro de fundación o 30 cm bajo terreno; radier sin
+  aislante inferior.
+fuentes:
+- ds15-2024
+- references/exigencias-A-envolvente.md

@@ -1,0 +1,657 @@
+# Manifiesto de fuentes de rt-chile. Solo metadatos: nunca texto de las fuentes.
+#
+# license: public-act (acto administrativo/ley publicado) | minvu-pub (publicación MINVU/DITEC/IC de libre descarga)
+#          | third-party (material secundario de terceros) | inn-copyright (norma NCh © INN: solo metadatos)
+# status:  verified (leída contra texto oficial, con sha256 del archivo) | located (existe y está identificada,
+#          no verificada) | pending (no publicada / no hallada)
+# scope:   in (v1) | out (fuera de alcance v1: solo se detecta y se remite; ver AGENTS.md regla 9)
+# sha256:  del archivo original (PDF) en sources/private/; se completa al verificar.
+#
+# Metadatos marcados "según índice interno" provienen de material secundario; se confirman contra el texto oficial.
+
+sources:
+  # ---------------------------------------------------------------- Documento rector y OGUC
+  - id: ds15-2024
+    title: "DS N°15 (V. y U.) — Modifica Art. 4.1.10 OGUC (Reglamentación Térmica)"
+    issuer: MINVU
+    number: "DS 15"
+    signed: 2021-06-09            # según índice interno
+    published: 2024-05-27
+    in_force: 2025-11-28          # DITEC usa 28-11; "18 meses" daría 27-11
+    cve: "2494861"
+    url: https://www.diariooficial.interior.gob.cl/publicaciones/2024/05/27/43860/01/2494861.pdf
+    license: public-act
+    status: verified
+    scope: in
+    local: sources/private/ds15-2024_minvu.pdf
+    sha256: 7381a9a5bd06be1568323c1647cbe7dd1b956a0ea7085f515a16d3f07568aaa9
+    verified: 2026-11-05
+    mirror: https://www.minvu.gob.cl/wp-content/uploads/2024/10/Modificacion-art-4110-OGUC_Reglamentacion-Termica.pdf
+    notes: "PDF del D.O. (CVE 2494861, Núm. 43.860, 27-05-2024, 19 pp.); decretado 'Santiago, 9 de junio de 2021', Núm. 15."
+  - id: ds15-tabla-zonas
+    title: "Tabla Zona Térmica, Regiones, Provincias y Comunas (anexo DS 15 / Art. 4.1.10)"
+    issuer: MINVU
+    license: public-act
+    status: verified
+    scope: in
+    notes: "Fuente de data/zonas_comunas.csv. Condiciones por altitud/meridiano."
+    url: https://www.calificacionenergetica.cl/media/TABLA-ZT_REGIONES_PROVINCIAS-Y-COMUNAS.pdf
+    local: sources/private/ds15-tabla-zonas.pdf
+    sha256: 8dcf6a097705415f5147fad596d5ad285c0cbc311b4829da953547351be17469
+    verified: 2026-11-05
+    notes_verify: "Tabla oficial enlazada desde minvu.gob.cl/nueva-reglamentacion-termica (5 pp.)."
+  - id: ds15-zonificacion-termica
+    title: "Mapa de Zonificación Térmica Nacional (MINVU DITEC), zonas A–I"
+    issuer: MINVU DITEC
+    license: minvu-pub
+    status: verified
+    scope: in
+    url: https://www.minvu.gob.cl/wp-content/uploads/2024/10/ZONIFICACION-TERMICA-final.pdf
+    local: sources/private/ds15-zonificacion-termica.pdf
+    sha256: 0942db1aeaa2f6209d1eb0ae4d4d031b59642d229ab897a046a520c7cbc6e0ab
+    verified: 2026-11-05
+    notes: "Mapa de 1 página enlazado desde la página RT de MINVU. Referencia visual; la asignación por comuna usa ds15-tabla-zonas."
+  - id: oguc-2026-03
+    title: "OGUC texto actualizado marzo 2026 (incorpora DS 2)"
+    issuer: MINVU
+    number: "DS 47/1992, texto actualizado a DS 02 (D.O. 16-03-2026)"
+    license: public-act
+    status: verified
+    scope: in
+    notes: "Texto MINVU actualizado (572 pp.). Incluye el Art. 4.1.10 del DS 15. Su tabla de modificaciones registra DS 15 D.O. 27.05.24, vigencia 28.11.25. Para el 4.1.10 manda el DS 15 (D.O.)."
+    url: "https://www.minvu.gob.cl/wp-content/uploads/2019/05/OGUC-Marzo-2026-D.S.-N°2-D.O.-16-03-2026.pdf"
+    published: 2026-03-16
+    local: sources/private/oguc-2026-03.pdf
+    sha256: b1c4c16b6c3d86b47ad97339494c9fb2f7bea5fbff9f0a3deb5c2f364e3ab94d
+    verified: 2026-11-05
+  - id: oguc-2025-09
+    title: "OGUC septiembre 2025 (DS N°21, D.O. 26-09-2025) — NO incluye el Art. 4.1.10 del DS 15"
+    issuer: MINVU
+    number: "DS 21"
+    published: 2025-09-26
+    license: public-act
+    status: located
+    scope: in
+    notes: "Superada; sirve solo para la trampa 'OGUC sept-2025 vigente'."
+    sha256: null
+  - id: ley-21305
+    title: "Ley N°21.305 sobre Eficiencia Energética"
+    issuer: Congreso Nacional
+    number: "Ley 21.305"
+    published: 2021-02-13
+    license: public-act
+    status: located
+    scope: in
+    sha256: null
+
+  # ---------------------------------------------------------------- Resoluciones y decretos MINVU
+  - id: res-ex-1802-2025
+    title: "Res. Ex. N°1802 (MINVU) — condiciones de cálculo de condensación (NCh 1973) para el Art. 4.1.10"
+    issuer: MINVU
+    number: "Res. Ex. 1802"
+    signed: 2025-11-26
+    published: 2025-12-03   # D.O. según búsqueda; D.O. no consultable en esa revisión, sin confirmar
+    license: public-act
+    status: verified
+    scope: in
+    url: https://www.minvu.gob.cl/wp-content/uploads/2025/11/Condiciones-de-Calculos-Condensacion_Res.-Ex.-1802.pdf
+    local: sources/private/res-ex-1802-2025.pdf
+    sha256: b647e5159e0599267b301194f8dc101b0d5fcc31d1e57aba0ace6876e11c2c40
+    verified: 2026-11-05
+    notes: "PDF escaneado (12 pp., sin capa de texto). Portada leída: Res. Exenta N°1802, Santiago 26 NOV 2025, tramitada 26-11-2025."
+  - id: dex-40-2025
+    title: "D.Ex. N°40/2025 — declara oficial NCh 853:2021"
+    issuer: MINVU
+    number: "D.Ex. 40"
+    license: public-act
+    status: verified
+    scope: in
+    url: https://www.diariooficial.interior.gob.cl/publicaciones/2025/05/10/44145/01/2642356.pdf
+    local: sources/private/dex-40-2025.pdf
+    sha256: 22be865c9d54e083d09fb8adde1fe30c8d5825d78c71f177cc98417815b143c5
+    verified: 2026-11-05
+    signed: 2025-04-30
+    published: 2025-05-10
+    in_force: 2025-11-27
+    cve: "2642356"
+    notes: "Leído en el D.O.: reemplaza la NCh 853 Of.2007 por la NCh 853:2021 (título en la entrada nch853) y deja sin efecto el D.Ex. 44/2008, ambos desde el 27-11-2025."
+  - id: res-ex-700-2026
+    title: "Res. Ex. N°700 (V. y U.) de 06-05-2026 — llamado DS 19 (Integración Social y Territorial); NO es instrumento de la RT"
+    issuer: MINVU
+    number: "Res. Ex. 700"
+    license: public-act
+    status: located
+    scope: out
+    notes: "Objeto exacto a confirmar contra texto oficial."
+    url: null
+    sha256: null
+    notes_verify: "Error del backlog confirmado 2026-11-05: subsidio DS 19, fuera de alcance. No se cita."
+  - id: res-9868-2018
+    title: "Res. Ex. N°9868 MINVU (29-11-2018, D.O. 10-12-2018): criterios de eficiencia energética PDA Temuco-Padre Las Casas (control solar, sobrecimiento, condensación)"
+    issuer: MINVU
+    number: "Res. Ex. 9868"
+    signed: 2018-11-29
+    published: 2018-12-10
+    license: public-act
+    status: verified
+    scope: in
+    url: https://bcn.cl/3mro9
+    local: sources/private/res-ex-9868-2018-temuco.pdf
+    sha256: 6dab67880111f838a6373f57a642334bd8522d39760a17fb1aec251491589798
+    verified: 2026-11-05
+    notes: "Aportada por el mantenedor (copia LeyChile). Dictada bajo el DS 8/2015; el DS 8/2023 (Art. 27) remite a ella 'o la que la reemplace'. Tabla 1 (% ventanas) = Ord. 209 Temuco-PLC (40/40); Tabla 3 R100 sobrecimiento 91; exigible desde 01-01-2019. Cita el Ord. 209 como 'de 2017' (es de 2018, C31)."
+  - id: res-1729-2019-valdivia
+    title: "Res. Ex. N°1729 MINVU (30-07-2019, D.O. 05-08-2019), mod. Res. Ex. 1197 (D.O. 21-07-2021): criterios de eficiencia energética PDA Valdivia"
+    issuer: MINVU
+    number: "Res. Ex. 1729"
+    signed: 2019-07-30
+    published: 2019-08-05
+    license: public-act
+    status: verified
+    scope: in
+    url: https://bcn.cl/3m48n
+    local: sources/private/res-1729-2019-valdivia.pdf
+    sha256: b15849e0d932e91f9bee2d420ee43ab904c9381e2ad4220ff2d0774cd33b870d
+    verified: 2026-11-05
+    notes: "Aportada por el mantenedor (texto consolidado LeyChile, última modificación Res. Ex. 1197 del 21-07-2021, que reemplazó la Tabla 1 agregando columnas U<=0,6 y <=0,8). Resuelve el 'por definir MINVU' del Art. 28 DS 25 para control solar y sobrecimiento (R100 91). No fija U máx. de ventana en muros."
+  - id: umbral-demanda-cev
+    title: "Resolución MINVU con umbral de demanda para vía alternativa (Informe de Precalificación)"
+    license: public-act
+    status: pending
+    scope: in
+    last_checked: 2026-11-04
+    notes: "Exigible ~36 meses post DS 15 (~2027-05). No publicada al 2026-11-04."
+  - id: ds10-2002-registro-lab
+    title: "DS N°10 (V. y U.) 2002 — Registro Oficial de Laboratorios de Control Técnico de Calidad de Construcción"
+    issuer: MINVU
+    number: "DS 10"
+    license: public-act
+    status: located
+    scope: in
+    url: null
+  - id: ds135-1978-registro-consultores
+    title: "DS N°135 (V. y U.) 1978 — Registro Nacional de Consultores MINVU"
+    issuer: MINVU
+    number: "DS 135"
+    license: public-act
+    status: located
+    scope: in
+    url: null
+
+  # ---------------------------------------------------------------- Manuales y guías (prevalencia inferior)
+  - id: loscat-e14
+    title: "LOSCAT — Listado Oficial de Soluciones Constructivas para Acondicionamiento Térmico, Edición 14 (mayo 2026)"
+    issuer: MINVU
+    edition: "E14"
+    published: 2026-05
+    license: minvu-pub
+    status: verified
+    scope: in
+    notes: "Última edición confirmada 2026-11-05. 373 pp. según índice interno."
+    approved_by: "Res. Ex. N°1403 de 20-04-2026 (D.O. 28-04-2026, CVE 2800829)"
+    url: https://www.minvu.gob.cl/wp-content/uploads/2026/04/LOSCAT_E14_MAYO_2026.pdf
+    local: sources/private/loscat-e14.pdf
+    sha256: d2215c14d10b20f658463ef7155c16b4989bfe63db612bffab07cd17989eb503
+    verified: 2026-11-05
+  - id: loscat-e13
+    title: "LOSCAT Edición 13 (junio 2025) — solo para diff E13→E14"
+    issuer: MINVU
+    edition: "E13"
+    published: 2025-06
+    license: minvu-pub
+    status: verified
+    scope: in
+    notes: "Fuente de comparación."
+    approved_by: "Res. Ex. N°764 (V. y U.) de 04-06-2025"
+    url: https://www.minvu.gob.cl/wp-content/uploads/2025/06/LOSCAT_E13_2025_DITEC-MINVU-2025-junio.pdf
+    local: sources/private/loscat-e13.pdf
+    sha256: 58ca0f42109a61f62e8efa8602587e446c6048dee99704c6b6f6713c8d2bfa45
+    verified: 2026-11-05
+    notes_verify: "329 pp."
+  - id: loscat-e15
+    title: "LOSCAT Edición 15 — fuente a vigilar"
+    issuer: MINVU
+    edition: "E15"
+    license: minvu-pub
+    status: pending
+    scope: in
+    watch: true
+    last_checked: 2026-11-05
+    notes: "No publicada al 2026-11-05. 347 soluciones E14 vencen en DIC-2026: revisar https://www.minvu.gob.cl/ditec/ en cada mantención."
+  - id: mrt-v1-04
+    title: "Manual de Reglamentación Térmica (MRT) V1.04 — Instituto de la Construcción"
+    issuer: Instituto de la Construcción
+    edition: "V1.04"
+    published: 2026-10-02   # registro oficial de cambios; archivo de trabajo '261028' (28-10-2026): discrepancia
+    license: minvu-pub
+    status: located
+    scope: in
+    notes: "Licencia a confirmar (publicación IC de libre descarga). Vigente; reemplaza V1.03."
+    sha256: null   # decisión del mantenedor 2026-11-05: queda located sin hash
+    url: https://www.reglamentaciontermica.cl/registro-de-cambio
+    notes_verify: "Versión confirmada en registro oficial de cambios del IC (V1.00 26-01-2026 … V1.04 02-10-2026). PDF sin copia pública (descarga oficial no directa); sha256 pendiente."
+  - id: mrt-v1-03
+    title: "Manual de Reglamentación Térmica (MRT) V1.03 — superado por V1.04"
+    issuer: Instituto de la Construcción
+    edition: "V1.03"
+    license: minvu-pub
+    status: located
+    scope: in
+    sha256: null
+    published: 2026-05-19
+    url: https://www.reglamentaciontermica.cl/registro-de-cambio
+  - id: ditec-lamina-rt
+    title: "Lámina DITEC — Actualización de la Reglamentación Térmica"
+    issuer: MINVU DITEC
+    license: minvu-pub
+    status: verified
+    scope: in
+    url: https://www.minvu.gob.cl/wp-content/uploads/2025/11/Actualizacion-RT_DITEC.pdf
+    local: sources/private/ditec-lamina-rt.pdf
+    sha256: 51a88946b0aa0ca3bb1927a32fc02e0b3e95310e2aaecab636a00773d65a5105
+    verified: 2026-11-05
+  - id: ditec-lamina-puertas-ventanas
+    title: "Lámina DITEC — Puertas y Ventanas"
+    issuer: MINVU DITEC
+    license: minvu-pub
+    status: verified
+    scope: in
+    url: https://www.minvu.gob.cl/wp-content/uploads/2025/11/Puertas-y-Ventanas_DITEC-1.pdf
+    local: sources/private/ditec-lamina-puertas-ventanas.pdf
+    sha256: 3c229a225f7dd96fe43ab251fec0ae9178d7562beefa412eb2f83d6e14506040
+    verified: 2026-11-05
+  - id: ditec-lamina-edu-salud-2026-01
+    title: "Lámina DITEC — Educación y Salud (enero 2026)"
+    issuer: MINVU DITEC
+    published: 2026-01
+    license: minvu-pub
+    status: verified
+    scope: in
+    notes: "Buscar en minvu.gob.cl."
+    url: https://www.minvu.gob.cl/wp-content/uploads/2026/01/Art-4-1-10-OGUC_RES-EDU-SAL_DITEC.pdf
+    local: sources/private/ditec-lamina-edu-salud-2026-01.pdf
+    sha256: e7500bd8d8a27a88862fa2ced6756cb11e517ece7e2d878e6ac75990a314ae20
+    verified: 2026-11-05
+    notes_verify: "41 pp. Uso residencial, educación y salud."
+  - id: minvu-comunicado-rt
+    title: "Comunicado MINVU sobre la Reglamentación Térmica"
+    issuer: MINVU
+    license: minvu-pub
+    status: verified
+    scope: in
+    url: https://www.minvu.gob.cl/wp-content/uploads/2025/11/COMUNICADO-R-TERMICA.pdf
+    local: sources/private/minvu-comunicado-rt.pdf
+    sha256: b1517da0e22384a60de579665340fbbbea082609eb7076c3f62975e9e173c111
+    verified: 2026-11-05
+
+  # ---------------------------------------------------------------- CEV (solo vía alternativa del requisito A)
+  - id: ds5-2024-cev
+    title: "DS N°5/2024 — Reglamento de Calificación Energética de Viviendas"
+    issuer: MINVU
+    number: "DS 5"
+    url: https://www.bcn.cl/leychile/navegar?idNorma=1207208
+    license: public-act
+    status: located
+    scope: in
+    notes: "Solo para la vía de precalificación y para distinguir CEV de RT."
+  - id: planilla-ventilacion-nch3309-v31
+    title: "Planilla \"Verificación de ventilación NCh 3309 V3.1\" (DITEC-MINVU, publicada en el sitio PDA Osorno del MMA)"
+    issuer: MINVU DITEC (vía MMA PDAO)
+    license: minvu-pub
+    status: verified
+    scope: in
+    url: https://pdao.mma.gob.cl/wp-content/uploads/2020/11/VERIFICACION-DE-VENTILACION-NCH-3309-V3.1.xlsx
+    local: sources/private/planilla-ventilacion-nch3309-v31.xlsx
+    sha256: b70b1627c14bf21668a2274153e889d9274f83a3f924bd4f17fa9734413075c3
+    verified: 2026-11-05
+    notes: "Indicada por el mantenedor 2026-11-05. Evalúa según NCh 3309:2014 (texto de la planilla), no según la edición 2022 que sirve el visor y que usa el MRT V1.04. Metadatos: creada 2016-12-27, modificada 2018-02-20. Es herramienta de apoyo: la exigencia es la NCh."
+  - id: planilla-ventilacion-nch3309-v31-2018
+    title: "Planilla \"VENTILACION NCH 3309 V3.1 2018\" (MINVU, sitio csustentable.minvu.gob.cl)"
+    issuer: MINVU
+    license: minvu-pub
+    status: verified
+    scope: in
+    url: https://csustentable.minvu.gob.cl/wp-content/uploads/2021/05/VENTILACION-NCH-3309-V3.1-2018.xlsx
+    local: sources/private/planilla-ventilacion-nch3309-v31-2018-csustentable.xlsx
+    sha256: 56c965cddf25778f12032b2633969b24cb91656a61895bd3cb06c3177314ed42
+    verified: 2026-11-05
+    notes: "Indicada por el mantenedor 2026-11-05 como la única versión 2018. Archivo distinto a la copia PDAO (creado 2018-10-04, modificado 2019-01-29), pero también declara evaluar según NCh 3309:2014. No hay planilla MINVU para la NCh 3309:2022 (C28)."
+  - id: minvu-ord1773-2017
+    title: "Ord. N°1773 DITEC MINVU (16-11-2017): criterios arts. 6-8 PDA Osorno (condensación, % ventanas, sobrecimiento, infiltración)"
+    issuer: MINVU DITEC
+    license: public-act
+    status: verified
+    scope: in
+    url: https://pdao.mma.gob.cl/wp-content/uploads/2020/11/Criterios-calculo-Art-6-7-Y-8.pdf
+    local: sources/private/pdao-criterios-art-6-7-8.pdf
+    sha256: 37349ab16e8701c268e051b5838ca61c8bd3c1e6dfc1731469e9376fdb389a0e
+    verified: 2026-11-05
+    notes: "Escaneo; fecha 16-11-2017 según timbre (el Ord. 840 la cita como 2018 por error). Valores en data/pda_minvu_actos.csv."
+  - id: minvu-ord209-2018
+    title: "Ord. N°209 Ministro MINVU (20-04-2018): instrucción a DOM con PDA sobre sobrecimientos (R100 por PDA) y % de ventanas por orientación"
+    issuer: MINVU
+    license: public-act
+    status: verified
+    scope: in
+    url: https://pdao.mma.gob.cl/soluciones-oficiales-minvu
+    local: sources/private/pdao-ord840-2019-con-ord209.pdf
+    sha256: 4e0effdc935cfc611d497b92e60864949681b67b7e64fdfdd4d3d9ac018c93f0
+    verified: 2026-11-05
+    notes: "Adjunto en el PDF del Ord. 840 (sitio PDAO, archivo 'Oficio-Ventanas-n°340-del-30.04.2019.pdf'). Tablas para Talca-Maule, Temuco-PLC, Coyhaique, Osorno/Valdivia y Chillán."
+  - id: minvu-res-ex-9869-2018
+    title: "Res. Ex. N°9869 MINVU (29-11-2018): control de ganancias solares y aislación de sobrecimientos PDA Osorno (exigible desde 01-01-2019)"
+    issuer: MINVU
+    license: public-act
+    status: verified
+    scope: in
+    url: https://pdao.mma.gob.cl/wp-content/uploads/2020/11/Criterio-para-Control-Ganancias-Solares.pdf
+    local: sources/private/pdao-criterio-ganancias-solares.pdf
+    sha256: 90993675c727295df98b6530ba3bc3f305543edd40fcc2740950a3b99672f08e
+    verified: 2026-11-05
+  - id: minvu-ord840-2019
+    title: "Ord. N°840 SEREMI MINVU Los Lagos (30-04-2019) a DOM Osorno: contenido mínimo EETT de puertas y ventanas (Art. 8 b PDA Osorno)"
+    issuer: SEREMI MINVU Los Lagos
+    license: public-act
+    status: verified
+    scope: in
+    url: https://pdao.mma.gob.cl/wp-content/uploads/2020/11/Oficio-Ventanas-n%C2%B0340-del-30.04.2019.pdf
+    local: sources/private/pdao-ord840-2019-con-ord209.pdf
+    sha256: 4e0effdc935cfc611d497b92e60864949681b67b7e64fdfdd4d3d9ac018c93f0
+    verified: 2026-11-05
+    notes: "El sitio lo rotula 'n°340' pero el número estampado es 840."
+  - id: manual-tecnico-cev-2025
+    title: "Manual Técnico CEV 2025 (Res. Ex. N°1339/2025, D.O. 08-10-2025)"
+    issuer: MINVU
+    number: "Res. Ex. 1339"
+    published: 2025-10-08
+    license: public-act
+    status: verified
+    scope: in
+    url: https://www.calificacionenergetica.cl/media/2025.08.18-Manual-CEV.pdf
+    local: sources/private/manual-tecnico-cev-2025.pdf
+    sha256: fce33e8c84b0ca999c5bec3c6025e1a40f0649a9d0dcdb1bfd561817f8dfe48d
+    verified: 2026-11-05
+    notes_verify: "105 pp. El PDF no cita la Res. Ex. 1339 en sus primeras páginas; número y D.O. quedan según matriz interna previa."
+  - id: manual-cev-2019
+    title: "Manual CEV 2019 — superado por Manual Técnico CEV 2025"
+    issuer: MINVU
+    license: minvu-pub
+    status: verified
+    scope: in
+    url: https://www.calificacionenergetica.cl/media/Manual-CEV-2019-1.pdf
+    local: sources/private/manual-cev-2019.pdf
+    sha256: 04ca8e7bbfde0702ef362734d77c26c97307094cb62713d886034e5a8c3c9ce0
+    verified: 2026-11-05
+
+  # ---------------------------------------------------------------- PDA / PPA (prevalecen sobre Art. 4.1.10)
+  # Datos de decreto/DO desde matriz interna previa (pda-ppa-exigencias-termicas.md); verificar contra PDF.
+  - id: pda-temuco-ds8-2025
+    title: "PDA Temuco y Padre Las Casas — DS N°8/2023 (MMA), publicado D.O. 07-03-2025"
+    issuer: MMA
+    number: "DS 8"
+    published: 2025-03-07
+    license: public-act
+    status: verified
+    scope: in
+    signed: 2023-03-27
+    cve: "2616308"
+    url: https://ppda.mma.gob.cl/wp-content/uploads/2025/03/DS-N°08.2023-Publicacion-DO-en-PDA-actualizado.pdf
+    local: sources/private/pda-temuco-ds8.pdf
+    sha256: 384d50fa2f70de25d4dc99595e62394af88db3785c2df18e7988500c4b8d223a
+    verified: 2026-11-05
+    notes_verify: "D.O. Núm. 44.093, CVE 2616308; Núm. 8, Santiago 27-03-2023. Es DS 8/2023 (no 8/2025): corregir en matriz interna previa e índice interno."
+  - id: pda-ohiggins-ds1-2021
+    title: "PDA Valle Central de O'Higgins — DS N°1/2021 (MMA)"
+    issuer: MMA
+    number: "DS 1"
+    signed: 2021-01-05
+    published: 2023-03-29
+    url: https://www.bcn.cl/leychile/navegar?idNorma=1190758
+    license: public-act
+    status: verified
+    scope: in
+    cve: "2288121"
+    url_official: https://ppda.mma.gob.cl/wp-content/uploads/2023/03/DS-N°1-2021-Establece-Plan-de-Descontaminacion-Atmosferica-para-el-Valle-Central-de-la-Region-del-Libertador-General-Bernardo-O´Higgins-1.pdf
+    local: sources/private/pda-ohiggins-ds1-2021.pdf
+    sha256: c088c0d75a122959fe761ced9a48b1705b61b472d703d111119263e360ff3a4c
+    verified: 2026-11-05
+    notes_verify: "D.O. Núm. 43.514 (29-03-2023), CVE 2288121; Santiago 05-01-2021."
+  - id: ppa-quillota-ds18-2023
+    title: "PPA Quillota y otras comunas — DS N°18/2023 (MMA)"
+    issuer: MMA
+    number: "DS 18"
+    signed: 2023-06-13
+    published: 2025-10-23
+    url: https://www.bcn.cl/leychile/navegar?idNorma=1217845
+    license: public-act
+    status: verified
+    scope: in
+    notes: "Índice interno lo llama 'DS 18/2025' (error: es 18/2023 publicado 2025)."
+    cve: "2710464"
+    url_official: https://ppda.mma.gob.cl/wp-content/uploads/2025/10/DO_DSN°18-2023-PPDA-QUILLOTA-CATEMU.pdf
+    local: sources/private/ppa-quillota-ds18-2023.pdf
+    sha256: 39c9eacdb46b7cae2a3099e501242ccba1a6d130f21e1c9168a8c6cceeb60fb9
+    verified: 2026-11-05
+    notes_verify: "D.O. Núm. 44.282 (23-10-2025), CVE 2710464; Núm. 18, Santiago 13-06-2023."
+  - id: ppa-cqp-ds105-2018
+    title: "PPA Concón, Quintero y Puchuncaví — DS N°105/2018 (MMA) — sin exigencia de envolvente"
+    issuer: MMA
+    number: "DS 105"
+    signed: 2018-12-27
+    published: 2019-03-30
+    url: https://www.bcn.cl/leychile/navegar?idNorma=1130135
+    license: public-act
+    status: verified
+    scope: in
+    cve: "1569651"
+    url_official: https://ppda.mma.gob.cl/wp-content/uploads/2019/04/56._PPDA_CQP_DO_2587-2617.pdf
+    local: sources/private/ppa-cqp-ds105-2018.pdf
+    sha256: 120a35a3cc3a7f4a224587dfe61ea6810058db6169f3a1f187d989a2abec6187
+    verified: 2026-11-05
+    notes_verify: "D.O. Núm. 42.318 (30-03-2019), CVE 1569651; Núm. 105, Santiago 27-12-2018."
+  - id: pda-talca-ds49-2016
+    title: "PDA Talca y Maule — DS N°49/2015 (MMA)"
+    issuer: MMA
+    number: "DS 49"
+    published: 2016-03-28
+    license: public-act
+    status: verified
+    scope: in
+    signed: 2015-10-28
+    url: https://ppda.mma.gob.cl/wp-content/uploads/2018/05/DS-49-2016-Plan-de-Descontaminacion-Atmosferica-para-las-comunas-de-Talca-y-Maule.pdf
+    local: sources/private/pda-talca-ds49.pdf
+    sha256: 9af6507b38e40666e04d0f41dd031fd936fbe086a7165e14d20d5cf09a6c2444
+    verified: 2026-11-05
+    notes_verify: "LeyChile idNorma 1088772: publicación 28-03-2016, promulgación 28-10-2015."
+  - id: pda-maule-anteproyecto-8086
+    title: "PDA Macrozona Valle Central del Maule — anteproyecto Res. Ex. N°8086 (MMA)"
+    issuer: MMA
+    number: "Res. Ex. 8086"
+    signed: 2024-12-30
+    published: 2025-02-20
+    url: https://www.bcn.cl/leychile/navegar?idNorma=1211261
+    license: public-act
+    status: located
+    scope: in
+    notes: "Anteproyecto: no es exigible. Plan definitivo pendiente."
+    sha256: null
+  - id: pda-chillan-ds48
+    title: "PDA Chillán y Chillán Viejo — DS N°48 (MMA)"
+    issuer: MMA
+    number: "DS 48"
+    published: 2016-03-28
+    license: public-act
+    status: verified
+    scope: in
+    notes: "Expansión 2025 a +11 comunas según matriz interna previa: instrumento a identificar."
+    signed: 2015-10-28
+    url: https://ppda.mma.gob.cl/wp-content/uploads/2018/05/DS-48-2016-Plan-de-Prevencion-y-Descontaminacion-Atmosferica-para-las-comunas-de-Chillan-y-Chillan-Viejo.pdf
+    local: sources/private/pda-chillan-ds48.pdf
+    sha256: 542a515a1894aef81e670c5e070e9f12130387ca3ce5005d18793cd9b3303f22
+    verified: 2026-11-05
+    notes_verify: "LeyChile: Decreto 48, publicación 28-03-2016, promulgación 28-10-2015. Expansión 2025 sigue sin identificar."
+  - id: ppa-concepcion-ds6-2018
+    title: "PPA Concepción Metropolitano — DS N°6/2018 (MMA)"
+    issuer: MMA
+    number: "DS 6"
+    published: 2019-12-17
+    license: public-act
+    status: verified
+    scope: in
+    signed: 2018-01-25
+    url: https://ppda.mma.gob.cl/wp-content/uploads/2023/02/Decreto-6_-PPDA-Concepcion-Metropolitano.pdf
+    local: sources/private/ppa-concepcion-ds6.pdf
+    sha256: 1dd82020b870c06fc44fbb72b292fdf6acd571368aa841127bfe4d83e192158d
+    verified: 2026-11-05
+    notes_verify: "LeyChile: publicación 17-12-2019, promulgación 25-01-2018."
+  - id: pda-los-angeles-ds4-2017
+    title: "PDA Los Ángeles — DS N°4/2017 (MMA)"
+    issuer: MMA
+    number: "DS 4"
+    published: 2019-01-25
+    license: public-act
+    status: verified
+    scope: in
+    signed: 2017-02-22
+    cve: "1522245"
+    url: https://ppda.mma.gob.cl/wp-content/uploads/2019/01/DN4-Establece-Plan-de-Descontaminacion-Atmosferica-para-la-comuna-de-los-angeles.pdf
+    local: sources/private/pda-los-angeles-ds4.pdf
+    sha256: e855ac2e0e7c3d3147db9b472a47277baad5f5a39b0e4597fe25288ce955211d
+    verified: 2026-11-05
+    notes_verify: "D.O. Núm. 42.263 (25-01-2019), CVE 1522245; Santiago 22-02-2017."
+  - id: pda-valdivia-ds25-2016
+    title: "PDA Valdivia — DS N°25/2016 (MMA)"
+    issuer: MMA
+    number: "DS 25"
+    published: 2017-06-23
+    license: public-act
+    status: verified
+    scope: in
+    signed: 2016-09-02
+    url: https://ppda.mma.gob.cl/wp-content/uploads/2018/05/DS-25-2017-Plan-de-Descontaminacion-Atmosferica-para-la-comuna-de-Valdivia.pdf
+    local: sources/private/pda-valdivia-ds25.pdf
+    sha256: 860b8919f6434583f09b45763c7b8ab1b92ea6cd86f9567049f0e95bb190266a
+    verified: 2026-11-05
+    notes_verify: "LeyChile idNorma 1104521: publicación 23-06-2017, promulgación 02-09-2016."
+  - id: pda-osorno-ds47-2015
+    title: "PDA Osorno — DS N°47/2015 (MMA)"
+    issuer: MMA
+    number: "DS 47"
+    published: 2016-03-28
+    license: public-act
+    status: verified
+    scope: in
+    signed: 2015-10-28
+    url: https://ppda.mma.gob.cl/wp-content/uploads/2020/03/DS-47-2016-Establece-plan-de-descontaminacion-atmosferica-para-la-comuna-de-osorno.pdf
+    local: sources/private/pda-osorno-ds47.pdf
+    sha256: 45e60aaaf937ded15520d7484c066002f2ca6ff9fc7a3795b8478dbd442e3fdd
+    verified: 2026-11-05
+    notes_verify: "LeyChile: publicación 28-03-2016, promulgación 28-10-2015."
+  - id: pda-coyhaique-ds7-2018
+    title: "PDA Coyhaique — DS N°7/2018 (MMA)"
+    issuer: MMA
+    number: "DS 7"
+    published: 2019-07-17
+    license: public-act
+    status: verified
+    scope: in
+    signed: 2018-01-25
+    url: https://ppda.mma.gob.cl/wp-content/uploads/2019/07/DS-7-2019-PDA-para-la-ciudad-de-Coyhaique-y-su-zona-circundante.pdf
+    local: sources/private/pda-coyhaique-ds7.pdf
+    sha256: 99332712286cc90ae3de95aade62c75165fc1b2b233baadf2157547f4d980ead
+    verified: 2026-11-05
+    notes_verify: "LeyChile idNorma 1133992: publicación 17-07-2019, promulgación 25-01-2018."
+  - id: pda-puerto-aysen-ds3-2025
+    title: "PDA Puerto Aysén — DS N°3/2025 (MMA), en trámite en Contraloría"
+    issuer: MMA
+    number: "DS 3"
+    license: public-act
+    status: pending
+    scope: in
+    last_checked: 2026-09
+    notes: "Retirado y reingresado a Contraloría 09-04-2026; sin publicación en D.O. según matriz interna previa."
+  - id: ppda-rm-ds31-2016
+    title: "PPDA Región Metropolitana — DS N°31/2016 (MMA) — sin exigencia de envolvente a vivienda nueva"
+    issuer: MMA
+    number: "DS 31"
+    signed: 2016-10-11
+    published: 2017-11-24
+    url: https://www.bcn.cl/leychile/navegar?idNorma=1111283
+    license: public-act
+    status: verified
+    scope: in
+    url_official: https://ppda.mma.gob.cl/wp-content/uploads/2018/05/DTO-31_24-Establece-plan-de-prevencion-y-descontaminacion-atmosferica-para-la-Region-Metropolitana-de-santiago.pdf
+    local: sources/private/ppda-rm-ds31.pdf
+    sha256: 5d1293a34ead7f3702473109b64b9f8f87237b6c674d4f35b3a6f647921c9fdd
+    verified: 2026-11-05
+    notes_verify: "LeyChile idNorma 1111283: publicación 24-11-2017, promulgación 11-10-2016."
+  - id: pda-curico-ds44-2017
+    title: "PDA Valle Central de Curicó — DS N°44/2017 (MMA)"
+    issuer: MMA
+    number: "DS 44"
+    published: 2019-12-20
+    license: public-act
+    status: verified
+    scope: in
+    signed: 2017-10-23
+    url: https://ppda.mma.gob.cl/wp-content/uploads/2023/01/Decreto-44_20-DIC-2019-1.pdf
+    local: sources/private/pda-curico-ds44.pdf
+    sha256: 6f657a52ff4a8a577d4380bac8c3cc192f9d3c27d8ebffac37fcc007a286ed12
+    verified: 2026-11-05
+    notes_verify: "LeyChile: publicación 20-12-2019, promulgación 23-10-2017."
+  - id: pda-industriales-sin-envolvente
+    title: "PDA/PPA de foco industrial sin exigencia de envolvente: Tocopilla DS 70/2010, Calama DS 5/2021 (anulado), Huasco PPA DS 38/2016, Andacollo DS 59/2014"
+    issuer: MMA
+    license: public-act
+    status: located
+    scope: in
+    notes: "Matriz interna previa (2026-09-22) los verificó sin envolvente. Pendiente: nuevo PDA Calama. "
+  - id: pda-ppa-informe-2025-2026
+    title: "Planes de Descontaminación (PDA) y Prevención (PPA) en Chile — Actualización 2025-2026 (informe propio, secundario)"
+    issuer: interno
+    license: third-party
+    status: located
+    scope: in
+    notes: "Material secundario: no es fuente de exigencias. Su anexo 2026-09-22 tiene errores PDA."
+
+  # ---------------------------------------------------------------- Fuera de alcance v1 (solo detectar y remitir)
+  - id: fsev-ord-ditec-1163-2023
+    title: "Estándar de Comportamiento Higrotérmico FSEV — Ord. DITEC N°1.163/2023"
+    issuer: MINVU DITEC
+    license: public-act
+    status: verified
+    scope: out
+    signed: 2023-07-20
+    url: https://www.minvu.gob.cl/wp-content/uploads/2026/06/Oficio-Ord-1163-de-20-7-2023-de-DITEC.pdf
+    local: sources/private/fsev-ord-ditec-1163-2023.pdf
+    sha256: d196b8023f8b0c4854064f33ecfe90f270fd1a3d6f7b2284df25ad2ec0de147d
+    verified: 2026-11-05
+  - id: vit-res-ex-59-2023
+    title: "Estándar Higrotérmico Viviendas Industrializadas Tipo (VIT) — Res. Ex. N°59/2023 (mod. Res. Ex. 190/2026) + Procedimiento 2024"
+    issuer: MINVU DITEC
+    license: public-act
+    status: located
+    scope: out
+
+  # ---------------------------------------------------------------- Normas NCh (© INN): SOLO METADATOS
+  # Nunca se versiona su texto. Copias de trabajo solo en sources/private/. Consulta: visor normastecnicas.minvu.cl
+  # title + edition_visor: etiqueta del catálogo del visor (desactualizada). edition_served: edición de la portada del
+  # documento que sirve el visor (copias capturadas desde el visor).
+  # La edición exigible es la "versión oficial" (declarada por decreto MINVU); ver docs/verificaciones.md.
+  - {id: nch1079, title: "NCh 1079 — Arquitectura y construcción ‐ Zonificación climático habitacional para Chile y recomendaciones para el diseño arquitectónico.", edition_visor: "2008", edition_served: "2019", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/a871a9028e2d17e03ecbc8b26cef7a6b0b0b13b5/embed/view/minvu-nch01079-2008-049", verified_metadata: 2026-11-05, notes: "DS 15 y Res. Ex. 1802 remiten a la \"versión oficial\" sin año. Visor sirve 2019 (catálogo dice 2008); INN vende 2022. Decreto de oficialización no identificado (D.O./BCN bloqueados) → PENDIENTE; operativamente usar ds15-tabla-zonas (verified)."}
+  - {id: nch850, title: "NCh 850 — Aislación térmica - Determinación de resistencia térmica en estado estacionario y propiedades relacionadas - Aparato de placa caliente de guarda.", edition_visor: "2008", edition_served: "Of.2008", cited_by_ds15: false, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch850", verified_metadata: 2026-11-05}
+  - {id: nch851, title: "NCh 851 — Aislación térmica - Determinación de propiedades de transmisión térmica en estado estacionario y propiedades relacionadas - Cámara térmica calibrada y de guarda.", edition_visor: "2008", edition_served: "Of.2008", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch851", verified_metadata: 2026-11-05}
+  - {id: nch853, title: "NCh 853:2021 — Componentes y elementos para edificación - Resistencia térmica y transmitancia térmica - Métodos de cálculo.", edition_visor: "2007", edition_served: "2021", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch853", verified_metadata: 2026-11-05, notes: "D.Ex. 40/2025 declara oficial NCh 853:2021 desde 27-11-2025 y deroga D.Ex. 44/2008 (Of.2007). Visor aún muestra 2007."}
+  - {id: nch1973, title: "NCh 1973 — Comportamiento higrotérmico de elementos y componentes de construcción — Temperatura superficial interior para evitar la humedad superficial crítica y la condensación intersticial — Métodos de cálculo.", edition_visor: "2014", edition_served: "2014", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch1973", verified_metadata: 2026-11-05}
+  - {id: nch2251, title: "NCh 2251 — Aislación térmica ‐ Requisitos de rotulación de materiales aislantes.", edition_visor: "2010", edition_served: "2010", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch2251", verified_metadata: 2026-11-05}
+  - {id: nch3076-1, title: "NCh 3076/1 — Comportamiento térmico de puertas y ventanas - Determinación de la transmitancia térmica por el método de la cámara térmica - Parte 1: Puertas y ventanas.", edition_visor: "2008", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch30761", verified_metadata: 2026-11-05, notes: "Disponible en visor (2008) aunque índice interno decía que no."}
+  - {id: nch3076-2, title: "NCh 3076/2 — Comportamiento térmico de puertas y ventanas - Determinación de la transmitancia térmica por el método de la cámara térmica - Parte 2: Ventanas de techumbres y otras ventanas sobresalientes.", edition_visor: "2008", edition_served: "Of.2008", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch30762", verified_metadata: 2026-11-05}
+  - {id: nch3117, title: "NCh 3117 — Comportamiento térmico de edificios - Transmisión de calor por el terreno - Métodos de cálculo.", edition_visor: "2008", edition_served: "2018", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch3117", verified_metadata: 2026-11-05, notes: "Res. Ex. 1802 num. 4: transmisión de calor por el terreno según \"versión oficial\". Edición oficial a confirmar (visor 2008, copia de trabajo 2018)."}
+  - {id: nch3136, title: "NCh 3136 — Puentes térmicos en construcción de edificios — Flujos de calor y temperaturas superficiales — Cálculos detallados.", edition_visor: "2008", edition_served: "2014", cited_by_ds15: false, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch3136", verified_metadata: 2026-11-05, notes: "No citada por DS 15 ni por Res. Ex. 1802. Puentes térmicos se tratan por secciones A/B en Res. Ex. 1802 num. 1.1."}
+  - {id: nch3137-1, title: "NCh 3137/1 — Comportamiento térmico de ventanas, puertas y contraventanas - Cálculo de transmitancia térmica - Parte 1: Generalidades.", edition_visor: "2008", edition_served: "Of.2008", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch31371", verified_metadata: 2026-11-05}
+  - {id: nch3137-2, title: "NCh 3137/2 — Comportamiento térmico de ventanas, puertas y contraventanas - Cálculo de transmitancia térmica - Parte 2: Método numérico para marcos.", edition_visor: "2008", edition_served: "2018", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch31372", verified_metadata: 2026-11-05, notes: "Título oficial visor: parte 2 = método numérico para marcos (ver sobre nombre)."}
+  - {id: nch3295, title: "NCh 3295 — Aislación térmica - Determinación de la permeabilidad del aire en edificios - Método de presurización por medio del ventilador.", edition_visor: "2013", edition_served: "2013", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch3295", verified_metadata: 2026-11-05}
+  - {id: nch3296, title: "NCh 3296 — Puertas y ventanas - Permeabilidad al aire - Clasificación.", edition_visor: "2013", edition_served: "2013", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch3296", verified_metadata: 2026-11-05}
+  - {id: nch3297, title: "NCh 3297 — Puertas y ventanas - Permeabilidad al aire - Método de ensayo.", edition_visor: "2013", edition_served: "2013", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch3297", verified_metadata: 2026-11-05}
+  - {id: nch3308, title: "NCh 3308 — Ventilación - Calidad aceptable de aire interior - Requisitos.", edition_visor: "2013", edition_served: "2024", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch3308", verified_metadata: 2026-11-05, notes: "Visor 2013; copia de trabajo 2024. Edición oficial a confirmar."}
+  - {id: nch3309, title: "NCh 3309 — Ventilación — Calidad de aire interior aceptable en edificios residenciales de baja altura — Requisitos.", edition_visor: "2013", edition_served: "2022", cited_by_ds15: true, license: inn-copyright, status: located, scope: in, url: "http://tipbook.iapp.cl/ak/7ba2f4bd8e4ba3715cad4afabda5061914006c38/embed/view/nch3309", verified_metadata: 2026-11-05, notes: "Visor 2013; copia de trabajo 2022. Edición oficial a confirmar."}

@@ -1,0 +1,17 @@
+id: trampa-02
+categoria: trampa
+critical: false
+pregunta: Para puentes térmicos, ¿tengo que calcular con la NCh 3136?
+esperado:
+  hechos:
+  - descripcion: No es exigible; secciones A/B Res. 1802
+    patrones:
+    - no|1802
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'No: el DS 15 y la Res. Ex. 1802 no citan la NCh 3136. Los puentes térmicos se tratan según DS 15 num. 1.B y Res.
+  Ex. 1802 num. 1.1.'
+fuentes:
+- references/trampas.md
+- res-ex-1802-2025

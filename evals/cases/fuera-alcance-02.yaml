@@ -1,0 +1,15 @@
+id: fuera-alcance-02
+categoria: fuera-alcance
+critical: false
+pregunta: 'Somos empresa de viviendas industrializadas tipo (VIT): ¿qué tabla usamos?'
+esperado:
+  hechos:
+  - descripcion: Detecta VIT y remite
+    patrones:
+    - VIT|59
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'VIT fuera de alcance: avisar y remitir.'
+fuentes:
+- vit-res-ex-59-2023

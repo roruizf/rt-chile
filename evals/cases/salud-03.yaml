@@ -1,0 +1,19 @@
+id: salud-03
+categoria: salud
+critical: false
+pregunta: 'Hospital con 200 recintos perimetrales acondicionados: ¿cuántos recintos se ensayan por infiltración?'
+esperado:
+  hechos:
+  - descripcion: 5 % = 10 recintos
+    patrones:
+    - 5\s*%
+  - descripcion: 10 recintos
+    patrones:
+    - \b10\b
+  citas:
+  - DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: 'Salud: muestra 5 % de recintos perimetrales acondicionados.'
+fuentes:
+- ds15-2024

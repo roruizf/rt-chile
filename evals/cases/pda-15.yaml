@@ -1,0 +1,23 @@
+id: pda-15
+categoria: pda
+critical: false
+pregunta: 'Vivienda nueva en Osorno: ¿qué U de ventana exige el PDA? ¿Está pendiente de definir?'
+esperado:
+  hechos:
+  - descripcion: Opera como % según el U
+    patrones:
+    - '%'
+  - descripcion: Acto MINVU que lo resuelve
+    patrones:
+    - 9869|Ord\.?\s*(N[°º]\s*)?209
+  citas:
+  - DS\s*(N[°º]\s*)?47
+  prohibidos:
+  - (sigue|est[aá]|queda)\s+pendiente[^\n]{0,40}ventana
+  cierre: true
+rubrica: 'La Tabla N°24a del DS 47/2015 dice ''por definir MINVU'', pero no está pendiente: la Res. Ex. 9869/2018 (y el Ord.
+  209) no fija un U máximo; la exigencia es % de ventana por orientación según el U. Falla si dice que sigue pendiente o da
+  una U única como exigencia.'
+fuentes:
+- pda-osorno-ds47-2015
+- references/pda-ppa.md

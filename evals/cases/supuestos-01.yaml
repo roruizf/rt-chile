@@ -1,0 +1,19 @@
+id: supuestos-01
+categoria: supuestos
+critical: true
+pregunta: Muro de 15 mm yeso + 100 mm lana mineral + 11 mm OSB en Osorno. ¿Cumple?
+esperado:
+  hechos:
+  - descripcion: Declara supuestos (λ, PDA)
+    patrones:
+    - supuesto
+  - descripcion: Menciona PDA Osorno
+    patrones:
+    - PDA|DS\s*(N[°º]\s*)?47
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Faltan λ: debe declarar supuestos, calcular por escenarios y advertir que en Osorno rige el PDA (muro 0,40).'
+fuentes:
+- pda-osorno-ds47-2015
+- references/exigencias-A-envolvente.md

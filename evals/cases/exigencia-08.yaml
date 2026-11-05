@@ -1,0 +1,20 @@
+id: exigencia-08
+categoria: exigencia
+critical: true
+pregunta: Vivienda en Santiago, fachada norte de 40 m² con ventanas de U = 2,8. ¿Cuántos m² de ventana puedo poner?
+esperado:
+  hechos:
+  - descripcion: 83 %
+    patrones:
+    - 83\s*%
+  - descripcion: ≈33,2 m²
+    patrones:
+    - 33[,.]2
+  citas:
+  - Tabla\s*3
+  prohibidos: []
+  cierre: true
+rubrica: Zona D, Norte, U ≤ 2,8 → 83 % (Tabla 3) → 33,2 m². Puede mencionar la alternativa Upvm.
+fuentes:
+- ds15-2024
+- references/exigencias-A-envolvente.md

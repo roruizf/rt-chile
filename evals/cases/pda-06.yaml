@@ -1,0 +1,22 @@
+id: pda-06
+categoria: pda
+critical: false
+pregunta: 'Casa nueva en Coyhaique: muro, techo e infiltración.'
+esperado:
+  hechos:
+  - descripcion: Muro 0,35
+    patrones:
+    - 0[,.]35
+  - descripcion: Techo 0,25
+    patrones:
+    - 0[,.]25
+  - descripcion: 4 ach
+    patrones:
+    - \b4\b
+  citas:
+  - DS\s*(N[°º]\s*)?7
+  prohibidos: []
+  cierre: true
+rubrica: 'PDA Coyhaique DS 7/2018: techo 0,25, muro 0,35, infiltración 4.'
+fuentes:
+- pda-coyhaique-ds7-2018

@@ -1,0 +1,20 @@
+id: zona-03
+categoria: zona
+critical: true
+pregunta: 'Vivienda en Putre a 2.500 msnm: ¿qué zona térmica le asigna la tabla oficial?'
+esperado:
+  hechos:
+  - descripcion: La tabla no asigna zona bajo 3.000 m en Putre
+    patrones:
+    - no (asigna|define|establece|tiene)|brecha|no hay zona|sin zona
+  - descripcion: Remite a DOM/DITEC o declara supuesto
+    patrones:
+    - DOM|DITEC|supuesto
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Putre solo tiene fila H para ≥3.000 msnm: la tabla no asigna zona a 2.500 m. Debe decirlo y no inventar; puede ofrecer
+  H como supuesto declarado.'
+fuentes:
+- ds15-tabla-zonas
+- references/zonificacion.md

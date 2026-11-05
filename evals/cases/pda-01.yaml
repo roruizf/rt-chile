@@ -1,0 +1,21 @@
+id: pda-01
+categoria: pda
+critical: true
+pregunta: 'Vivienda nueva en Temuco: ¿cuál es el U máximo de muro?'
+esperado:
+  hechos:
+  - descripcion: 0,45 (PDA)
+    patrones:
+    - 0[,.]45
+  - descripcion: PDA Temuco DS 8
+    patrones:
+    - DS\s*(N[°º]\s*)?8
+  citas:
+  - Tabla\s*N?[°º]?\s*10
+  prohibidos:
+  - 0[,.]25
+  cierre: true
+rubrica: 'PDA Temuco DS 8/2023 Tabla N°10: muro 0,45. No 0,25 (C12).'
+fuentes:
+- pda-temuco-ds8-2025
+- references/pda-ppa.md

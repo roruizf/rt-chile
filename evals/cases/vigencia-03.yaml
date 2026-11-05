@@ -1,0 +1,19 @@
+id: vigencia-03
+categoria: vigencia
+critical: false
+pregunta: Ingresé el permiso a la DOM en octubre de 2025. ¿Aplica el nuevo 4.1.10?
+esperado:
+  hechos:
+  - descripcion: 'No: rige desde 28-11-2025; fecha de ingreso'
+    patrones:
+    - 28[-/ ](11|nov)
+  - descripcion: OGUC 1.1.3
+    patrones:
+    - 1\.1\.3|fecha de ingreso
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'OGUC 1.1.3: norma vigente a la fecha de ingreso.'
+fuentes:
+- oguc-2026-03
+- references/alcance-y-vigencia.md

@@ -1,0 +1,72 @@
+RESUMEN - pda-coyhaique-ds7-2018: 10 tablas imagen + 1 valor texto (3,6) + formula (imagen p.20, no numerica). Resultado final: 10/10 OK; texto 3,6 OK.
+Metodo: cada tabla (imagen embebida en el PDF) se renderizo a PNG (200 dpi) y se transcribio leyendo la imagen; luego rapidocr leyo el PNG de forma independiente y se compararon multiconjuntos de numeros (coma->punto). Script: ../scripts/build.py. Detalle por tabla abajo (log automatico).
+Interpretacion de 'numeros OCR no presentes': son numeros de encabezado/unidad (x100, 100 Pa, 50 Pa, n° de tabla) o lecturas erradas del OCR de esos encabezados ('a5oPa'->5, 'Rl00'->00, '1o0Pa'->0/1); revisado contra imagen: no afectan valores.
+Diferencias y resolucion:
+- Tabla 12 (p.19): imagen fuente de baja resolucion (698x123 px). OCR crudo leyo % como '8' en 11 celdas (708,678,648,618,578,528,468,398,268,248,168). Revisada imagen a 400 dpi (p19_tabla12_hi.png): 70,67,64,61,57,52,46,39,26,24,16. Tras normalizar coincide 40/40.
+- Tabla 13: numeros de la rosa de orientacion (0,90,180,270...) incluidos como esperados.
+- Fuente: version LeyChile/BCN (Version Unica 17-07-2019).
+
+===== LOG AUTOMATICO =====
+Verificacion OCR independiente (rapidocr) - pda-coyhaique-ds7-2018
+
+[Tabla 7] Art. 18 pag.PDF 16 png=p16_img7.png  -> OK
+   mis valores: ['0.25', '0.32', '0.35', '1.70', '3.60']
+   OCR numeros: ['0.25', '0.32', '0.35', '1.70', '3.60']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: Elemento | Estandar | Valor | Techo | 0,25 | Muro | 0,35 | ValorU | Pisoventilado | 0,32 | [W/（m²K)] | Ventana | 3,60 | Puerta | 1,70
+
+[Tabla 8] Art. 18 pag.PDF 16 png=p16_img12.png  -> OK
+   mis valores: ['286', '313', '400']
+   OCR numeros: ['100', '100', '286', '313', '400']
+   numeros OCR no presentes en mis valores/encabezados: ['100']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: Elemento | Estandar | Valor | Techo | 400 | Valor | R100 | Muro | 286 | [(m²K）/W]x100 | Piso | ventilado | 313
+
+[Tabla 9] Art. 18 pag.PDF 17 png=p17_img8.png  -> OK
+   mis valores: ['4', '7']
+   OCR numeros: ['100', '4', '50', '7', '7']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2', '3'])
+   OCR texto: Elemento | Estandar | Valor | Clase | de | infiltracion | de | aire | Vivienda | 4 | a | 50Pa | (ach7) | Puerta | yGrado | de | Estanqueidad | al | 7 | ventana | vientoa100Pa | (m²/hm²)
+
+[Tabla 10] Art. 20 pag.PDF 18 png=p18_img9.png  -> OK
+   mis valores: ['0.25', '0.32', '0.35', '1.70']
+   OCR numeros: ['0.25', '0.32', '0.35', '1.70', '2']
+   OCR texto: Elemento | Estandar | Valor | Techo | 0,25 | Muro | Valor | U | 0,35 | Piso ventilado | [W/(m2K)] | 0,32 | Puerta | 1,70
+
+[Tabla 11] Art. 20 pag.PDF 18 png=p18_img14.png  -> OK
+   mis valores: ['286', '313', '400']
+   OCR numeros: ['100', '100', '286', '313', '400']
+   numeros OCR no presentes en mis valores/encabezados: ['100']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: Elemento | Estandar | Valor | Techo | 400 | Valor | R100 | Muro | 286 | [(m²K) /W]x100 | Piso | ventilado | 313
+
+[Tabla 12] Art. 20 pag.PDF 19 png=p19_img5.png  -> OK
+   mis valores: ['0', '0', '0', '0', '0', '0', '10', '10', '13', '13', '16', '16', '18', '18', '20', '21', '21', '23', '23', '24', '24', '25', '26', '28', '30', '31', '34', '36', '38', '39', '40', '41', '46', '5', '52', '57', '61', '64', '67', '70']
+   OCR numeros: ['0', '0', '0', '0', '0', '0', '1.2', '1.6', '10', '10', '13', '13', '16', '16', '18', '18', '2', '2.4', '2.8', '20', '21', '21', '23', '23', '24', '24', '25', '26', '28', '3.2', '3.6', '30', '31', '34', '36', '38', '39', '4', '4.4', '40', '41', '46', '5', '5.8', '52', '57', '61', '64', '67', '70']
+   (normalizacion aplicada: token 'NN8' >100 -> 'NN', por lectura OCR del signo % como 8 en fuente Courier; '26°' -> 26)
+   OCR texto: VALORDE | TRANSMITANCIA | TERMICAU | ORIENTACION | ≤1,2 | ≤1,6 | ≤2 | ≤2,4 | 2,8 | ≤3,2 | ≤3,6 | ≤4 | ≤4,4 | ≤5,8 | Norte | 708 | 678 | 648 | 618 | 578 | 528 | 468 | 398 | 30% | 0% | O-P | 41% | 40% | 38% | 36% | 34% | 31% | 28% | 24% | 20% | 0% | Sur | 25% | 23% | 21% | 18% | 16% | 13% | 10% | 5% | 0% | 0% | POND | 268 | 248 | 23% | 21% | 18% | 168 | 13% | 10% | 0% | 0%
+
+[Tabla 13] Art. 20 pag.PDF 19 png=p19_img10.png  -> OK
+   mis valores: ['0', '135', '135', '135', '180', '225', '225', '225', '270', '315', '315', '315', '45', '45', '45', '90']
+   OCR numeros: ['0', '135', '135', '135', '180', '225', '225', '225', '270', '315', '315', '315', '45', '45', '45', '90']
+   OCR texto: ORIENTACION | RANGO | 0° | Mayoroiguala315 | y | menor | NORTE | 315* | norte | 45° | que45° | Mayoroiguala45 | y | menor | que | ORIENTE | 135° | poniente | oriente | Mayoroiguala135 | Y | menor | 270" | 90" | SUR | que225° | Mayoroiguala225 | Y | menor | PONIENTE | 225 | sur | 135* | que315 | 180°
+
+[Tabla 14] Art. 20 pag.PDF 20 png=p20_img13.png  -> OK
+   mis valores: ['91']
+   OCR numeros: ['100', '100', '91']
+   numeros OCR no presentes en mis valores/encabezados: ['100']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: Elemento | Estandar | Valor | Aislaciontermica | de | Valor | R100 | 91 | sobrecimiento | [（m²K）/W]x100
+
+[Tabla 15] Art. 20 pag.PDF 21 png=p21_img12.png  -> OK
+   mis valores: ['4']
+   OCR numeros: ['4', '50', '8']
+   OCR texto: Elemento | Estandar | Valor | Clase | de | infiltracion | de | aire | Vivienda | completa | 4 | a | 50Pa | (ach8)
+
+[Tabla 16] Art. 20 pag.PDF 21 png=p21_img16.png  -> OK
+   mis valores: ['7']
+   OCR numeros: ['100', '3', '7']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: Elemento | Estandar | Valor | Puertas | Grado | de | Estanqueidad | al | 7 | Ventanas | viento | a | 100Pa | (m3/h | m²)
+
+[texto Art. 20 pag.PDF 20] valor '3,6' presente en texto extraible: OK

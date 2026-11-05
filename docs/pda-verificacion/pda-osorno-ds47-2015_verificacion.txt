@@ -1,0 +1,85 @@
+RESUMEN - pda-osorno-ds47-2015: 12 tablas imagen. Resultado final: 12/12 OK. Celda 'Por definir – MINVU*' (Tabla 24a ventana) es texto: confirmado en imagen con su nota al pie.
+Metodo: cada tabla (imagen embebida en el PDF) se renderizo a PNG (200 dpi) y se transcribio leyendo la imagen; luego rapidocr leyo el PNG de forma independiente y se compararon multiconjuntos de numeros (coma->punto). Script: ../scripts/build.py. Detalle por tabla abajo (log automatico).
+Interpretacion de 'numeros OCR no presentes': son numeros de encabezado/unidad (x100, 100 Pa, 50 Pa, n° de tabla) o lecturas erradas del OCR de esos encabezados ('a5oPa'->5, 'Rl00'->00, '1o0Pa'->0/1); revisado contra imagen: no afectan valores.
+Diferencias y resolucion:
+- Tabla N°19 (p.26) y N°23 (p.28): OCR a 200 dpi no detecto el valor de una sola cifra (5 y 7). Reintento con imagen ampliada x2.5 los leyo (5 y 7), coincide con lectura visual.
+- Tablas N°21 y N°25: el encabezado de unidad impreso es '[W/(m²K)]x100' (errata del decreto; el Art. 3 define R100 en [(m2K)/W]x100). Registrado en nota del CSV.
+- Fuente: version LeyChile/BCN (Version Unica 28-03-2016).
+
+===== LOG AUTOMATICO =====
+Verificacion OCR independiente (rapidocr) - pda-osorno-ds47-2015
+
+[Tabla N°17] Art. 6 pag.PDF 25 png=p25_img6.png  -> OK
+   mis valores: ['0.33', '0.40', '0.50']
+   OCR numeros: ['0.33', '0.40', '0.50', '17']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: TablaNo17.Transmitanciatermicamaximadelaenvolventetermica,valoresdeU | Elemento | Estandar | Osorno | Techo | 0,33 | Valor | U | Muro | 0,40 | [W/(m²k)] | Pisoventilado | 0,50
+
+[Tabla N°18] Art. 6 pag.PDF 25 png=p25_img10.png  -> OK
+   mis valores: ['183', '250', '282']
+   OCR numeros: ['100', '100', '100', '18', '183', '250', '282']
+   numeros OCR no presentes en mis valores/encabezados: ['100', '100']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: Tabla No 18.ValorR100 | para elementos de techo,muro y piso ventilado | Elemento | Estandar | Osorno | Techo | 282 | Valor | R100 | Muro | 250 | [（m²k)/W]x100 | Piso ventilado | 183
+
+[Tabla N°19] Art. 6 pag.PDF 26 png=p26_img6.png  -> OK
+   mis valores: ['5']
+   OCR numeros: ['19', '5', '50']
+   reintento OCR con imagen ampliada x2.5: numeros ['19', '5', '50']
+   OCR texto: TablaNo 19.Infiltraciones deaire | Elemento | Estandar | Osorno | Vivienda | Clasedeinfiltracionde | aire a 50Pa (ach) | Nota: El cumplimiento de la clase de infiltracion de aire esta referido principalmente a partidas de sellos | de puertas y ventanas, sello de uniones en encuentros entre distintos elementos, sello de canalizaciones | yperforaciones de instalaciones.
+
+[Tabla N°20] Art. 7 pag.PDF 27 png=p27_img2.png  -> OK
+   mis valores: ['0.33', '0.40', '0.50']
+   OCR numeros: ['0.33', '0.40', '0.50', '20']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: Tabla N°20.Transmitancia termica | maxima dela envolvente termica,valores de U | Elemento | Estandar | Osorno | Techo | 0,33 | Valor | U | Muro | 0,40 | [W/(m²k)] | Piso ventilado | 0,50
+
+[Tabla N°21] Art. 7 pag.PDF 27 png=p27_img6.png  -> OK
+   mis valores: ['183', '250', '282']
+   OCR numeros: ['100', '100', '100', '183', '21', '250', '282']
+   numeros OCR no presentes en mis valores/encabezados: ['100', '100']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: Tabla N°21.ValorR100 | para elementos de techo, | piso ventilado | Elemento | Estandar | Osorno | Techo | 282 | Valor R100 | Muro | 250 | [W/(m²K)]x100 | Piso ventilado | 183
+
+[Tabla N°22] Art. 7 pag.PDF 28 png=p28_img2.png  -> OK
+   mis valores: ['5']
+   OCR numeros: ['22', '5', '50']
+   OCR texto: Tabla No 22. Infiltraciones de aire | Elemento | Estandar | Osorno | Vivienda | Clase de infiltracion de | 5 | aire a 50Pa (ach*) | *ach: | ：renovacion del volumen de aire en la vivienda por hora
+
+[Tabla N°23] Art. 7 pag.PDF 28 png=p28_img6.png  -> OK
+   mis valores: ['7']
+   OCR numeros: ['100', '23', '7']
+   reintento OCR con imagen ampliada x2.5: numeros ['100', '23', '7']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2', '3'])
+   OCR texto: Tabla No 23. Grado de estanqueidad al viento | Elemento | Estandar | Osorno | Grado | de | estanqueidad | al | Puertay ventana | viento a 100 Pa (m²/h m²)
+
+[Tabla N°24] Art. 8 pag.PDF 29 png=p29_img2.png  -> OK
+   mis valores: ['0.28', '0.39', '0.40', '1.70', '3.60']
+   OCR numeros: ['0.28', '0.39', '0.40', '1.70', '24', '3.60']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: TablaN°24.Transmitanciatermicamaximadelaenvolventetermica,valoresdeU | Elemento | Estandar | Osorno | Techo | 0,28 | Muro | 0,40 | ValorU | Pisoventilado | 0,39 | [W/(m²K)] | Ventana | 3,60 | Puerta | 1,70
+
+[Tabla N°24a] Art. 8 pag.PDF 29 png=p29_img5.png  -> OK
+   mis valores: ['0.28', '0.39', '0.40', '1.70']
+   OCR numeros: ['0.28', '0.39', '0.40', '1.70', '24']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: Tabla No24a.Transmitancia termica maxima dela envolventetermica,valores de U | Elemento | Estandar | Osorno | Techo | 0,28 | Muro | 0,40 | Valor U | Pisoventilado | 0,39 | [W/(m²k)] | Ventana | Pordefinir-MINVU* | Puerta | 1,70 | *Nota: las exigencias para ventana, para proyectos de vivienda nueva, seran definidas por MINVU, | mediante actoadministrativo.
+
+[Tabla N°25] Art. 8 pag.PDF 29 png=p29_img9.png  -> OK
+   mis valores: ['250', '256', '357']
+   OCR numeros: ['100', '100', '100', '25', '250', '256', '357']
+   numeros OCR no presentes en mis valores/encabezados: ['100', '100']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2'])
+   OCR texto: TablaN°25.ValorR100 | para elementos de techo, | muroy | pisoventilado | Elemento | Estandar | Osorno | Techo | 357 | ValorR100 | Muro | 250 | [W/（m²k)]x100 | Piso ventilado | 256
+
+[Tabla N°26] Art. 8 pag.PDF 30 png=p30_img12.png  -> OK
+   mis valores: ['5']
+   OCR numeros: ['26', '5', '50']
+   OCR texto: Tabla N° 26.Infiltraciones de aire | Elemento | Estandar | Osorno | Vivienda | Clase de infiltracion de | 5 | aire a 50Pa (ach*) | *ach: renovacion del volumen de aire en la vivienda por hora
+
+[Tabla N°27] Art. 8 pag.PDF 30 png=p30_img16.png  -> OK
+   mis valores: ['7']
+   OCR numeros: ['100', '27', '7']
+   (numeros de encabezado/unidad no leidos por OCR, irrelevante: ['2', '3'])
+   OCR texto: Tabla No 27. Grado de estanqueidad al viento | Elemento | Estandar | Osorno | Grado de estangueidad al | Puerta y ventana | 7 | viento a 100 Pa (m²/h m²)
+

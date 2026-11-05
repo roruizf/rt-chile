@@ -1,0 +1,20 @@
+id: pda-03
+categoria: pda
+critical: true
+pregunta: 'Vivienda en Limache: ¿aplica el PPA de Quillota?'
+esperado:
+  hechos:
+  - descripcion: No aplica
+    patrones:
+    - no (aplica|est[aá]|incluye|forma)
+  - descripcion: Rige el 4.1.10
+    patrones:
+    - 4\.1\.10
+  citas:
+  - DS\s*(N[°º]\s*)?18
+  prohibidos: []
+  cierre: true
+rubrica: Limache no está en el DS 18/2023 (C26).
+fuentes:
+- ppa-quillota-ds18-2023
+- references/pda-ppa.md

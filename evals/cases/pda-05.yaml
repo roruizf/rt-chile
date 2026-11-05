@@ -1,0 +1,16 @@
+id: pda-05
+categoria: pda
+critical: false
+pregunta: 'Vivienda en Mostazal: ¿aplica el PDA de O''Higgins?'
+esperado:
+  hechos:
+  - descripcion: 'Cobertura parcial: verificar polígono'
+    patrones:
+    - parcial|pol[ií]gono|zona saturada|l[ií]mite
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Mostazal está parcialmente en la zona saturada: verificar ubicación.'
+fuentes:
+- pda-ohiggins-ds1-2021
+- references/pda-ppa.md

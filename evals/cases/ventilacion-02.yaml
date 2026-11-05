@@ -1,0 +1,16 @@
+id: ventilacion-02
+categoria: ventilacion
+critical: false
+pregunta: ¿Con qué norma acredito la ventilación de una casa nueva?
+esperado:
+  hechos:
+  - descripcion: NCh 3309 para el interior de la vivienda
+    patrones:
+    - NCh\s*3309
+  citas:
+  - DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: Interior de vivienda permanente → NCh 3309 (la NCh 3308 excluye el interior de viviendas).
+fuentes:
+- references/exigencias-D-ventilacion.md

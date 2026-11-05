@@ -1,0 +1,15 @@
+# Esquema de un caso de eval (evals/cases/<id>.yaml). Validado por skills/rt-chile/tests/test_evals_schema.py
+id: str                 # único, igual al nombre del archivo, formato <prefijo>-NN (prefijo: categoría o g2)
+categoria: str          # zona | exigencia | pda | vias | cev | hotel | salud | firmas | trampa | fuera-alcance | supuestos | copyright | vigencia | infiltracion | condensacion | ventilacion
+critical: bool          # true = debe pasar siempre (umbral 100 %)
+pregunta: str           # lo que pregunta el usuario, tal cual
+proyecto: dict          # opcional: datos del proyecto (uso, comuna, altitud, fecha, ...)
+esperado:
+  hechos:               # cada hecho debe aparecer: basta que calce UNO de sus patrones (regex, sin mayúsculas/minúsculas)
+    - descripcion: str
+      patrones: [regex]
+  citas: [regex]        # fuentes que deben citarse (todas)
+  prohibidos: [regex]   # no deben aparecer (p.ej. valores errados, texto NCh, tablas FSEV)
+  cierre: bool          # default true: exige aviso de límites + fuentes oficiales
+rubrica: str            # instrucciones para el juez LLM (qué es una respuesta correcta y suficiente)
+fuentes: [str]          # IDs del manifiesto o archivos de references/ que sustentan el caso

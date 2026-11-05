@@ -1,0 +1,26 @@
+id: zona-01
+categoria: zona
+critical: true
+pregunta: ¿En qué zona térmica queda una vivienda en Arica a 1.500 msnm y cuál es el U máximo del muro?
+proyecto:
+  uso: residencial
+  comuna: Arica
+  altitud: 1500
+esperado:
+  hechos:
+  - descripcion: Zona B por altitud
+    patrones:
+    - zona\s*(t[eé]rmica\s*)?B\b
+  - descripcion: U muro 0,80
+    patrones:
+    - 0[,.]80
+  citas:
+  - Tabla\s*1
+  - DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: Zona B (1.100 ≤ h < 3.000); U muro ≤ 0,80 (Tabla 1). Debe notar que Arica es multizona.
+fuentes:
+- ds15-tabla-zonas
+- ds15-2024
+- references/zonificacion.md

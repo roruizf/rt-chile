@@ -1,0 +1,18 @@
+id: infiltracion-01
+categoria: infiltracion
+critical: true
+pregunta: 'Vivienda en Angol: ¿cuál es la clase de infiltración máxima?'
+esperado:
+  hechos:
+  - descripcion: 5,00 ach (Malleco)
+    patrones:
+    - \b5([,.]0+)?\s*(ach|renov)
+  citas:
+  - Tabla\s*7
+  prohibidos:
+  - 8[,.]?0*\s*ach
+  cierre: true
+rubrica: Angol = provincia de Malleco → 5,00 ach (DS 15 Tabla 7). La lámina DITEC omite Malleco (C24).
+fuentes:
+- ds15-2024
+- references/exigencias-C-infiltracion.md

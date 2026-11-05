@@ -1,0 +1,20 @@
+id: condensacion-01
+categoria: trampa
+critical: false
+pregunta: La Res. Ex. 1802 dice 100 % de humedad y el manual dice 75 %. ¿Cuál vale?
+esperado:
+  hechos:
+  - descripcion: 'Son parámetros distintos: interior 75 %, crítica 100 %'
+    patrones:
+    - '75'
+  - descripcion: 100 %
+    patrones:
+    - '100'
+  citas:
+  - '1802'
+  prohibidos: []
+  cierre: true
+rubrica: 'Valen ambos porque son parámetros distintos de la Res. Ex. 1802: ambiente interior 19 °C con HR hasta 75 % (num.
+  1.2) y HR crítica superficial 100 %, con 80 % opcional para moho (num. 1.1). Falla si elige uno y descarta el otro.'
+fuentes:
+- res-ex-1802-2025

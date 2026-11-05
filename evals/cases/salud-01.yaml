@@ -1,0 +1,17 @@
+id: salud-01
+categoria: salud
+critical: true
+pregunta: 'Consultorio (CESFAM) nuevo en Rancagua: ¿qué debe acreditar en ventilación?'
+esperado:
+  hechos:
+  - descripcion: Salud eximida de ventilación
+    patrones:
+    - eximid|exent|no (debe|requiere|aplica|exige)
+  citas:
+  - DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: Salud está eximida de D (num. 2.D). C25. Falla si dice que debe acreditar ventilación.
+fuentes:
+- ds15-2024
+- references/exigencias-D-ventilacion.md

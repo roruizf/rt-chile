@@ -1,0 +1,45 @@
+id: g2-01
+categoria: pda
+critical: true
+pregunta: Vivienda nueva de un piso, 92 m², en Padre Las Casas (La Araucanía). Muros de albañilería confinada con aislación,
+  techumbre de zinc sobre estructura de madera, ventanas de PVC. El arquitecto insiste en que basta con cumplir el DS 15 porque
+  "es la norma más nueva". ¿Qué exigencias térmicas aplican realmente y con qué tabla y artículo? Dame U, R100 y ventanas.
+  Y si el mismo proyecto se construyera en Nueva Imperial, ¿cambia algo?
+esperado:
+  hechos:
+  - descripcion: Manda el PDA Temuco (inc. 2°)
+    patrones:
+    - PDA|plan
+  - descripcion: DS 8/2023
+    patrones:
+    - DS\s*(N[°º]\s*)?8
+  - descripcion: Muro 0,45
+    patrones:
+    - 0[,.]45
+  - descripcion: Techo 0,28
+    patrones:
+    - 0[,.]28
+  - descripcion: Ventana 3,20
+    patrones:
+    - 3[,.]20?\b
+  - descripcion: Res. 9868 % ventanas
+    patrones:
+    - 9\.?868
+  - descripcion: Nueva Imperial sin PDA, zona F, DS 15
+    patrones:
+    - Nueva Imperial
+  citas:
+  - Tabla\s*N?[°º]?\s*10
+  - Tabla\s*1\b
+  prohibidos:
+  - provincia de Caut[ií]n[^.\n]{0,30}Tabla\s*N?[°º]?\s*12
+  cierre: true
+rubrica: 'Padre Las Casas (zona F) con PDA Temuco DS 8/2023 Art. 27: Tabla N°10 (0,28/0,45/0,50/3,20/1,70), Tabla N°11 R100,
+  5 ach (Tabla N°12, del plan), permeabilidad clase 2 (Tabla N°13), ventanas además % Res. Ex. 9868; condensación HR 76 %
+  (Art. 27 N°2); ventilación NCh 3309; sin leña (Art. 15). Nueva Imperial: zona F sin PDA → DS 15 Tablas 1–6 (muro 0,45, techo
+  0,28, piso 0,50), Cautín 5,00 ach.'
+fuentes:
+- pda-temuco-ds8-2025
+- res-9868-2018
+- ds15-2024
+- references/pda-ppa.md

@@ -1,0 +1,67 @@
+Verificación pda-chillan-ds48 — PDF pda-chillan-ds48.pdf (copia LeyChile 16-Feb-2018). Tablas (incluido su título) son imágenes.
+Método: igual que en Talca (render 200 dpi, lectura visual en m1.png/m2.png, OCR rapidocr, comparación de multiconjunto; se descartan
+50/100/2/3 de unidades y el N° de tabla, que aparece dentro de la imagen).
+Resumen: 11 tablas; 10 COINCIDEN directamente; 1 diferencia resuelta:
+- Tabla N°11 (Art. 23, pág. 24, p24_img2.png): OCR de la imagen completa (y x2) no detectó el "8" de la celda Valor.
+  Resolución: recorte de la celda valor ampliado x3 (p24_img2_valcell.png) -> OCR = '8' (conf. 0,9997); visualmente "8". OK.
+Observaciones: Tabla N°10 tiene título "Transmitancia térmica máxima para techo, muro y piso" pero su contenido es Valor R100
+(235/222/150); Tabla N°9 imprime unidad "W/(m²°K)". Tabla N° 16 (Art. 25) techo 0,28 / muro 0,45 / piso 0,50 / ventana 3,60 / puerta 1,70
+confirmados por OCR y visualmente.
+--- salida del verificador ---
+[Tabla N°9|Art. 23] png=p23_img4.png
+  mis valores={'0.38': 1, '0.45': 1, '0.60': 1}
+  OCR crudo=['0.38', '0.45', '0.60']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N°10|Art. 23] png=p23_img7.png
+  mis valores={'150': 1, '222': 1, '235': 1}
+  OCR crudo=['235', '100', '222', '100', '150']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N°11|Art. 23] png=p24_img2.png
+  mis valores={'8': 1}
+  OCR crudo=['50']
+  reintento OCR x2 crudo=['5']
+  faltan_en_OCR={'8': 1} sobran_en_OCR={}
+  RESULTADO=DIFERENCIA
+[Tabla N°12|Art. 24] png=p24_img10.png
+  mis valores={'0.38': 1, '0.45': 1, '0.60': 1}
+  OCR crudo=['12', '0.38', '0.45', '0.60']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N°13|Art. 24] png=p25_img2.png
+  mis valores={'150': 1, '222': 1, '235': 1}
+  OCR crudo=['13', '100', '235', '100', '222', '100', '150']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N°14|Art. 24] png=p25_img11.png
+  mis valores={'8': 1}
+  OCR crudo=['14', '5', '8']
+  reintento OCR x2 crudo=['14', '50', '8']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N°15|Art. 24] png=p25_img13.png
+  mis valores={'10': 1}
+  OCR crudo=['15', '100', '3', '2', '10']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N° 16|Art. 25] png=p26_img10.png
+  mis valores={'0.28': 1, '0.45': 1, '0.50': 1, '1.70': 1, '3.60': 1}
+  OCR crudo=['16', '0.28', '0.45', '0.50', '3.60', '1.70']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N° 17|Art. 25] png=p27_img2.png
+  mis valores={'200': 1, '222': 1, '357': 1}
+  OCR crudo=['17', '100', '357', '100', '222', '100', '200']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N°18|Art. 25] png=p27_img13.png
+  mis valores={'8': 1}
+  OCR crudo=['18', '8', '50']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N°19|Art. 25] png=p28_img2.png
+  mis valores={'10': 1}
+  OCR crudo=['19', '10', '100']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE

@@ -1,0 +1,89 @@
+Verificación ppa-concepcion-ds6-2018 — PDF ppa-concepcion-ds6.pdf (copia LeyChile 15-Feb-2023). Tablas son imágenes; títulos en texto.
+Método: render 200 dpi, lectura visual (m1.png, m2.png, p25_img15.png a resolución completa), OCR rapidocr, multiconjunto.
+Resumen: 11 tablas (7-17). 8 COINCIDEN directo; 3 "DIFERENCIA" del verificador, resueltas:
+- Tabla Nº15 (% máx. ventana, 40 celdas): % leído como 8/号/% pegado. OCR celda a celda normalizado (pct_check.txt): 36/40 OK.
+  Diferencias: Oriente-Poniente ≤3,2 OCR '4R9' (=48), ≤4,4 OCR '259' (esperado 35), ≥5,8 OCR 'R9' (=8); POND ≤5,8 OCR '58' (=5%).
+  Los recortes de la fila Oriente-Poniente quedaron desplazados (la fila tiene 2 líneas), por eso el OCR los lee mal; se resolvió por
+  inspección visual de p25_img15.png completo: fila O-P = 60 58 56 54 51 48 45 41 35 8; POND ≤5,8 = 5. La columna ≤5,8 no fue detectada
+  en el encabezado por OCR (posición extrapolada) pero sus 4 valores (10, 8, 0, 5) se leyeron/confirmaron visualmente.
+- Tabla Nº16: los 4 rangos (315/45, 45/135, 135/225, 225/315) en OCR; faltas/sobras son etiquetas del diagrama de brújula
+  ('316"'=315°, '2T0'=270°) y '6' = "ó" de "Orientación". OK visual.
+- Tabla Nº17: sobra '6' = "ó" de "Aislación"; valor 45 presente. OK.
+Valor de texto (no tabla): ventana en techumbre ≤60° U ≤ 3,6 W/(m2K) — literal en el texto (pág. 26). OK.
+--- salida del verificador ---
+[Tabla Nº7|Art. 24] png=p21_img8.png
+  mis valores={'0.33': 1, '0.60': 2, '1.70': 1}
+  OCR crudo=['0.33', '0.60', '0.60', '1.70']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N° 8|Art. 24] png=p21_img13.png
+  mis valores={'167': 2, '303': 1}
+  OCR crudo=['303', '00', '100', '167', '167']
+  reintento OCR x2 crudo=['303', '100', '167', '100', '167']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N° 9|Art. 24] png=p22_img10.png
+  mis valores={'5': 1}
+  OCR crudo=['6', '50', '5']
+  reintento OCR x2 crudo=['50', '5']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº10|Art. 24] png=p22_img15.png
+  mis valores={'10': 1}
+  OCR crudo=['10', '100']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N° 11|Art. 25] png=p23_img12.png
+  mis valores={'0.33': 1, '0.60': 2, '1.70': 1}
+  OCR crudo=['0.33', '0.60', '0.60', '1.70']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº12|Art. 25] png=p23_img17.png
+  mis valores={'167': 2, '303': 1}
+  OCR crudo=['303', '100', '100', '167', '167']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla N° 13|Art. 25] png=p24_img13.png
+  mis valores={'5': 1}
+  OCR crudo=['5', '50']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº14|Art. 25] png=p24_img18.png
+  mis valores={'10': 1}
+  OCR crudo=['10', '100']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº15|Art. 25] png=p25_img15.png
+  mis valores={'0': 1, '1.2': 1, '1.6': 1, '10': 1, '19': 1, '2': 1, '2.4': 1, '2.8': 1, '20': 1, '23': 1, '26': 2, '28': 1, '3.2': 1, '3.6': 1, '30': 1, '31': 1, '32': 1, '34': 1, '35': 2, '36': 1, '37': 1, '38': 1, '4': 1, '4.4': 1, '41': 2, '44': 1, '45': 1, '46': 1, '48': 2, '5': 1, '5.8': 1, '51': 1, '54': 1, '56': 1, '58': 1, '60': 1, '61': 1, '67': 1, '71': 1, '75': 1, '78': 1, '8': 1, '80': 1, '83': 1, '85': 1, '87': 1}
+  OCR crudo=['1.2', '1.6', '2', '2.4', '2.8', '3.2', '3.6', '4', '4.4', '5.8', '87', '858', '838', '808', '788', '758', '718', '678', '618', '108', '60', '58', '568', '54', '518', '488', '458', '418', '35', '88', '488', '468', '448', '41', '388', '358', '318', '26', '20', '0', '37', '36', '348', '328', '308', '288', '26', '238', '198', '58']
+  reintento OCR x2 crudo=['1.2', '1.6', '2', '2.4', '2.8', '3.2', '3.6', '4', '4.4', '5.8', '87', '85', '83', '808', '78', '758', '71', '67', '618', '108', '60', '58', '568', '54', '51', '488', '458', '41', '35', '88', '488', '468', '448', '41', '388', '35', '318', '26', '20', '0', '37', '36', '348', '32', '30', '28', '26', '23', '198', '58']
+  faltan_en_OCR={'85': 1, '83': 1, '80': 1, '78': 1, '75': 1, '71': 1, '67': 1, '61': 1, '10': 1, '56': 1, '51': 1, '48': 2, '45': 1, '41': 1, '35': 1, '8': 1, '46': 1, '44': 1, '38': 1, '31': 1, '34': 1, '32': 1, '30': 1, '28': 1, '23': 1, '19': 1, '5': 1} sobran_en_OCR={'858': 1, '838': 1, '808': 1, '788': 1, '758': 1, '718': 1, '678': 1, '618': 1, '108': 1, '58': 1, '568': 1, '518': 1, '488': 2, '458': 1, '418': 1, '88': 1, '468': 1, '448': 1, '388': 1, '358': 1, '318': 1, '348': 1, '328': 1, '308': 1, '288': 1, '238': 1, '198': 1}
+  RESULTADO=DIFERENCIA
+[Tabla Nº16|Art. 25] png=p26_img8.png
+  mis valores={'0': 1, '135': 3, '180': 1, '225': 3, '270': 1, '315': 3, '45': 3, '90': 1}
+  OCR crudo=['6', '316', '315', '45', '45', '135', '2', '0', '135', '225', '225', '135', '225', '315', '180']
+  reintento OCR x2 crudo=['315', '315', '45', '45', '135', '2', '0', '135', '225', '22', '135', '225', '315', '180']
+  faltan_en_OCR={'315': 1, '45': 1, '270': 1, '90': 1} sobran_en_OCR={'6': 1, '316': 1}
+  RESULTADO=DIFERENCIA
+[Tabla Nº17|Art. 25] png=p27_img10.png
+  mis valores={'45': 1}
+  OCR crudo=['6', '100', '45', '100']
+  reintento OCR x2 crudo=['6', '100', '45', '100']
+  faltan_en_OCR={} sobran_en_OCR={'6': 1}
+  RESULTADO=DIFERENCIA
+--- OCR celda a celda Tabla Nº15 (pct_check) ---
+ultima columna (≤5,8) no detectada por OCR en encabezado; x extrapolada
+hdr x: [322, 402, 480, 561, 640, 716, 795, 866, 938, 1022]  filas: {'Norte': 105.0, 'Oriente': 138.0, 'Sur': 203.5, 'POND': 242.0}
+Norte esperado ['87', '85', '83', '80', '78', '75', '71', '67', '61', '10']
+   ocr ['878', '858', '838', '808', '788', '758', '718', '678', '618', '108']
+    ['ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok']
+Oriente - Poniente esperado ['60', '58', '56', '54', '51', '48', '45', '41', '35', '8']
+   ocr ['60S', '589', '569', '549', '519', '4R9', '459', '419', '259', 'R9']
+    ['ok', 'ok', 'ok', 'ok', 'ok', "DIF(ocr='4R9' exp=48)", 'ok', 'ok', "DIF(ocr='259' exp=35)", "DIF(ocr='R9' exp=8)"]
+Sur esperado ['48', '46', '44', '41', '38', '35', '31', '26', '20', '0']
+   ocr ['488', '468', '448', '418', '388', '358', '318', '268', '20%', '0%']
+    ['ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok']
+POND esperado ['37', '36', '34', '32', '30', '28', '26', '23', '19', '5']
+   ocr ['378', '36号', '348', '328', '308', '28%', '26%', '238', '198', '58']
+    ['ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok', 'ok', "DIF(ocr='58' exp=5)"]
+celdas con diferencia: 4

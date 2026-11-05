@@ -1,0 +1,19 @@
+id: pda-08
+categoria: pda
+critical: false
+pregunta: 'Vivienda nueva en Valdivia: ¿qué U de ventana exige el PDA?'
+esperado:
+  hechos:
+  - descripcion: Por definir MINVU / pendiente
+    patrones:
+    - por definir|pendiente|MINVU
+  citas:
+  - DS\s*(N[°º]\s*)?25
+  prohibidos: []
+  cierre: true
+rubrica: 'La Tabla N°16b del DS 25/2016 dice ''por definir MINVU'', pero no quedó pendiente: la Res. Ex. 1729/2019 (Tabla
+  1 según Res. Ex. 1197/2021) no fija un U máximo, sino % máximo de ventana por orientación según el U (zona G: U ≤3,6 Norte
+  59, O-P 28, Sur 13). La U 3,60 de la Tabla 16a es de vivienda existente, no nueva. Falla si da una U única como exigencia.'
+fuentes:
+- pda-valdivia-ds25-2016
+- references/pda-ppa.md

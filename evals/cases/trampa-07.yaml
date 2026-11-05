@@ -1,0 +1,22 @@
+id: trampa-07
+categoria: trampa
+critical: false
+pregunta: Un hospital está exento como los hoteles, así que no necesita memoria de condensación ni ensayo de infiltración,
+  ¿verdad?
+esperado:
+  hechos:
+  - descripcion: Salud sí cumple condensación
+    patrones:
+    - condensaci[oó]n
+  - descripcion: Solo eximida de ventilación
+    patrones:
+    - ventilaci[oó]n
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Falso: salud está eximida solo de ventilación (num. 2.D); debe cumplir condensación (memoria NCh 1973 + Res. Ex.
+  1802) e infiltración (ensayo NCh 3295, 5 % de recintos). El hotel es el exento de B, C y D. Falla si exime a salud de B
+  o C.'
+fuentes:
+- ds15-2024
+- references/trampas.md

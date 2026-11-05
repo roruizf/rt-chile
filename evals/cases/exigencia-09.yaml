@@ -1,0 +1,17 @@
+id: exigencia-09
+categoria: exigencia
+critical: false
+pregunta: ¿Puedo usar la alternativa Upvm en una vivienda en Iquique?
+esperado:
+  hechos:
+  - descripcion: 'No: Upvm solo zonas B–I; Iquique es zona A'
+    patrones:
+    - B\s*(a|–|-)\s*I|no (se puede|aplica|permite)
+  citas:
+  - Tabla\s*5
+  prohibidos: []
+  cierre: true
+rubrica: 'Iquique zona A: Upvm solo en zonas B a I.'
+fuentes:
+- ds15-2024
+- ds15-tabla-zonas

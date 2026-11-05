@@ -1,0 +1,16 @@
+id: condensacion-02
+categoria: condensacion
+critical: false
+pregunta: ¿Basta calcular condensación en la sección corriente del muro?
+esperado:
+  hechos:
+  - descripcion: 'No: también sección de menor resistencia (puente térmico)'
+    patrones:
+    - puente
+  citas:
+  - '1802'
+  prohibidos: []
+  cierre: true
+rubrica: Secciones A y B.
+fuentes:
+- res-ex-1802-2025

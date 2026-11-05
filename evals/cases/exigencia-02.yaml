@@ -1,0 +1,23 @@
+id: exigencia-02
+categoria: exigencia
+critical: true
+pregunta: Un colegio en Santiago, ¿qué U máximo de muro debe cumplir? ¿Es igual que una vivienda?
+esperado:
+  hechos:
+  - descripcion: 'Educación zona D: 0,60'
+    patrones:
+    - 0[,.]60
+  - descripcion: 'Vivienda D: 0,80 (distinto)'
+    patrones:
+    - 0[,.]80
+  - descripcion: Tabla 10
+    patrones:
+    - Tabla\s*10
+  citas:
+  - Tabla\s*10
+  prohibidos: []
+  cierre: true
+rubrica: 'Santiago zona D. Educación: Tabla 10 muro 0,60; vivienda Tabla 1 muro 0,80. Debe marcar la diferencia.'
+fuentes:
+- ds15-2024
+- references/exigencias-A-envolvente.md

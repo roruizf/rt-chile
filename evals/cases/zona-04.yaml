@@ -1,0 +1,19 @@
+id: zona-04
+categoria: zona
+critical: false
+pregunta: ¿Qué zona térmica es Temuco?
+esperado:
+  hechos:
+  - descripcion: Zona F
+    patrones:
+    - zona\s*(t[eé]rmica\s*)?F\b
+  - descripcion: Advierte PDA Temuco
+    patrones:
+    - PDA|descontaminaci
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: Temuco = zona F; debe advertir que en vivienda rige el PDA (DS 8/2023).
+fuentes:
+- ds15-tabla-zonas
+- references/pda-ppa.md

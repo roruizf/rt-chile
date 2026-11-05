@@ -1,0 +1,21 @@
+id: trampa-03
+categoria: trampa
+critical: false
+pregunta: ¿Qué edición de la NCh 1079 se usa para la zona térmica?
+esperado:
+  hechos:
+  - descripcion: Tabla MINVU; edición pendiente (probablemente 2019)
+    patrones:
+    - pendiente|tabla
+  - descripcion: '2019'
+    patrones:
+    - '2019'
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: La zona se asigna con la tabla oficial MINVU por comuna y la respuesta no depende de la edición. El DS 15 y la Res.
+  Ex. 1802 piden la versión oficial sin año; la edición oficial está pendiente (probablemente 2019). Falla si afirma como
+  cierta una edición oficial.
+fuentes:
+- references/zonificacion.md
+- references/normas-nch.md

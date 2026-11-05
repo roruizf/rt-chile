@@ -1,0 +1,20 @@
+id: condensacion-03
+categoria: condensacion
+critical: false
+pregunta: ¿Qué temperatura y humedad exterior uso para condensación en Punta Arenas?
+esperado:
+  hechos:
+  - descripcion: -1,6 °C
+    patrones:
+    - -?\s*1[,.]6
+  - descripcion: 93 %
+    patrones:
+    - '93'
+  citas:
+  - 1802|Anexo\s*1
+  prohibidos: []
+  cierre: true
+rubrica: Anexo 1 Res. Ex. 1802.
+fuentes:
+- res-ex-1802-2025
+- references/exigencias-B-condensacion.md

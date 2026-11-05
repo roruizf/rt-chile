@@ -1,0 +1,19 @@
+id: firmas-03
+categoria: firmas
+critical: false
+pregunta: ¿Qué documentos térmicos van en la solicitud de permiso de una vivienda?
+esperado:
+  hechos:
+  - descripcion: Art. 5.1.6
+    patrones:
+    - 5\.1\.6
+  - descripcion: Memoria de condensación
+    patrones:
+    - condensaci
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: OGUC 5.1.6 N° 11.
+fuentes:
+- oguc-2026-03
+- references/roles-firmas-expediente.md

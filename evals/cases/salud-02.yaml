@@ -1,0 +1,19 @@
+id: salud-02
+categoria: salud
+critical: true
+pregunta: 'Colegio nuevo en Talca: ¿aplican las tablas del PDA de Talca?'
+esperado:
+  hechos:
+  - descripcion: 'No: el inc. 2° del 4.1.10 es solo vivienda'
+    patrones:
+    - vivienda
+  - descripcion: Aplica Tabla 10
+    patrones:
+    - Tabla\s*10|4\.1\.10
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: El PDA prevalece solo para viviendas; colegio usa num. 2 del 4.1.10.
+fuentes:
+- ds15-2024
+- references/pda-ppa.md

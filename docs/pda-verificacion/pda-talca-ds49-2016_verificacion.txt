@@ -1,0 +1,70 @@
+Verificación pda-talca-ds49-2016 — PDF pda-talca-ds49.pdf (copia LeyChile 16-Feb-2018). Todas las tablas son imágenes.
+Método: render de la imagen (pymupdf, 200 dpi, clip=bbox) -> PNG en esta carpeta; lectura visual (montajes m1.png, m2.png);
+OCR independiente rapidocr; comparación del multiconjunto de números (coma->punto), descartando números de encabezado/unidad
+(50 de "50Pa", 100 de "x100"/"100 Pa", 2/3 de m2/m3) y el N° de tabla.
+Resumen: 12/12 tablas COINCIDEN (OCR = transcripción). Sin diferencias pendientes.
+Control previo "Talca DS49 Tabla N°10: techo 0,38 muro 0,80 piso ventilado 0,60": CONFIRMADO (pág. 26).
+Observación: Tablas Nº14 y Nº19 imprimen la unidad R100 como "[W/(m²K)]x100" (errata del decreto); Tabla Nº11 dice "[(m²K)/W]x100".
+Tabla Nº18 ventana: celda textual "Por definir – MINVU*" (no numérica, OCR la lee como texto) -> valor vacío en CSV.
+Tabla Nº19 techo = 263 (no 235 como en Tablas 11/14): confirmado visualmente y por OCR.
+--- salida del verificador ---
+[Tabla Nº 10|Art. 29] png=p26_img1.png
+  mis valores={'0.38': 1, '0.60': 1, '0.80': 1}
+  OCR crudo=['0.38', '0.80', '0.60']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 11|Art. 29] png=p26_img2.png
+  mis valores={'125': 1, '150': 1, '235': 1}
+  OCR crudo=['235', '100', '125', '100', '150']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 12|Art. 29] png=p27_img1.png
+  mis valores={'5': 1}
+  OCR crudo=['5', '50']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 13|Art. 30] png=p28_img1.png
+  mis valores={'0.38': 1, '0.60': 1, '0.80': 1}
+  OCR crudo=['0.38', '0.80', '0.60']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 14|Art. 30] png=p28_img2.png
+  mis valores={'125': 1, '150': 1, '235': 1}
+  OCR crudo=['235', '100', '125', '100', '150']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 15|Art. 30] png=p29_img1.png
+  mis valores={'5': 1}
+  OCR crudo=['5', '50']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 16|Art. 30] png=p29_img2.png
+  mis valores={'10': 1}
+  OCR crudo=['10', '100']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 17|Art. 31] png=p30_img1.png
+  mis valores={'0.38': 1, '0.60': 1, '0.80': 1, '1.70': 1}
+  OCR crudo=['0.38', '0.80', '0.60', '1.70']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 18|Art. 31] png=p30_img2.png
+  mis valores={'0.38': 1, '0.60': 1, '0.80': 1, '1.70': 1}
+  OCR crudo=['0.38', '0.80', '0.60', '1.70']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 19|Art. 31] png=p31_img1.png
+  mis valores={'125': 1, '150': 1, '263': 1}
+  OCR crudo=['263', '100', '125', '100', '150']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 20|Art. 31] png=p32_img1.png
+  mis valores={'5': 1}
+  OCR crudo=['5', '50']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE
+[Tabla Nº 21|Art. 31] png=p32_img2.png
+  mis valores={'10': 1}
+  OCR crudo=['10', '100']
+  faltan_en_OCR={} sobran_en_OCR={}
+  RESULTADO=COINCIDE

@@ -1,0 +1,20 @@
+id: pda-14
+categoria: trampa
+critical: false
+pregunta: 'Vivienda en Temuco: si no me alcanza el U, ¿puedo compensar poniendo más ventanas de doble vidrio?'
+esperado:
+  hechos:
+  - descripcion: No hay compensación global
+    patrones:
+    - 'no'
+  - descripcion: Mejor U permite más % de ventana (Res. 9868)
+    patrones:
+    - 9\.?868|porcentaje|%
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'No hay compensación entre elementos: cada uno cumple su U (Tabla N°10). Lo único: mejor U de ventana permite mayor
+  % (Res. 9868 Tabla 1).'
+fuentes:
+- res-9868-2018
+- pda-temuco-ds8-2025

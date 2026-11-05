@@ -1,0 +1,21 @@
+id: pda-13
+categoria: pda
+critical: false
+pregunta: Vivienda en Temuco, en la región sí hay laboratorios de ensayo. ¿Puedo acreditar la infiltración solo con sellos
+  en las EETT?
+esperado:
+  hechos:
+  - descripcion: 'Sí: el plan admite sellos hasta que MINVU lo deje sin efecto'
+    patrones:
+    - sellos
+  - descripcion: Sin condición regional del DS 15
+    patrones:
+    - plan|DS\s*(N[°º]\s*)?8
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: El DS 8/2023 admite ensayo NCh 3295 o sellos en EETT hasta que MINVU lo deje sin efecto; no importar las condiciones
+  del DS 15 (región sin ensayadores, lote ≤10).
+fuentes:
+- pda-temuco-ds8-2025
+- references/pda-ppa.md

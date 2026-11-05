@@ -1,0 +1,15 @@
+id: supuestos-03
+categoria: supuestos
+critical: false
+pregunta: Departamentos en Concepción, ventanas sin especificar. ¿Qué superficie de ventanas puedo tener al sur?
+esperado:
+  hechos:
+  - descripcion: PPA Concepción Tabla Nº15 o supuesto de U
+    patrones:
+    - supuesto|depende del U|PPA|Tabla\s*N?[°º]?\s*15
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Vivienda en Concepción: PPA DS 6 Tabla Nº15 (% por orientación); sin U declarar supuestos/escenarios.'
+fuentes:
+- ppa-concepcion-ds6-2018

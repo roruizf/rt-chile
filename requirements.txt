@@ -1,0 +1,6 @@
+# Entorno: uv venv --python 3.12 && uv pip install -r requirements.txt
+pyyaml>=6.0
+pytest>=8.0
+pypdf>=4.0
+pymupdf>=1.24
+rapidocr-onnxruntime>=1.3  # OCR de PDF escaneados (p.ej. Res. Ex. 1802) en sources/private/

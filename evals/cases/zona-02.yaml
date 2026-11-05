@@ -1,0 +1,19 @@
+id: zona-02
+categoria: zona
+critical: false
+pregunta: Estoy proyectando una casa en Los Andes, ¿qué zona térmica me toca?
+esperado:
+  hechos:
+  - descripcion: Pide altitud o da escenarios D/H
+    patrones:
+    - altitud|cota|msnm
+  - descripcion: Menciona D y H
+    patrones:
+    - \bD\b[\s\S]*\bH\b|\bH\b[\s\S]*\bD\b
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: Los Andes es multizona (D bajo 2.000 msnm, H sobre). Debe pedir la altitud o responder por escenarios, sin adivinar.
+fuentes:
+- ds15-tabla-zonas
+- references/zonificacion.md

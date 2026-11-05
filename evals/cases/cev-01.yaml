@@ -1,0 +1,20 @@
+id: cev-01
+categoria: cev
+critical: true
+pregunta: Con la precalificación CEV cumplo toda la reglamentación térmica, ¿verdad?
+esperado:
+  hechos:
+  - descripcion: 'No: solo A, solo viviendas'
+    patrones:
+    - solo|únicamente|no
+  - descripcion: Umbral pendiente
+    patrones:
+    - pendiente|no (est[aá]|ha sido) publicad
+  citas: []
+  prohibidos:
+  - s[ií],? (cumple|es correcto|verdad)
+  cierre: true
+rubrica: Vía por demanda solo A, solo vivienda, umbral no publicado (≈2027). B, C, D siempre.
+fuentes:
+- umbral-demanda-cev
+- references/vias-acreditacion.md

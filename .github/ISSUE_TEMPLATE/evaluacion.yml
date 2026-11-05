@@ -1,0 +1,60 @@
+name: Evaluación general
+description: Cuéntanos cómo te fue usando la skill
+title: "[Evaluación] "
+labels: ["evaluacion"]
+body:
+  - type: markdown
+    attributes:
+      value: "No incluyas datos de clientes ni texto de normas NCh."
+  - type: dropdown
+    id: rol
+    attributes:
+      label: Tu rol
+      options:
+        - Arquitecto o arquitecta
+        - Evaluador o evaluadora energética
+        - Consultor térmico o especialista
+        - Revisor o revisora de obras (DOM o independiente)
+        - Constructora o inmobiliaria
+        - Estudiante o docente
+        - Otro
+    validations:
+      required: true
+  - type: textarea
+    id: uso
+    attributes:
+      label: Para qué la usaste
+      description: Tipo de proyecto o preguntas, sin datos identificables.
+    validations:
+      required: true
+  - type: dropdown
+    id: utilidad
+    attributes:
+      label: ¿Te ahorró trabajo?
+      options:
+        - Sí, bastante
+        - Algo
+        - No
+    validations:
+      required: true
+  - type: dropdown
+    id: confianza
+    attributes:
+      label: Al revisar las fuentes, ¿las respuestas estaban bien?
+      options:
+        - Todas las que revisé
+        - La mayoría
+        - Encontré errores importantes
+        - No revisé las fuentes
+    validations:
+      required: true
+  - type: textarea
+    id: falta
+    attributes:
+      label: Qué le falta o qué cambiarías
+  - type: input
+    id: agente
+    attributes:
+      label: Agente y modelo
+    validations:
+      required: true

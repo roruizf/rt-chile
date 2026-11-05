@@ -1,0 +1,16 @@
+id: hotel-03
+categoria: hotel
+critical: false
+pregunta: Un hostal de 6 habitaciones, ¿tiene el mismo trato que un hotel en la reglamentación térmica?
+esperado:
+  hechos:
+  - descripcion: 'Supuesto: el trato especial es solo para hoteles'
+    patrones:
+    - supuesto|hotel|DOM
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: El DS 15 nombra solo hoteles; hostal = residencial (OGUC 2.1.25). Supuesto declarado y confirmar con DOM.
+fuentes:
+- oguc-2026-03
+- references/alcance-y-vigencia.md

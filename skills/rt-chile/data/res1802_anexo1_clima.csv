@@ -1,0 +1,424 @@
+zona,particularidad,localidad,tipo,comuna_zonas,condicion,t_ext_c,hr_ext_pct,pagina_res
+A,0,Alto Hospicio,comuna,Alto Hospicio,,12.4,69,4
+A,0,Antofagasta,comuna,Antofagasta,≥ 70°,10.3,73,4
+A,0,Arica,comuna,Arica,< 1.100,13.6,73,4
+A,0,Caldera,comuna,Caldera,,10.3,73,4
+A,0,Camarones,comuna,Camarones,< 1.100,13.6,73,4
+A,0,Chañaral,comuna,Chañaral,,10.3,73,4
+A,0,Copiapó,comuna,Copiapó,> 70° 44',10.3,73,4
+A,0,Freirina,comuna,Freirina,,10.3,73,4
+A,0,Huara,comuna,Huara,< 1.100,12.4,69,4
+A,0,Huasco,comuna,Huasco,,10.3,73,4
+A,0,Iquique,comuna,Iquique,,12.4,69,4
+A,0,Mejillones,comuna,Mejillones,,10.3,73,4
+A,0,Taltal,comuna,Taltal,≥ 70°,10.3,73,4
+A,0,Tocopilla,comuna,Tocopilla,,12.4,69,4
+A,1,Isla de Pascua,comuna,Isla de Pascua,,16,85,4
+A,0,Todas las comunas excepto Isla de Pascua,resto,,,10.3,73,4
+B,0,Alto del Carmen,comuna,Alto del Carmen,< 3.000,7.8,76,4
+B,0,Andacollo,comuna,Andacollo,,7.8,76,4
+B,0,Antofagasta,comuna,Antofagasta,< 3.000 | < 70°,7.8,76,4
+B,0,Arica,comuna,Arica,altitud 1.100 ≤ < 3.000,7.8,76,4
+B,1,Calama,comuna,Calama,< 3.000,0.4,27,4
+B,0,Camarones,comuna,Camarones,altitud 1.100 ≤ < 3.000,7.8,76,4
+B,0,Camiña,comuna,Camiña,altitud 1.100 ≤ < 3.000,7.8,76,4
+B,0,Combarbalá,comuna,Combarbalá,< 2.000,7.8,76,4
+B,0,Copiapó,comuna,Copiapó,< 3.000 | ≤70° 44',6.9,85,4
+B,0,Diego de Almagro,comuna,Diego de Almagro,< 3.000,6.9,85,4
+B,0,Huara,comuna,Huara,altitud 1.100 ≤ < 3.000,7.8,76,4
+B,0,Illapel,comuna,Illapel,< 2.000,7.8,76,4
+B,0,La Higuera,comuna,La Higuera,≤ 71°,7.8,76,4
+B,0,La Serena,comuna,La Serena,≤ 71°,7.8,76,4
+B,1,María Elena,comuna,María Elena,,0.4,27,4
+B,0,Monte Patria,comuna,Monte Patria,< 2.000,7.8,76,4
+B,0,Ovalle,comuna,Ovalle,≤ 71° 15',7.8,76,4
+B,0,Paiguano,comuna,Paiguano,< 3.000,7.8,76,4
+B,0,Pica,comuna,Pica,< 3.000,7.8,76,4
+B,0,Pozo Almonte,comuna,Pozo Almonte,< 3.000,7.8,76,4
+B,0,Punitaqui,comuna,Punitaqui,,7.8,76,4
+B,0,Río Hurtado,comuna,Río Hurtado,< 3.000,7.8,76,4
+B,0,Salamanca,comuna,Salamanca,< 2.000,7.8,76,4
+B,1,San Pedro de Atacama,comuna,San Pedro de Atacama,< 3.000,0.4,27,4
+B,1,Sierra Gorda,comuna,Sierra Gorda,,0.4,27,5
+B,0,Taltal,comuna,Taltal,< 3.000 | < 70°,7.8,76,5
+B,0,Tierra Amarilla,comuna,Tierra Amarilla,< 3.000,6.9,85,5
+B,0,Vallenar,comuna,Vallenar,,6.9,85,5
+B,0,Vicuña,comuna,Vicuña,< 3.000,7.8,76,5
+B,1,"Calama, María Elena, San Pedro de Atacama y Sierra Gorda",grupo,,,0.4,27,5
+B,0,"Todas las comunas excepto Calama, María Elena, San Pedro de Atacama y Sierra Gorda",resto,,,6.9,85,5
+C,0,Algarrobo,comuna,Algarrobo,,4.8,90,5
+C,0,Canela,comuna,Canela,,6.9,85,5
+C,0,Cartagena,comuna,Cartagena,,4.8,90,5
+C,0,Casablanca,comuna,Casablanca,,4.8,90,5
+C,0,Concón,comuna,Concón,,4.8,90,5
+C,0,Coquimbo,comuna,Coquimbo,,6.9,85,5
+C,0,El Quisco,comuna,El Quisco,,4.8,90,5
+C,0,El Tabo,comuna,El Tabo,,4.8,90,5
+C,0,La Higuera,comuna,La Higuera,> 71°,6.9,85,5
+C,0,La Ligua,comuna,La Ligua,> 71° 15',4.8,90,5
+C,0,La Serena,comuna,La Serena,> 71°,6.9,85,5
+C,0,Licantén,comuna,Licantén,,3.9,95,5
+C,0,Litueche,comuna,Litueche,,3.9,95,5
+C,0,Los Vilos,comuna,Los Vilos,,6.9,85,5
+C,0,Navidad,comuna,Navidad,,3.9,95,5
+C,0,Ovalle,comuna,Ovalle,> 71° 15',6.9,85,5
+C,0,Papudo,comuna,Papudo,,4.8,90,5
+C,0,Paredones,comuna,Paredones,,3.9,95,5
+C,0,Pichilemu,comuna,Pichilemu,,3.9,95,5
+C,0,Puchuncaví,comuna,Puchuncaví,,4.8,90,5
+C,0,Quintero,comuna,Quintero,,4.8,90,5
+C,0,San Antonio,comuna,San Antonio,,4.8,90,5
+C,0,Santo Domingo,comuna,Santo Domingo,,4.8,90,5
+C,0,Valparaíso,comuna,Valparaíso,,4.8,90,5
+C,0,Vichuquén,comuna,Vichuquén,,3.9,95,5
+C,0,Viña del Mar,comuna,Viña del Mar,,4.8,90,5
+C,0,Zapallar,comuna,Zapallar,,4.8,90,5
+C,1,"Las islas: Alejandro Selkirk, Robinson Crusoe, Santa Clara, Salas y Gómez, San Ambrosio y San Félix",grupo,,,12.5,74,5
+C,0,"Todas las comunas excepto ""Las Islas""",resto,,,3.9,95,5
+D,0,Alhué,comuna,Alhué,,2.2,92,5
+D,0,Buin,comuna,Buin,,2.2,92,5
+D,0,Cabildo,comuna,Cabildo,< 2.000,4.7,90,5
+D,0,Calera,comuna,Calera,,4.7,90,5
+D,0,Calera de Tango,comuna,Calera de Tango,,2.2,92,5
+D,0,Calle Larga,comuna,Calle Larga,,4.7,90,5
+D,0,Catemu,comuna,Catemu,,4.7,90,5
+D,0,Cerrillos,comuna,Cerrillos,,2.2,92,5
+D,0,Cerro Navia,comuna,Cerro Navia,,2.2,92,5
+D,0,Chépica,comuna,Chépica,,4.4,90,5
+D,0,Chimbarongo,comuna,Chimbarongo,,4.4,90,5
+D,0,Codegua,comuna,Codegua,< 1.000,2.4,97,5
+D,0,Coinco,comuna,Coinco,,2.4,97,5
+D,0,Colbún,comuna,Colbún,< 1.000,2.6,92,5
+D,0,Colina,comuna,Colina,< 2.000,2.2,92,5
+D,0,Coltauco,comuna,Coltauco,,2.4,97,5
+D,0,Conchalí,comuna,Conchalí,,2.2,92,5
+D,0,Curacaví,comuna,Curacaví,,2.2,92,5
+D,0,Curicó,comuna,Curicó,< 1.000,3.4,99,5
+D,0,Doñihue,comuna,Doñihue,,2.4,97,5
+D,0,El Bosque,comuna,El Bosque,,2.2,92,5
+D,0,El Monte,comuna,El Monte,,2.2,92,5
+D,0,Estación Central,comuna,Estación Central,,2.2,92,5
+D,0,Graneros,comuna,Graneros,,2.4,97,5
+D,0,Hijuelas,comuna,Hijuelas,,4.7,90,6
+D,0,Hualañé,comuna,Hualañé,,3.4,99,6
+D,0,Huechuraba,comuna,Huechuraba,,2.2,92,6
+D,0,Independencia,comuna,Independencia,,2.2,92,6
+D,0,Isla de Maipo,comuna,Isla de Maipo,,2.2,92,6
+D,0,La Cisterna,comuna,La Cisterna,,2.2,92,6
+D,0,La Cruz,comuna,La Cruz,,4.7,90,6
+D,0,La Estrella,comuna,La Estrella,,3.9,95,6
+D,0,La Florida,comuna,La Florida,,2.2,92,6
+D,0,La Granja,comuna,La Granja,,2.2,92,6
+D,0,La Ligua,comuna,La Ligua,≤ 71° 15',4.7,90,6
+D,0,La Pintana,comuna,La Pintana,,2.2,92,6
+D,0,La Reina,comuna,La Reina,,2.2,92,6
+D,0,Lampa,comuna,Lampa,,2.2,92,6
+D,0,Las Cabras,comuna,Las Cabras,,2.4,97,6
+D,0,Las Condes,comuna,Las Condes,,2.2,92,6
+D,0,Limache,comuna,Limache,,4.7,90,6
+D,0,Linares,comuna,Linares,< 1.000,2.6,92,6
+D,0,Llaillay,comuna,Llaillay,,4.7,90,6
+D,0,Lo Barnechea,comuna,Lo Barnechea,< 2.000,2.2,92,6
+D,0,Lo Espejo,comuna,Lo Espejo,,2.2,92,6
+D,0,Lo Prado,comuna,Lo Prado,,2.2,92,6
+D,0,Lolol,comuna,Lolol,,4.4,90,6
+D,0,Longaví,comuna,Longaví,< 1.000,2.6,92,6
+D,0,Los Andes,comuna,Los Andes,< 2.000,4.7,90,6
+D,0,Machalí,comuna,Machalí,< 1.000,2.4,97,6
+D,0,Macul,comuna,Macul,,2.2,92,6
+D,0,Maipú,comuna,Maipú,,2.2,92,6
+D,0,Malloa,comuna,Malloa,< 1.000,2.4,97,6
+D,0,Marchihue,comuna,Marchihue,,3.9,95,6
+D,0,María Pinto,comuna,María Pinto,,2.2,92,6
+D,0,Maule,comuna,Maule,,2.6,92,6
+D,0,Melipilla,comuna,Melipilla,,2.2,92,6
+D,0,Molina,comuna,Molina,< 1.000,3.4,99,6
+D,0,Mostazal,comuna,Mostazal,< 1.000,2.4,97,6
+D,0,Nancagua,comuna,Nancagua,,4.4,90,6
+D,0,Nogales,comuna,Nogales,,4.7,90,6
+D,0,Ñuñoa,comuna,Ñuñoa,,2.2,92,6
+D,0,Olivar,comuna,Olivar,,2.4,97,6
+D,0,Olmué,comuna,Olmué,,4.7,90,6
+D,0,Padre Hurtado,comuna,Padre Hurtado,,2.2,92,6
+D,0,Paine,comuna,Paine,,2.2,92,6
+D,0,Palmilla,comuna,Palmilla,,4.4,90,6
+D,0,Panquehue,comuna,Panquehue,,4.7,90,6
+D,0,Parral,comuna,Parral,< 1.000,2.6,92,6
+D,0,Pedro Aguirre Cerda,comuna,Pedro Aguirre Cerda,,2.2,92,6
+D,0,Pelarco,comuna,Pelarco,,2.6,92,6
+D,0,Pencahue,comuna,Pencahue,,2.6,92,6
+D,0,Peñaflor,comuna,Peñaflor,,2.2,92,6
+D,0,Peñalolén,comuna,Peñalolén,,2.2,92,6
+D,0,Peralillo,comuna,Peralillo,,4.4,90,6
+D,0,Petorca,comuna,Petorca,< 2.000,4.7,90,6
+D,0,Peumo,comuna,Peumo,,2.4,97,6
+D,0,Pichidegua,comuna,Pichidegua,,2.4,97,6
+D,0,Pirque,comuna,Pirque,,2.2,92,6
+D,0,Placilla,comuna,Placilla,,4.4,90,6
+D,0,Providencia,comuna,Providencia,,2.2,92,6
+D,0,Pudahuel,comuna,Pudahuel,,2.2,92,6
+D,0,Puente Alto,comuna,Puente Alto,,2.2,92,6
+D,0,Pumanque,comuna,Pumanque,,4.4,90,6
+D,0,Putaendo,comuna,Putaendo,< 2.000,4.7,90,6
+D,0,Quilicura,comuna,Quilicura,,2.2,92,6
+D,0,Quillota,comuna,Quillota,,4.7,90,6
+D,0,Quilpué,comuna,Quilpué,,4.7,90,6
+D,0,Quinta de Tilcoco,comuna,Quinta de Tilcoco,,2.4,97,7
+D,0,Quinta Normal,comuna,Quinta Normal,,2.2,92,7
+D,0,Rancagua,comuna,Rancagua,,2.4,97,7
+D,0,Rauco,comuna,Rauco,,3.4,99,7
+D,0,Recoleta,comuna,Recoleta,,2.2,92,7
+D,0,Renca,comuna,Renca,,2.2,92,7
+D,0,Rengo,comuna,Rengo,< 1.000,2.4,97,7
+D,0,Requínoa,comuna,Requínoa,< 1.000,2.4,97,7
+D,0,Retiro,comuna,Retiro,,2.6,92,7
+D,0,Rinconada,comuna,Rinconada,,4.7,90,7
+D,0,Río Claro,comuna,Río Claro,,2.6,92,7
+D,0,Romeral,comuna,Romeral,< 1.000,3.4,99,7
+D,0,Sagrada Familia,comuna,Sagrada Familia,,3.4,99,7
+D,0,San Bernardo,comuna,San Bernardo,,2.2,92,7
+D,0,San Clemente,comuna,San Clemente,< 1.000,2.6,92,7
+D,0,San Esteban,comuna,San Esteban,< 2.000,4.7,90,7
+D,0,San Felipe,comuna,San Felipe,,4.7,90,7
+D,0,San Fernando,comuna,San Fernando,< 1.000,4.4,90,7
+D,0,San Javier,comuna,San Javier,,2.6,92,7
+D,0,San Joaquín,comuna,San Joaquín,,2.2,92,7
+D,1,San José de Maipo,comuna,San José de Maipo,< 2.000,1.8,90,7
+D,0,San Miguel,comuna,San Miguel,,2.2,92,7
+D,0,San Pedro,comuna,San Pedro,,2.2,92,7
+D,0,San Rafael,comuna,San Rafael,,2.6,92,7
+D,0,San Ramón,comuna,San Ramón,,2.2,92,7
+D,0,San Vicente,comuna,San Vicente,,2.4,97,7
+D,0,Santa Cruz,comuna,Santa Cruz,,4.4,90,7
+D,0,Santa María,comuna,Santa María,,4.7,90,7
+D,0,Santiago,comuna,Santiago,,2.2,92,7
+D,0,Talagante,comuna,Talagante,,2.2,92,7
+D,0,Talca,comuna,Talca,,2.6,92,7
+D,0,Teno,comuna,Teno,< 1.000,3.4,99,7
+D,0,Tiltil,comuna,Tiltil,,2.2,92,7
+D,0,Villa Alegre,comuna,Villa Alegre,,2.6,92,7
+D,0,Villa Alemana,comuna,Villa Alemana,,4.7,90,7
+D,0,Vitacura,comuna,Vitacura,,2.2,92,7
+D,0,Yerbas Buenas,comuna,Yerbas Buenas,,2.6,92,7
+D,0,Todas las comunas excepto San José de Maipo,resto,,,2.2,92,7
+E,0,Constitución,comuna,Constitución,,3.5,95,7
+E,0,Curepto,comuna,Curepto,,3.5,95,7
+E,0,Empedrado,comuna,Empedrado,,3.5,95,7
+E,0,Cauquenes,comuna,Cauquenes,,3.5,95,7
+E,0,Chanco,comuna,Chanco,,3.5,95,7
+E,0,Pelluhue,comuna,Pelluhue,,3.5,95,7
+E,0,Concepción,comuna,Concepción,,5.7,96,7
+E,0,Coronel,comuna,Coronel,,5.7,96,7
+E,0,Chiguayante,comuna,Chiguayante,,5.7,96,7
+E,0,Hualqui,comuna,Hualqui,,5.7,96,7
+E,0,Lota,comuna,Lota,,5.7,96,7
+E,0,Penco,comuna,Penco,,5.7,96,7
+E,0,San Pedro de la Paz,comuna,San Pedro de la Paz,,5.7,96,7
+E,0,Santa Juana,comuna,Santa Juana,,5.7,96,7
+E,0,Talcahuano,comuna,Talcahuano,,5.7,96,7
+E,0,Tomé,comuna,Tomé,,5.7,96,7
+E,0,Hualpén,comuna,Hualpén,,5.7,96,7
+E,0,Lebu,comuna,Lebu,,5.1,94,7
+E,0,Arauco,comuna,Arauco,,5.1,94,7
+E,0,Cañete,comuna,Cañete,,5.1,94,7
+E,0,Contulmo,comuna,Contulmo,,5.1,94,7
+E,0,Curanilahue,comuna,Curanilahue,,5.1,94,7
+E,0,Los Álamos,comuna,Los Álamos,,5.1,94,7
+E,0,Tirúa,comuna,Tirúa,,5.1,94,7
+E,0,Quirihue,comuna,Quirihue,,3.5,95,8
+E,0,Cobquecura,comuna,Cobquecura,,3.5,95,8
+E,0,Coelemu,comuna,Coelemu,,3.5,95,8
+E,0,Treguaco,comuna,Treguaco,,3.5,95,8
+E,0,Carahue,comuna,Carahue,,5.1,94,8
+E,0,Saavedra,comuna,Saavedra,,5.1,94,8
+E,0,Teodoro Schmidt,comuna,Teodoro Schmidt,,5.1,94,8
+E,0,Toltén,comuna,Toltén,,5.1,94,8
+E,0,Todas las comunas,resto,,,3.5,95,8
+F,0,Alto Biobío,comuna,Alto Biobío,< 1.000,4.8,94,8
+F,0,Angol,comuna,Angol,,4.2,94,8
+F,0,Antuco,comuna,Antuco,< 1.000 MSNM,4.8,94,8
+F,0,Bulnes,comuna,Bulnes,,3.8,94,8
+F,0,Cabrero,comuna,Cabrero,,4.8,94,8
+F,0,Chillán,comuna,Chillán,,3.8,94,8
+F,0,Chillán Viejo,comuna,Chillán Viejo,,3.8,94,8
+F,0,Cholchol,comuna,Cholchol,,3.8,94,8
+F,0,Coihueco,comuna,Coihueco,< 1.000,3.8,94,8
+F,0,Collipulli,comuna,Collipulli,,4.2,94,8
+F,0,Cunco,comuna,Cunco,,3.8,94,8
+F,0,Curacautín,comuna,Curacautín,,4.2,94,8
+F,0,El Carmen,comuna,El Carmen,,3.8,94,8
+F,0,Ercilla,comuna,Ercilla,,4.2,94,8
+F,0,Florida,comuna,Florida,,4.8,94,8
+F,0,Freire,comuna,Freire,,3.8,94,8
+F,0,Futrono,comuna,Futrono,,3.8,94,8
+F,0,Galvarino,comuna,Galvarino,,3.8,94,8
+F,0,Gorbea,comuna,Gorbea,,3.8,94,8
+F,0,La Unión,comuna,La Unión,≤ 73° 15',3.8,94,8
+F,0,Lago Ranco,comuna,Lago Ranco,,3.8,94,8
+F,0,Laja,comuna,Laja,,4.8,94,8
+F,0,Lanco,comuna,Lanco,,3.8,94,8
+F,0,Lautaro,comuna,Lautaro,,3.8,94,8
+F,0,Loncoche,comuna,Loncoche,,3.8,94,8
+F,0,Los Ángeles,comuna,Los Ángeles,,4.8,94,8
+F,0,Los Lagos,comuna,Los Lagos,,3.8,94,8
+F,0,Los Sauces,comuna,Los Sauces,,4.2,94,8
+F,0,Lumaco,comuna,Lumaco,,4.2,94,8
+F,0,Mulchén,comuna,Mulchén,,4.8,94,8
+F,0,Nacimiento,comuna,Nacimiento,,4.8,94,8
+F,0,Negrete,comuna,Negrete,,4.8,94,8
+F,0,Ninhue,comuna,Ninhue,,3.8,94,8
+F,0,Nueva Imperial,comuna,Nueva Imperial,,3.8,94,8
+F,0,Ñiquén,comuna,Ñiquén,,3.8,94,8
+F,0,Padre Las Casas,comuna,Padre Las Casas,,3.8,94,8
+F,0,Paillaco,comuna,Paillaco,,3.8,94,8
+F,0,Panguipulli,comuna,Panguipulli,,3.8,94,8
+F,0,Pemuco,comuna,Pemuco,,3.8,94,8
+F,0,Perquenco,comuna,Perquenco,,3.8,94,8
+F,0,Pinto,comuna,Pinto,< 1.000,3.8,94,8
+F,0,Pitrufquén,comuna,Pitrufquén,,3.8,94,8
+F,0,Portezuelo,comuna,Portezuelo,,3.8,94,8
+F,0,Purén,comuna,Purén,,4.2,94,8
+F,0,Quilaco,comuna,Quilaco,,4.8,94,8
+F,0,Quilleco,comuna,Quilleco,< 1.000,4.8,94,8
+F,0,Quillón,comuna,Quillón,,3.8,94,8
+F,0,Ránquil,comuna,Ránquil,,3.8,94,8
+F,0,Renaico,comuna,Renaico,,4.2,94,8
+F,0,Río Bueno,comuna,Río Bueno,,3.8,94,8
+F,0,San Carlos,comuna,San Carlos,,3.8,94,8
+F,0,San Fabián,comuna,San Fabián,< 1.000,3.8,94,8
+F,0,San Ignacio,comuna,San Ignacio,,3.8,94,8
+F,0,San Nicolás,comuna,San Nicolás,,3.8,94,9
+F,0,San Rosendo,comuna,San Rosendo,,4.8,94,9
+F,0,Santa Bárbara,comuna,Santa Bárbara,< 1.000,4.8,94,9
+F,0,Temuco,comuna,Temuco,,3.8,94,9
+F,0,Traiguén,comuna,Traiguén,,4.2,94,9
+F,0,Tucapel,comuna,Tucapel,< 1.000,4.8,94,9
+F,0,Victoria,comuna,Victoria,,4.2,94,9
+F,0,Vilcún,comuna,Vilcún,,3.8,94,9
+F,0,Villarrica,comuna,Villarrica,,3.8,94,9
+F,0,Yumbel,comuna,Yumbel,,4.8,94,9
+F,0,Yungay,comuna,Yungay,< 1.000,3.8,94,9
+F,0,Todas las comunas,resto,,,3.8,94,9
+G,0,Ancud,comuna,Ancud,,3.5,98,9
+G,0,Calbuco,comuna,Calbuco,,3.5,98,9
+G,0,Castro,comuna,Castro,,3.5,98,9
+G,0,Chaitén,comuna,Chaitén,,3.5,98,9
+G,0,Chonchi,comuna,Chonchi,,3.5,98,9
+G,0,Cochamó,comuna,Cochamó,,3.5,98,9
+G,0,Corral,comuna,Corral,,3.5,98,9
+G,0,Curaco de Vélez,comuna,Curaco de Vélez,,3.5,98,9
+G,0,Dalcahue,comuna,Dalcahue,,3.5,98,9
+G,0,Fresia,comuna,Fresia,,3.5,98,9
+G,0,Frutillar,comuna,Frutillar,,3.5,98,9
+G,0,Hualaihué,comuna,Hualaihué,,3.5,98,9
+G,0,La Unión,comuna,La Unión,> 73° 15',3.5,98,9
+G,0,Llanquihue,comuna,Llanquihue,,3.5,98,9
+G,0,Los Muermos,comuna,Los Muermos,,3.5,98,9
+G,0,Máfil,comuna,Máfil,,3.5,98,9
+G,0,Mariquina,comuna,Mariquina,,3.5,98,9
+G,0,Maullín,comuna,Maullín,,3.5,98,9
+G,0,Osorno,comuna,Osorno,,3.5,98,9
+G,0,Puerto Montt,comuna,Puerto Montt,,3.5,98,9
+G,0,Puerto Octay,comuna,Puerto Octay,,3.5,98,9
+G,0,Puerto Varas,comuna,Puerto Varas,,3.5,98,9
+G,0,Puqueldón,comuna,Puqueldón,,3.5,98,9
+G,0,Purranque,comuna,Purranque,,3.5,98,9
+G,0,Puyehue,comuna,Puyehue,,3.5,98,9
+G,0,Queilén,comuna,Queilén,,3.5,98,9
+G,0,Quellón,comuna,Quellón,,3.5,98,9
+G,0,Quemchi,comuna,Quemchi,,3.5,98,9
+G,0,Quinchao,comuna,Quinchao,,3.5,98,9
+G,0,Río Negro,comuna,Río Negro,,3.5,98,9
+G,0,San Juan de la Costa,comuna,San Juan de la Costa,,3.5,98,9
+G,0,San Pablo,comuna,San Pablo,,3.5,98,9
+G,0,Valdivia,comuna,Valdivia,,3.5,98,9
+G,0,Todas las comunas,resto,,,3.5,98,9
+H,0,Alto Biobío,comuna,Alto Biobío,≥ 1.000,1.8,90,9
+H,0,Alto del Carmen,comuna,Alto del Carmen,≥ 3.000,1.8,90,9
+H,0,Antofagasta,comuna,Antofagasta,≥ 3.000,1.8,90,9
+H,0,Antuco,comuna,Antuco,> 1.000 MSNM,1.8,90,9
+H,0,Arica,comuna,Arica,≥ 3.000,1.8,90,9
+H,0,Cabildo,comuna,Cabildo,≥ 2.000,1.8,90,9
+H,1,Calama,comuna,Calama,≥ 3.000,0.4,27,9
+H,0,Camarones,comuna,Camarones,≥ 3.000,1.8,90,9
+H,0,Camiña,comuna,Camiña,≥ 3.000,1.8,90,9
+H,0,Codegua,comuna,Codegua,≥ 1.000,1.8,90,9
+H,0,Coihueco,comuna,Coihueco,≥ 1.000,1.8,90,9
+H,0,Colbún,comuna,Colbún,≥ 1.000,1.8,90,9
+H,0,Colchane,comuna,Colchane,,1.8,90,9
+H,0,Colina,comuna,Colina,≥ 2.000,1.8,90,9
+H,0,Combarbalá,comuna,Combarbalá,≥ 2.000,1.8,90,10
+H,0,Copiapó,comuna,Copiapó,≥ 3.000,1.8,90,10
+H,0,Curarrehue,comuna,Curarrehue,,1.8,90,10
+H,0,Curicó,comuna,Curicó,≥ 1.000,1.8,90,10
+H,0,Diego de Almagro,comuna,Diego de Almagro,≥ 3.000,1.8,90,10
+H,0,General Lagos,comuna,General Lagos,≥ 3.000,1.8,90,10
+H,0,Huara,comuna,Huara,≥ 3.000,1.8,90,10
+H,0,Illapel,comuna,Illapel,≥ 2.000,1.8,90,10
+H,0,Linares,comuna,Linares,≥ 1.000,1.8,90,10
+H,0,Lo Barnechea,comuna,Lo Barnechea,≥ 2.000,1.8,90,10
+H,0,Longaví,comuna,Longaví,≥ 1.000,1.8,90,10
+H,0,Lonquimay,comuna,Lonquimay,,1.8,90,10
+H,0,Los Andes,comuna,Los Andes,≥ 2.000,1.8,90,10
+H,0,Machalí,comuna,Machalí,≥ 1.000,1.8,90,10
+H,0,Malloa,comuna,Malloa,≥ 1.000,1.8,90,10
+H,0,Melipeuco,comuna,Melipeuco,,1.8,90,10
+H,0,Molina,comuna,Molina,≥ 1.000,1.8,90,10
+H,0,Monte Patria,comuna,Monte Patria,≥ 2.000,1.8,90,10
+H,0,Mostazal,comuna,Mostazal,≥ 1.000,1.8,90,10
+H,0,Ollagüe,comuna,Ollagüe,,1.8,90,10
+H,0,Paiguano,comuna,Paiguano,≥ 3.000,1.8,90,10
+H,0,Parral,comuna,Parral,≥ 1.000,1.8,90,10
+H,0,Petorca,comuna,Petorca,≥ 2.000,1.8,90,10
+H,0,Pica,comuna,Pica,≥ 3.000,1.8,90,10
+H,0,Pinto,comuna,Pinto,≥ 1.000,1.8,90,10
+H,0,Pozo Almonte,comuna,Pozo Almonte,≥ 3.000,1.8,90,10
+H,0,Pucón,comuna,Pucón,,1.8,90,10
+H,0,Putaendo,comuna,Putaendo,≥ 2.000,1.8,90,10
+H,0,Putre,comuna,Putre,≥ 3.000,1.8,90,10
+H,0,Quilleco,comuna,Quilleco,≥ 1.000,1.8,90,10
+H,0,Rengo,comuna,Rengo,≥ 1.000,1.8,90,10
+H,0,Requínoa,comuna,Requínoa,≥ 1.000,1.8,90,10
+H,0,Río Hurtado,comuna,Río Hurtado,≥ 3.000,1.8,90,10
+H,0,Romeral,comuna,Romeral,≥ 1.000,1.8,90,10
+H,0,Salamanca,comuna,Salamanca,≥ 2.000,1.8,90,10
+H,0,San Clemente,comuna,San Clemente,≥ 1.000,1.8,90,10
+H,0,San Esteban,comuna,San Esteban,≥ 2.000,1.8,90,10
+H,0,San Fabián,comuna,San Fabián,≥ 1.000,1.8,90,10
+H,0,San Fernando,comuna,San Fernando,≥ 1.000,1.8,90,10
+H,0,San José de Maipo,comuna,San José de Maipo,≥ 2.000,1.8,90,10
+H,1,San Pedro de Atacama,comuna,San Pedro de Atacama,≥ 3.000,0.4,27,10
+H,0,Santa Bárbara,comuna,Santa Bárbara,≥ 1.000,1.8,90,10
+H,0,Taltal,comuna,Taltal,≥ 3.000,1.8,90,10
+H,0,Teno,comuna,Teno,≥ 1.000,1.8,90,10
+H,0,Tierra Amarilla,comuna,Tierra Amarilla,≥ 3.000,1.8,90,10
+H,0,Tucapel,comuna,Tucapel,≥ 1.000,1.8,90,10
+H,0,Vicuña,comuna,Vicuña,≥ 3.000,1.8,90,10
+H,0,Yungay,comuna,Yungay,≥ 1.000,1.8,90,10
+H,1,Calama y San Pedro de Atacama,grupo,,,0.4,27,10
+H,0,Todas las comunas excepto Calama y San Pedro de Atacama,resto,,,1.8,90,10
+I,0,Aysén,comuna,Aisén,,1.8,98,10
+I,1,Antártica chilena,grupo,,,-6.8,88,10
+I,0,Cabo de Hornos,comuna,Cabo de Hornos,,-1.6,93,10
+I,0,Chile Chico,comuna,Chile Chico,,-0.4,95,10
+I,0,Cisnes,comuna,Cisnes,,1.8,98,10
+I,0,Cochrane,comuna,Cochrane,,-1.6,93,10
+I,0,Coihaique,comuna,Coihaique,,-0.4,95,10
+I,1,Futaleufú,comuna,Futaleufú,,-5.6,86,10
+I,0,Guaitecas,comuna,Guaitecas,,1.8,98,10
+I,0,Lago Verde,comuna,Lago Verde,,-0.4,95,10
+I,0,Laguna Blanca,comuna,Laguna Blanca,,-1.6,93,10
+I,0,Natales,comuna,Natales,,-1.6,93,10
+I,0,O'Higgins,comuna,O'Higgins,,-1.6,93,11
+I,1,Palena,comuna,Palena,,-5.6,86,11
+I,0,Porvenir,comuna,Porvenir,,-1.6,93,11
+I,0,Primavera,comuna,Primavera,,-1.6,93,11
+I,0,Punta Arenas,comuna,Punta Arenas,,-1.6,93,11
+I,0,Río Ibáñez,comuna,Río Ibáñez,,-0.4,95,11
+I,0,Río Verde,comuna,Río Verde,,-1.6,93,11
+I,0,San Gregorio,comuna,San Gregorio,,-1.6,93,11
+I,0,Timaukel,comuna,Timaukel,,-1.6,93,11
+I,0,Torres del Paine,comuna,Torres del Paine,,-1.6,93,11
+I,0,Tortel,comuna,Tortel,,-1.6,93,11
+I,1,Futaleufú y Palena,grupo,,,-5.6,86,11
+I,0,"Todas las comunas excepto Antártica chilena, Futaleufú y Palena",resto,,,-1.6,93,11

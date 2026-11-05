@@ -1,0 +1,16 @@
+id: zona-06
+categoria: zona
+critical: false
+pregunta: La comuna Antártica, ¿qué zona térmica es?
+esperado:
+  hechos:
+  - descripcion: No está en la tabla oficial / pendiente
+    patrones:
+    - no (est[aá]|figura|aparece)|pendiente|no asigna
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'La comuna Antártica no figura en la tabla MINVU: responder pendiente y remitir a DITEC.'
+fuentes:
+- ds15-tabla-zonas
+- references/zonificacion.md

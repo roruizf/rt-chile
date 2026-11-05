@@ -1,0 +1,17 @@
+id: infiltracion-04
+categoria: trampa
+critical: false
+pregunta: La permeabilidad al aire exigida es clase 2 máximo, ¿no?
+esperado:
+  hechos:
+  - descripcion: Es mínima (≥)
+    patrones:
+    - m[ií]nim|igual o mayor|≥
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'No: es una clase mínima (≥) según la zona, no un máximo (Tabla 9/16): A sin exigencia; B y C ≥1; D, E y F ≥2; G,
+  H e I ≥3; la clase 3 es más exigente que la 1. La infiltración de la envolvente sí es un máximo en ach, por provincia. Puede
+  pedir la zona; hoteles exentos.'
+fuentes:
+- references/trampas.md

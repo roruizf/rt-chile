@@ -1,0 +1,40 @@
+name: Error normativo
+description: Un valor, cita o criterio incorrecto en una respuesta de la skill
+title: "[Error] "
+labels: ["error-normativo"]
+body:
+  - type: markdown
+    attributes:
+      value: "No incluyas texto, tablas ni fórmulas de normas NCh, ni datos de clientes. Basta con el código de la norma y la cláusula."
+  - type: textarea
+    id: pregunta
+    attributes:
+      label: Pregunta que hiciste
+    validations:
+      required: true
+  - type: textarea
+    id: respuesta
+    attributes:
+      label: Qué respondió la skill
+      description: La parte incorrecta, con su cita si la tenía.
+    validations:
+      required: true
+  - type: textarea
+    id: correcto
+    attributes:
+      label: Qué debería decir y qué fuente lo respalda
+      description: "Instrumento, artículo o numeral, tabla y link. Por ejemplo: DS 15, Tabla 1, zona F."
+    validations:
+      required: true
+  - type: input
+    id: agente
+    attributes:
+      label: Agente y modelo
+      placeholder: "Claude Code, OpenCode con DeepSeek, Codex..."
+    validations:
+      required: true
+  - type: input
+    id: fecha
+    attributes:
+      label: Fecha de la consulta
+      placeholder: "2026-11-05"

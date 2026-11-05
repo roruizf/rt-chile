@@ -1,0 +1,16 @@
+id: infiltracion-02
+categoria: infiltracion
+critical: false
+pregunta: 'Zona G: ¿qué clase de permeabilidad al aire deben tener las ventanas?'
+esperado:
+  hechos:
+  - descripcion: Clase 3 (mínima)
+    patrones:
+    - \b3\b
+  citas:
+  - Tabla\s*9
+  prohibidos: []
+  cierre: true
+rubrica: Clase ≥ 3 a 100 Pa (Tabla 9).
+fuentes:
+- ds15-2024

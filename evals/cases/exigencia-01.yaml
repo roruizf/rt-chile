@@ -1,0 +1,27 @@
+id: exigencia-01
+categoria: exigencia
+critical: true
+pregunta: 'Casa en Angol (sin PDA): ¿U máximo de muro, techumbre y piso ventilado?'
+esperado:
+  hechos:
+  - descripcion: Zona F
+    patrones:
+    - zona\s*(t[eé]rmica\s*)?F\b
+  - descripcion: Muro 0,45
+    patrones:
+    - 0[,.]45
+  - descripcion: Techo 0,28
+    patrones:
+    - 0[,.]28
+  - descripcion: Piso 0,50
+    patrones:
+    - 0[,.]50?\b
+  citas:
+  - Tabla\s*1
+  - DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: 'Angol zona F: techumbre 0,28, muro 0,45, piso ventilado 0,50 (Tabla 1).'
+fuentes:
+- ds15-2024
+- references/exigencias-A-envolvente.md

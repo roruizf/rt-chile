@@ -1,0 +1,19 @@
+id: exigencia-05
+categoria: exigencia
+critical: false
+pregunta: ¿Qué R100 mínimo necesita el aislante de techumbre en zona E para cumplir por la vía del rotulado?
+esperado:
+  hechos:
+  - descripcion: R100 303
+    patrones:
+    - \b303\b
+  - descripcion: NCh 2251
+    patrones:
+    - NCh\s*2251
+  citas:
+  - Tabla\s*2
+  prohibidos: []
+  cierre: true
+rubrica: Zona E techumbre R100 ≥ 303 (Tabla 2), aislante rotulado NCh 2251.
+fuentes:
+- ds15-2024

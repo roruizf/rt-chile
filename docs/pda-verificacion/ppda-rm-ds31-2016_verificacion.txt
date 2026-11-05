@@ -1,0 +1,10 @@
+Verificación ppda-rm-ds31-2016 (DS 31/2016 MMA, D.O. 24-11-2017) — PDF ppda-rm-ds31.pdf (90 págs., copia LeyChile 22-May-2018)
+
+No hay tablas térmicas de vivienda que transcribir: CSV sólo con encabezado.
+Búsqueda de texto completo (pymupdf) por: térmic, envolvente, aislaci, transmitancia, R100, infiltraci,
+NCh853, permiso de edificación, vivienda nueva, inmobiliari.
+- Únicas coincidencias vinculadas a vivienda: Arts. 88-91 (págs. 64-65), sección VII.4/VII.5.
+- "R100", "infiltraci", "NCh853", "permiso de edificación", "vivienda nueva": 0 coincidencias.
+- Imágenes en págs. 61-66: logo BCN (cabecera) + Tabla VII-1 "Emisión de calefactores" (Art. 83, pág. 63) y
+  tablas de otras materias (págs. 61, 66); ninguna es tabla de envolvente.
+Resultado: CONFIRMADO que el DS 31/2016 NO fija exigencias de envolvente térmica para vivienda nueva.

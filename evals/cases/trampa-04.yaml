@@ -1,0 +1,15 @@
+id: trampa-04
+categoria: trampa
+critical: false
+pregunta: El PDA de Temuco es el DS 8 de 2025, ¿correcto?
+esperado:
+  hechos:
+  - descripcion: DS 8/2023, publicado 2025
+    patrones:
+    - '2023'
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Hay que corregir: es el DS N°8 de 2023 (MMA), publicado en el D.O. el 07-03-2025; 2025 es la fecha de publicación.'
+fuentes:
+- pda-temuco-ds8-2025

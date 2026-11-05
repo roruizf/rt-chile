@@ -1,0 +1,18 @@
+id: supuestos-02
+categoria: supuestos
+critical: false
+pregunta: Vivienda en Calama, no sé la altitud. ¿Qué U de techumbre debo cumplir?
+esperado:
+  hechos:
+  - descripcion: Escenarios B y H
+    patrones:
+    - \bB\b[\s\S]*\bH\b|\bH\b[\s\S]*\bB\b
+  - descripcion: Supuesto o pedir altitud
+    patrones:
+    - supuesto|altitud
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: Calama B (<3.000) o H (≥3.000).
+fuentes:
+- ds15-tabla-zonas

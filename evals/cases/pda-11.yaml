@@ -1,0 +1,22 @@
+id: pda-11
+categoria: pda
+critical: true
+pregunta: 'Condominio de 6 casas en Temuco: ¿cuántas viviendas hay que ensayar por infiltración (blower door) y según qué
+  tabla?'
+esperado:
+  hechos:
+  - descripcion: 1 vivienda (lote < 11)
+    patrones:
+    - \b1\b|una vivienda
+  - descripcion: Tabla Nº 14 del plan
+    patrones:
+    - Tabla\s*N?[°º]?\s*14
+  citas:
+  - DS\s*(N[°º]\s*)?8
+  prohibidos: []
+  cierre: true
+rubrica: 'En PDA Temuco manda la Tabla Nº 14 del DS 8/2023: lote <11 → 1 vivienda. Falla si dice que en Temuco la muestra
+  queda pendiente o sin definir. Caso de la prueba G2.'
+fuentes:
+- pda-temuco-ds8-2025
+- references/pda-ppa.md

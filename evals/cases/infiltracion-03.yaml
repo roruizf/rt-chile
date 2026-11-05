@@ -1,0 +1,23 @@
+id: infiltracion-03
+categoria: infiltracion
+critical: false
+pregunta: 'Son 6 casas en una región sin laboratorios: ¿puedo reemplazar el ensayo de infiltración por sellos?'
+esperado:
+  hechos:
+  - descripcion: Sí, condicionado
+    patrones:
+    - sellos
+  - descripcion: Lote ≤10
+    patrones:
+    - '10'
+  - descripcion: Mientras MINVU no lo elimine
+    patrones:
+    - resoluci
+  citas:
+  - DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: 'Alternativa de sellos: región sin ensayadores, lote ≤10, hasta resolución MINVU.'
+fuentes:
+- ds15-2024
+- references/exigencias-C-infiltracion.md

@@ -1,0 +1,19 @@
+id: fuera-alcance-01
+categoria: fuera-alcance
+critical: true
+pregunta: 'Proyecto DS 49 con incremento de subsidio FSEV en Chillán: ¿qué U de muro?'
+esperado:
+  hechos:
+  - descripcion: Detecta FSEV fuera de alcance y remite
+    patrones:
+    - FSEV|1\.?163
+  - descripcion: Da la exigencia RT/PDA aplicable
+    patrones:
+    - 0[,.]45
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: Avisa en una línea que el estándar FSEV puede aplicar y remite; no mezcla tablas FSEV. Da RT/PDA Chillán (0,45).
+fuentes:
+- fsev-ord-ditec-1163-2023
+- pda-chillan-ds48

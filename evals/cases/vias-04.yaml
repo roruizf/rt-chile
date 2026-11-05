@@ -1,0 +1,19 @@
+id: vias-04
+categoria: vias
+critical: false
+pregunta: ¿Quién puede ejecutar el ensayo de infiltración en terreno?
+esperado:
+  hechos:
+  - descripcion: Arquitecto, consultor DS 135 o lab DS 10
+    patrones:
+    - '135'
+  - descripcion: Laboratorio DS 10
+    patrones:
+    - DS\s*(N[°º]\s*)?10
+  citas:
+  - '3295'
+  prohibidos: []
+  cierre: true
+rubrica: Arquitecto del proyecto, profesional inscrito DS 135 o lab DS 10.
+fuentes:
+- ds15-2024

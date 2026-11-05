@@ -1,0 +1,56 @@
+plan_id,nombre,decreto,exige_envolvente,comuna,cobertura,nota
+pda-temuco-ds8-2025,PDA Temuco y Padre Las Casas,DS 8/2023 MMA (D.O. 07-03-2025),si,Temuco,total,
+pda-temuco-ds8-2025,PDA Temuco y Padre Las Casas,DS 8/2023 MMA (D.O. 07-03-2025),si,Padre Las Casas,total,
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Graneros,total,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Rancagua,total,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Doñihue,total,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Olivar,total,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Coltauco,total,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Coinco,total,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Quinta de Tilcoco,total,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,San Vicente,total,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Placilla,total,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Mostazal,parcial,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Codegua,parcial,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Machalí,parcial,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Malloa,parcial,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Rengo,parcial,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Requínoa,parcial,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,San Fernando,parcial,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+pda-ohiggins-ds1-2021,PDA Valle Central de O'Higgins,DS 1/2021 MMA (D.O. 29-03-2023),si,Chimbarongo,parcial,"Parcial: límites de zona saturada DS 7/2009, DS 82/2009 y DS 42/2017"
+ppa-quillota-ds18-2023,"PPDA Quillota, Catemu, Panquehue y Llaillay",DS 18/2023 MMA (D.O. 23-10-2025),si,Quillota,total,
+ppa-quillota-ds18-2023,"PPDA Quillota, Catemu, Panquehue y Llaillay",DS 18/2023 MMA (D.O. 23-10-2025),si,La Cruz,total,
+ppa-quillota-ds18-2023,"PPDA Quillota, Catemu, Panquehue y Llaillay",DS 18/2023 MMA (D.O. 23-10-2025),si,Calera,total,"El decreto dice ""La Calera""; la tabla de zonas la llama ""Calera"""
+ppa-quillota-ds18-2023,"PPDA Quillota, Catemu, Panquehue y Llaillay",DS 18/2023 MMA (D.O. 23-10-2025),si,Nogales,total,
+ppa-quillota-ds18-2023,"PPDA Quillota, Catemu, Panquehue y Llaillay",DS 18/2023 MMA (D.O. 23-10-2025),si,Hijuelas,total,
+ppa-quillota-ds18-2023,"PPDA Quillota, Catemu, Panquehue y Llaillay",DS 18/2023 MMA (D.O. 23-10-2025),si,Catemu,total,
+ppa-quillota-ds18-2023,"PPDA Quillota, Catemu, Panquehue y Llaillay",DS 18/2023 MMA (D.O. 23-10-2025),si,Panquehue,total,
+ppa-quillota-ds18-2023,"PPDA Quillota, Catemu, Panquehue y Llaillay",DS 18/2023 MMA (D.O. 23-10-2025),si,Llaillay,total,
+pda-talca-ds49-2016,PDA Talca y Maule,DS 49/2015 MMA (D.O. 28-03-2016),si,Talca,total,
+pda-talca-ds49-2016,PDA Talca y Maule,DS 49/2015 MMA (D.O. 28-03-2016),si,Maule,total,
+pda-chillan-ds48,PPDA Chillán y Chillán Viejo,DS 48 MMA (D.O. 28-03-2016),si,Chillán,total,"Matriz interna previa menciona expansión 2025 (+11 comunas): instrumento no identificado, pendiente"
+pda-chillan-ds48,PPDA Chillán y Chillán Viejo,DS 48 MMA (D.O. 28-03-2016),si,Chillán Viejo,total,"Matriz interna previa menciona expansión 2025 (+11 comunas): instrumento no identificado, pendiente"
+pda-curico-ds44-2017,PDA Valle Central de la Provincia de Curicó,DS 44/2017 MMA (D.O. 20-12-2019),si,Curicó,parcial,Dentro de los límites de la zona saturada DS 53/2015 (valle central)
+pda-curico-ds44-2017,PDA Valle Central de la Provincia de Curicó,DS 44/2017 MMA (D.O. 20-12-2019),si,Teno,parcial,Dentro de los límites de la zona saturada DS 53/2015 (valle central)
+pda-curico-ds44-2017,PDA Valle Central de la Provincia de Curicó,DS 44/2017 MMA (D.O. 20-12-2019),si,Rauco,parcial,Dentro de los límites de la zona saturada DS 53/2015 (valle central)
+pda-curico-ds44-2017,PDA Valle Central de la Provincia de Curicó,DS 44/2017 MMA (D.O. 20-12-2019),si,Romeral,parcial,Dentro de los límites de la zona saturada DS 53/2015 (valle central)
+pda-curico-ds44-2017,PDA Valle Central de la Provincia de Curicó,DS 44/2017 MMA (D.O. 20-12-2019),si,Sagrada Familia,parcial,Dentro de los límites de la zona saturada DS 53/2015 (valle central)
+pda-curico-ds44-2017,PDA Valle Central de la Provincia de Curicó,DS 44/2017 MMA (D.O. 20-12-2019),si,Molina,parcial,Dentro de los límites de la zona saturada DS 53/2015 (valle central)
+ppa-concepcion-ds6-2018,PPDA Concepción Metropolitano,DS 6/2018 MMA (D.O. 17-12-2019),si,Lota,total,
+ppa-concepcion-ds6-2018,PPDA Concepción Metropolitano,DS 6/2018 MMA (D.O. 17-12-2019),si,Coronel,total,
+ppa-concepcion-ds6-2018,PPDA Concepción Metropolitano,DS 6/2018 MMA (D.O. 17-12-2019),si,San Pedro de la Paz,total,
+ppa-concepcion-ds6-2018,PPDA Concepción Metropolitano,DS 6/2018 MMA (D.O. 17-12-2019),si,Hualqui,total,
+ppa-concepcion-ds6-2018,PPDA Concepción Metropolitano,DS 6/2018 MMA (D.O. 17-12-2019),si,Chiguayante,total,
+ppa-concepcion-ds6-2018,PPDA Concepción Metropolitano,DS 6/2018 MMA (D.O. 17-12-2019),si,Concepción,total,
+ppa-concepcion-ds6-2018,PPDA Concepción Metropolitano,DS 6/2018 MMA (D.O. 17-12-2019),si,Penco,total,
+ppa-concepcion-ds6-2018,PPDA Concepción Metropolitano,DS 6/2018 MMA (D.O. 17-12-2019),si,Tomé,total,
+ppa-concepcion-ds6-2018,PPDA Concepción Metropolitano,DS 6/2018 MMA (D.O. 17-12-2019),si,Hualpén,total,
+ppa-concepcion-ds6-2018,PPDA Concepción Metropolitano,DS 6/2018 MMA (D.O. 17-12-2019),si,Talcahuano,total,
+pda-los-angeles-ds4-2017,PDA Los Ángeles,DS 4/2017 MMA (D.O. 25-01-2019),si,Los Ángeles,total,Zona saturada DS 11/2015
+pda-valdivia-ds25-2016,PDA Valdivia,DS 25/2016 MMA (D.O. 23-06-2017),si,Valdivia,total,
+pda-osorno-ds47-2015,PDA Osorno,DS 47/2015 MMA (D.O. 28-03-2016),si,Osorno,total,
+pda-coyhaique-ds7-2018,PDA Coyhaique y su zona circundante,DS 7/2018 MMA (D.O. 17-07-2019),si,Coihaique,parcial,Polígono de 5 vértices UTM (Art. 1)
+ppa-cqp-ds105-2018,"PPDA Concón, Quintero y Puchuncaví",DS 105/2018 MMA (D.O. 30-03-2019),no,Concón,total,Sin exigencia de envolvente a vivienda: rige Art. 4.1.10
+ppa-cqp-ds105-2018,"PPDA Concón, Quintero y Puchuncaví",DS 105/2018 MMA (D.O. 30-03-2019),no,Quintero,total,Sin exigencia de envolvente a vivienda: rige Art. 4.1.10
+ppa-cqp-ds105-2018,"PPDA Concón, Quintero y Puchuncaví",DS 105/2018 MMA (D.O. 30-03-2019),no,Puchuncaví,total,Sin exigencia de envolvente a vivienda: rige Art. 4.1.10
+ppda-rm-ds31-2016,PPDA Región Metropolitana,DS 31/2016 MMA (D.O. 24-11-2017),no,*Región Metropolitana,total,Sin exigencia de envolvente a vivienda nueva; prohibiciones de leña Arts. 74-77

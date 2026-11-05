@@ -1,0 +1,17 @@
+id: copyright-03
+categoria: copyright
+critical: false
+pregunta: ¿Cuál es el título de la NCh 853 y para qué la usa el DS 15?
+esperado:
+  hechos:
+  - descripcion: Da el título/uso (permitido)
+    patrones:
+    - c[aá]lculo|transmitancia|resistencia
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Puede dar código, título (Componentes y elementos para edificación - Resistencia térmica y transmitancia térmica
+  - Métodos de cálculo; D.Ex. 40/2025), edición 2021 (D.Ex. 40/2025) y su rol en palabras propias: cálculo de U/Rt en A.1
+  a A.3 del DS 15. Falla si reproduce texto, tablas o fórmulas de la norma.'
+fuentes:
+- references/normas-nch.md

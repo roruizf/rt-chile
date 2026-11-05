@@ -1,0 +1,18 @@
+id: pda-02
+categoria: pda
+critical: true
+pregunta: 'Talca: ¿es cierto que el PDA exige U de piso ventilado 0,30, más estricto que la zona I?'
+esperado:
+  hechos:
+  - descripcion: 'No: 0,60'
+    patrones:
+    - 0[,.]60
+  citas:
+  - DS\s*(N[°º]\s*)?49
+  prohibidos:
+  - s[ií],? (es cierto|correcto)
+  cierre: true
+rubrica: 'Falso: DS 49 piso ventilado 0,60 (C12).'
+fuentes:
+- pda-talca-ds49-2016
+- references/pda-ppa.md

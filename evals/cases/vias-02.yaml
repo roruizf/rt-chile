@@ -1,0 +1,19 @@
+id: vias-02
+categoria: vias
+critical: false
+pregunta: Tengo un ensayo de transmitancia de 2013 de mi panel. ¿Me sirve?
+esperado:
+  hechos:
+  - descripcion: Máximo 10 años
+    patrones:
+    - 10\s*años
+  - descripcion: Laboratorio DS 10
+    patrones:
+    - DS\s*(N[°º]\s*)?10
+  citas:
+  - DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: Informe de ensayo ≤10 años desde su realización, lab DS 10.
+fuentes:
+- ds15-2024

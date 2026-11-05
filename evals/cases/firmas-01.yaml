@@ -1,0 +1,17 @@
+id: firmas-01
+categoria: firmas
+critical: false
+pregunta: ¿Quién firma la memoria de cálculo de condensación?
+esperado:
+  hechos:
+  - descripcion: Profesional competente/especialista + arquitecto
+    patrones:
+    - arquitect
+  citas:
+  - DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: 'Inc. 4°: profesional + arquitecto suscribe.'
+fuentes:
+- ds15-2024
+- references/roles-firmas-expediente.md

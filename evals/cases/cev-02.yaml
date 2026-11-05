@@ -1,0 +1,17 @@
+id: cev-02
+categoria: cev
+critical: true
+pregunta: ¿Cuál es el valor de demanda energética máximo para usar la vía alternativa del 4.1.10?
+esperado:
+  hechos:
+  - descripcion: Pendiente, no publicado
+    patrones:
+    - pendiente|no (est[aá]|ha sido) publicad|no se ha fijado
+  citas: []
+  prohibidos:
+  - umbral[^.\n]{0,40}(es|de|=)\s*\d+\s*kWh/m
+  cierre: true
+rubrica: Umbral pendiente; rige 36 meses desde publicación (≈mayo 2027). No inventar valor.
+fuentes:
+- umbral-demanda-cev
+- ds15-2024

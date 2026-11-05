@@ -1,0 +1,5 @@
+recintos_docentes_min,recintos_docentes_max,tamano_muestra
+5,16,2
+17,24,3
+25,32,4
+33,,10%

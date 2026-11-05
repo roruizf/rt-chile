@@ -1,0 +1,16 @@
+id: exigencia-10
+categoria: exigencia
+critical: false
+pregunta: Tengo un lucernario (ventana en techumbre) en zona D. ¿Qué U debe tener?
+esperado:
+  hechos:
+  - descripcion: U ≤ 3,6
+    patrones:
+    - 3[,.]6
+  citas:
+  - DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: 'Ventanas en techumbre (≤60°) en zonas B–I: U ≤ 3,6.'
+fuentes:
+- ds15-2024

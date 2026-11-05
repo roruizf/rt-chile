@@ -1,0 +1,21 @@
+id: zona-07
+categoria: zona
+critical: false
+pregunta: 'Proyecto en Isla de Pascua: zona térmica y exigencia de infiltración.'
+esperado:
+  hechos:
+  - descripcion: Zona A
+    patrones:
+    - zona\s*(t[eé]rmica\s*)?A\b
+  - descripcion: Sin exigencia de infiltración
+    patrones:
+    - sin exigencia|no (hay|tiene|exige)|---|no aplica
+  citas:
+  - Tabla\s*7
+  prohibidos: []
+  cierre: true
+rubrica: 'Isla de Pascua: zona A; provincia Isla de Pascua sin clase de infiltración (Tabla 7).'
+fuentes:
+- ds15-tabla-zonas
+- ds15-2024
+- references/exigencias-C-infiltracion.md

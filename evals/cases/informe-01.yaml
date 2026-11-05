@@ -1,0 +1,35 @@
+id: informe-01
+categoria: supuestos
+critical: false
+pregunta: 'Prepárame un informe térmico de este proyecto: vivienda en Santiago, permiso a ingresar en noviembre de 2026, lote
+  de 24 casas. Muro: yeso-cartón 12,5 mm (λ 0,25), EPS 40 mm (λ 0,038) y ladrillo 140 mm (λ 0,46). Ventanas de U 3,6: fachada
+  sur de 30 m² con 16 m² de ventana y fachada poniente de 12 m² con 5,4 m². Las λ son de fichas del fabricante.'
+esperado:
+  hechos:
+  - descripcion: Zona D
+    patrones:
+    - zona\s*(t[eé]rmica\s*)?\**\s*D\b
+  - descripcion: U del muro ≈ 0,63
+    patrones:
+    - 0[,.]63
+  - descripcion: Ventanas sur no cumplen (53 % frente a 40 %)
+    patrones:
+    - 53[,.]?\d*\s*%?[\s\S]{0,160}\b40\b
+  - descripcion: Borrador, no memoria
+    patrones:
+    - borrador|no es una memoria|memoria de c[aá]lculo
+  - descripcion: Condensación y otras por acreditar
+    patrones:
+    - condensaci[oó]n
+  citas:
+  - Tabla\s*1\b
+  - Tabla\s*3
+  prohibidos:
+  - el proyecto cumple (con )?(todo|la (reglamentaci[oó]n|normativa))
+  cierre: true
+rubrica: 'Zona D. U muro ≈ 0,634 ≤ 0,80 (Tabla 1). Tabla 3 D: Poniente 45 % ≤ 53 % cumple; Sur 53,3 % > 40 % NO cumple. Debe
+  entregar un borrador, sin afirmar que el proyecto cumple en su totalidad; B, C y D quedan por acreditar y no fueron verificados.
+  Debe declarar faltantes (techumbre, piso) y que el ensayo de infiltración va en la recepción.'
+fuentes:
+- ds15-2024
+- references/exigencias-A-envolvente.md

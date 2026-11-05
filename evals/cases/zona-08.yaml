@@ -1,0 +1,16 @@
+id: zona-08
+categoria: zona
+critical: false
+pregunta: ¿La Serena es zona B o C?
+esperado:
+  hechos:
+  - descripcion: Depende del meridiano 71°
+    patrones:
+    - 71\s*°|meridiano|longitud
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'La Serena: C al oeste de 71° (>71° W) y B al este (≤71°). Debe pedir ubicación o dar ambos escenarios.'
+fuentes:
+- ds15-tabla-zonas
+- references/zonificacion.md

@@ -1,0 +1,5 @@
+elemento,direccion_flujo,rsi_m2k_w,rse_m2k_w
+techo,ascendente,0.10,0.04
+muro,horizontal,0.13,0.04
+piso_ventilado,descendente,0.17,0.04
+mobiliario_opcional_todos,todas,0.25,0.04

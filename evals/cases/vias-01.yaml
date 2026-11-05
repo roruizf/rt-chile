@@ -1,0 +1,18 @@
+id: vias-01
+categoria: vias
+critical: true
+pregunta: Si uso una solución LOSCAT para el muro, ¿ya no necesito memoria de condensación?
+esperado:
+  hechos:
+  - descripcion: Sí necesita memoria de condensación
+    patrones:
+    - s[ií]|igual|memoria
+  citas:
+  - 1973|1802
+  prohibidos:
+  - no necesit
+  cierre: true
+rubrica: LOSCAT no acredita B; memoria NCh 1973 + Res. Ex. 1802 siempre.
+fuentes:
+- ds15-2024
+- references/vias-acreditacion.md

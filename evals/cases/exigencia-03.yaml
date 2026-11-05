@@ -1,0 +1,20 @@
+id: exigencia-03
+categoria: trampa
+critical: false
+pregunta: Si estoy en zona I la exigencia de muro tiene que ser la más estricta de todas, ¿cierto?
+esperado:
+  hechos:
+  - descripcion: 'No: I 0,35 es menos exigente que H 0,30'
+    patrones:
+    - 0[,.]35
+  - descripcion: Menciona H 0,30
+    patrones:
+    - 0[,.]30
+  citas:
+  - Tabla\s*1
+  prohibidos: []
+  cierre: true
+rubrica: 'Corrige la premisa: muro zona I 0,35 vs H 0,30.'
+fuentes:
+- ds15-2024
+- references/trampas.md

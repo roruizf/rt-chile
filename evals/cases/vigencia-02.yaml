@@ -1,0 +1,18 @@
+id: vigencia-02
+categoria: vigencia
+critical: true
+pregunta: ¿Puedo usar una solución de la edición 13 del LOSCAT?
+esperado:
+  hechos:
+  - descripcion: 'No: vencidas 26-11-2025'
+    patrones:
+    - vencid|26[-/.]11[-/.]2025|no
+  citas:
+  - LOSCAT
+  prohibidos: []
+  cierre: true
+rubrica: 'No: todas las soluciones de la E13 vencieron el 26-11-2025. Usar la E14 (última edición) y verificar la vigencia
+  de la ficha a la fecha.'
+fuentes:
+- loscat-e13
+- references/loscat.md

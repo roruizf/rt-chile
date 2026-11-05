@@ -1,0 +1,23 @@
+VERIFICACIÓN pda-ohiggins-ds1-2021
+Método: cada tabla se renderizó a PNG (200 dpi, pymupdf) y se pasó por RapidOCR; se comparó el multiconjunto de números del OCR
+(coma->punto, redondeo 2 dec.) con los valores numéricos de la columna `valor` del CSV para esa tabla. Además se buscó cada valor en la
+capa de texto de la página (get_text). "EXTRA" = números del OCR que no son celdas de valor (n.º de tabla, encabezados de columna
+de U de ventana, 50 Pa, 100 Pa, x100, rangos de lote 11/50/51/500/501, NCh2251, etc.): son esperados y no constituyen discrepancia.
+Detalle crudo (incluye tokens OCR): _ocr_raw.txt en esta carpeta.
+
+Fuente: TODAS las tablas 7-20 son IMÁGENES (la capa de texto de la página no contiene los valores; los "hallados" 2 y 5 en
+Tablas 10/18 son coincidencias con otro texto de la página). Transcripción hecha leyendo cada PNG + OCR independiente.
+RESULTADO por tabla:
+- Tabla 7 (p.14): OCR faltó 0.6 -> OCR leyó "09'0" (glifo 0,60 invertido/mal leído) = extra 0.0/9. Imagen revisada: 0,60. RESUELTO.
+- Tabla 8 (p.14): 263/125/167 OK.
+- Tabla 9 (p.15): 5 OK.  Tabla 10 (p.15): 2 OK.  Tabla 11 (p.16): 1-2-3-5 / ítemes 1 OK.
+- Tabla 12 (p.17): OCR faltó 0.38 y 0.8 -> OCR leyó "88'0" y "08'0" (extras 0.0/8/88). Imagen revisada: Techo 0,38; Muro 0,80. RESUELTO.
+- Tabla 13 (p.17): 263/125/167 OK.
+- Tabla 14 (p.18): 48 celdas %, 0 faltantes. Encabezados ≤0,6 y ≤0,8 leídos como "9`0>" y "8'0" (extras 0/8/9); demás encabezados
+  1,2…5,8 aparecen como extras esperados. Imagen revisada a 200 dpi: columnas ≤0,6 ≤0,8 ≤1,2 ≤1,6 ≤2,0 ≤2,4 ≤2,8 ≤3,2 ≤3,6 ≤4,0 ≤4,4 ≤5,8. OK.
+- Tabla 15 (p.18): rangos 315/45/135/225 OK (extras = rosa de los vientos 0/90/180/270 y n.º tabla 15).
+- Tabla 16 (p.19): 21 valores Upvm, 0 faltantes. OK.
+- Tabla 17 (p.20): 45 OK.  Tabla 18 (p.21): 5 OK.  Tabla 19 (p.21): 2 OK.  Tabla 20 (p.21): 1-2-3-5 / ítemes 1 OK.
+Control: Tabla 7 techo 0,38 muro 0,80 piso ventilado 0,60 puerta 1,70 -> CONFIRMADO (Tabla 12 idéntica).
+Observación: Tablas 8 y 13 imprimen unidad "[W/(m2K)]x100" para R100 (errata del decreto; se anota en CSV).
+Sin discrepancias pendientes.

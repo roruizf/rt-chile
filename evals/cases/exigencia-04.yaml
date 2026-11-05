@@ -1,0 +1,16 @@
+id: exigencia-04
+categoria: exigencia
+critical: false
+pregunta: ¿Las puertas exteriores tienen exigencia térmica en zona A?
+esperado:
+  hechos:
+  - descripcion: Sin exigencia en zona A
+    patrones:
+    - sin exigencia|no (tienen|hay|aplica|exige)
+  citas:
+  - Tabla\s*1
+  prohibidos: []
+  cierre: true
+rubrica: 'Puerta opaca: zona A sin exigencia; B–I U ≤ 1,70.'
+fuentes:
+- ds15-2024

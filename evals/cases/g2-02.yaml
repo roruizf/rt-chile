@@ -1,0 +1,37 @@
+id: g2-02
+categoria: exigencia
+critical: true
+pregunta: Colegio particular subvencionado de dos pisos en Arica, a 350 m de altitud, con salas de clases, comedor y gimnasio.
+  ¿Qué U y R100 le aplican? El sostenedor quiere saber además si tiene que hacer memoria de condensación, ensayo de infiltración
+  y informe de ventilación. Si en vez de colegio fuera un hotel en la misma comuna, ¿qué cambia?
+esperado:
+  hechos:
+  - descripcion: Zona A
+    patrones:
+    - zona\s*(t[eé]rmica\s*)?A\b
+  - descripcion: Tabla 10 educación
+    patrones:
+    - Tabla\s*10
+  - descripcion: Muro 2,00 (educación)
+    patrones:
+    - 2[,.]00?\b
+  - descripcion: Ventilación NCh 3308
+    patrones:
+    - NCh\s*3308
+  - descripcion: Hotel exento de B, C y D
+    patrones:
+    - exent|eximid
+  - descripcion: Hotel Tabla 12 ventanas
+    patrones:
+    - Tabla\s*12
+  citas:
+  - Tabla\s*10
+  prohibidos: []
+  cierre: true
+rubrica: 'Arica 350 m = zona A. Colegio: Tabla 10 (0,84/2,00/3,60), Tabla 11 (119/50/28), Tabla 12 (5,80), Tabla 13 sin exigencia;
+  B sí (clima Arica 13,6 °C/73 %), infiltración provincia Arica sin exigencia, permeabilidad zona A sin exigencia, D NCh 3308.
+  Hotel: Tablas 1, 2, 6 (muro 2,10; R100 48) + ventanas Tabla 12; exento de B, C y D.'
+fuentes:
+- ds15-2024
+- ds15-tabla-zonas
+- references/alcance-y-vigencia.md

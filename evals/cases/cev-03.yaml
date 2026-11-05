@@ -1,0 +1,16 @@
+id: cev-03
+categoria: cev
+critical: false
+pregunta: Mi inmobiliaria ya tiene la etiqueta CEV de la vivienda. ¿Con eso acredito el 4.1.10 en la recepción?
+esperado:
+  hechos:
+  - descripcion: 'No: CEV DS 5 es otro régimen'
+    patrones:
+    - no|distint|otro
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: CEV (DS 5/2024) no acredita el 4.1.10.
+fuentes:
+- ds5-2024-cev
+- references/trampas.md

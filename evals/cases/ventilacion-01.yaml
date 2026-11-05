@@ -1,0 +1,17 @@
+id: ventilacion-01
+categoria: ventilacion
+critical: false
+pregunta: ¿Puedo acreditar ventilación con la planilla 'Verificación de ventilación NCh 3309 V3.1'?
+esperado:
+  hechos:
+  - descripcion: La planilla usa NCh 3309:2014, desfase con 2022
+    patrones:
+    - '2014'
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Debe advertir el desfase: la planilla V3.1 usa NCh 3309:2014, mientras el visor sirve la 2022 y el MRT V1.04 ya
+  actualizó a esa edición; la edición oficial por decreto sigue pendiente. Falla si la da por válida sin advertirlo.'
+fuentes:
+- planilla-ventilacion-nch3309-v31
+- references/exigencias-D-ventilacion.md

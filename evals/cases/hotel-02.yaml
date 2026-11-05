@@ -1,0 +1,16 @@
+id: hotel-02
+categoria: hotel
+critical: false
+pregunta: ¿Un hotel debe acreditar ventilación según NCh 3309?
+esperado:
+  hechos:
+  - descripcion: 'No: hoteles exceptuados de D'
+    patrones:
+    - no|exceptu|exent|eximid
+  citas:
+  - DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: Num. 1.D exceptúa hoteles.
+fuentes:
+- ds15-2024

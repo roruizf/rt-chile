@@ -1,0 +1,19 @@
+id: firmas-02
+categoria: firmas
+critical: false
+pregunta: 'Condominio de 30 casas en Santiago: ¿cuántas viviendas se ensayan por infiltración?'
+esperado:
+  hechos:
+  - descripcion: 2 viviendas
+    patrones:
+    - \b2\b
+  - descripcion: Tabla 8
+    patrones:
+    - Tabla\s*8
+  citas:
+  - Tabla\s*8
+  prohibidos: []
+  cierre: true
+rubrica: Lote 11–50 → 2 (Tabla 8); rechazo → doble.
+fuentes:
+- ds15-2024

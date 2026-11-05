@@ -1,0 +1,17 @@
+id: trampa-01
+categoria: trampa
+critical: false
+pregunta: Me exigen U = 0,45 en el muro. ¿Cuántos mm de lana de vidrio pongo?
+esperado:
+  hechos:
+  - descripcion: U es del complejo; depende de capas/λ; vía cálculo o R100
+    patrones:
+    - complejo|capas|R100|depende
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'U es del complejo completo, con todas sus capas y resistencias superficiales: el espesor no sale directo; viene
+  de un cálculo (NCh 853 + Res. Ex. 1802) o de una ficha LOSCAT/R100 vigente. La vía R100 da un R100 mínimo del aislante,
+  no un U. Puede estimar un espesor si declara los supuestos.'
+fuentes:
+- references/trampas.md

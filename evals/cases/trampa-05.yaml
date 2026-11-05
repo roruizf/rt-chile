@@ -1,0 +1,16 @@
+id: trampa-05
+categoria: trampa
+critical: false
+pregunta: Según la lámina DITEC, Malleco no tiene exigencia de infiltración. ¿Es así?
+esperado:
+  hechos:
+  - descripcion: 'No: 5,00 según DS 15'
+    patrones:
+    - 5([,.]0+)?
+  citas:
+  - Tabla\s*7|DS\s*(N[°º]\s*)?15
+  prohibidos: []
+  cierre: true
+rubrica: 'No: el DS 15, Tablas 7 y 14, fija Malleco en 5,00 ach. La lámina DITEC la omite y prevalece el DS 15.'
+fuentes:
+- ds15-2024

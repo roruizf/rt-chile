@@ -1,0 +1,6 @@
+# Material privado de trabajo: NUNCA se versiona (copias NCh, PDFs descargados, extracciones)
+sources/private/
+*.pdf
+.venv/
+__pycache__/
+evals/results/*.jsonl

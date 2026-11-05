@@ -1,0 +1,411 @@
+region,provincia,comuna,zona,alt_min,alt_min_incl,alt_max,alt_max_incl,lon_oeste_min,lon_oeste_min_incl,lon_oeste_max,lon_oeste_max_incl,condicion_original
+De Arica y Parinacota,Arica,Arica,A,,,1100,0,,,,,< 1.100
+De Arica y Parinacota,Arica,Arica,B,1100,1,3000,0,,,,,altitud 1.100 ≤ < 3.000
+De Arica y Parinacota,Arica,Arica,H,3000,1,,,,,,,≥ 3.000
+De Arica y Parinacota,Arica,Camarones,A,,,1100,0,,,,,< 1.100
+De Arica y Parinacota,Arica,Camarones,B,1100,1,3000,0,,,,,altitud 1.100 ≤ < 3.000
+De Arica y Parinacota,Arica,Camarones,H,3000,1,,,,,,,≥ 3.000
+De Arica y Parinacota,Parinacota,Putre,H,3000,1,,,,,,,≥ 3.000
+De Arica y Parinacota,Parinacota,General Lagos,H,3000,1,,,,,,,≥ 3.000
+De Tarapacá,Iquique,Iquique,A,,,,,,,,,
+De Tarapacá,Tamarugal,Camiña,B,1100,1,3000,0,,,,,altitud 1.100 ≤ < 3.000
+De Tarapacá,Tamarugal,Camiña,H,3000,1,,,,,,,≥ 3.000
+De Tarapacá,Tamarugal,Colchane,H,,,,,,,,,
+De Tarapacá,Tamarugal,Huara,A,,,1100,0,,,,,< 1.100
+De Tarapacá,Tamarugal,Huara,B,1100,1,3000,0,,,,,altitud 1.100 ≤ < 3.000
+De Tarapacá,Tamarugal,Huara,H,3000,1,,,,,,,≥ 3.000
+De Tarapacá,Tamarugal,Pica,B,,,3000,0,,,,,< 3.000
+De Tarapacá,Tamarugal,Pica,H,3000,1,,,,,,,≥ 3.000
+De Tarapacá,Tamarugal,Pozo Almonte,B,,,3000,0,,,,,< 3.000
+De Tarapacá,Tamarugal,Pozo Almonte,H,3000,1,,,,,,,≥ 3.000
+De Tarapacá,Iquique,Alto Hospicio,A,,,,,,,,,
+De Antofagasta,Antofagasta,Antofagasta,A,,,,,70,1,,,≥ 70°
+De Antofagasta,Antofagasta,Antofagasta,B,,,3000,0,,,70,0,< 3.000 | < 70°
+De Antofagasta,Antofagasta,Antofagasta,H,3000,1,,,,,,,≥ 3.000
+De Antofagasta,Antofagasta,Mejillones,A,,,,,,,,,
+De Antofagasta,Antofagasta,Sierra Gorda,B,,,,,,,,,
+De Antofagasta,Antofagasta,Taltal,A,,,,,70,1,,,≥ 70°
+De Antofagasta,Antofagasta,Taltal,B,,,3000,0,,,70,0,< 3.000 | < 70°
+De Antofagasta,Antofagasta,Taltal,H,3000,1,,,,,,,≥ 3.000
+De Antofagasta,El Loa,Calama,B,,,3000,0,,,,,< 3.000
+De Antofagasta,El Loa,Calama,H,3000,1,,,,,,,≥ 3.000
+De Antofagasta,El Loa,Ollagüe,H,,,,,,,,,
+De Antofagasta,El Loa,San Pedro de Atacama,B,,,3000,0,,,,,< 3.000
+De Antofagasta,El Loa,San Pedro de Atacama,H,3000,1,,,,,,,≥ 3.000
+De Antofagasta,Tocopilla,Tocopilla,A,,,,,,,,,
+De Antofagasta,Tocopilla,María Elena,B,,,,,,,,,
+De Atacama,Copiapó,Copiapó,A,,,,,70.7333,0,,,> 70° 44'
+De Atacama,Copiapó,Copiapó,B,,,3000,0,,,70.7333,1,< 3.000 | ≤70° 44'
+De Atacama,Copiapó,Copiapó,H,3000,1,,,,,,,≥ 3.000
+De Atacama,Copiapó,Caldera,A,,,,,,,,,
+De Atacama,Copiapó,Tierra Amarilla,B,,,3000,0,,,,,< 3.000
+De Atacama,Copiapó,Tierra Amarilla,H,3000,1,,,,,,,≥ 3.000
+De Atacama,Chañaral,Chañaral,A,,,,,,,,,
+De Atacama,Chañaral,Diego de Almagro,B,,,3000,0,,,,,< 3.000
+De Atacama,Chañaral,Diego de Almagro,H,3000,1,,,,,,,≥ 3.000
+De Atacama,Huasco,Vallenar,B,,,,,,,,,
+De Atacama,Huasco,Alto del Carmen,B,,,3000,0,,,,,< 3.000
+De Atacama,Huasco,Alto del Carmen,H,3000,1,,,,,,,≥ 3.000
+De Atacama,Huasco,Freirina,A,,,,,,,,,
+De Atacama,Huasco,Huasco,A,,,,,,,,,
+De Coquimbo,Elqui,La Serena,C,,,,,71,0,,,> 71°
+De Coquimbo,Elqui,La Serena,B,,,,,,,71,1,≤ 71°
+De Coquimbo,Elqui,Coquimbo,C,,,,,,,,,
+De Coquimbo,Elqui,Andacollo,B,,,,,,,,,
+De Coquimbo,Elqui,La Higuera,C,,,,,71,0,,,> 71°
+De Coquimbo,Elqui,La Higuera,B,,,,,,,71,1,≤ 71°
+De Coquimbo,Elqui,Paiguano,B,,,3000,0,,,,,< 3.000
+De Coquimbo,Elqui,Paiguano,H,3000,1,,,,,,,≥ 3.000
+De Coquimbo,Elqui,Vicuña,B,,,3000,0,,,,,< 3.000
+De Coquimbo,Elqui,Vicuña,H,3000,1,,,,,,,≥ 3.000
+De Coquimbo,Choapa,Illapel,B,,,2000,0,,,,,< 2.000
+De Coquimbo,Choapa,Illapel,H,2000,1,,,,,,,≥ 2.000
+De Coquimbo,Choapa,Canela,C,,,,,,,,,
+De Coquimbo,Choapa,Los Vilos,C,,,,,,,,,
+De Coquimbo,Choapa,Salamanca,B,,,2000,0,,,,,< 2.000
+De Coquimbo,Choapa,Salamanca,H,2000,1,,,,,,,≥ 2.000
+De Coquimbo,Limari,Ovalle,C,,,,,71.25,0,,,> 71° 15'
+De Coquimbo,Limari,Ovalle,B,,,,,,,71.25,1,≤ 71° 15'
+De Coquimbo,Limari,Combarbalá,B,,,2000,0,,,,,< 2.000
+De Coquimbo,Limari,Combarbalá,H,2000,1,,,,,,,≥ 2.000
+De Coquimbo,Limari,Monte Patria,B,,,2000,0,,,,,< 2.000
+De Coquimbo,Limari,Monte Patria,H,2000,1,,,,,,,≥ 2.000
+De Coquimbo,Limari,Punitaqui,B,,,,,,,,,
+De Coquimbo,Limari,Río Hurtado,B,,,3000,0,,,,,< 3.000
+De Coquimbo,Limari,Río Hurtado,H,3000,1,,,,,,,≥ 3.000
+De Valparaíso,Valparaíso,Valparaíso,C,,,,,,,,,
+De Valparaíso,Valparaíso,Casablanca,C,,,,,,,,,
+De Valparaíso,Valparaíso,Concón,C,,,,,,,,,
+De Valparaíso,Valparaíso,Juan Fernández,C,,,,,,,,,
+De Valparaíso,Valparaíso,Puchuncaví,C,,,,,,,,,
+De Valparaíso,Marga Marga,Quilpué,D,,,,,,,,,
+De Valparaíso,Valparaíso,Quintero,C,,,,,,,,,
+De Valparaíso,Marga Marga,Villa Alemana,D,,,,,,,,,
+De Valparaíso,Valparaíso,Viña del Mar,C,,,,,,,,,
+De Valparaíso,Isla de Pascua,Isla de Pascua,A,,,,,,,,,
+De Valparaíso,Los Andes,Los Andes,D,,,2000,0,,,,,< 2.000
+De Valparaíso,Los Andes,Los Andes,H,2000,1,,,,,,,≥ 2.000
+De Valparaíso,Los Andes,Calle Larga,D,,,,,,,,,
+De Valparaíso,Los Andes,Rinconada,D,,,,,,,,,
+De Valparaíso,Los Andes,San Esteban,D,,,2000,0,,,,,< 2.000
+De Valparaíso,Los Andes,San Esteban,H,2000,1,,,,,,,≥ 2.000
+De Valparaíso,Petorca,La Ligua,C,,,,,71.25,0,,,> 71° 15'
+De Valparaíso,Petorca,La Ligua,D,,,,,,,71.25,1,≤ 71° 15'
+De Valparaíso,Petorca,Cabildo,D,,,2000,0,,,,,< 2.000
+De Valparaíso,Petorca,Cabildo,H,2000,1,,,,,,,≥ 2.000
+De Valparaíso,Petorca,Papudo,C,,,,,,,,,
+De Valparaíso,Petorca,Petorca,D,,,2000,0,,,,,< 2.000
+De Valparaíso,Petorca,Petorca,H,2000,1,,,,,,,≥ 2.000
+De Valparaíso,Petorca,Zapallar,C,,,,,,,,,
+De Valparaíso,Quillota,Quillota,D,,,,,,,,,
+De Valparaíso,Quillota,Calera,D,,,,,,,,,
+De Valparaíso,Quillota,Hijuelas,D,,,,,,,,,
+De Valparaíso,Quillota,La Cruz,D,,,,,,,,,
+De Valparaíso,Marga Marga,Limache,D,,,,,,,,,
+De Valparaíso,Quillota,Nogales,D,,,,,,,,,
+De Valparaíso,Marga Marga,Olmué,D,,,,,,,,,
+De Valparaíso,San Antonio,San Antonio,C,,,,,,,,,
+De Valparaíso,San Antonio,Algarrobo,C,,,,,,,,,
+De Valparaíso,San Antonio,Cartagena,C,,,,,,,,,
+De Valparaíso,San Antonio,El Quisco,C,,,,,,,,,
+De Valparaíso,San Antonio,El Tabo,C,,,,,,,,,
+De Valparaíso,San Antonio,Santo Domingo,C,,,,,,,,,
+De Valparaíso,San Felipe,San Felipe,D,,,,,,,,,
+De Valparaíso,San Felipe,Catemu,D,,,,,,,,,
+De Valparaíso,San Felipe,Llaillay,D,,,,,,,,,
+De Valparaíso,San Felipe,Panquehue,D,,,,,,,,,
+De Valparaíso,San Felipe,Putaendo,D,,,2000,0,,,,,< 2.000
+De Valparaíso,San Felipe,Putaendo,H,2000,1,,,,,,,≥ 2.000
+De Valparaíso,San Felipe,Santa María,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Santiago,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Cerrillos,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Cerro Navia,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Conchalí,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,El Bosque,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Estación Central,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Huechuraba,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Independencia,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,La Cisterna,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,La Florida,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,La Granja,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,La Pintana,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,La Reina,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Las Condes,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Lo Barnechea,D,,,2000,0,,,,,< 2.000
+Metropolitana de Santiago,Santiago,Lo Barnechea,H,2000,1,,,,,,,≥ 2.000
+Metropolitana de Santiago,Santiago,Lo Espejo,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Lo Prado,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Macul,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Maipú,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Ñuñoa,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Pedro Aguirre Cerda,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Peñalolén,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Providencia,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Pudahuel,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Quilicura,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Quinta Normal,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Recoleta,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Renca,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,San Joaquín,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,San Miguel,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,San Ramón,D,,,,,,,,,
+Metropolitana de Santiago,Santiago,Vitacura,D,,,,,,,,,
+Metropolitana de Santiago,Cordillera,Puente Alto,D,,,,,,,,,
+Metropolitana de Santiago,Cordillera,Pirque,D,,,,,,,,,
+Metropolitana de Santiago,Cordillera,San José de Maipo,D,,,2000,0,,,,,< 2.000
+Metropolitana de Santiago,Cordillera,San José de Maipo,H,2000,1,,,,,,,≥ 2.000
+Metropolitana de Santiago,Chacabuco,Colina,D,,,2000,0,,,,,< 2.000
+Metropolitana de Santiago,Chacabuco,Colina,H,2000,1,,,,,,,≥ 2.000
+Metropolitana de Santiago,Chacabuco,Lampa,D,,,,,,,,,
+Metropolitana de Santiago,Chacabuco,Tiltil,D,,,,,,,,,
+Metropolitana de Santiago,Maipo,San Bernardo,D,,,,,,,,,
+Metropolitana de Santiago,Maipo,Buin,D,,,,,,,,,
+Metropolitana de Santiago,Maipo,Calera de Tango,D,,,,,,,,,
+Metropolitana de Santiago,Maipo,Paine,D,,,,,,,,,
+Metropolitana de Santiago,Melipilla,Melipilla,D,,,,,,,,,
+Metropolitana de Santiago,Melipilla,Alhué,D,,,,,,,,,
+Metropolitana de Santiago,Melipilla,Curacaví,D,,,,,,,,,
+Metropolitana de Santiago,Melipilla,María Pinto,D,,,,,,,,,
+Metropolitana de Santiago,Melipilla,San Pedro,D,,,,,,,,,
+Metropolitana de Santiago,Talagante,Talagante,D,,,,,,,,,
+Metropolitana de Santiago,Talagante,El Monte,D,,,,,,,,,
+Metropolitana de Santiago,Talagante,Isla de Maipo,D,,,,,,,,,
+Metropolitana de Santiago,Talagante,Padre Hurtado,D,,,,,,,,,
+Metropolitana de Santiago,Talagante,Peñaflor,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Rancagua,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Codegua,D,,,1000,0,,,,,< 1.000
+Del Libertador B. O'Higgins,Cachapoal,Codegua,H,1000,1,,,,,,,≥ 1.000
+Del Libertador B. O'Higgins,Cachapoal,Coinco,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Coltauco,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Doñihue,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Graneros,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Las Cabras,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Machalí,D,,,1000,0,,,,,< 1.000
+Del Libertador B. O'Higgins,Cachapoal,Machalí,H,1000,1,,,,,,,≥ 1.000
+Del Libertador B. O'Higgins,Cachapoal,Malloa,D,,,1000,0,,,,,< 1.000
+Del Libertador B. O'Higgins,Cachapoal,Malloa,H,1000,1,,,,,,,≥ 1.000
+Del Libertador B. O'Higgins,Cachapoal,Mostazal,D,,,1000,0,,,,,< 1.000
+Del Libertador B. O'Higgins,Cachapoal,Mostazal,H,1000,1,,,,,,,≥ 1.000
+Del Libertador B. O'Higgins,Cachapoal,Olivar,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Peumo,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Pichidegua,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Quinta de Tilcoco,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cachapoal,Rengo,D,,,1000,0,,,,,< 1.000
+Del Libertador B. O'Higgins,Cachapoal,Rengo,H,1000,1,,,,,,,≥ 1.000
+Del Libertador B. O'Higgins,Cachapoal,Requínoa,D,,,1000,0,,,,,< 1.000
+Del Libertador B. O'Higgins,Cachapoal,Requínoa,H,1000,1,,,,,,,≥ 1.000
+Del Libertador B. O'Higgins,Cachapoal,San Vicente,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cardenal Caro,Pichilemu,C,,,,,,,,,
+Del Libertador B. O'Higgins,Cardenal Caro,La Estrella,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cardenal Caro,Litueche,C,,,,,,,,,
+Del Libertador B. O'Higgins,Cardenal Caro,Marchihue,D,,,,,,,,,
+Del Libertador B. O'Higgins,Cardenal Caro,Navidad,C,,,,,,,,,
+Del Libertador B. O'Higgins,Cardenal Caro,Paredones,C,,,,,,,,,
+Del Libertador B. O'Higgins,Colchagua,San Fernando,D,,,1000,0,,,,,< 1.000
+Del Libertador B. O'Higgins,Colchagua,San Fernando,H,1000,1,,,,,,,≥ 1.000
+Del Libertador B. O'Higgins,Colchagua,Chépica,D,,,,,,,,,
+Del Libertador B. O'Higgins,Colchagua,Chimbarongo,D,,,,,,,,,
+Del Libertador B. O'Higgins,Colchagua,Lolol,D,,,,,,,,,
+Del Libertador B. O'Higgins,Colchagua,Nancagua,D,,,,,,,,,
+Del Libertador B. O'Higgins,Colchagua,Palmilla,D,,,,,,,,,
+Del Libertador B. O'Higgins,Colchagua,Peralillo,D,,,,,,,,,
+Del Libertador B. O'Higgins,Colchagua,Placilla,D,,,,,,,,,
+Del Libertador B. O'Higgins,Colchagua,Pumanque,D,,,,,,,,,
+Del Libertador B. O'Higgins,Colchagua,Santa Cruz,D,,,,,,,,,
+Del Maule,Talca,Talca,D,,,,,,,,,
+Del Maule,Talca,Constitución,E,,,,,,,,,
+Del Maule,Talca,Curepto,E,,,,,,,,,
+Del Maule,Talca,Empedrado,E,,,,,,,,,
+Del Maule,Talca,Maule,D,,,,,,,,,
+Del Maule,Talca,Pelarco,D,,,,,,,,,
+Del Maule,Talca,Pencahue,D,,,,,,,,,
+Del Maule,Talca,Río Claro,D,,,,,,,,,
+Del Maule,Talca,San Clemente,D,,,1000,0,,,,,< 1.000
+Del Maule,Talca,San Clemente,H,1000,1,,,,,,,≥ 1.000
+Del Maule,Talca,San Rafael,D,,,,,,,,,
+Del Maule,Cauquenes,Cauquenes,E,,,,,,,,,
+Del Maule,Cauquenes,Chanco,E,,,,,,,,,
+Del Maule,Cauquenes,Pelluhue,E,,,,,,,,,
+Del Maule,Curico,Curicó,D,,,1000,0,,,,,< 1.000
+Del Maule,Curico,Curicó,H,1000,1,,,,,,,≥ 1.000
+Del Maule,Curico,Hualañé,D,,,,,,,,,
+Del Maule,Curico,Licantén,C,,,,,,,,,
+Del Maule,Curico,Molina,D,,,1000,0,,,,,< 1.000
+Del Maule,Curico,Molina,H,1000,1,,,,,,,≥ 1.000
+Del Maule,Curico,Rauco,D,,,,,,,,,
+Del Maule,Curico,Romeral,D,,,1000,0,,,,,< 1.000
+Del Maule,Curico,Romeral,H,1000,1,,,,,,,≥ 1.000
+Del Maule,Curico,Sagrada Familia,D,,,,,,,,,
+Del Maule,Curico,Teno,D,,,1000,0,,,,,< 1.000
+Del Maule,Curico,Teno,H,1000,1,,,,,,,≥ 1.000
+Del Maule,Curico,Vichuquén,C,,,,,,,,,
+Del Maule,Linares,Linares,D,,,1000,0,,,,,< 1.000
+Del Maule,Linares,Linares,H,1000,1,,,,,,,≥ 1.000
+Del Maule,Linares,Colbún,D,,,1000,0,,,,,< 1.000
+Del Maule,Linares,Colbún,H,1000,1,,,,,,,≥ 1.000
+Del Maule,Linares,Longaví,D,,,1000,0,,,,,< 1.000
+Del Maule,Linares,Longaví,H,1000,1,,,,,,,≥ 1.000
+Del Maule,Linares,Parral,D,,,1000,0,,,,,< 1.000
+Del Maule,Linares,Parral,H,1000,1,,,,,,,≥ 1.000
+Del Maule,Linares,Retiro,D,,,,,,,,,
+Del Maule,Linares,San Javier,D,,,,,,,,,
+Del Maule,Linares,Villa Alegre,D,,,,,,,,,
+Del Maule,Linares,Yerbas Buenas,D,,,,,,,,,
+Del Bíobío,Concepción,Concepción,E,,,,,,,,,
+Del Bíobío,Concepción,Coronel,E,,,,,,,,,
+Del Bíobío,Concepción,Chiguayante,E,,,,,,,,,
+Del Bíobío,Concepción,Florida,F,,,,,,,,,
+Del Bíobío,Concepción,Hualqui,E,,,,,,,,,
+Del Bíobío,Concepción,Lota,E,,,,,,,,,
+Del Bíobío,Concepción,Penco,E,,,,,,,,,
+Del Bíobío,Concepción,San Pedro de la Paz,E,,,,,,,,,
+Del Bíobío,Concepción,Santa Juana,E,,,,,,,,,
+Del Bíobío,Concepción,Talcahuano,E,,,,,,,,,
+Del Bíobío,Concepción,Tomé,E,,,,,,,,,
+Del Bíobío,Concepción,Hualpén,E,,,,,,,,,
+Del Bíobío,Arauco,Lebu,E,,,,,,,,,
+Del Bíobío,Arauco,Arauco,E,,,,,,,,,
+Del Bíobío,Arauco,Cañete,E,,,,,,,,,
+Del Bíobío,Arauco,Contulmo,E,,,,,,,,,
+Del Bíobío,Arauco,Curanilahue,E,,,,,,,,,
+Del Bíobío,Arauco,Los Álamos,E,,,,,,,,,
+Del Bíobío,Arauco,Tirúa,E,,,,,,,,,
+Del Bíobío,Bío-Bío,Los Ángeles,F,,,,,,,,,
+Del Bíobío,Bío-Bío,Antuco,F,,,1000,0,,,,,< 1.000 MSNM
+Del Bíobío,Bío-Bío,Antuco,H,1000,0,,,,,,,> 1.000 MSNM
+Del Bíobío,Bío-Bío,Cabrero,F,,,,,,,,,
+Del Bíobío,Bío-Bío,Laja,F,,,,,,,,,
+Del Bíobío,Bío-Bío,Mulchén,F,,,,,,,,,
+Del Bíobío,Bío-Bío,Nacimiento,F,,,,,,,,,
+Del Bíobío,Bío-Bío,Negrete,F,,,,,,,,,
+Del Bíobío,Bío-Bío,Quilaco,F,,,,,,,,,
+Del Bíobío,Bío-Bío,Quilleco,F,,,1000,0,,,,,< 1.000
+Del Bíobío,Bío-Bío,Quilleco,H,1000,1,,,,,,,≥ 1.000
+Del Bíobío,Bío-Bío,San Rosendo,F,,,,,,,,,
+Del Bíobío,Bío-Bío,Santa Bárbara,F,,,1000,0,,,,,< 1.000
+Del Bíobío,Bío-Bío,Santa Bárbara,H,1000,1,,,,,,,≥ 1.000
+Del Bíobío,Bío-Bío,Tucapel,F,,,1000,0,,,,,< 1.000
+Del Bíobío,Bío-Bío,Tucapel,H,1000,1,,,,,,,≥ 1.000
+Del Bíobío,Bío-Bío,Yumbel,F,,,,,,,,,
+Del Bíobío,Bío-Bío,Alto Biobío,F,,,1000,0,,,,,< 1.000
+Del Bíobío,Bío-Bío,Alto Biobío,H,1000,1,,,,,,,≥ 1.000
+De Ñuble,Diguillín,Chillán,F,,,,,,,,,
+De Ñuble,Diguillín,Bulnes,F,,,,,,,,,
+De Ñuble,Diguillín,Chillán Viejo,F,,,,,,,,,
+De Ñuble,Diguillín,El Carmen,F,,,,,,,,,
+De Ñuble,Diguillín,Pemuco,F,,,,,,,,,
+De Ñuble,Diguillín,Pinto,F,,,1000,0,,,,,< 1.000
+De Ñuble,Diguillín,Pinto,H,1000,1,,,,,,,≥ 1.000
+De Ñuble,Diguillín,Quillón,F,,,,,,,,,
+De Ñuble,Diguillín,San Ignacio,F,,,,,,,,,
+De Ñuble,Diguillín,Yungay,F,,,1000,0,,,,,< 1.000
+De Ñuble,Diguillín,Yungay,H,1000,1,,,,,,,≥ 1.000
+De Ñuble,Punilla,San Carlos,F,,,,,,,,,
+De Ñuble,Punilla,Coihueco,F,,,1000,0,,,,,< 1.000
+De Ñuble,Punilla,Coihueco,H,1000,1,,,,,,,≥ 1.000
+De Ñuble,Punilla,Ñiquén,F,,,,,,,,,
+De Ñuble,Punilla,San Fabián,F,,,1000,0,,,,,< 1.000
+De Ñuble,Punilla,San Fabián,H,1000,1,,,,,,,≥ 1.000
+De Ñuble,Punilla,San Nicolás,F,,,,,,,,,
+De Ñuble,Itata,Quirihue,E,,,,,,,,,
+De Ñuble,Itata,Cobquecura,E,,,,,,,,,
+De Ñuble,Itata,Coelemu,E,,,,,,,,,
+De Ñuble,Itata,Ninhue,F,,,,,,,,,
+De Ñuble,Itata,Portezuelo,F,,,,,,,,,
+De Ñuble,Itata,Ránquil,F,,,,,,,,,
+De Ñuble,Itata,Treguaco,E,,,,,,,,,
+De La Araucanía,Cautín,Temuco,F,,,,,,,,,
+De La Araucanía,Cautín,Carahue,E,,,,,,,,,
+De La Araucanía,Cautín,Cunco,F,,,,,,,,,
+De La Araucanía,Cautín,Curarrehue,H,,,,,,,,,
+De La Araucanía,Cautín,Freire,F,,,,,,,,,
+De La Araucanía,Cautín,Galvarino,F,,,,,,,,,
+De La Araucanía,Cautín,Gorbea,F,,,,,,,,,
+De La Araucanía,Cautín,Lautaro,F,,,,,,,,,
+De La Araucanía,Cautín,Loncoche,F,,,,,,,,,
+De La Araucanía,Cautín,Melipeuco,H,,,,,,,,,
+De La Araucanía,Cautín,Nueva Imperial,F,,,,,,,,,
+De La Araucanía,Cautín,Padre Las Casas,F,,,,,,,,,
+De La Araucanía,Cautín,Perquenco,F,,,,,,,,,
+De La Araucanía,Cautín,Pitrufquén,F,,,,,,,,,
+De La Araucanía,Cautín,Pucón,H,,,,,,,,,
+De La Araucanía,Cautín,Saavedra,E,,,,,,,,,
+De La Araucanía,Cautín,Teodoro Schmidt,E,,,,,,,,,
+De La Araucanía,Cautín,Toltén,E,,,,,,,,,
+De La Araucanía,Cautín,Vilcún,F,,,,,,,,,
+De La Araucanía,Cautín,Villarrica,F,,,,,,,,,
+De La Araucanía,Cautín,Cholchol,F,,,,,,,,,
+De La Araucanía,Malleco,Angol,F,,,,,,,,,
+De La Araucanía,Malleco,Collipulli,F,,,,,,,,,
+De La Araucanía,Malleco,Curacautín,F,,,,,,,,,
+De La Araucanía,Malleco,Ercilla,F,,,,,,,,,
+De La Araucanía,Malleco,Lonquimay,H,,,,,,,,,
+De La Araucanía,Malleco,Los Sauces,F,,,,,,,,,
+De La Araucanía,Malleco,Lumaco,F,,,,,,,,,
+De La Araucanía,Malleco,Purén,F,,,,,,,,,
+De La Araucanía,Malleco,Renaico,F,,,,,,,,,
+De La Araucanía,Malleco,Traiguén,F,,,,,,,,,
+De La Araucanía,Malleco,Victoria,F,,,,,,,,,
+De Los Ríos,Valdivia,Valdivia,G,,,,,,,,,
+De Los Ríos,Valdivia,Corral,G,,,,,,,,,
+De Los Ríos,Ranco,Futrono,F,,,,,,,,,
+De Los Ríos,Ranco,La Unión,G,,,,,73.25,0,,,> 73° 15'
+De Los Ríos,Ranco,La Unión,F,,,,,,,73.25,1,≤ 73° 15'
+De Los Ríos,Ranco,Lago Ranco,F,,,,,,,,,
+De Los Ríos,Valdivia,Lanco,F,,,,,,,,,
+De Los Ríos,Valdivia,Los Lagos,F,,,,,,,,,
+De Los Ríos,Valdivia,Máfil,G,,,,,,,,,
+De Los Ríos,Valdivia,Mariquina,G,,,,,,,,,
+De Los Ríos,Valdivia,Paillaco,F,,,,,,,,,
+De Los Ríos,Valdivia,Panguipulli,F,,,,,,,,,
+De Los Ríos,Ranco,Río Bueno,F,,,,,,,,,
+De Los Lagos,Llanquihue,Puerto Montt,G,,,,,,,,,
+De Los Lagos,Llanquihue,Calbuco,G,,,,,,,,,
+De Los Lagos,Llanquihue,Cochamó,G,,,,,,,,,
+De Los Lagos,Llanquihue,Fresia,G,,,,,,,,,
+De Los Lagos,Llanquihue,Frutillar,G,,,,,,,,,
+De Los Lagos,Llanquihue,Los Muermos,G,,,,,,,,,
+De Los Lagos,Llanquihue,Llanquihue,G,,,,,,,,,
+De Los Lagos,Llanquihue,Maullín,G,,,,,,,,,
+De Los Lagos,Llanquihue,Puerto Varas,G,,,,,,,,,
+De Los Lagos,Chiloe,Castro,G,,,,,,,,,
+De Los Lagos,Chiloe,Ancud,G,,,,,,,,,
+De Los Lagos,Chiloe,Chonchi,G,,,,,,,,,
+De Los Lagos,Chiloe,Curaco de Vélez,G,,,,,,,,,
+De Los Lagos,Chiloe,Dalcahue,G,,,,,,,,,
+De Los Lagos,Chiloe,Puqueldón,G,,,,,,,,,
+De Los Lagos,Chiloe,Queilén,G,,,,,,,,,
+De Los Lagos,Chiloe,Quellón,G,,,,,,,,,
+De Los Lagos,Chiloe,Quemchi,G,,,,,,,,,
+De Los Lagos,Chiloe,Quinchao,G,,,,,,,,,
+De Los Lagos,Osorno,Osorno,G,,,,,,,,,
+De Los Lagos,Osorno,Puerto Octay,G,,,,,,,,,
+De Los Lagos,Osorno,Purranque,G,,,,,,,,,
+De Los Lagos,Osorno,Puyehue,G,,,,,,,,,
+De Los Lagos,Osorno,Río Negro,G,,,,,,,,,
+De Los Lagos,Osorno,San Juan de la Costa,G,,,,,,,,,
+De Los Lagos,Osorno,San Pablo,G,,,,,,,,,
+De Los Lagos,Palena,Chaitén,G,,,,,,,,,
+De Los Lagos,Palena,Futaleufú,I,,,,,,,,,
+De Los Lagos,Palena,Hualaihué,G,,,,,,,,,
+De Los Lagos,Palena,Palena,I,,,,,,,,,
+De Aisén del Gral. C. Ibáñez del Campo,Coihaique,Coihaique,I,,,,,,,,,
+De Aisén del Gral. C. Ibáñez del Campo,Coihaique,Lago Verde,I,,,,,,,,,
+De Aisén del Gral. C. Ibáñez del Campo,Aisén,Aisén,I,,,,,,,,,
+De Aisén del Gral. C. Ibáñez del Campo,Aisén,Cisnes,I,,,,,,,,,
+De Aisén del Gral. C. Ibáñez del Campo,Aisén,Guaitecas,I,,,,,,,,,
+De Aisén del Gral. C. Ibáñez del Campo,Capitan Prat,Cochrane,I,,,,,,,,,
+De Aisén del Gral. C. Ibáñez del Campo,Capitan Prat,O'Higgins,I,,,,,,,,,
+De Aisén del Gral. C. Ibáñez del Campo,Capitan Prat,Tortel,I,,,,,,,,,
+De Aisén del Gral. C. Ibáñez del Campo,General Carrera,Chile Chico,I,,,,,,,,,
+De Aisén del Gral. C. Ibáñez del Campo,General Carrera,Río Ibáñez,I,,,,,,,,,
+De Magallanes y de La Antártica Chilena,Magallanes,Punta Arenas,I,,,,,,,,,
+De Magallanes y de La Antártica Chilena,Magallanes,Laguna Blanca,I,,,,,,,,,
+De Magallanes y de La Antártica Chilena,Magallanes,Río Verde,I,,,,,,,,,
+De Magallanes y de La Antártica Chilena,Magallanes,San Gregorio,I,,,,,,,,,
+De Magallanes y de La Antártica Chilena,Antártica Chilena,Cabo de Hornos,I,,,,,,,,,
+De Magallanes y de La Antártica Chilena,Tierra del Fuego,Porvenir,I,,,,,,,,,
+De Magallanes y de La Antártica Chilena,Tierra del Fuego,Primavera,I,,,,,,,,,
+De Magallanes y de La Antártica Chilena,Tierra del Fuego,Timaukel,I,,,,,,,,,
+De Magallanes y de La Antártica Chilena,Ultima Esperanza,Natales,I,,,,,,,,,
+De Magallanes y de La Antártica Chilena,Ultima Esperanza,Torres del Paine,I,,,,,,,,,

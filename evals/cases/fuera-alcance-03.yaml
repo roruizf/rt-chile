@@ -1,0 +1,15 @@
+id: fuera-alcance-03
+categoria: fuera-alcance
+critical: false
+pregunta: ¿Qué puntaje necesito para la Certificación Edificio Sustentable (CES)?
+esperado:
+  hechos:
+  - descripcion: Fuera de alcance
+    patrones:
+    - fuera|no (cubre|abarca)|alcance
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: CES fuera de alcance.
+fuentes:
+- references/trampas.md

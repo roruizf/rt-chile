@@ -1,0 +1,39 @@
+id: g2-03
+categoria: firmas
+critical: true
+pregunta: 'Vivienda nueva en Temuco con PDA, con solución LOSCAT para muros y techumbre. Necesito el listado completo del
+  expediente: qué documento va en el permiso y cuál en la recepción, quién firma cada uno, y qué pasa si en la región no hay
+  ensayador de infiltración registrado.'
+esperado:
+  hechos:
+  - descripcion: Permiso vs recepción
+    patrones:
+    - recepci
+  - descripcion: Ensayo NCh 3295 en recepción
+    patrones:
+    - '3295'
+  - descripcion: Tabla Nº 14 del plan para la muestra
+    patrones:
+    - Tabla\s*N?[°º]?\s*14
+  - descripcion: Sellos en EETT según el plan
+    patrones:
+    - sellos
+  - descripcion: Arquitecto informa la alternativa / suscribe
+    patrones:
+    - arquitect
+  citas:
+  - 5\.1\.6|5\.2\.6
+  prohibidos:
+  - Tabla\s*8\s*no fija
+  cierre: true
+rubrica: 'Permiso (OGUC 5.1.6 N°11): EETT, LOSCAT vigente que cumpla valores del plan (Art. 27 N°1 d), R100/Tabla N°11 o cálculo;
+  % ventanas Res. 9868 (informe profesional competente); memoria de condensación NCh 1973 HR <76 % (proyectista); sistema
+  de calefacción no-leña (Art. 15); ventilación NCh 3309. Recepción (5.2.6 N°7): ensayo NCh 3295 con muestra Tabla Nº 14 del
+  plan (lote <11 → 1), por arquitecto/consultor DS 135/lab DS 10. Sin ensayador: el plan admite sellos en EETT hasta que MINVU
+  lo deje sin efecto; NO importar condiciones del DS 15 (región, lote ≤10).'
+fuentes:
+- pda-temuco-ds8-2025
+- res-9868-2018
+- ds15-2024
+- references/pda-ppa.md
+- references/roles-firmas-expediente.md

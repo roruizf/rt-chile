@@ -1,0 +1,35 @@
+id: g2-05
+categoria: trampa
+critical: true
+pregunta: Me dijeron que como el DS 15 es posterior al PDA de Temuco, ahora manda el DS 15 y el plan ya no se aplica. Además
+  el arquitecto dice que con la CEV del DS 5/2024 se acredita todo el 4.1.10, y que si no me alcanza el U compenso poniendo
+  más ventanas de doble vidrio. El constructor quiere además presentar el ensayo de infiltración en el permiso para no atrasar
+  la recepción. ¿Está todo bien así?
+esperado:
+  hechos:
+  - descripcion: PDA prevalece en vivienda (inc. 2°); DS 8/2023 es posterior
+    patrones:
+    - inc(iso)?\.?\s*2|prevalec|manda el (plan|PDA)
+  - descripcion: CEV DS 5 no acredita el 4.1.10
+    patrones:
+    - DS\s*(N[°º]\s*)?5
+  - descripcion: No hay compensación global
+    patrones:
+    - compens
+  - descripcion: Ensayo de infiltración en recepción
+    patrones:
+    - recepci
+  citas: []
+  prohibidos:
+  - s[ií],? (est[aá] (todo )?bien|es correcto)
+  cierre: true
+rubrica: 'Las 4 premisas son falsas: (1) en vivienda manda el PDA (Art. 4.1.10 inc. 2°) y además el DS 8/2023 (D.O. 07-03-2025)
+  es posterior al DS 15; (2) la CEV del DS 5/2024 es otro régimen; la vía por demanda del 4.1.10 es solo A, solo vivienda
+  y su umbral está pendiente; (3) no hay compensación entre elementos: cada uno cumple su U; mejor U de ventana solo permite
+  más % (Res. 9868); (4) el ensayo NCh 3295 es con obra terminada, en la recepción.'
+fuentes:
+- pda-temuco-ds8-2025
+- res-9868-2018
+- ds15-2024
+- references/pda-ppa.md
+- references/trampas.md

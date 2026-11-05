@@ -1,0 +1,17 @@
+id: vigencia-04
+categoria: trampa
+critical: false
+pregunta: Estoy usando la OGUC de septiembre 2025 para revisar el 4.1.10, ¿está bien?
+esperado:
+  hechos:
+  - descripcion: No incluye el DS 15
+    patrones:
+    - no (incluye|contiene)|DS\s*(N[°º]\s*)?15
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'No: ese texto (DS 21) no incluye el 4.1.10 del DS 15, que rige desde el 28-11-2025. Usar el DS 15 (D.O.) o la OGUC
+  MINVU de marzo 2026.'
+fuentes:
+- oguc-2025-09
+- references/trampas.md

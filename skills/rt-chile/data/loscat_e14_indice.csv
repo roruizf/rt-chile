@@ -1,0 +1,349 @@
+pagina_pdf,codigo,capitulo,nombre_corto,vigencia_hasta,vigencia_fuente
+15,1.1.G.A.1.1,Cubiertas/techumbres,LANA DE FIBRA DE VIDRIO,2026-12,ficha
+17,1.1.M.A1.5,Cubiertas/techumbres,POLIESTIRENO EXPANDIDO (SOBRE,2026-12,indice
+18,1.1.M.A1.8,Cubiertas/techumbres,POLIESTIRENO EXPANDIDO (SOBRE,2026-12,indice
+19,1.1.M.A1.12.1,Cubiertas/techumbres,LOSA TRALIX DE 16 CM CON POLIESTIRENO,2026-12,indice
+22,1.1.M.B4.1.1,Cubiertas/techumbres,PANEL LOSA NERVADA CUBIERTA MONOPLAC MODELO PLN-120 Vigencia,,no_extraida
+25,1.1.M.C3.4,Cubiertas/techumbres,"PANEL KOVERPOL,",2026-12,indice
+27,1.2.G.A1,Muros,Muro de Hormigón Armado de 100 a 200 mm de espesor,2026-12,ficha
+28,1.2.G.A2,Muros,Muro de Hormigón Armado de 260 a 300 mm de espesor,2026-12,ficha
+29,1.2.G.A3,Muros,Muro de Hormigón Armado de 100 a 200 mm de espesor con revestimiento interior de yeso,2026-12,ficha
+30,1.2.G.A5,Muros,"90 --- 0,38 2,63 100 N° Informe 0,34",2026-12,ficha
+31,1.2.G.A6,Muros,Muro de Hormigón Armado 160 a 200 mm con poliestireno expandido exterior,2026-12,ficha
+32,1.2.G.A7,Muros,,2026-12,ficha
+33,1.2.G.A8,Muros,,2026-12,ficha
+34,1.2.G.A9,Muros,,2026-12,ficha
+35,1.2.G.A10,Muros,,2026-12,ficha
+36,1.2.G.A11,Muros,,2026-12,ficha
+37,1.2.G.B.A1.1,Muros,Ladrillo artesanal de 300x150x60mm,2026-12,ficha
+38,1.2.G.B.A1.2,Muros,Ladrillo artesanal de 300x150x60mm y poliestireno expandido interior,2026-12,ficha
+39,1.2.G.B.A1.3,Muros,Ladrillo artesanal de 300x150x60mm y sistema EIFS,2026-12,ficha
+40,1.2.G.C1.1,Muros,"Muro entramado de madera 2""x3"" con sistema EIFS",2026-12,ficha
+41,1.2.G.C1.2,Muros,"Muro entramado de madera 2""x3"" con listoneado 2""X2"" y poliestireno expandido",2026-12,ficha
+42,1.2.G.C1.3,Muros,"Muro entramado de madera 2""x3"" con perfilería metálica y lana de fibra de vidrio",2026-12,ficha
+43,1.2.G.C1.4,Muros,Muro entramado perfiles de acero con lana de vidrio y poliestireno expandido exterior,2026-12,ficha
+44,1.2.G.C1.5,Muros,"Muro entramado de madera 2""x3"" con listoneado 2""X3"" y poliestireno expandido",2026-12,ficha
+45,1.2.G.C1.6,Muros,"Muro entramado de madera 2""x4"" con lana de vidrio y poliestireno expandido",2026-12,ficha
+46,1.2.M.A1.1,Muros,,2026-12,ficha
+47,1.2.M.A1.2,Muros,"Sistema W631-Muro de Hormigón Armado 14 a 23 cm de espesor, más plancha POLYPLAC ST ó RH",2026-12,ficha
+48,1.2.M.A4.1,Muros,Muro Hormigón Armado 14 cm espesor con placa Poligyp adherida.,2026-12,ficha
+49,1.2.M.A4.2,Muros,Muro Hormigón Armado 11 a 20 cm espesor con placa Poligyp especial adherida.,2026-12,ficha
+50,1.2.M.A4.3,Muros,Muro de hormigón armado de 14cm de espesor con placa Poligyp RH adherida.,2026-12,ficha
+51,1.2.M.A5.1,Muros,Muro de hormigón de 15 cm y Siding Metálico Villalba.,2026-12,ficha
+52,1.2.M.A5.2,Muros,,2026-12,ficha
+53,1.2.M.A5.3,Muros,Muro de hormigón de 15 cm con EPS de 30mm y Siding Metálico Villalba,2026-12,ficha
+54,1.2.M.A5.4,Muros,Muro de Hormigón de 15 cm con aislante 40 mm y Siding Metálico Villalba,2026-12,ficha
+55,1.2.M.A6.1,Muros,,2026-12,ficha
+56,1.2.M.A7.1,Muros,,2026-12,ficha
+57,1.2.M.A9.1,Muros,Promuro sobre muro de hormigón armado de 150 mm.,2026-12,ficha
+58,1.2.M.A17.1,Muros,,2026-12,ficha
+59,1.2.M.A17.2,Muros,,2026-12,ficha
+60,1.2.M.A17.3,Muros,,2026-12,ficha
+61,1.2.M.A17.4,Muros,,2026-12,ficha
+62,1.2.M.A17.5,Muros,,2026-12,ficha
+63,1.2.M.A17.6,Muros,,2026-12,ficha
+64,1.2.M.A20.1,Muros,,2026-12,ficha
+65,1.2.M.A21.1,Muros,Sto Therm sobre muros macizos,2026-12,ficha
+66,1.2.M.A22.1,Muros,"Muro de Hormigón Armado de espesor 15 cm, con solución EIFS en base a corcho ISOLCORK",2026-12,ficha
+67,1.2.M.A22.2,Muros,,2026-12,ficha
+68,1.2.M.A22.3,Muros,,2026-12,ficha
+69,1.2.M.A23.1,Muros,"Muro de Hormigón Armado de espesor 10cm, con sistema PROSOL SATE",2026-12,ficha
+70,1.2.M.A24.1,Muros,Muro hormigón armado 150 a 170 mm con estuco USTUCCO XPX por el exterio y espesor variable,2026-12,ficha
+71,1.2.M.A24.2,Muros,Muro hormigón armado 200 a 250 mm con estuco USTUCCO XPX por el exterio y espesor variable,2026-12,ficha
+72,1.2.M.A25.1,Muros,,2026-12,ficha
+73,1.2.M.A26.1,Muros,,2026-12,ficha
+74,1.2.M.A26.2,Muros,,2026-12,ficha
+75,1.2.M.A26.3,Muros,,2026-12,ficha
+76,1.2.M.A26.4,Muros,,2026-12,ficha
+77,1.2.M.A27.1,Muros,Muro H.A. 150 a 200 mm con lana mineral y fachada ventilada con placa Compact LC,2026-12,ficha
+78,2.2.240.01,Materiales R100,N° Informe 1.964.245,2029-05,ficha
+79,1.2.M.B6.1,Muros,,2026-12,ficha
+80,1.2.M.B6.2,Muros,,2026-12,ficha
+81,1.2.M.B6.3,Muros,"Muro Albañilería ""Santiago 7"" con estuco cemento genérico de 18mm en ambas caras",2026-12,ficha
+82,1.2.M.B6.4,Muros,"Muro Albañilería ""Santiago 7"" con estuco térmico Presec T25 en una cara y espesor variable",2026-12,ficha
+83,1.2.M.B6.5,Muros,,2026-12,ficha
+84,1.2.M.B6.6,Muros,Muro albañilería “Santiago 7” con poliestireno expandido y placa de yeso cartón interior,2026-12,ficha
+85,2.2.180.05,Materiales R100,N° Informe Resistencia al Fuego 1.964.249,2029-05,ficha
+86,1.2.M.B7.1,Muros,,2026-12,ficha
+87,1.2.M.B7.2,Muros,DICIEMBRE 2026,2026-12,ficha
+88,1.2.M.B7.3,Muros,"Muro Albañilería ""Santiago 9"" con estuco cemento genérico de 20mm en ambas caras",2026-12,ficha
+89,1.2.M.B7.4,Muros,,2026-12,ficha
+90,1.2.M.B7.5,Muros,,2026-12,ficha
+91,1.2.M.B7.6,Muros,Muro albañilería “Santiago 9” con poliestireno expandido y placa de yeso cartón interior,2026-12,ficha
+92,2.2.240.03,Materiales R100,,2029-05,ficha
+93,1.2.M.B9.1,Muros,,2026-12,ficha
+94,1.2.M.B9.2,Muros,ACREDITACION,2026-12,ficha
+95,1.2.M.B9.3,Muros,Muro albañilería “Santiagote 9” con estuco genérico de 22mm en ambas caras,2026-12,ficha
+96,1.2.M.B9.4,Muros,Muro albañilería “Santiagote 9” con estuco térmico Presec T25 en una cara de 10mm,2026-12,ficha
+97,1.2.M.B9.5,Muros,,2026-12,ficha
+98,1.2.M.B9.6,Muros,Muro albañilería “Santiagote 9” con poliestireno expandido y placa de yeso cartón interior,2026-12,ficha
+99,2.2.240.02,Materiales R100,,2029-05,ficha
+100,1.2.M.B10.1,Muros,,2026-12,ficha
+101,1.2.M.B10.2,Muros,,2026-12,ficha
+102,1.2.M.B10.3,Muros,,2026-12,ficha
+103,1.2.M.B10.4,Muros,,2026-12,ficha
+104,1.2.M.B10.5,Muros,Muro albañilería “Santiagote 11” con estuco térmico Presec T25 espesor 15mm en una cara,2026-12,ficha
+105,1.2.M.B10.6,Muros,Muro albañilería “Santiagote 11” con estuco genérico de espesor 20mm en ambas caras,2026-12,ficha
+106,2.2.240.04,Materiales R100,,2029-05,ficha
+107,1.2.M.B11.1,Muros,,2026-12,ficha
+108,1.2.M.B11.2,Muros,,2026-12,ficha
+109,1.2.M.B11.3,Muros,"Muro Albañilería ""Santiago 11"" con estuco cemento genérico de 24mm en ambas caras",2026-12,ficha
+110,1.2.M.B11.4,Muros,,2026-12,ficha
+111,1.2.M.B11.5,Muros,,2026-12,ficha
+112,1.2.M.B11.6,Muros,Muro albañilería “Santiago 11” con poliestireno expandido y placa de yeso cartón interior,2026-12,ficha
+113,1.2.M.B15.1,Muros,,2026-12,ficha
+114,1.2.M.B16.1,Muros,Muro de albañilería confinada con solución TIFF de poliuretano proyectado,2026-12,ficha
+115,1.2.M.B17.1,Muros,"Muro albañilería ""Santiago 7"" con estuco USTUCCO XPX por el exterior y espesor variable",2026-12,ficha
+116,1.2.M.B17.2,Muros,,2026-12,ficha
+117,1.2.M.B17.3,Muros,,2026-12,ficha
+118,1.2.M.B17.4,Muros,Muro albañilería “Santiagote 9” con estuco USTUCCO XPX por el exterio y espesor variable,2026-12,ficha
+119,1.2.M.B17.5,Muros,Muro albañilería “Santiagote 11” con estuco USTUCCO XPX por el exterio y espesor variable,2026-12,ficha
+120,1.2.M.C2.1,Muros,,2026-12,ficha
+121,1.2.M.C2.2,Muros,,2026-12,ficha
+122,1.2.M.C2.3,Muros,,2026-12,ficha
+123,1.2.M.C2.4,Muros,,2026-12,ficha
+124,1.2.M.C2.5,Muros,,2026-12,ficha
+125,1.2.M.C2.6,Muros,,2026-12,ficha
+126,1.2.M.C2.7,Muros,,2026-12,ficha
+127,1.2.M.C2.8,Muros,,2026-12,ficha
+128,1.2.M.C10.1,Muros,,2026-12,ficha
+129,1.2.M.C10.2,Muros,,2026-12,ficha
+130,1.2.M.C10.3,Muros,,2026-12,ficha
+131,1.2.M.C10.4,Muros,,2026-12,ficha
+132,1.2.M.C10.5,Muros,,2026-12,ficha
+133,1.2.M.C10.6,Muros,,2026-12,ficha
+134,1.2.M.C10.7,Muros,,2026-12,ficha
+135,1.2.M.C10.8,Muros,,2026-12,ficha
+136,1.2.M.C10.9,Muros,,2026-12,ficha
+137,1.2.M.C10.10,Muros,,2026-12,ficha
+138,1.2.M.C14.2,Muros,,2026-12,ficha
+139,1.2.M.C14.3,Muros,,2026-12,ficha
+140,1.2.M.C14.4,Muros,,2026-12,ficha
+141,1.2.M.C14.5,Muros,,2026-12,ficha
+142,1.2.M.C14.7,Muros,,2026-12,ficha
+143,1.2.M.C14.8,Muros,,2026-12,ficha
+144,1.2.M.C14.9,Muros,,2026-12,ficha
+145,1.2.M.C24.30,Muros,,2026-12,ficha
+146,1.2.M.C24.31,Muros,,2026-12,ficha
+147,1.2.M.C24.32,Muros,,2026-12,ficha
+148,1.2.M.C24.33,Muros,,2026-12,ficha
+149,1.2.M.C26.1,Muros,,2026-12,ficha
+150,1.2.M.C26.2,Muros,,2026-12,ficha
+151,1.2.M.C26.5,Muros,,2026-12,ficha
+152,1.2.M.C26.6,Muros,,2026-12,ficha
+153,1.2.M.C26.7,Muros,,2026-12,ficha
+154,1.2.M.C26.8,Muros,,2026-12,ficha
+155,1.2.M.C28.1,Muros,,2026-12,ficha
+156,1.2.M.C29.1,Muros,Sistema Quincha Liviana Seca,2026-12,ficha
+157,1.2.M.C30.1,Muros,Sto Therm sobre muros de tabiqueria liviana,2026-12,ficha
+158,1.2.M.C31.1,Muros,,2026-12,ficha
+159,1.2.M.C32.1,Muros,Muro montantes de acero con poliestireno expandido y membrana hidrófuga Matwrap,2026-12,ficha
+160,1.2.M.C32.2,Muros,Muro montantes de acero con lana mineral y membrana hidrófuga Matwrap,2026-12,ficha
+161,1.2.M.C32.3,Muros,,2026-12,ficha
+162,1.2.M.C32.4,Muros,,2026-12,ficha
+163,1.2.M.F1.1,Muros,,2026-12,ficha
+164,1.2.M.F1.2,Muros,,2026-12,ficha
+165,1.2.M.F1.3,Muros,"Termomuro, 14cm de espesor, 10kg/m³ DICIEMBRE 2026",2026-12,ficha
+166,1.2.M.F1.4,Muros,"Termomuro, 14cm de espesor, 20kg/m³ DICIEMBRE 2026",2026-12,ficha
+167,1.2.M.F2.1,Muros,Panel muro Monoplac PMO-45,2026-12,ficha
+168,1.2.M.F2.2,Muros,Panel muro Monoplac PMO-70,2026-12,ficha
+169,1.2.M.F2.3,Muros,Panel muro Monoplac PMO-110,2026-12,ficha
+170,1.2.M.F2.4,Muros,Panel muro Monoplac PMO-135,2026-12,ficha
+171,1.2.M.F2.5,Muros,Panel muro Monoplac PMO-160,2026-12,ficha
+172,1.2.M.F2.6,Muros,Panel muro Monoplac PMN-100,2026-12,ficha
+173,1.2.M.F4,Muros,Panel Partition Wall PW 100/80 N° Informe 1.041.868,2026-12,ficha
+174,1.2.M.G1.1,Muros,,2026-12,ficha
+175,1.2.M.G1.2,Muros,,2026-12,ficha
+176,1.2.M.G1.3,Muros,"Panel ISOWALL, poliuretano inyectado de densidad 40 Kg/m³",2026-12,ficha
+177,1.2.M.G1.4,Muros,,2026-12,ficha
+178,1.2.M.G1.5,Muros,"Panel INSTAPANEL – KOVER (modelo L-806), poliuretano inyectado de densidad 40 Kg/m³",2026-12,ficha
+179,1.2.M.G1.6,Muros,,2026-12,ficha
+180,1.2.M.G1.7,Muros,"Panel Koverpol Instapanel, poliestireno expandido de 20kg/m³",2026-12,ficha
+181,1.2.M.G2.1,Muros,"Panel GEOPOL, poliestireno expandido de 20 kg/m³",2026-12,ficha
+182,1.2.M.H1,Muros,Muro Isotérmico Isopack DICIEMBRE 2026,2026-12,ficha
+183,1.2.M.I3.1,Muros,,2026-12,ficha
+185,1.3.M.A1.1,Pisos ventilados,,2026-12,ficha
+186,1.3.M.A1.2,Pisos ventilados,Panel Losa Monoplac PLN-150,2026-12,ficha
+187,1.3.M.A3,Pisos ventilados,,2026-12,ficha
+188,1.3.M.A5.1,Pisos ventilados,StoTherm bajo losa de hormigón armado,2026-12,ficha
+189,1.3.M.A6.1,Pisos ventilados,,2026-12,ficha
+192,R100/LV.4.1,Materiales R100,,2029-05,ficha
+193,R100/PE.2.2,Materiales R100,,,no_extraida
+194,R100/PE.4.1,Materiales R100,,,no_extraida
+195,R100/PE.4.3,Materiales R100,,,no_extraida
+196,R100/PE.6.1,Materiales R100,"Institución AISLAPOL S.A. VIGENCIA 10 CONDUCTIVIDAD TERMICA (λ) 0,043",,no_extraida
+197,R100/PE.6.2,Materiales R100,"Institución AISLAPOL S.A. VIGENCIA 15 CONDUCTIVIDAD TERMICA (λ) 0,0413",,no_extraida
+198,R100/PE.7.2,Materiales R100,"Institución PREFABRICADOS HORMIPRET LTDA. VIGENCIA 15 CONDUCTIVIDAD TERMICA (λ) 0,0413",,no_extraida
+201,3.1.P.A.0.01,Puertas,,,no_extraida
+202,3.1.P.A.0.02,Puertas,,,no_extraida
+203,3.1.P.A.0.03,Puertas,,,no_extraida
+204,3.1.P.A.0.04,Puertas,,,no_extraida
+205,3.1.P.A.0.05,Puertas,,,no_extraida
+206,3.1.P.A.0.06,Puertas,,,no_extraida
+207,3.1.P.A.0.07,Puertas,,,no_extraida
+208,3.1.P.A.1.01,Puertas,,,no_extraida
+209,3.1.P.M.0.01,Puertas,,,no_extraida
+210,3.1.P.M.0.02,Puertas,,,no_extraida
+211,3.1.P.M.0.03,Puertas,,,no_extraida
+212,3.1.P.M.0.04,Puertas,,,no_extraida
+213,3.1.P.M.0.05,Puertas,,,no_extraida
+214,3.1.P.M.0.06,Puertas,,,no_extraida
+215,3.1.P.M.0.07,Puertas,,,no_extraida
+216,3.1.P.M.0.08,Puertas,,,no_extraida
+217,3.1.P.M.0.09,Puertas,,,no_extraida
+218,3.1.P.M.0.10,Puertas,,,no_extraida
+219,3.1.P.M.0.11,Puertas,,,no_extraida
+220,3.1.P.M.0.12,Puertas,,,no_extraida
+221,3.1.P.M.0.13,Puertas,,,no_extraida
+222,3.1.P.M.0.14,Puertas,,,no_extraida
+223,3.1.P.P.0.01,Puertas,,,no_extraida
+224,3.1.P.P.0.02,Puertas,,,no_extraida
+225,3.1.P.P.0.03,Puertas,,,no_extraida
+226,3.1.P.P.1.01,Puertas,,,no_extraida
+227,3.1.P.P.2.01,Puertas,,,no_extraida
+228,3.1.P.P.3.01,Puertas,,,no_extraida
+229,3.2.V.A.A.0.01,Ventanas,,,no_extraida
+230,3.2.V.A.A.0.02,Ventanas,,,no_extraida
+231,3.2.V.A.A.0.03,Ventanas,,,no_extraida
+232,3.2.V.A.A.0.04,Ventanas,,,no_extraida
+233,3.2.V.A.A.0.05,Ventanas,,,no_extraida
+234,3.2.V.A.A.0.06,Ventanas,,,no_extraida
+235,3.2.V.A.C.0.01,Ventanas,,,no_extraida
+236,3.2.V.A.C.0.02,Ventanas,,,no_extraida
+237,3.2.V.A.C.0.03,Ventanas,,,no_extraida
+238,3.2.V.A.C.0.04,Ventanas,,,no_extraida
+239,3.2.V.A.C.0.05,Ventanas,,,no_extraida
+240,3.2.V.A.C.0.06,Ventanas,,,no_extraida
+241,3.2.V.A.C.0.07,Ventanas,,,no_extraida
+242,3.2.V.A.C.0.08,Ventanas,,,no_extraida
+243,3.2.V.A.C.1.01,Ventanas,,,no_extraida
+244,3.2.V.A.C.1.02,Ventanas,,,no_extraida
+245,3.2.V.A.C.1.03,Ventanas,,,no_extraida
+246,3.2.V.A.C.1.04,Ventanas,,,no_extraida
+247,3.2.V.A.C.1.05,Ventanas,,,no_extraida
+248,3.2.V.A.C.1.06,Ventanas,,,no_extraida
+249,3.2.V.A.C.2.01,Ventanas,,,no_extraida
+250,3.2.V.A.C.2.02,Ventanas,,,no_extraida
+251,3.2.V.A.C.2.03,Ventanas,,,no_extraida
+252,3.2.V.A.C.2.04,Ventanas,,,no_extraida
+253,3.2.V.A.C.2.05,Ventanas,,,no_extraida
+254,3.2.V.A.F.0.01,Ventanas,,,no_extraida
+255,3.2.V.A.P.0.01,Ventanas,,,no_extraida
+256,3.2.V.A.P.0.02,Ventanas,,,no_extraida
+257,3.2.V.A.P.0.03,Ventanas,,,no_extraida
+258,3.2.V.A.P.0.04,Ventanas,,,no_extraida
+259,3.2.V.A.P.0.05,Ventanas,,,no_extraida
+260,3.2.V.A.P.0.06,Ventanas,,,no_extraida
+261,3.2.V.A.P.1.01,Ventanas,,,no_extraida
+262,3.2.V.A.P.1.02,Ventanas,,,no_extraida
+263,3.2.V.A.P.1.03,Ventanas,,,no_extraida
+264,3.2.V.A.P.1.04,Ventanas,,,no_extraida
+265,3.2.V.A.P.1.05,Ventanas,,,no_extraida
+266,3.2.V.A.P.2.01,Ventanas,,,no_extraida
+267,3.2.V.A.P.2.02,Ventanas,,,no_extraida
+268,3.2.V.A.P.2.03,Ventanas,,,no_extraida
+269,3.2.V.A.P.2.04,Ventanas,,,no_extraida
+270,3.2.V.A.P.2.05,Ventanas,,,no_extraida
+271,3.2.V.A.P.2.06,Ventanas,,,no_extraida
+272,3.2.V.A.P.2.07,Ventanas,,,no_extraida
+273,3.2.V.A.P.2.08,Ventanas,,,no_extraida
+274,3.2.V.A.P.2.09,Ventanas,,,no_extraida
+275,3.2.V.A.P.2.10,Ventanas,,,no_extraida
+276,3.2.V.M.A.0.01,Ventanas,,,no_extraida
+277,3.2.V.M.A.0.02,Ventanas,,,no_extraida
+278,3.2.V.M.A.0.03,Ventanas,,,no_extraida
+279,3.2.V.M.P.0.01,Ventanas,,,no_extraida
+280,3.2.V.M.P.0.02,Ventanas,,,no_extraida
+281,3.2.V.P.A.0.01,Ventanas,,,no_extraida
+282,3.2.V.P.A.0.02,Ventanas,,,no_extraida
+283,3.2.V.P.A.0.03,Ventanas,,,no_extraida
+284,3.2.V.P.A.0.04,Ventanas,,,no_extraida
+285,3.2.V.P.A.0.05,Ventanas,,,no_extraida
+286,3.2.V.P.A.0.06,Ventanas,,,no_extraida
+287,3.2.V.P.C.0.01,Ventanas,,,no_extraida
+288,3.2.V.P.C.0.02,Ventanas,,,no_extraida
+289,3.2.V.P.C.1.01,Ventanas,,,no_extraida
+290,3.2.V.P.C.1.02,Ventanas,,,no_extraida
+291,3.2.V.P.C.1.03,Ventanas,,,no_extraida
+292,3.2.V.P.C.1.04,Ventanas,,,no_extraida
+293,3.2.V.P.C.1.05,Ventanas,,,no_extraida
+294,3.2.V.P.C.1.06,Ventanas,,,no_extraida
+295,3.2.V.P.C.1.07,Ventanas,,,no_extraida
+296,3.2.V.P.C.1.08,Ventanas,,,no_extraida
+297,3.2.V.P.C.1.09,Ventanas,,,no_extraida
+298,3.2.V.P.C.1.10,Ventanas,,,no_extraida
+299,3.2.V.P.C.1.11,Ventanas,,,no_extraida
+300,3.2.V.P.C.1.12,Ventanas,,,no_extraida
+301,3.2.V.P.C.1.13,Ventanas,,,no_extraida
+302,3.2.V.P.C.1.14,Ventanas,,,no_extraida
+303,3.2.V.P.C.1.15,Ventanas,,,no_extraida
+304,3.2.V.P.C.1.16,Ventanas,,,no_extraida
+305,3.2.V.P.C.1.17,Ventanas,,,no_extraida
+306,3.2.V.P.C.2.01,Ventanas,,,no_extraida
+307,3.2.V.P.C.2.02,Ventanas,,,no_extraida
+308,3.2.V.P.C.2.03,Ventanas,,,no_extraida
+309,3.2.V.P.C.2.04,Ventanas,,,no_extraida
+310,3.2.V.P.C.2.05,Ventanas,,,no_extraida
+311,3.2.V.P.C.3.01,Ventanas,,,no_extraida
+312,3.2.V.P.C.3.02,Ventanas,,,no_extraida
+313,3.2.V.P.C.3.03,Ventanas,,,no_extraida
+314,3.2.V.P.C.3.04,Ventanas,,,no_extraida
+315,3.2.V.P.C.3.05,Ventanas,,,no_extraida
+316,3.2.V.P.C.4.01,Ventanas,,,no_extraida
+317,3.2.V.P.C.4.02,Ventanas,,,no_extraida
+318,3.2.V.P.C.4.03,Ventanas,,,no_extraida
+319,3.2.V.P.C.4.04,Ventanas,,,no_extraida
+320,3.2.V.P.C.5.01,Ventanas,,,no_extraida
+321,3.2.V.P.C.5.02,Ventanas,,,no_extraida
+322,3.2.V.P.C.5.03,Ventanas,,,no_extraida
+323,3.2.V.P.C.6.01,Ventanas,,,no_extraida
+324,3.2.V.P.C.6.02,Ventanas,,,no_extraida
+325,3.2.V.P.F.1.01,Ventanas,,,no_extraida
+326,3.2.V.P.G.1.01,Ventanas,,,no_extraida
+327,3.2.V.P.G.1.02,Ventanas,,,no_extraida
+328,3.2.V.P.G.1.03,Ventanas,,,no_extraida
+329,3.2.V.P.P.0.01,Ventanas,,,no_extraida
+330,3.2.V.P.P.0.02,Ventanas,,,no_extraida
+331,3.2.V.P.P.0.03,Ventanas,,,no_extraida
+332,3.2.V.P.P.0.04,Ventanas,,,no_extraida
+333,3.2.V.P.P.0.05,Ventanas,,,no_extraida
+334,3.2.V.P.P.0.06,Ventanas,,,no_extraida
+335,3.2.V.P.P.1.01,Ventanas,,,no_extraida
+336,3.2.V.P.P.1.02,Ventanas,,,no_extraida
+337,3.2.V.P.P.1.03,Ventanas,,,no_extraida
+338,3.2.V.P.P.1.04,Ventanas,,,no_extraida
+339,3.2.V.P.P.1.05,Ventanas,,,no_extraida
+340,3.2.V.P.P.1.06,Ventanas,,,no_extraida
+341,3.2.V.P.P.1.07,Ventanas,,,no_extraida
+342,3.2.V.P.P.1.08,Ventanas,,,no_extraida
+343,3.2.V.P.P.2.01,Ventanas,,,no_extraida
+344,3.2.V.P.P.2.02,Ventanas,,,no_extraida
+345,3.2.V.P.P.2.03,Ventanas,,,no_extraida
+346,3.2.V.P.P.2.04,Ventanas,,,no_extraida
+347,3.2.V.P.P.2.05,Ventanas,,,no_extraida
+348,3.2.V.P.P.2.06,Ventanas,,,no_extraida
+349,3.2.V.P.P.2.07,Ventanas,,,no_extraida
+350,3.2.V.P.P.2.08,Ventanas,,,no_extraida
+351,3.2.V.P.P.2.09,Ventanas,,,no_extraida
+352,3.2.V.P.P.2.10,Ventanas,,,no_extraida
+353,3.2.V.P.P.3.01,Ventanas,,,no_extraida
+354,3.2.V.P.P.3.02,Ventanas,,,no_extraida
+355,3.2.V.P.P.3.03,Ventanas,,,no_extraida
+356,3.2.V.P.P.3.04,Ventanas,,,no_extraida
+357,3.2.V.P.P.3.05,Ventanas,,,no_extraida
+358,3.2.V.P.P.3.06,Ventanas,,,no_extraida
+359,3.2.V.P.P.3.07,Ventanas,,,no_extraida
+360,3.2.V.P.P.4.01,Ventanas,,,no_extraida
+361,3.2.V.P.P.4.02,Ventanas,,,no_extraida
+362,3.2.V.P.P.4.03,Ventanas,,,no_extraida
+363,3.2.V.P.P.4.04,Ventanas,,,no_extraida
+364,3.2.V.P.P.4.05,Ventanas,,,no_extraida
+365,3.2.V.P.P.4.06,Ventanas,,,no_extraida
+366,3.2.V.P.P.4.07,Ventanas,,,no_extraida
+367,3.2.V.P.P.4.08,Ventanas,,,no_extraida
+368,3.2.V.P.P.4.09,Ventanas,,,no_extraida
+369,3.2.V.P.P.5.01,Ventanas,,,no_extraida
+370,3.2.V.P.P.5.02,Ventanas,,,no_extraida
+371,3.2.V.P.P.5.03,Ventanas,,,no_extraida
+372,3.2.V.P.P.5.04,Ventanas,,,no_extraida
+373,3.2.V.P.P.5.05,Ventanas,,,no_extraida
