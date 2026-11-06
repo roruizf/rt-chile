@@ -1,0 +1,18 @@
+id: control-20
+categoria: control
+critical: false
+pregunta: ¿Puedo usar la solución LOSCAT 1.2.M.B17.5 en un permiso que ingreso en marzo de 2027?
+esperado:
+  hechos:
+  - descripcion: No vigente en esa fecha
+    patrones:
+    - \bno\b|venc
+  - descripcion: Vigencia hasta diciembre de 2026
+    patrones:
+    - (diciembre|dic\.?)\s*(de\s*|/)?2026|2026-12|12[-/]2026
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: El índice LOSCAT E14 la da vigente hasta 2026-12.
+fuentes:
+- references/loscat.md

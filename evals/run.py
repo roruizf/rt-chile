@@ -16,6 +16,7 @@ from __future__ import annotations
 import argparse
 import concurrent.futures as cf
 import datetime as dt
+import hashlib
 import json
 import os
 import re
@@ -43,8 +44,9 @@ CIERRE_FUENTES = r"https?://\S*(minvu|diariooficial|normastecnicas|mma\.gob|bcn\
 def run_cmd(cmd: list[str], cwd: Path, timeout: int) -> subprocess.CompletedProcess:
     """Como subprocess.run, pero el timeout mata todo el grupo de procesos (herramientas del agente incluidas);
     si no, un nieto que retiene los pipes deja colgado el arnés. stdin cerrado: `opencode run` lo espera si está abierto."""
+    # PWD explícito: OpenCode lo prefiere a cwd; heredado, el agente corría en el repo y podía leer casos y tests
     p = subprocess.Popen(cmd, cwd=cwd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.DEVNULL,
-                         text=True, start_new_session=True)
+                         text=True, start_new_session=True, env={**os.environ, "PWD": str(cwd)})
     try:
         out, err = p.communicate(timeout=timeout)
     except subprocess.TimeoutExpired:
@@ -102,6 +104,23 @@ def ask_judge(prompt: str, cwd: Path, timeout: int, model: str) -> tuple[str, fl
         return r.stdout + r.stderr, 0.0
 
 
+def firma(raiz: Path) -> dict:
+    return {str(f.relative_to(raiz)): hashlib.sha256(f.read_bytes()).hexdigest() for f in raiz.rglob("*")
+            if f.is_file() and not set(f.relative_to(raiz).parts) & {"tests", "__pycache__"}}
+
+
+def huella() -> str:
+    """Identifica la versión medida de la skill."""
+    return hashlib.sha256(json.dumps(firma(SKILL), sort_keys=True).encode()).hexdigest()[:12]
+
+
+def copias_desactualizadas() -> list[str]:
+    """Copias instaladas que difieren del repo. OpenCode las carga por sobre el workspace, incluso con otro HOME."""
+    actual = firma(SKILL)
+    return [str(c) for c in (Path.home() / ".agents/skills/rt-chile", Path.home() / ".claude/skills/rt-chile")
+            if c.exists() and firma(c.resolve()) != actual]
+
+
 def parse_opencode(stdout: str, stderr: str = "") -> tuple[str, float]:
     """Respuesta final (último texto) y costo de una salida `opencode run --format json`."""
     texts, cost, errors = [], 0.0, []
@@ -151,8 +170,11 @@ def ask(agent: str, prompt: str, cwd: Path, timeout: int, model: str | None = No
             return last.read() or (r.stdout + r.stderr), 0.0
     if agent == "notebooklm":
         # Consulta el notebook publicado (no carga la skill). Requiere RT_CHILE_NOTEBOOK_ID y sesión iniciada.
-        r = run_cmd(["notebooklm", "ask", "--new", "-n", os.environ["RT_CHILE_NOTEBOOK_ID"], prompt], cwd, timeout)
-        return r.stdout if r.returncode == 0 else "ERROR AGENTE: " + r.stderr, 0.0
+        # --new borra la conversación anterior: cada caso parte sin contexto de los demás. Sin terminal exige --yes.
+        r = run_cmd(["notebooklm", "ask", "--new", "--yes", "--json", "-n", os.environ["RT_CHILE_NOTEBOOK_ID"], prompt], cwd, timeout)
+        if r.returncode != 0:
+            return "ERROR AGENTE: " + (r.stderr or r.stdout), 0.0
+        return json.loads(r.stdout)["answer"], 0.0
     raise ValueError(agent)
 
 
@@ -161,6 +183,10 @@ def normalizar(ans: str) -> str:
     ans = re.sub(r"Tablas\s+(N[°º]\s*)?(\d+)((?:\s*,\s*\d+)*)\s+y\s+(\d+)",
                  lambda m: "Tabla " + m.group(2) + "".join(f", Tabla {x.strip()}" for x in m.group(3).split(",") if x.strip())
                  + " y Tabla " + m.group(4), ans)
+    ans = re.sub(r"Tablas\s+N[°º]?\s*(\d+)\s+y\s+N[°º]?\s*(\d+)", r"Tabla N° \1 y Tabla N° \2", ans)
+    # NotebookLM escribe variables y decimales en LaTeX
+    ans = ans.replace("{,}", ",")
+    ans = re.sub(r"U_\{?(\\text\{)?pvm\}?\}?", "Upvm", ans)
     return re.sub(r"Tablas\s+(\d)", r"Tabla \1", ans)
 
 
@@ -233,6 +259,7 @@ def summarize(results: list[dict], args) -> str:
     lines = [f"# Evals rt-chile — {dt.datetime.now():%Y-%m-%d %H:%M}", "",
              f"- Agente: `{args.agent}` modelo `{args.model or 'default'}` · juez LLM: "
              f"{'sí' if args.judge else 'no'} · casos: {len(results)}",
+             f"- Versión de la skill: `{getattr(args, 'huella', None) or 'no registrada'}`",
              f"- **critical: {pc:.1f} %** ({sum(r['pass'] for r in crit)}/{len(crit)}) · **resto: {pr:.1f} %** "
              f"({sum(r['pass'] for r in rest)}/{len(rest)}) · **umbral {'CUMPLIDO' if ok else 'NO cumplido'}**",
              f"- Costo total: {sum(r.get('costo_usd', 0) for r in results):.2f} USD", "", "## Fallos", ""]
@@ -261,14 +288,17 @@ def main():
     ap.add_argument("--rejudge", help="con --regrade: ids a recalificar también con el juez (coma) o 'fallos'; no llama al agente")
     ap.add_argument("--judge", action="store_true")
     ap.add_argument("--cases", help="ids separados por coma")
+    ap.add_argument("--cases-dir", type=Path, default=CASES, help="carpeta de casos; evals/control mide sobreajuste")
     ap.add_argument("--prefix", help="solo casos cuyo id empieza con este prefijo (p.ej. g2)")
     ap.add_argument("--resume", help="continúa este .jsonl: conserva los casos con respuesta y corre los demás")
     ap.add_argument("--workers", type=int, default=2)
     ap.add_argument("--timeout", type=int, default=300)
     ap.add_argument("--min-free-gb", type=float, default=1.5, help="no lanza un caso si hay menos RAM disponible")
     args = ap.parse_args()
+    if args.agent == "opencode" and not args.regrade and (viejas := copias_desactualizadas()):
+        raise SystemExit("Copia instalada distinta del repo; la evaluación no mediría la versión actual: " + ", ".join(viejas) + ". Corre ./install.sh antes.")
     if args.regrade:
-        cases = {p.stem: yaml.safe_load(p.read_text(encoding="utf-8")) for p in CASES.glob("*.yaml")}
+        cases = {p.stem: yaml.safe_load(p.read_text(encoding="utf-8")) for p in args.cases_dir.glob("*.yaml")}
         results = []
         for line in Path(args.regrade).read_text(encoding="utf-8").splitlines():
             r = json.loads(line)
@@ -289,12 +319,16 @@ def main():
             with (RESULTS / (Path(args.regrade).stem + "_regrade.jsonl")).open("w", encoding="utf-8") as fh:
                 fh.writelines(json.dumps(r, ensure_ascii=False) + "\n" for r in results)
         args.judge = any("juez" in r for r in results)
+        original = Path(args.regrade).with_suffix(".md")  # recalificar no cambia la versión que respondió
+        if original.exists() and (m := re.search(r"Versión de la skill: `(\w+)`", original.read_text(encoding="utf-8"))):
+            args.huella = m[1]
         md = summarize(results, args).replace("# Evals rt-chile", f"# Evals rt-chile (recalificado de {Path(args.regrade).name})")
         out = RESULTS / (Path(args.regrade).stem + "_regrade.md")
         out.write_text(md, encoding="utf-8")
         print(md)
         return
-    paths = sorted(CASES.glob("*.yaml"))
+    paths = sorted(args.cases_dir.glob("*.yaml"))
+    args.huella = huella()
     if args.cases:
         want = set(args.cases.split(","))
         paths = [p for p in paths if p.stem in want]
@@ -313,7 +347,8 @@ def main():
         done = {r["id"] for r in results}
         paths = [p for p in paths if p.stem not in done]
     else:
-        stamp = f"{dt.datetime.now():%Y-%m-%d_%H%M}"
+        # Incluye el agente: dos corridas en el mismo minuto no deben escribir en el mismo archivo
+        stamp = f"{dt.datetime.now():%Y-%m-%d_%H%M}_{args.agent}" + ("_control" if args.cases_dir.name == "control" else "")
         jsonl = RESULTS / f"{stamp}.jsonl"
     with cf.ThreadPoolExecutor(max_workers=args.workers) as ex, jsonl.open("a", encoding="utf-8") as fh:
         # as_completed: guarda cada caso al terminar, aunque uno anterior siga corriendo
@@ -324,6 +359,8 @@ def main():
             fh.flush()
             print(f"{r['id']}: {'OK' if r['pass'] else 'FALLA'} ({r.get('costo_usd', 0):.3f} USD)", flush=True)
     md = summarize(results, args)
+    if huella() != args.huella:
+        md = md.replace("## Fallos", "**INVÁLIDA: la skill cambió durante la corrida.**\n\n## Fallos", 1)
     (RESULTS / f"{stamp}.md").write_text(md, encoding="utf-8")
     print(md)
 

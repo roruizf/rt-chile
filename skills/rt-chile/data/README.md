@@ -23,7 +23,7 @@ Valores numéricos con punto decimal. IDs de fuente en `sources/manifest.yaml`.
 | `res1802_anexo2_rs.csv` | Rsi/Rse para cálculo de condensación | `res-ex-1802-2025`, Anexo 2 | Lectura de imagen (PDF escaneado) + OCR |
 | `res1802_anexo1_clima.csv` | T°ext/HRext por zona y comuna o localidad (Anexo 1) | `res-ex-1802-2025`, Anexo 1 | `scripts/build_res1802_anexo1.py` (OCR por coordenadas) + corrección manual con las imágenes de pp. 4–11 + test de unión con `zonas_comunas.csv` |
 | `res1802_macrozonas.csv` | T°ext/HRext por macrozona | `res-ex-1802-2025`, Anexo 1 (final) | Lectura de imagen + OCR |
-| `pda.csv` | 643 valores de las tablas térmicas de vivienda de 11 PDA/PPA (con artículo, tabla y etapa) | 11 decretos MMA (IDs `pda-*`/`ppa-*`) | Transcripción por plan + OCR independiente por tabla; registros en `docs/pda-verificacion/` |
+| `pda.csv` | 650 valores de las tablas térmicas de vivienda de 11 PDA/PPA (con artículo, tabla y etapa) | 11 decretos MMA (IDs `pda-*`/`ppa-*`) | Transcripción por plan + OCR independiente por tabla; registros en `docs/pda-verificacion/` |
 | `pda_planes.csv` | Comuna → plan, cobertura total/parcial, exige envolvente (sí/no) | Art. 1 de cada decreto | Lectura del texto; nombres alineados con `zonas_comunas.csv` |
 | `pda_minvu_actos.csv` | 454 valores de actos MINVU que completan los PDA (Ord. 1773/2017, Ord. 209/2018, Res. Ex. 9868/2018 Temuco, Res. Ex. 1729/2019 Valdivia, Res. Ex. 9869/2018 Osorno, Ord. 840/2019) | `minvu-ord1773-2017`, `minvu-ord209-2018`, `minvu-res-ex-9869-2018`, `minvu-ord840-2019` | Transcripción de imagen + OCR; registro en `docs/pda-verificacion/minvu-actos-pda*.` |
 

@@ -30,6 +30,10 @@ M=opencode-go/deepseek-v4.1-flash    # o el proveedor y modelo que uses
 .venv/bin/python evals/run.py --agent opencode --model $M --judge
 ```
 
+**Antes de evaluar con OpenCode:** corre `./install.sh`. El arnés se detiene si las copias instaladas difieren del repo. También fija `PWD` en un directorio aislado: OpenCode lo usa antes que el directorio del proceso y, si lo hereda, corre dentro del repo, con acceso a casos y tests. Cada informe registra la versión medida.
+
+**Sobreajuste:** `.venv/bin/python evals/run.py --agent opencode --model $M --cases-dir evals/control` corre preguntas fuera de los casos, generadas con `evals/build_control.py`. Son señal de sobreajuste si bajan de 90 % o quedan más de 10 puntos por debajo del resto de los casos. No ajustes la skill contra ellas: si una revela un dato incorrecto, corrígelo y reemplaza esa pregunta.
+
 **Umbral:** 100 % en los casos `critical` y 95 % o más en el resto. Los resultados quedan en `evals/results/` (el `.md` se versiona; el `.jsonl`, no).
 
 **Opciones útiles:**

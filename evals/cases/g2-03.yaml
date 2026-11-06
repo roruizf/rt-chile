@@ -25,6 +25,8 @@ esperado:
   - 5\.1\.6|5\.2\.6
   prohibidos:
   - Tabla\s*8\s*no fija
+  - mientras[^.|\n]{0,90}no existan
+  - DS\s*15[^|\n]{0,12}Tabla\s*12
   cierre: true
 rubrica: 'Permiso (OGUC 5.1.6 N°11): EETT, LOSCAT vigente que cumpla valores del plan (Art. 27 N°1 d), R100/Tabla N°11 o cálculo;
   % ventanas Res. 9868 (informe profesional competente); memoria de condensación NCh 1973 HR <76 % (proyectista); sistema

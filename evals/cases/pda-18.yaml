@@ -1,0 +1,28 @@
+id: pda-18
+categoria: pda
+critical: true
+pregunta: 'Vivienda nueva en Machalí a 1.200 msnm: ¿qué U de muro exijo?'
+esperado:
+  hechos:
+  - descripcion: 'Zona H: 0,30'
+    patrones:
+    - 0[,.]30
+  - descripcion: 'Plan: 0,80'
+    patrones:
+    - 0[,.]80
+  - descripcion: Cobertura parcial o zona saturada
+    patrones:
+    - parcial|zona saturada|l[íi]mites?
+  - descripcion: Recomienda el más estricto
+    patrones:
+    - m[aá]s\s+(estricto|exigente)|DOM
+  citas:
+  - DS\s*(N[°º]\s*)?1\b|O.?Higgins
+  prohibidos: []
+  cierre: true
+rubrica: Machalí sobre 1.000 m es zona H (0,30). El PDA de O'Higgins (0,80) cubre la comuna solo en parte y no se confirmó
+  si la zona saturada llega a esa altitud (C34). Debe decirlo y recomendar el más estricto o consultar a la DOM.
+fuentes:
+- pda-ohiggins-ds1-2021
+- ds15-2024
+- references/pda-ppa.md

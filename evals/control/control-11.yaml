@@ -1,0 +1,18 @@
+id: control-11
+categoria: control
+critical: false
+pregunta: 'Vivienda nueva en Valdivia: ¿cuál es el U máximo de piso ventilado?'
+esperado:
+  hechos:
+  - descripcion: Piso ventilado
+    patrones:
+    - \b0[,.]390?\b
+  - descripcion: Plan DS 25
+    patrones:
+    - DS\s*(N[°º]\s*)?25\b
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Última etapa del plan de Valdivia: igual a la Tabla 1, zona G.'
+fuentes:
+- pda-valdivia-ds25-2016

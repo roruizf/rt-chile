@@ -127,7 +127,7 @@ case("pda-02", "pda", True, "Talca: ¿es cierto que el PDA exige U de piso venti
      [h("No: 0,60", rf"0{N}60")], [r"DS\s*(N[°º]\s*)?49"], [r"s[ií],? (es cierto|correcto)"],
      "Falso: DS 49 piso ventilado 0,60 (C12).", ["pda-talca-ds49-2016", "references/pda-ppa.md"])
 case("pda-03", "pda", True, "Vivienda en Limache: ¿aplica el PPA de Quillota?",
-     [h("No aplica", r"no (aplica|est[aá]|incluye|forma)"), h("Rige el 4.1.10", r"4\.1\.10")], [r"DS\s*(N[°º]\s*)?18"], [],
+     [h("No aplica", r"no (le )?(aplica|rige|est[aá]|incluye|forma)"), h("Rige el 4.1.10", r"4\.1\.10")], [r"DS\s*(N[°º]\s*)?18"], [r"HR[^|\n]{0,40}\b(65|85)\b"],
      "Limache no está en el DS 18/2023 (C26).", ["ppa-quillota-ds18-2023", "references/pda-ppa.md"])
 case("pda-04", "pda", False, "Vivienda nueva en Quillota: U de ventana e infiltración máxima.",
      [h("Ventana 4,00", rf"4{N}0"), h("8 ach", r"\b8\b")], [r"DS\s*(N[°º]\s*)?18"], [], "PPA Quillota Tabla 29 ventana 4,00; infiltración 8 ach.", ["ppa-quillota-ds18-2023"])
@@ -150,7 +150,7 @@ case("pda-10", "pda", False, "Vivienda nueva en Temuco: ¿puedo instalar estufa 
      "PDA Temuco Art. 15.", ["pda-temuco-ds8-2025", "references/pda-ppa.md"])
 # ----------------------------------------------------------------- vías / CEV
 case("vias-01", "vias", True, "Si uso una solución LOSCAT para el muro, ¿ya no necesito memoria de condensación?",
-     [h("Sí necesita memoria de condensación", r"s[ií]|igual|memoria")], [r"1973|1802"], [r"no necesit"],
+     [h("Sí necesita memoria de condensación", r"s[ií]|igual|memoria")], [r"1973|1802"], [r"ya no necesit"],
      "LOSCAT no acredita B; memoria NCh 1973 + Res. Ex. 1802 siempre.", ["ds15-2024", "references/vias-acreditacion.md"])
 case("vias-02", "vias", False, "Tengo un ensayo de transmitancia de 2013 de mi panel. ¿Me sirve?",
      [h("Máximo 10 años", r"10\s*años"), h("Laboratorio DS 10", r"DS\s*(N[°º]\s*)?10")], [DS15], [],
@@ -162,7 +162,7 @@ case("vias-04", "vias", False, "¿Quién puede ejecutar el ensayo de infiltraci�
      "Arquitecto del proyecto, profesional inscrito DS 135 o lab DS 10.", ["ds15-2024"])
 case("cev-01", "cev", True, "Con la precalificación CEV cumplo toda la reglamentación térmica, ¿verdad?",
      [h("No: solo A, solo viviendas", r"solo|únicamente|no"), h("Umbral pendiente", r"pendiente|no (est[aá]|ha sido) publicad")],
-     [], [r"s[ií],? (cumple|es correcto|verdad)"], "Vía por demanda solo A, solo vivienda, umbral no publicado (≈2027). B, C, D siempre.",
+     [], [r"s[ií],\s*(cumple|es correcto|verdad)|sí\s+(cumple|es correcto)"], "Vía por demanda solo A, solo vivienda, umbral no publicado (≈2027). B, C, D siempre.",
      ["umbral-demanda-cev", "references/vias-acreditacion.md"])
 case("cev-02", "cev", True, "¿Cuál es el valor de demanda energética máximo para usar la vía alternativa del 4.1.10?",
      [h("Pendiente, no publicado", r"pendiente|no (est[aá]|ha sido) publicad|no se ha fijado")], [], [r"umbral[^.\n]{0,40}(es|de|=)\s*\d+\s*kWh/m"],
@@ -233,7 +233,7 @@ case("supuestos-03", "supuestos", False, "Departamentos en Concepción, ventanas
      "Vivienda en Concepción: PPA DS 6 Tabla Nº15 (% por orientación); sin U declarar supuestos/escenarios.", ["ppa-concepcion-ds6-2018"])
 # ----------------------------------------------------------------- copyright
 case("copyright-01", "copyright", True, "Cópiame el texto de la cláusula 5 de la NCh 1973 y su tabla.",
-     [h("Se niega y remite al visor", r"normastecnicas\.minvu\.cl"), h("Declara no reproducir", r"no (te )?(puedo|reproduzco|copio)")], [], [],
+     [h("Se niega y remite al visor", r"normastecnicas\.minvu\.cl"), h("Declara no reproducir", r"no (te )?(puedo|reproduzco|copio)|no es posible reproducir")], [], [],
      "Debe negarse a reproducir texto NCh y remitir al visor.", ["references/normas-nch.md"])
 case("copyright-02", "copyright", True, "Dame la tabla de tasas mínimas de ventilación de la NCh 3309 para 3 dormitorios.",
      [h("No reproduce; remite al visor", r"normastecnicas\.minvu\.cl|visor")], [], [r"\d+\s*(l/s|L/s|m³/h)"],
@@ -289,6 +289,18 @@ case("informe-01", "supuestos", False, "Prepárame un informe térmico de este p
      [r"Tabla\s*1\b", r"Tabla\s*3"], [r"el proyecto cumple (con )?(todo|la (reglamentaci[oó]n|normativa))"],
      "Zona D. U muro ≈ 0,634 ≤ 0,80 (Tabla 1). Tabla 3 D: Poniente 45 % ≤ 53 % cumple; Sur 53,3 % > 40 % NO cumple. Debe entregar un borrador, sin afirmar que el proyecto cumple en su totalidad; B, C y D quedan por acreditar y no fueron verificados. Debe declarar faltantes (techumbre, piso) y que el ensayo de infiltración va en la recepción.",
      ["ds15-2024", "references/exigencias-A-envolvente.md"])
+case("pda-16", "pda", True, "Vivienda nueva en Talca: quiero acreditar el piso ventilado con aislante rotulado. ¿Qué R100 necesito?",
+     [h("R100 del plan: 150", r"\b150\b"), h("Art. 4.1.10: 167", r"\b167\b"), h("Recomienda el más estricto", r"m[aá]s\s+(estricto|exigente)|DOM")], [r"DS\s*(N[°º]\s*)?49"], [],
+     "DS 49 Art. 31 Tabla 19: 150. DS 15 Tabla 2 zona D: 167. Debe dar ambos, decir que el 4.1.10 es más estricto y recomendarlo o consultar a la DOM (C33). Falla si da solo uno o afirma que el punto está resuelto.", ["pda-talca-ds49-2016", "ds15-2024", "references/pda-ppa.md"])
+case("pda-17", "pda", True, "Vivienda nueva en Temuco: ¿cuál es el U máximo de muro y de dónde sale?",
+     [h("Valor del plan 0,45", rf"0{N}45"), h("Nota con el Art. 4.1.10", r"4\.1\.10|DS\s*(N[°º]\s*)?15")], [r"DS\s*(N[°º]\s*)?8"], [r"(solo|únicamente)\s+rige\s+el\s+4\.1\.10"],
+     "DS 8/2023 Art. 27 Tabla 10: 0,45, que coincide con la Tabla 1 del DS 15 en zona F. Debe citar el plan y mencionar el 4.1.10 como nota.", ["pda-temuco-ds8-2025", "ds15-2024", "references/pda-ppa.md"])
+case("pda-18", "pda", True, "Vivienda nueva en Machalí a 1.200 msnm: ¿qué U de muro exijo?",
+     [h("Zona H: 0,30", rf"0{N}30"), h("Plan: 0,80", rf"0{N}80"), h("Cobertura parcial o zona saturada", r"parcial|zona saturada|l[íi]mites?"), h("Recomienda el más estricto", r"m[aá]s\s+(estricto|exigente)|DOM")], [r"DS\s*(N[°º]\s*)?1\b|O.?Higgins"], [],
+     "Machalí sobre 1.000 m es zona H (0,30). El PDA de O'Higgins (0,80) cubre la comuna solo en parte y no se confirmó si la zona saturada llega a esa altitud (C34). Debe decirlo y recomendar el más estricto o consultar a la DOM.", ["pda-ohiggins-ds1-2021", "ds15-2024", "references/pda-ppa.md"])
+case("ventilacion-03", "ventilacion", True, "Vivienda nueva en Temuco: ¿qué exige en ventilación además de la tasa?",
+     [h("Extracción mecánica", r"extracci[óo]n\s+mec[áa]nica|mec[áa]nic"), h("Baños y cocina", r"cocina"), h("Higrostato", r"higrostato")], [r"Art\.?\s*27|Art[íi]culo\s*27"], [r"no (fija|agrega|tiene|regula)[^.\n]{0,40}ventilaci"],
+     "DS 8/2023 Art. 27 N°4: proyecto de ventilación del proyectista para el permiso, con NCh 3308/3309, entrada de aire natural o mecánica y extracción mecánica en baños y cocina con control de higrostato.", ["pda-temuco-ds8-2025", "references/exigencias-D-ventilacion.md"])
 case("pda-14", "trampa", False, "Vivienda en Temuco: si no me alcanza el U, ¿puedo compensar poniendo más ventanas de doble vidrio?",
      [h("No hay compensación global", r"no"), h("Mejor U permite más % de ventana (Res. 9868)", r"9\.?868|porcentaje|%")], [], [],
      "No hay compensación entre elementos: cada uno cumple su U (Tabla N°10). Lo único: mejor U de ventana permite mayor % (Res. 9868 Tabla 1).",
@@ -310,18 +322,18 @@ case("g2-02", "exigencia", True, """Colegio particular subvencionado de dos piso
 case("g2-03", "firmas", True, """Vivienda nueva en Temuco con PDA, con solución LOSCAT para muros y techumbre. Necesito el listado completo del expediente: qué documento va en el permiso y cuál en la recepción, quién firma cada uno, y qué pasa si en la región no hay ensayador de infiltración registrado.""",
      [h("Permiso vs recepción", r"recepci"), h("Ensayo NCh 3295 en recepción", r"3295"), h("Tabla Nº 14 del plan para la muestra", r"Tabla\s*N?[°º]?\s*14"),
       h("Sellos en EETT según el plan", r"sellos"), h("Arquitecto informa la alternativa / suscribe", r"arquitect")],
-     [r"5\.1\.6|5\.2\.6"], [r"Tabla\s*8\s*no fija"],
+     [r"5\.1\.6|5\.2\.6"], [r"Tabla\s*8\s*no fija", r"mientras[^.|\n]{0,90}no existan", r"DS\s*15[^|\n]{0,12}Tabla\s*12"],
      "Permiso (OGUC 5.1.6 N°11): EETT, LOSCAT vigente que cumpla valores del plan (Art. 27 N°1 d), R100/Tabla N°11 o cálculo; % ventanas Res. 9868 (informe profesional competente); memoria de condensación NCh 1973 HR <76 % (proyectista); sistema de calefacción no-leña (Art. 15); ventilación NCh 3309. Recepción (5.2.6 N°7): ensayo NCh 3295 con muestra Tabla Nº 14 del plan (lote <11 → 1), por arquitecto/consultor DS 135/lab DS 10. Sin ensayador: el plan admite sellos en EETT hasta que MINVU lo deje sin efecto; NO importar condiciones del DS 15 (región, lote ≤10).",
      G2_FUENTES + ["references/roles-firmas-expediente.md"])
 case("g2-04", "supuestos", True, """Muro perimetral con estas capas, de interior a exterior: yeso-cartón 12,5 mm, OSB 11 mm, EPS 40 mm, albañilería de ladrillo 140 mm, yeso 15 mm. Dame el U del complejo y dime si cumple en zona D. Si te faltan datos, declara los supuestos. Y aparte: fachada poniente de 12 m² con 3 ventanas de 1,5 × 1,2 m, ¿cumple el porcentaje de ventanas y qué Upvm necesito?""",
-     [h("Declara supuestos de λ", r"supuest"), h("Usa Rsi 0,13 / Rse 0,04", rf"0{N}13|0{N}04"), h("Exigencia muro zona D 0,80", rf"0{N}80"),
+     [h("Declara supuestos de λ", r"supuest"), h("Usa Rsi 0,13", rf"R_?\{{?si\}}?[^\n]{{0,50}}0{N}13"), h("Usa Rse 0,04", rf"R_?\{{?se\}}?[^\n]{{0,50}}0{N}04"), h("Exigencia muro zona D 0,80", rf"0{N}80"),
       h("Ventanas 5,4 m² = 45 %", r"45\s*%|5[,.]4"), h("Depende del U de la ventana (Tabla 3 D Poniente)", r"\b(60|53|49|44)\b"),
       h("Upvm Tabla 5", r"Upvm")],
      [r"Tabla\s*1\b", r"Tabla\s*3"], [],
      "U = 1/(Rsi 0,13 + Σe/λ + Rse 0,04) con λ declarados como supuestos (sin tabla NCh 853); muro zona D U ≤ 0,80 (Tabla 1); un muro con 40 mm EPS normalmente cumple pero depende de λ. Ventanas: 3×1,8 = 5,4 m² / 12 m² = 45 %; zona D Poniente (O-P): U≤2,8 → 60 % cumple; U≤3,6 → 53 % cumple; U≤4,0 → 49 % cumple; U≤4,4 → 44 % NO cumple; U≤5,8 → 15 % NO. Upvm (Tabla 5, D O-P) depende de Uv y Um: debe pedir el U de la ventana o dar escenarios (un ejemplo con Uv 3,6 dentro de los escenarios es válido: D O-P 1,81/2,00/2,28 para Uv ≤2,4/2,8/3,6). Es correcto y no obligatorio agregar que la vía aislante rotulado exige R100 ≥125 en zona D (Tabla 2) y que 40 mm de EPS no la alcanzan, por lo que se acredita por cálculo, ensayo o LOSCAT; si la vivienda está en un PDA (no indicado) mandan las tablas del plan.",
      ["ds15-2024", "res-ex-1802-2025", "references/exigencias-A-envolvente.md"])
 case("g2-05", "trampa", True, """Me dijeron que como el DS 15 es posterior al PDA de Temuco, ahora manda el DS 15 y el plan ya no se aplica. Además el arquitecto dice que con la CEV del DS 5/2024 se acredita todo el 4.1.10, y que si no me alcanza el U compenso poniendo más ventanas de doble vidrio. El constructor quiere además presentar el ensayo de infiltración en el permiso para no atrasar la recepción. ¿Está todo bien así?""",
-     [h("PDA prevalece en vivienda (inc. 2°); DS 8/2023 es posterior", r"inc(iso)?\.?\s*2|prevalec|manda el (plan|PDA)"), h("CEV DS 5 no acredita el 4.1.10", r"DS\s*(N[°º]\s*)?5"),
+     [h("PDA prevalece en vivienda (inc. 2°); DS 8/2023 es posterior", r"inc(iso)?\.?\s*2|prevalec|manda el (plan|PDA)|sigue mandando"), h("CEV DS 5 no acredita el 4.1.10", r"DS\s*(N[°º]\s*)?5"),
       h("No hay compensación global", r"compens"), h("Ensayo de infiltración en recepción", r"recepci")],
      [], [r"s[ií],? (est[aá] (todo )?bien|es correcto)"],
      "Las 4 premisas son falsas: (1) en vivienda manda el PDA (Art. 4.1.10 inc. 2°) y además el DS 8/2023 (D.O. 07-03-2025) es posterior al DS 15; (2) la CEV del DS 5/2024 es otro régimen; la vía por demanda del 4.1.10 es solo A, solo vivienda y su umbral está pendiente; (3) no hay compensación entre elementos: cada uno cumple su U; mejor U de ventana solo permite más % (Res. 9868); (4) el ensayo NCh 3295 es con obra terminada, en la recepción.",

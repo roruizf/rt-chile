@@ -12,7 +12,7 @@ esperado:
     - pendiente|no (est[aá]|ha sido) publicad
   citas: []
   prohibidos:
-  - s[ií],? (cumple|es correcto|verdad)
+  - s[ií],\s*(cumple|es correcto|verdad)|sí\s+(cumple|es correcto)
   cierre: true
 rubrica: Vía por demanda solo A, solo vivienda, umbral no publicado (≈2027). B, C, D siempre.
 fuentes:

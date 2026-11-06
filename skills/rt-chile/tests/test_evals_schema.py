@@ -6,9 +6,9 @@ import pytest
 import yaml
 
 ROOT = Path(__file__).resolve().parents[3]
-CASES = sorted((ROOT / "evals" / "cases").glob("*.yaml"))
+CASES = sorted((ROOT / "evals" / "cases").glob("*.yaml")) + sorted((ROOT / "evals" / "control").glob("*.yaml"))
 CATS = {"zona", "exigencia", "pda", "vias", "cev", "hotel", "salud", "firmas", "trampa", "fuera-alcance", "supuestos",
-        "copyright", "vigencia", "infiltracion", "condensacion", "ventilacion"}
+        "copyright", "vigencia", "infiltracion", "condensacion", "ventilacion", "control"}
 
 
 def _ids():

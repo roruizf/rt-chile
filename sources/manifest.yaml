@@ -125,7 +125,7 @@ sources:
     notes: "Objeto exacto a confirmar contra texto oficial."
     url: null
     sha256: null
-    notes_verify: "Error del backlog confirmado 2026-11-05: subsidio DS 19, fuera de alcance. No se cita."
+    notes_verify: "Error de la lista inicial confirmado 2026-11-05: subsidio DS 19, fuera de alcance. No se cita."
   - id: res-9868-2018
     title: "Res. Ex. N°9868 MINVU (29-11-2018, D.O. 10-12-2018): criterios de eficiencia energética PDA Temuco-Padre Las Casas (control solar, sobrecimiento, condensación)"
     issuer: MINVU

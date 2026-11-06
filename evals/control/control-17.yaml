@@ -1,0 +1,19 @@
+id: control-17
+categoria: control
+critical: false
+pregunta: 'Loteo de 60 casas en Villa Alemana: ¿qué infiltración máxima aplica y cuántas casas se ensayan?'
+esperado:
+  hechos:
+  - descripcion: 8 ach
+    patrones:
+    - \b8(,0+|\.0+)?\s*(ach|1/h|h|renovaciones)|\b8\b[^\n]{0,30}50\s*Pa|clase\s*8
+  - descripcion: Muestra de 3
+    patrones:
+    - \b3\s*(casas|viviendas|unidades)|\btres\b|muestra[^\n]{0,30}\b3\b
+  citas:
+  - Tabla\s*(N[°º]\s*)?8\b
+  prohibidos: []
+  cierre: true
+rubrica: 'Marga Marga, 8 ach; lote de 51 a 500: muestra de 3.'
+fuentes:
+- ds15-2024

@@ -1,0 +1,22 @@
+id: control-07
+categoria: control
+critical: false
+pregunta: 'Vivienda nueva en Chillán Viejo: además de cumplir la NCh 3309, ¿me piden algo más en ventilación?'
+esperado:
+  hechos:
+  - descripcion: Extracción mecánica
+    patrones:
+    - mec[áa]nic
+  - descripcion: Baños y cocina
+    patrones:
+    - cocina
+  - descripcion: Higrostato
+    patrones:
+    - higrostato
+  citas:
+  - Art\.?\s*25|Art[íi]culo\s*25
+  prohibidos: []
+  cierre: true
+rubrica: 'DS 48 Art. 25: extracción mecánica en baño y cocina con higrostato.'
+fuentes:
+- pda-chillan-ds48

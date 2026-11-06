@@ -12,7 +12,7 @@ notebook NotebookLM. Mantenedor: Roberto Ruiz.
    Ver `docs/COPYRIGHT-POLICY.md`.
 2. **Fuente o no existe:** toda exigencia, umbral o valor numérico lleva cita (instrumento, artículo/numeral,
    tabla) y debe existir en `sources/manifest.yaml` con estado `verified`. Nada desde memoria.
-3. **Prevalencia:** PDA/PPA vigente > Art. 4.1.10 OGUC (DS 15) > resoluciones MINVU > manuales/guías (MRT,
+3. **Prevalencia:** en vivienda, PDA/PPA vigente en lo que regula (si el 4.1.10 es más estricto, se dan ambos y se recomienda el más estricto; ver `references/pda-ppa.md` §1) > Art. 4.1.10 OGUC (DS 15) > resoluciones MINVU > manuales/guías (MRT,
    DITEC) > material secundario. Ante contradicción se gana la fuente superior y se registra en
    `docs/contradicciones.md`.
 4. **Pendiente es una respuesta válida:** si una norma no fija algo (p.ej. umbral de demanda de la vía CEV),

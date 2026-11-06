@@ -1,0 +1,21 @@
+id: control-13
+categoria: control
+critical: false
+pregunta: 'Vivienda nueva en Rengo a 1.100 msnm: ¿qué U de muro debo cumplir?'
+esperado:
+  hechos:
+  - descripcion: Valor del plan
+    patrones:
+    - \b0[,.]80?\b
+  - descripcion: Valor del 4.1.10
+    patrones:
+    - \b0[,.]30?\b
+  - descripcion: Estricto o DOM
+    patrones:
+    - estrict|DOM
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Zona H: el plan fija 0,80 y el 4.1.10, 0,30. Muestra ambos y recomienda el más estricto o consultar a la DOM.'
+fuentes:
+- pda-ohiggins-ds1-2021

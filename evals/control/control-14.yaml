@@ -1,0 +1,21 @@
+id: control-14
+categoria: control
+critical: false
+pregunta: Casa en Illapel, no sé la altitud. ¿Qué U de muro debo cumplir?
+esperado:
+  hechos:
+  - descripcion: Bajo 2.000 m
+    patrones:
+    - \b0[,.]80?\b
+  - descripcion: Desde 2.000 m
+    patrones:
+    - \b0[,.]30?\b
+  - descripcion: Depende de la altitud
+    patrones:
+    - altitud|msnm|2\.?000
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Illapel es multizona: B bajo 2.000 m y H desde esa altitud.'
+fuentes:
+- ds15-2024

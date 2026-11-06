@@ -1,0 +1,18 @@
+id: control-06
+categoria: control
+critical: false
+pregunta: 'Hotel nuevo en Puerto Varas: ¿qué U de muro exige y necesita memoria de condensación y ensayo de infiltración?'
+esperado:
+  hechos:
+  - descripcion: Muro zona G
+    patrones:
+    - \b0[,.]40?\b
+  - descripcion: Hotel exento
+    patrones:
+    - exent|exim|no (necesita|requiere|aplica|debe|exige)
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: Hotel usa Tabla 1; exento de B, C y D.
+fuentes:
+- ds15-2024

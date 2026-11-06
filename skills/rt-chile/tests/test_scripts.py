@@ -26,3 +26,26 @@ def test_source_ids_num_pattern():
     m = _load("source_ids")
     pat = re.compile(m.PATTERNS["num"])
     assert pat.search("ORDEN GENERAL Núm. 43.860 | Lunes ... Núm. 15. Visto:").group(1) == "15"
+
+
+def test_arnes_detecta_copia_instalada_desactualizada(tmp_path, monkeypatch):
+    spec = importlib.util.spec_from_file_location("run", ROOT / "evals" / "run.py")
+    run = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(run)
+    monkeypatch.setattr(run.Path, "home", classmethod(lambda cls: tmp_path))
+    assert run.copias_desactualizadas() == []
+    copia = tmp_path / ".agents/skills/rt-chile"
+    copia.mkdir(parents=True)
+    (copia / "SKILL.md").write_text("antigua", encoding="utf-8")
+    assert run.copias_desactualizadas() == [str(copia)]
+
+
+def test_arnes_aisla_el_directorio_de_trabajo(tmp_path, monkeypatch):
+    """OpenCode usa PWD antes que cwd: heredado, el agente corría en el repo y podía leer los casos."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("run_evals", Path(__file__).resolve().parents[3] / "evals" / "run.py")
+    run = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(run)
+    monkeypatch.setenv("PWD", "/otro")
+    r = run.run_cmd(["sh", "-c", 'printf %s "$PWD"'], tmp_path, 10)
+    assert r.stdout == str(tmp_path)

@@ -1,0 +1,23 @@
+id: pda-17
+categoria: pda
+critical: true
+pregunta: 'Vivienda nueva en Temuco: ¿cuál es el U máximo de muro y de dónde sale?'
+esperado:
+  hechos:
+  - descripcion: Valor del plan 0,45
+    patrones:
+    - 0[,.]45
+  - descripcion: Nota con el Art. 4.1.10
+    patrones:
+    - 4\.1\.10|DS\s*(N[°º]\s*)?15
+  citas:
+  - DS\s*(N[°º]\s*)?8
+  prohibidos:
+  - (solo|únicamente)\s+rige\s+el\s+4\.1\.10
+  cierre: true
+rubrica: 'DS 8/2023 Art. 27 Tabla 10: 0,45, que coincide con la Tabla 1 del DS 15 en zona F. Debe citar el plan y mencionar
+  el 4.1.10 como nota.'
+fuentes:
+- pda-temuco-ds8-2025
+- ds15-2024
+- references/pda-ppa.md

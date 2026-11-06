@@ -1,0 +1,22 @@
+id: control-09
+categoria: control
+critical: false
+pregunta: ¿Qué pide el plan de Valdivia sobre ventilación en una vivienda nueva?
+esperado:
+  hechos:
+  - descripcion: Extracción mecánica
+    patrones:
+    - mec[áa]nic
+  - descripcion: Baños y cocina
+    patrones:
+    - cocina
+  - descripcion: Higrostato
+    patrones:
+    - higrostato
+  citas:
+  - Art\.?\s*28|Art[íi]culo\s*28
+  prohibidos: []
+  cierre: true
+rubrica: DS 25/2016 Art. 28 N°4.
+fuentes:
+- pda-valdivia-ds25-2016

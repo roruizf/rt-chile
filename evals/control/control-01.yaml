@@ -1,0 +1,25 @@
+id: control-01
+categoria: control
+critical: false
+pregunta: 'Casa nueva en Lautaro: ¿qué U máximo de muro y de techumbre debo cumplir? ¿Tiene plan de descontaminación?'
+esperado:
+  hechos:
+  - descripcion: Zona F
+    patrones:
+    - zona\s*\**F\b
+  - descripcion: Muro
+    patrones:
+    - \b0[,.]450?\b
+  - descripcion: Techumbre
+    patrones:
+    - \b0[,.]280?\b
+  - descripcion: Sin plan registrado
+    patrones:
+    - sin (PDA|plan|PPA)|no (aplica|hay|tiene|est[aá]|registra|cuenta|rige)
+  citas:
+  - Tabla\s*(N[°º]\s*)?1\b
+  prohibidos: []
+  cierre: true
+rubrica: 'Lautaro: zona F, sin plan; Tabla 1.'
+fuentes:
+- ds15-2024

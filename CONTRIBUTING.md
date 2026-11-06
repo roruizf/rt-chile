@@ -21,7 +21,7 @@ Lo más útil es que uses la skill con proyectos reales o con preguntas de tu tr
 Las reglas completas están en [AGENTS.md](AGENTS.md). Las principales:
 
 - **Fuente o no existe:** cada valor lleva cita y su fuente debe estar en [`sources/manifest.yaml`](sources/manifest.yaml).
-- **Prevalencia:** PDA/PPA vigente en vivienda, luego Art. 4.1.10, resoluciones MINVU, guías y material secundario. Las contradicciones se registran en [`docs/contradicciones.md`](docs/contradicciones.md).
+- **Prevalencia:** por materia y por uso, según [`docs/como-funciona.md`](docs/como-funciona.md). Las contradicciones se registran en [`docs/contradicciones.md`](docs/contradicciones.md).
 - **"Pendiente" es válido:** si la norma no lo fija, no se inventa.
 - **Pruebas:** un cambio de contenido debe pasar los tests y las evaluaciones.
 

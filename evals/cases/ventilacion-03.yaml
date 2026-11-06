@@ -1,0 +1,25 @@
+id: ventilacion-03
+categoria: ventilacion
+critical: true
+pregunta: 'Vivienda nueva en Temuco: ¿qué exige en ventilación además de la tasa?'
+esperado:
+  hechos:
+  - descripcion: Extracción mecánica
+    patrones:
+    - extracci[óo]n\s+mec[áa]nica|mec[áa]nic
+  - descripcion: Baños y cocina
+    patrones:
+    - cocina
+  - descripcion: Higrostato
+    patrones:
+    - higrostato
+  citas:
+  - Art\.?\s*27|Art[íi]culo\s*27
+  prohibidos:
+  - no (fija|agrega|tiene|regula)[^.\n]{0,40}ventilaci
+  cierre: true
+rubrica: 'DS 8/2023 Art. 27 N°4: proyecto de ventilación del proyectista para el permiso, con NCh 3308/3309, entrada de aire
+  natural o mecánica y extracción mecánica en baños y cocina con control de higrostato.'
+fuentes:
+- pda-temuco-ds8-2025
+- references/exigencias-D-ventilacion.md

@@ -1,0 +1,19 @@
+id: control-03
+categoria: control
+critical: false
+pregunta: 'Casa en Cauquenes: acredito el muro por rotulado del aislante. ¿Qué R100 necesito?'
+esperado:
+  hechos:
+  - descripcion: Zona E
+    patrones:
+    - zona\s*\**E\b
+  - descripcion: R100 muro
+    patrones:
+    - \b167\b
+  citas:
+  - Tabla\s*(N[°º]\s*)?2\b
+  prohibidos: []
+  cierre: true
+rubrica: 'Cauquenes: zona E; R100 de muro de la Tabla 2.'
+fuentes:
+- ds15-2024

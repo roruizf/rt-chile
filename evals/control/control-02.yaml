@@ -1,0 +1,21 @@
+id: control-02
+categoria: control
+critical: false
+pregunta: 'Vivienda nueva en Pucón: zona térmica, U de muro y clase de infiltración.'
+esperado:
+  hechos:
+  - descripcion: Zona H
+    patrones:
+    - zona\s*\**H\b
+  - descripcion: Muro
+    patrones:
+    - \b0[,.]30?\b
+  - descripcion: Infiltración 5
+    patrones:
+    - \b5(,0+|\.0+)?\s*(ach|1/h|h)|clase\s*5|5\s*\(
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Pucón: zona H, provincia de Cautín; Tablas 1 y 7.'
+fuentes:
+- ds15-2024

@@ -1,7 +1,8 @@
 # Contradicciones entre fuentes
 
-Regla (AGENTS.md, regla 3): ante una contradicción gana la fuente de mayor jerarquía (PDA/PPA vigente > Art. 4.1.10
-OGUC según el DS 15 > resoluciones MINVU > manuales y guías > material secundario), y se registra acá. Las IDs de
+Regla (AGENTS.md, regla 3): ante una contradicción gana la fuente de mayor jerarquía (en vivienda, el plan vigente en lo
+que regula; luego Art. 4.1.10 OGUC según el DS 15 > resoluciones MINVU > manuales y guías > material secundario), y se
+registra acá. Si el 4.1.10 es más estricto que el plan, la skill da ambos y recomienda el más estricto. Las IDs de
 fuente corresponden a `sources/manifest.yaml`.
 
 **Estado:** `resuelta` (manda la fuente superior y la skill la aplica) · `descartada` (al revisar no había
@@ -38,8 +39,8 @@ texto oficial.
 | C15 | **NCh 3137-2 mal nombrada** | El archivo de trabajo "NCh3137-2_2008" y el índice interno ("cálculo U puertas/ventanas", 2008) | La portada del documento dice **NCh 3137/2:2018**, segunda edición, "Parte 2: Método numérico para marcos". El catálogo del visor la rotula 2008 | **resuelta** | Citar NCh 3137/2 como "método numérico para marcos". Edición oficial pendiente de decreto (`normas-nch.md`) |
 | C16 | Año de las NCh en el visor MINVU | Etiqueta del catálogo: 1079=2008, 853=2007, 3117=2008, 3136=2008, 3308=2013, 3309=2013 | El visor sirve 1079:2019, 853:2021, 3117:2018, 3136:2014, 3308:2024 y 3309:2022 (portadas de las copias capturadas) | **resuelta** (dato) / **abierta** (edición oficial por decreto) | Manda la portada. La "edición oficial" sigue pendiente salvo la NCh 853 (`docs/verificaciones.md`) |
 | C17 | Qué NCh 853 reemplazó la 2021 | Índice interno: "NCh 853:2021 reemplaza NCh 853:2014" | D.Ex. 40/2025 (D.O. 10-05-2025): deja sin efecto el D.Ex. 44/2008, que oficializaba la **Of.2007** | **resuelta** (leído en el D.O. el 2026-11-05) | La 2014 nunca fue la oficial según ese decreto. Para permisos con DS 15 aplica la 2021 |
-| C18 | Fecha del MRT V1.04 | Backlog inicial y nombre del archivo de trabajo: 28-10-2026 ("261028") | Registro oficial de cambios del IC: **02-10-2026** | **resuelta** | Citar "MRT V1.04 (IC, 02-10-2026)" |
-| C19 | Res. Ex. 700/2026 como fuente RT | El backlog inicial la lista como fuente | D.O.: Res. Ex. 700 (V. y U.) de 06-05-2026 es un llamado DS 19. Revisión (2026-11-05): fue un error del backlog | **fuera de alcance** | No se cita. En el manifiesto queda con `scope: out` |
+| C18 | Fecha del MRT V1.04 | Lista inicial de fuentes y nombre del archivo de trabajo: 28-10-2026 ("261028") | Registro oficial de cambios del IC: **02-10-2026** | **resuelta** | Citar "MRT V1.04 (IC, 02-10-2026)" |
+| C19 | Res. Ex. 700/2026 como fuente RT | La lista inicial de fuentes la incluye como fuente | D.O.: Res. Ex. 700 (V. y U.) de 06-05-2026 es un llamado DS 19. Revisión (2026-11-05): fue un error de esa lista | **fuera de alcance** | No se cita. En el manifiesto queda con `scope: out` |
 | C20 | Vías de acreditación de A | Índice interno: la vía 4 es "Especificación Técnica del Arquitecto"; la CEV es la vía 5 | DS 15 num. 1.A: (1) material aislante **rotulado NCh 2251** con R100 de tabla, (2) Informe de Ensayo, (3) Memoria de Cálculo, (4) solución LOSCAT. La vía por demanda (inc. 5°) es alternativa, solo para vivienda, y su umbral aún no rige (art. 2° transitorio: 36 meses) | **resuelta** | `vias-acreditacion.md` usa la lista del DS |
 | C21 | Disponibilidad de NCh 3076/1 | Índice interno: no está en el visor | El catálogo del visor la incluye (2008) | **resuelta** | `normas-nch.md` |
 | C22 | Zonas del mapa | Sitio del MRT (IC), descripción del mapa: "zonas A–H" | DS 15 y la tabla MINVU: **9 zonas A–I** | **resuelta** | Siempre A–I |
@@ -53,3 +54,5 @@ texto oficial.
 | C30 | HR interior para condensación en el PDA Osorno | Ord. 1773: 65/75/**85 %** | Res. Ex. 9869 (acto superior y posterior): 65/75/**80 %** | **resuelta** | Usar 80 %. Para proyectos con DS 15 rige la Res. Ex. 1802 (HR interior ≤75 %) cuando aplica el 4.1.10 |
 | C31 | Número y fecha de los oficios del PDAO | Sitio PDAO: "Oficio Ventanas n°340"; Ord. 840 cita el Ord. 1773 como "16.11.2018" | Número estampado: **840**. Ord. 1773: timbre **16-11-2017**, confirmado por el Ord. 209 y la Res. Ex. 9869 | **resuelta** | IDs `minvu-ord840-2019`, `minvu-ord1773-2017` |
 | C32 | Título de la NCh 853 vigente | Catálogo del visor: "Acondicionamiento térmico - Envolvente térmica de edificios - Cálculo de resistencias y transmitancias térmicas" (título de la Of.2007) | D.Ex. 40/2025, D.O. 10-05-2025: NCh 853:2021 "Componentes y elementos para edificación - Resistencia térmica y transmitancia térmica - Métodos de cálculo" | **resuelta** | Usar el título del decreto. Detectado al verificar el D.Ex. 40 en el D.O. el 2026-11-05 |
+| C33 | R100 de piso ventilado en Talca-Maule | DS 49/2015, Art. 31, Tabla Nº 19: **150** (leído en la imagen del decreto) | DS 15, Tabla 2, zona D: **167**. La U es igual (0,60) | **abierta** | El inc. 2° remite al plan, sin interpretación oficial confirmada. La skill da ambos y recomienda 167 |
+| C34 | Comunas de O'Higgins y Curicó con parte en zona H (≥ 1.000 m) | Planes: U muro 0,80, techo 0,38, piso 0,60 (valor único) | DS 15, zona H: muro 0,30, techo 0,25, piso 0,32 | **abierta** | Cobertura parcial: los límites están en DS 7/2009, DS 82/2009 y DS 53/2015, fuera del corpus. Falta saber si la zona saturada llega a 1.000 m. La skill avisa y recomienda el valor más estricto |

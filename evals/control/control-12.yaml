@@ -1,0 +1,19 @@
+id: control-12
+categoria: control
+critical: false
+pregunta: 'Colegio nuevo en Curicó, en el valle: ¿le aplican las tablas del PDA? ¿Qué U de muro exige?'
+esperado:
+  hechos:
+  - descripcion: El plan no aplica a educación
+    patrones:
+    - no\b
+  - descripcion: Muro educación zona D
+    patrones:
+    - \b0[,.]60?\b
+  citas:
+  - Tabla\s*(N[°º]\s*)?10\b
+  prohibidos: []
+  cierre: true
+rubrica: 'El inc. 2° alcanza solo a viviendas: Tabla 10.'
+fuentes:
+- ds15-2024

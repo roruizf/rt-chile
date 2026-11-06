@@ -8,7 +8,7 @@ Prevalecen sobre el 4.1.10 solo en viviendas (inc. 2°).
 
 Comunas: Temuco, Padre Las Casas
 
-## Decreto (24 valores)
+## Decreto (25 valores)
 
 ### Art. 27 Tabla N° 10 — DS N°8/2023 MMA (D.O. 07-03-2025) — aplica a: ambos
 - Etapa: desde 12 meses de la entrada en vigencia (D.O. 07-03-2025); antes rige Art. 33 DS 8/2015 (Art. 1° transitorio)
@@ -20,8 +20,8 @@ Comunas: Temuco, Padre Las Casas
 
 ### Art. 27 Tabla N° 10 — DS N°8/2023 MMA (D.O. 07-03-2025) — aplica a: vivienda_nueva
 - Etapa: desde 12 meses de la entrada en vigencia (D.O. 07-03-2025); antes rige Art. 33 DS 8/2015 (Art. 1° transitorio)
-- piso en contacto con el terreno · U [Temuco - Padre Las Casas]: **Ver tabla N° 11**  — Sin valor U; remite a R100 de Tabla N° 11. Art. 27 exceptúa piso en contacto con terreno y sobrecimiento para existentes con subsidio
-- sobrecimiento · U [Temuco - Padre Las Casas]: **Ver tabla N° 11**  — Sin valor U; remite a R100 de Tabla N° 11. Art. 27 exceptúa piso en contacto con terreno y sobrecimiento para existentes con subsidio
+- piso en contacto con el terreno · U [Temuco - Padre Las Casas]: **Ver tabla N° 11** — Sin valor U; remite a R100 de Tabla N° 11. Art. 27 exceptúa piso en contacto con terreno y sobrecimiento para existentes con subsidio
+- sobrecimiento · U [Temuco - Padre Las Casas]: **Ver tabla N° 11** — Sin valor U; remite a R100 de Tabla N° 11. Art. 27 exceptúa piso en contacto con terreno y sobrecimiento para existentes con subsidio
 
 ### Art. 27 Tabla N° 11 — DS N°8/2023 MMA (D.O. 07-03-2025) — aplica a: ambos
 - Etapa: desde 12 meses de la entrada en vigencia (D.O. 07-03-2025); antes rige Art. 33 DS 8/2015 (Art. 1° transitorio)
@@ -59,7 +59,11 @@ Comunas: Temuco, Padre Las Casas
 
 ### Art. 27 N°5  — DS N°8/2023 MMA (D.O. 07-03-2025) — aplica a: vivienda_nueva
 - Etapa: desde 12 meses de la entrada en vigencia (D.O. 07-03-2025); antes rige Art. 33 DS 8/2015 (Art. 1° transitorio)
-- ganancias solares, sobrecimiento, piso en contacto con terreno, vanos de ventanas · otro: **Res. Ex. N° 9.868/2018 MINVU**  — Exigencias por resolución MINVU; a complementar/reemplazar en 3 meses desde publicación con aislamiento de pisos en contacto con terreno y vanos
+- ganancias solares, sobrecimiento, piso en contacto con terreno, vanos de ventanas · otro: **Res. Ex. N° 9.868/2018 MINVU** — Exigencias por resolución MINVU; a complementar/reemplazar en 3 meses desde publicación con aislamiento de pisos en contacto con terreno y vanos
+
+### Art. 27 N°4  — DS N°8/2023 MMA (D.O. 07-03-2025) — aplica a: vivienda_nueva
+- Etapa: desde 12 meses de la entrada en vigencia (D.O. 07-03-2025); antes rige Art. 33 DS 8/2015 (Art. 1° transitorio)
+- ventilacion · otro: Ventilacion: extraccion mecanica en banos y cocina con higrostato; NCh3308/3309; acredita el proyectista para el permiso de edificacion
 ## Actos MINVU complementarios (86 valores)
 
 ### Ord. 209, N°1 Tabla 1 TABLA 1 — Ord. N°209 MINVU (20-04-2018) — aplica a: vivienda_nueva
@@ -160,14 +164,30 @@ Comunas: Temuco, Padre Las Casas
 - Etapa: exigible desde 01-01-2019 (Res. 9868 N°2); DS 8/2023 remite a ella (Art. 27)
 - condensación · otro [T interior condensación]: **19** °C
 - condensación · otro [HR interior condensación (tres escenarios)]: **65; 75; 80** %
-- condensación · otro [período de análisis; T y HR ext = media mínima de julio de la provincia]: **julio** 
+- condensación · otro [período de análisis; T y HR ext = media mínima de julio de la provincia]: **julio**
 - ventana techumbre · otro [U máx. ventana en techumbre (≤60°)]: **3.6** W/(m2K)
+
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona F:
+- techumbre U: plan 0.28 (DS N°8/2023 MMA (D.O. 07-03-2025), Art. 27, Tabla N° 10); Art. 4.1.10 0.28 (Tabla 1): igual
+- muro U: plan 0.45 (DS N°8/2023 MMA (D.O. 07-03-2025), Art. 27, Tabla N° 10); Art. 4.1.10 0.45 (Tabla 1): igual
+- piso ventilado U: plan 0.5 (DS N°8/2023 MMA (D.O. 07-03-2025), Art. 27, Tabla N° 10); Art. 4.1.10 0.5 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS N°8/2023 MMA (D.O. 07-03-2025), Art. 27, Tabla N° 10); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 357 (DS N°8/2023 MMA (D.O. 07-03-2025), Art. 27, Tabla N° 11); Art. 4.1.10 357 (Tabla 2): igual
+- muro R100: plan 222 (DS N°8/2023 MMA (D.O. 07-03-2025), Art. 27, Tabla N° 11); Art. 4.1.10 222 (Tabla 2): igual
+- piso ventilado R100: plan 200 (DS N°8/2023 MMA (D.O. 07-03-2025), Art. 27, Tabla N° 11); Art. 4.1.10 200 (Tabla 2): igual
+- sobrecimiento R100: plan 91 (DS N°8/2023 MMA (D.O. 07-03-2025), Art. 27, Tabla N° 11); Art. 4.1.10 91 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 5 (DS N°8/2023 MMA (D.O. 07-03-2025), Art. 27, Tabla N° 12); Art. 4.1.10 5 (Tabla 7): igual
+
 
 # PDA Valle Central de O'Higgins: DS 1/2021 MMA (D.O. 29-03-2023)
 
 Comunas: Graneros, Rancagua, Doñihue, Olivar, Coltauco, Coinco, Quinta de Tilcoco, San Vicente, Placilla, Mostazal, Codegua, Machalí, Malloa, Rengo, Requínoa, San Fernando, Chimbarongo
 
-## Decreto (113 valores)
+## Decreto (114 valores)
 
 ### Art. 14 Tabla 7 — DS N°1/2021 MMA (D.O. 29-03-2023) — aplica a: vivienda_existente
 - Etapa: desde la entrada en vigencia del decreto (Art. 14); subsidios Art. 12
@@ -336,16 +356,47 @@ Comunas: Graneros, Rancagua, Doñihue, Olivar, Coltauco, Coinco, Quinta de Tilco
 - Etapa: desde la entrada en vigencia
 - sistema de calefacción · otro [áreas urbanas de la zona saturada; alternativa a calefacción integrada no leña o distrital: demanda de calefacción <]: **15** kWh/m2 año — Prohíbe instalar calefacción a leña; demanda según metodología CEV MINVU
 
+### Art. 15 N°6  — DS N°1/2021 MMA (D.O. 29-03-2023) — aplica a: vivienda_nueva
+- Etapa: desde la entrada en vigencia; "vivienda nueva" = permiso/anteproyecto ingresado después de 12 meses desde la entrada en vigencia (Art. 3 def.)
+- ventilacion · otro: Ventilacion: extraccion mecanica en banos y cocina con higrostato; NCh3308/3309; acredita el profesional competente para el permiso de edificacion
+
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona D:
+- techumbre U: plan 0.38 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 12); Art. 4.1.10 0.38 (Tabla 1): igual
+- muro U: plan 0.8 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 12); Art. 4.1.10 0.8 (Tabla 1): igual
+- piso ventilado U: plan 0.6 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 12); Art. 4.1.10 0.6 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 12); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 263 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 13); Art. 4.1.10 263 (Tabla 2): igual
+- muro R100: plan 125 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 13); Art. 4.1.10 125 (Tabla 2): igual
+- piso ventilado R100: plan 167 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 13); Art. 4.1.10 167 (Tabla 2): igual
+- sobrecimiento R100: plan 45 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15 N°3, Tabla 17); Art. 4.1.10 45 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 5 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 18); Art. 4.1.10 5 (Tabla 7): igual
+
+Zona H (≥ 1.000):
+- techumbre U: plan 0.38 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 12); Art. 4.1.10 0.25 (Tabla 1): **el 4.1.10 es más estricto**
+- muro U: plan 0.8 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 12); Art. 4.1.10 0.3 (Tabla 1): **el 4.1.10 es más estricto**
+- piso ventilado U: plan 0.6 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 12); Art. 4.1.10 0.32 (Tabla 1): **el 4.1.10 es más estricto**
+- puerta opaca U: plan 1.7 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 12); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 263 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 13); Art. 4.1.10 400 (Tabla 2): **el 4.1.10 es más estricto**
+- muro R100: plan 125 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 13); Art. 4.1.10 333 (Tabla 2): **el 4.1.10 es más estricto**
+- piso ventilado R100: plan 167 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 13); Art. 4.1.10 313 (Tabla 2): **el 4.1.10 es más estricto**
+- sobrecimiento R100: plan 45 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15 N°3, Tabla 17); Art. 4.1.10 91 (Tabla 6): **el 4.1.10 es más estricto**
+- infiltración ach a 50 Pa: plan 5 (DS N°1/2021 MMA (D.O. 29-03-2023), Art. 15, Tabla 18); Art. 4.1.10 5 (Tabla 7): igual
+
+
 # PPDA Quillota, Catemu, Panquehue y Llaillay: DS 18/2023 MMA (D.O. 23-10-2025)
 
 Comunas: Quillota, La Cruz, Calera, Nogales, Hijuelas, Catemu, Panquehue, Llaillay
 
-## Decreto (107 valores)
+## Decreto (108 valores)
 
 ### Art. 55 Tabla 24 — DS N°18/2023 MMA (D.O. 23-10-2025) — aplica a: vivienda_existente
 - Etapa: desde la entrada en vigencia (D.O. 23-10-2025; Art. 93); subsidios Art. 53
 - techo · U [zona sujeta al plan]: **0.38** W/(m2K)
-- ventana · U [zona sujeta al plan]: **DVH***  — *Ventana con Doble Vidriado Hermético y cualquier materialidad de marco; se acredita indicando espesores de cristales y espaciador en EETT (Art. 55 N°1 e)
+- ventana · U [zona sujeta al plan]: **DVH*** — *Ventana con Doble Vidriado Hermético y cualquier materialidad de marco; se acredita indicando espesores de cristales y espaciador en EETT (Art. 55 N°1 e)
 - muro · U [zona sujeta al plan]: **0.80** W/(m2K)
 - piso ventilado · U [zona sujeta al plan]: **0.60** W/(m2K)
 - puerta · U [zona sujeta al plan]: **1.70** W/(m2K)
@@ -503,6 +554,26 @@ Comunas: Quillota, La Cruz, Calera, Nogales, Hijuelas, Catemu, Panquehue, Llaill
 - Etapa: a partir de 12 meses desde la entrada en vigencia
 - sistema de calefacción · otro [áreas urbanas de la zona afecta; alternativa a calefacción integrada no leña o distrital: demanda de calefacción <]: **15** kWh/m2 año — Prohíbe uso y/o instalación de calefacción a leña; demanda acreditada según CEV MINVU
 
+### Art. 56 N°6  — DS N°18/2023 MMA (D.O. 23-10-2025) — aplica a: vivienda_nueva
+- Etapa: desde la entrada en vigencia (Art. 56); "vivienda nueva" = permiso/anteproyecto ingresado después de 12 meses desde la entrada en vigencia (Art. 3 N°87)
+- ventilacion · otro: Ventilacion: extraccion mecanica en banos y cocina con higrostato; NCh3308/3309; acredita el proyectista para el permiso de edificacion
+
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona D:
+- techumbre U: plan 0.38 (DS N°18/2023 MMA (D.O. 23-10-2025), Art. 56, Tabla 29); Art. 4.1.10 0.38 (Tabla 1): igual
+- muro U: plan 0.8 (DS N°18/2023 MMA (D.O. 23-10-2025), Art. 56, Tabla 29); Art. 4.1.10 0.8 (Tabla 1): igual
+- piso ventilado U: plan 0.6 (DS N°18/2023 MMA (D.O. 23-10-2025), Art. 56, Tabla 29); Art. 4.1.10 0.6 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS N°18/2023 MMA (D.O. 23-10-2025), Art. 56, Tabla 29); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 263 (DS N°18/2023 MMA (D.O. 23-10-2025), Art. 56, Tabla 30); Art. 4.1.10 263 (Tabla 2): igual
+- muro R100: plan 125 (DS N°18/2023 MMA (D.O. 23-10-2025), Art. 56, Tabla 30); Art. 4.1.10 125 (Tabla 2): igual
+- piso ventilado R100: plan 167 (DS N°18/2023 MMA (D.O. 23-10-2025), Art. 56, Tabla 30); Art. 4.1.10 167 (Tabla 2): igual
+- sobrecimiento R100: plan 45 (DS N°18/2023 MMA (D.O. 23-10-2025), Art. 56 N°3, Tabla 34); Art. 4.1.10 45 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 8 (DS N°18/2023 MMA (D.O. 23-10-2025), Art. 56, Tabla 35); Art. 4.1.10 8 (Tabla 7): igual
+
+
 # PDA Talca y Maule: DS 49/2015 MMA (D.O. 28-03-2016)
 
 Comunas: Talca, Maule
@@ -527,7 +598,7 @@ Comunas: Talca, Maule
 
 ### Art. 29  — DS 49/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_existente
 - Etapa: desde publicacion D.O. (28-03-2016)
-- vivienda · otro: ****  — Ventilacion: extraccion mecanica, min. 2 puntos (bano y cocina) con higrostato; NCh3308/NCh3309; acredita PSAT al ingreso SERVIU
+- vivienda · otro: Ventilacion: extraccion mecanica, min. 2 puntos (bano y cocina) con higrostato; NCh3308/NCh3309; acredita PSAT al ingreso SERVIU
 
 ### Art. 30 Tabla Nº 13 — DS 49/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_nueva
 - Etapa: a 12 meses de la entrada en vigencia (28-03-2017)
@@ -551,7 +622,7 @@ Comunas: Talca, Maule
 
 ### Art. 30  — DS 49/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_nueva
 - Etapa: a 12 meses de la entrada en vigencia (28-03-2017)
-- vivienda · otro: ****  — Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; acredita proyectista en permiso de edificacion
+- vivienda · otro: Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; acredita proyectista en permiso de edificacion
 
 ### Art. 31 Tabla Nº 17 — DS 49/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_existente
 - Etapa: desde 01-01-2018
@@ -565,7 +636,7 @@ Comunas: Talca, Maule
 - techo · U [Talca-Maule]: **0.38** W/(m2K)
 - muro · U [Talca-Maule]: **0.80** W/(m2K)
 - piso ventilado · U [Talca-Maule]: **0.60** W/(m2K)
-- ventana · U [Talca-Maule]: **** W/(m2K) — celda dice 'Por definir - MINVU*'; nota: exigencias de ventana para vivienda nueva seran definidas por MINVU mediante acto administrativo
+- ventana · U [Talca-Maule]: celda dice 'Por definir - MINVU*'; nota: exigencias de ventana para vivienda nueva seran definidas por MINVU mediante acto administrativo
 - puerta · U [Talca-Maule]: **1.70** W/(m2K)
 
 ### Art. 31 Tabla Nº 19 — DS 49/2015 MMA (D.O. 28-03-2016) — aplica a: ambos
@@ -584,12 +655,12 @@ Comunas: Talca, Maule
 
 ### Art. 31  — DS 49/2015 MMA (D.O. 28-03-2016) — aplica a: ambos
 - Etapa: desde 01-01-2018
-- vivienda · otro: ****  — Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309
+- vivienda · otro: Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309
 
 ### Art. 31  — DS 49/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_nueva
 - Etapa: desde 01-01-2018
-- vano traslucido/transparente · otro: ****  — N°5: control de ganancias solares; exigencia a establecer por MINVU mediante acto administrativo (sin valor en decreto)
-- sobrecimiento · otro [piso en contacto con terreno natural]: ****  — N°5: aislacion termica de sobrecimiento; exigencia a establecer por MINVU mediante acto administrativo (sin valor en decreto)
+- vano traslucido/transparente · otro: N°5: control de ganancias solares; exigencia a establecer por MINVU mediante acto administrativo (sin valor en decreto)
+- sobrecimiento · otro [piso en contacto con terreno natural]: N°5: aislacion termica de sobrecimiento; exigencia a establecer por MINVU mediante acto administrativo (sin valor en decreto)
 ## Actos MINVU complementarios (41 valores)
 
 ### Ord. 209, N°1 Tabla 1 TABLA 1 — Ord. N°209 MINVU (20-04-2018) — aplica a: vivienda_nueva
@@ -639,6 +710,22 @@ Comunas: Talca, Maule
 - ventana · pct_max_ventana [zona PDA Talca-Maule; orientacion POND; U ventana <= 4.4 W/(m2K)]: **25** % — O-P = oriente-poniente; POND aplica si la vivienda tiene <60% de muros perimetrales expuestos (se aplica al total de paramentos verticales)
 - ventana · pct_max_ventana [zona PDA Talca-Maule; orientacion POND; U ventana <= 5.8 W/(m2K)]: **10** % — O-P = oriente-poniente; POND aplica si la vivienda tiene <60% de muros perimetrales expuestos (se aplica al total de paramentos verticales)
 
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona D:
+- techumbre U: plan 0.38 (DS 49/2015 MMA (D.O. 28-03-2016), Art. 31, Tabla Nº 18); Art. 4.1.10 0.38 (Tabla 1): igual
+- muro U: plan 0.8 (DS 49/2015 MMA (D.O. 28-03-2016), Art. 31, Tabla Nº 18); Art. 4.1.10 0.8 (Tabla 1): igual
+- piso ventilado U: plan 0.6 (DS 49/2015 MMA (D.O. 28-03-2016), Art. 31, Tabla Nº 18); Art. 4.1.10 0.6 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS 49/2015 MMA (D.O. 28-03-2016), Art. 31, Tabla Nº 18); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 263 (DS 49/2015 MMA (D.O. 28-03-2016), Art. 31, Tabla Nº 19); Art. 4.1.10 263 (Tabla 2): igual
+- muro R100: plan 125 (DS 49/2015 MMA (D.O. 28-03-2016), Art. 31, Tabla Nº 19); Art. 4.1.10 125 (Tabla 2): igual
+- piso ventilado R100: plan 150 (DS 49/2015 MMA (D.O. 28-03-2016), Art. 31, Tabla Nº 19); Art. 4.1.10 167 (Tabla 2): **el 4.1.10 es más estricto**
+- sobrecimiento R100: plan 45 (Ord. N°209 MINVU (20-04-2018), Ord. 209, N°1 Tabla 1, TABLA 1); Art. 4.1.10 45 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 5 (DS 49/2015 MMA (D.O. 28-03-2016), Art. 31, Tabla Nº 20); Art. 4.1.10 5 (Tabla 7): igual
+
+
 # PPDA Chillán y Chillán Viejo: DS 48 MMA (D.O. 28-03-2016)
 
 Comunas: Chillán, Chillán Viejo
@@ -663,7 +750,7 @@ Comunas: Chillán, Chillán Viejo
 
 ### Art. 23  — DS 48/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_existente
 - Etapa: desde entrada en vigencia (28-03-2016)
-- vivienda · otro [zona saturada (Chillan y Chillan Viejo)]: ****  — Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; acredita profesional competente o PSAT al ingreso SERVIU
+- vivienda · otro [zona saturada (Chillan y Chillan Viejo)]: Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; acredita profesional competente o PSAT al ingreso SERVIU
 
 ### Art. 24 Tabla N°12 — DS 48/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_nueva
 - Etapa: transcurridos 12 meses desde entrada en vigencia (28-03-2017)
@@ -687,7 +774,7 @@ Comunas: Chillán, Chillán Viejo
 
 ### Art. 24  — DS 48/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_nueva
 - Etapa: transcurridos 12 meses desde entrada en vigencia (28-03-2017)
-- vivienda · otro [zona saturada (Chillan y Chillan Viejo)]: ****  — Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; acredita proyectista en permiso de edificacion
+- vivienda · otro [zona saturada (Chillan y Chillan Viejo)]: Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; acredita proyectista en permiso de edificacion
 
 ### Art. 25 Tabla N° 16 — DS 48/2015 MMA (D.O. 28-03-2016) — aplica a: ambos
 - Etapa: desde 01-01-2018
@@ -713,9 +800,9 @@ Comunas: Chillán, Chillán Viejo
 
 ### Art. 25  — DS 48/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_nueva
 - Etapa: desde 01-01-2018
-- vivienda · otro [zona saturada (Chillan y Chillan Viejo)]: ****  — Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; proyectista en permiso de edificacion
-- vano traslucido/transparente · otro [zona saturada (Chillan y Chillan Viejo)]: ****  — N°5: control de ganancias solares; exigencia a establecer por MINVU mediante acto administrativo (sin valor en decreto)
-- sobrecimiento · otro [piso en contacto con terreno natural]: ****  — N°5: aislacion termica de sobrecimiento a establecer por MINVU mediante acto administrativo (sin valor en decreto)
+- vivienda · otro [zona saturada (Chillan y Chillan Viejo)]: Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; proyectista en permiso de edificacion
+- vano traslucido/transparente · otro [zona saturada (Chillan y Chillan Viejo)]: N°5: control de ganancias solares; exigencia a establecer por MINVU mediante acto administrativo (sin valor en decreto)
+- sobrecimiento · otro [piso en contacto con terreno natural]: N°5: aislacion termica de sobrecimiento a establecer por MINVU mediante acto administrativo (sin valor en decreto)
 ## Actos MINVU complementarios (41 valores)
 
 ### Ord. 209, N°1 Tabla 1 TABLA 1 — Ord. N°209 MINVU (20-04-2018) — aplica a: vivienda_nueva
@@ -765,6 +852,22 @@ Comunas: Chillán, Chillán Viejo
 - ventana · pct_max_ventana [zona PDA Chillan - Chillan Viejo; orientacion POND; U ventana <= 4.4 W/(m2K)]: **13** % — O-P = oriente-poniente; POND aplica si la vivienda tiene <60% de muros perimetrales expuestos (se aplica al total de paramentos verticales); bloque compartido con Temuco y Padre Las Casas
 - ventana · pct_max_ventana [zona PDA Chillan - Chillan Viejo; orientacion POND; U ventana <= 5.8 W/(m2K)]: **0** % — O-P = oriente-poniente; POND aplica si la vivienda tiene <60% de muros perimetrales expuestos (se aplica al total de paramentos verticales); bloque compartido con Temuco y Padre Las Casas
 
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona F:
+- techumbre U: plan 0.28 (DS 48/2015 MMA (D.O. 28-03-2016), Art. 25, Tabla N° 16); Art. 4.1.10 0.28 (Tabla 1): igual
+- muro U: plan 0.45 (DS 48/2015 MMA (D.O. 28-03-2016), Art. 25, Tabla N° 16); Art. 4.1.10 0.45 (Tabla 1): igual
+- piso ventilado U: plan 0.5 (DS 48/2015 MMA (D.O. 28-03-2016), Art. 25, Tabla N° 16); Art. 4.1.10 0.5 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS 48/2015 MMA (D.O. 28-03-2016), Art. 25, Tabla N° 16); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 357 (DS 48/2015 MMA (D.O. 28-03-2016), Art. 25, Tabla N° 17); Art. 4.1.10 357 (Tabla 2): igual
+- muro R100: plan 222 (DS 48/2015 MMA (D.O. 28-03-2016), Art. 25, Tabla N° 17); Art. 4.1.10 222 (Tabla 2): igual
+- piso ventilado R100: plan 200 (DS 48/2015 MMA (D.O. 28-03-2016), Art. 25, Tabla N° 17); Art. 4.1.10 200 (Tabla 2): igual
+- sobrecimiento R100: plan 91 (Ord. N°209 MINVU (20-04-2018), Ord. 209, N°1 Tabla 1, TABLA 1); Art. 4.1.10 91 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 8 (DS 48/2015 MMA (D.O. 28-03-2016), Art. 25, Tabla N°18); Art. 4.1.10 8 (Tabla 7): igual
+
+
 # PDA Valle Central de la Provincia de Curicó: DS 44/2017 MMA (D.O. 20-12-2019)
 
 Comunas: Curicó, Teno, Rauco, Romeral, Sagrada Familia, Molina
@@ -794,7 +897,7 @@ Comunas: Curicó, Teno, Rauco, Romeral, Sagrada Familia, Molina
 
 ### Art. 17  — DS 44/2017 MMA (D.O. 20-12-2019) — aplica a: vivienda_existente
 - Etapa: desde publicacion D.O. (20-12-2019)
-- vivienda · otro [zona saturada (valle central prov. Curico)]: ****  — Riesgo condensacion NCh1973 (julio; Ti=19°C; HR int 65/75/80%); Ventilacion: extraccion mecanica min. 2 puntos (banos y cocina) con higrostato, NCh3308/3309; acredita profesional competente del PSAT al ingreso Serviu
+- vivienda · otro [zona saturada (valle central prov. Curico)]: Riesgo condensacion NCh1973 (julio; Ti=19°C; HR int 65/75/80%); Ventilacion: extraccion mecanica min. 2 puntos (banos y cocina) con higrostato, NCh3308/3309; acredita profesional competente del PSAT al ingreso Serviu
 
 ### Art. 18 Tabla 11 — DS 44/2017 MMA (D.O. 20-12-2019) — aplica a: vivienda_nueva
 - Etapa: vivienda nueva = permiso/anteproyecto ingresado despues de 12 meses desde entrada en vigencia (D.O. 20-12-2019 -> 20-12-2020)
@@ -870,11 +973,38 @@ Comunas: Curicó, Teno, Rauco, Romeral, Sagrada Familia, Molina
 ### Art. 18  — DS 44/2017 MMA (D.O. 20-12-2019) — aplica a: vivienda_nueva
 - Etapa: vivienda nueva = permiso/anteproyecto ingresado despues de 12 meses desde entrada en vigencia (D.O. 20-12-2019 -> 20-12-2020)
 - ventana en techumbre · U [plano con inclinacion <= 60° desde la horizontal]: **3.6** W/(m2K) — N°5.1; texto del articulo (no tabla)
-- vivienda · otro [zona saturada (valle central prov. Curico)]: ****  — Riesgo condensacion NCh1973 (julio; Ti=19°C; HR int 65/75/80%); Ventilacion: extraccion mecanica min. 2 puntos (banos y cocina) con higrostato, NCh3308/3309; acredita profesional competente en permiso de edificacion
+- vivienda · otro [zona saturada (valle central prov. Curico)]: Riesgo condensacion NCh1973 (julio; Ti=19°C; HR int 65/75/80%); Ventilacion: extraccion mecanica min. 2 puntos (banos y cocina) con higrostato, NCh3308/3309; acredita profesional competente en permiso de edificacion
 
 ### Art. 18 Tabla 17 — DS 44/2017 MMA (D.O. 20-12-2019) — aplica a: vivienda_nueva
 - Etapa: vivienda nueva = permiso/anteproyecto ingresado despues de 12 meses desde entrada en vigencia (D.O. 20-12-2019 -> 20-12-2020)
 - sobrecimiento · R100 [pisos sobre el terreno]: **45** (m2K)/W x100 — aislamiento perimetral vertical por el exterior, desde NPT hasta hombro de fundacion o hasta 30 cm bajo terreno natural; material rotulado NCh2251 o solucion del Listado Oficial
+
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona D:
+- techumbre U: plan 0.38 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 11); Art. 4.1.10 0.38 (Tabla 1): igual
+- muro U: plan 0.8 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 11); Art. 4.1.10 0.8 (Tabla 1): igual
+- piso ventilado U: plan 0.6 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 11); Art. 4.1.10 0.6 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 11); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 263 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 12); Art. 4.1.10 263 (Tabla 2): igual
+- muro R100: plan 125 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 12); Art. 4.1.10 125 (Tabla 2): igual
+- piso ventilado R100: plan 167 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 12); Art. 4.1.10 167 (Tabla 2): igual
+- sobrecimiento R100: plan 45 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 17); Art. 4.1.10 45 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 8 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 13); Art. 4.1.10 8 (Tabla 7): igual
+
+Zona H (≥ 1.000):
+- techumbre U: plan 0.38 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 11); Art. 4.1.10 0.25 (Tabla 1): **el 4.1.10 es más estricto**
+- muro U: plan 0.8 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 11); Art. 4.1.10 0.3 (Tabla 1): **el 4.1.10 es más estricto**
+- piso ventilado U: plan 0.6 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 11); Art. 4.1.10 0.32 (Tabla 1): **el 4.1.10 es más estricto**
+- puerta opaca U: plan 1.7 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 11); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 263 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 12); Art. 4.1.10 400 (Tabla 2): **el 4.1.10 es más estricto**
+- muro R100: plan 125 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 12); Art. 4.1.10 333 (Tabla 2): **el 4.1.10 es más estricto**
+- piso ventilado R100: plan 167 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 12); Art. 4.1.10 313 (Tabla 2): **el 4.1.10 es más estricto**
+- sobrecimiento R100: plan 45 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 17); Art. 4.1.10 91 (Tabla 6): **el 4.1.10 es más estricto**
+- infiltración ach a 50 Pa: plan 8 (DS 44/2017 MMA (D.O. 20-12-2019), Art. 18, Tabla 13); Art. 4.1.10 8 (Tabla 7): igual
+
 
 # PPDA Concepción Metropolitano: DS 6/2018 MMA (D.O. 17-12-2019)
 
@@ -905,7 +1035,7 @@ Comunas: Lota, Coronel, San Pedro de la Paz, Hualqui, Chiguayante, Concepción, 
 
 ### Art. 24  — DS 6/2018 MMA (D.O. 17-12-2019) — aplica a: vivienda_existente
 - Etapa: desde entrada en vigencia (D.O. 17-12-2019)
-- vivienda · otro [Concepcion Metropolitano (10 comunas)]: ****  — Riesgo condensacion NCh1973 (julio; Ti=19°C; HR int 65/75/80%); Ventilacion: extraccion mecanica con higrostato en banos y cocinas, NCh3308/3309; acredita profesional competente del PSAT al ingreso SERVIU
+- vivienda · otro [Concepcion Metropolitano (10 comunas)]: Riesgo condensacion NCh1973 (julio; Ti=19°C; HR int 65/75/80%); Ventilacion: extraccion mecanica con higrostato en banos y cocinas, NCh3308/3309; acredita profesional competente del PSAT al ingreso SERVIU
 
 ### Art. 25 Tabla N° 11 — DS 6/2018 MMA (D.O. 17-12-2019) — aplica a: vivienda_nueva
 - Etapa: vivienda nueva = permiso/anteproyecto ingresado despues de 12 meses desde entrada en vigencia (17-12-2019 -> 17-12-2020)
@@ -981,17 +1111,33 @@ Comunas: Lota, Coronel, San Pedro de la Paz, Hualqui, Chiguayante, Concepción, 
 ### Art. 25  — DS 6/2018 MMA (D.O. 17-12-2019) — aplica a: vivienda_nueva
 - Etapa: vivienda nueva = permiso/anteproyecto ingresado despues de 12 meses desde entrada en vigencia (17-12-2019 -> 17-12-2020)
 - ventana en techumbre · U [plano con inclinacion <= 60° desde la horizontal]: **3.6** W/(m2K) — N°5.1; texto del articulo (no tabla)
-- vivienda · otro [Concepcion Metropolitano (10 comunas)]: ****  — Riesgo condensacion NCh1973 (julio; Ti=19°C; HR int 65/75/80%); Ventilacion: extraccion mecanica con higrostato en banos y cocina, NCh3308/3309; acredita profesional competente en permiso de edificacion
+- vivienda · otro [Concepcion Metropolitano (10 comunas)]: Riesgo condensacion NCh1973 (julio; Ti=19°C; HR int 65/75/80%); Ventilacion: extraccion mecanica con higrostato en banos y cocina, NCh3308/3309; acredita profesional competente en permiso de edificacion
 
 ### Art. 25 Tabla Nº17 — DS 6/2018 MMA (D.O. 17-12-2019) — aplica a: vivienda_nueva
 - Etapa: vivienda nueva = permiso/anteproyecto ingresado despues de 12 meses desde entrada en vigencia (17-12-2019 -> 17-12-2020)
 - sobrecimiento · R100 [pisos sobre el terreno]: **45** (m2K)/W x100 — aislamiento perimetral vertical por el exterior, desde NPT hasta hombro de fundacion o hasta 30 cm bajo terreno natural; material rotulado NCh2251 o solucion del Listado Oficial
 
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona E:
+- techumbre U: plan 0.33 (DS 6/2018 MMA (D.O. 17-12-2019), Art. 25, Tabla N° 11); Art. 4.1.10 0.33 (Tabla 1): igual
+- muro U: plan 0.6 (DS 6/2018 MMA (D.O. 17-12-2019), Art. 25, Tabla N° 11); Art. 4.1.10 0.6 (Tabla 1): igual
+- piso ventilado U: plan 0.6 (DS 6/2018 MMA (D.O. 17-12-2019), Art. 25, Tabla N° 11); Art. 4.1.10 0.6 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS 6/2018 MMA (D.O. 17-12-2019), Art. 25, Tabla N° 11); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 303 (DS 6/2018 MMA (D.O. 17-12-2019), Art. 25, Tabla Nº12); Art. 4.1.10 303 (Tabla 2): igual
+- muro R100: plan 167 (DS 6/2018 MMA (D.O. 17-12-2019), Art. 25, Tabla Nº12); Art. 4.1.10 167 (Tabla 2): igual
+- piso ventilado R100: plan 167 (DS 6/2018 MMA (D.O. 17-12-2019), Art. 25, Tabla Nº12); Art. 4.1.10 167 (Tabla 2): igual
+- sobrecimiento R100: plan 45 (DS 6/2018 MMA (D.O. 17-12-2019), Art. 25, Tabla Nº17); Art. 4.1.10 45 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 5 (DS 6/2018 MMA (D.O. 17-12-2019), Art. 25, Tabla N° 13); Art. 4.1.10 5 (Tabla 7): igual
+
+
 # PDA Los Ángeles: DS 4/2017 MMA (D.O. 25-01-2019)
 
 Comunas: Los Ángeles
 
-## Decreto (75 valores)
+## Decreto (76 valores)
 
 ### Art. 18 Tabla 8 — DS N°4/2017 MMA (D.O. 25-01-2019) — aplica a: vivienda_existente
 - Etapa: desde entrada en vigencia (D.O. 25-01-2019)
@@ -1116,11 +1262,31 @@ Comunas: Los Ángeles
 - Etapa: a 24 meses desde entrada en vigencia (~25-01-2021)
 - ventana en techumbre (inclinacion <=60° desde la horizontal) · U: **3.6** W/(m2K) — texto N°5.1: 'igual o menor a 3,6 W/(m²K)'
 
+### Art. 20 N°4  — DS N°4/2017 MMA (D.O. 25-01-2019) — aplica a: vivienda_nueva
+- Etapa: a 24 meses desde entrada en vigencia (~25-01-2021)
+- ventilacion · otro: Ventilacion: extraccion mecanica en banos y cocina con higrostato; NCh3308/3309; acredita el profesional competente para el permiso de edificacion
+
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona F:
+- techumbre U: plan 0.28 (DS N°4/2017 MMA (D.O. 25-01-2019), Art. 20, Tabla 15b); Art. 4.1.10 0.28 (Tabla 1): igual
+- muro U: plan 0.45 (DS N°4/2017 MMA (D.O. 25-01-2019), Art. 20, Tabla 15b); Art. 4.1.10 0.45 (Tabla 1): igual
+- piso ventilado U: plan 0.5 (DS N°4/2017 MMA (D.O. 25-01-2019), Art. 20, Tabla 15b); Art. 4.1.10 0.5 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS N°4/2017 MMA (D.O. 25-01-2019), Art. 20, Tabla 15b); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 357 (DS N°4/2017 MMA (D.O. 25-01-2019), Art. 20, Tabla 16); Art. 4.1.10 357 (Tabla 2): igual
+- muro R100: plan 222 (DS N°4/2017 MMA (D.O. 25-01-2019), Art. 20, Tabla 16); Art. 4.1.10 222 (Tabla 2): igual
+- piso ventilado R100: plan 200 (DS N°4/2017 MMA (D.O. 25-01-2019), Art. 20, Tabla 16); Art. 4.1.10 200 (Tabla 2): igual
+- sobrecimiento R100: plan 91 (DS N°4/2017 MMA (D.O. 25-01-2019), Art. 20, Tabla 21); Art. 4.1.10 91 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 8 (DS N°4/2017 MMA (D.O. 25-01-2019), Art. 20, Tabla 17); Art. 4.1.10 8 (Tabla 7): igual
+
+
 # PDA Valdivia: DS 25/2016 MMA (D.O. 23-06-2017)
 
 Comunas: Valdivia
 
-## Decreto (31 valores)
+## Decreto (32 valores)
 
 ### Art. 26 Tabla N°9 — DS N°25/2016 MMA (D.O. 23-06-2017) — aplica a: vivienda_existente
 - Etapa: desde entrada en vigencia (D.O. 23-06-2017)
@@ -1171,7 +1337,7 @@ Comunas: Valdivia
 - techo · U: **0.28** W/(m2K)
 - muro · U: **0.40** W/(m2K)
 - piso ventilado · U: **0.39** W/(m2K)
-- ventana · U: **** W/(m2K) — celda dice 'Por definir MINVU*': exigencia de ventanas para vivienda nueva a definir por resolucion MINVU en plazo no mayor a 18 meses desde entrada en vigencia (texto Art. 28 N°1.2)
+- ventana · U: celda dice 'Por definir MINVU*': exigencia de ventanas para vivienda nueva a definir por resolucion MINVU en plazo no mayor a 18 meses desde entrada en vigencia (texto Art. 28 N°1.2)
 - puerta · U: **1.70** W/(m2K)
 
 ### Art. 28 Tabla N°17 — DS N°25/2016 MMA (D.O. 23-06-2017) — aplica a: ambos
@@ -1190,7 +1356,11 @@ Comunas: Valdivia
 
 ### Art. 28  — DS N°25/2016 MMA (D.O. 23-06-2017) — aplica a: vivienda_nueva
 - Etapa: a 24 meses de la entrada en vigencia (~23-06-2019)
-- ventana / sobrecimiento · otro [control de ganancias solares y aislacion de sobrecimiento]: ****  — N°5: exigencias a establecer por MINVU mediante resolucion publicada en D.O.; el decreto no fija valores
+- ventana / sobrecimiento · otro [control de ganancias solares y aislacion de sobrecimiento]: N°5: exigencias a establecer por MINVU mediante resolucion publicada en D.O.; el decreto no fija valores
+
+### Art. 28 N°4  — DS N°25/2016 MMA (D.O. 23-06-2017) — aplica a: vivienda_nueva
+- Etapa: a 24 meses de la entrada en vigencia (~23-06-2019)
+- ventilacion · otro: Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; acredita el profesional competente para el permiso de edificacion
 ## Actos MINVU complementarios (94 valores)
 
 ### Ord. 209, N°1 Tabla 1 TABLA 1 — Ord. N°209 MINVU (20-04-2018) — aplica a: vivienda_nueva
@@ -1300,13 +1470,29 @@ Comunas: Valdivia
 - ventana techumbre · otro [U máx. ventana en techumbre (≤60°)]: **3.6** W/(m2K)
 - condensación · otro [T interior condensación]: **19** °C
 - condensación · otro [HR interior condensación (tres escenarios)]: **65; 75; 80** %
-- condensación · otro [período de análisis; T y HR ext = media mínima de julio de la provincia]: **julio** 
+- condensación · otro [período de análisis; T y HR ext = media mínima de julio de la provincia]: **julio**
+
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona G:
+- techumbre U: plan 0.28 (DS N°25/2016 MMA (D.O. 23-06-2017), Art. 28, Tabla N°16b); Art. 4.1.10 0.28 (Tabla 1): igual
+- muro U: plan 0.4 (DS N°25/2016 MMA (D.O. 23-06-2017), Art. 28, Tabla N°16b); Art. 4.1.10 0.4 (Tabla 1): igual
+- piso ventilado U: plan 0.39 (DS N°25/2016 MMA (D.O. 23-06-2017), Art. 28, Tabla N°16b); Art. 4.1.10 0.39 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS N°25/2016 MMA (D.O. 23-06-2017), Art. 28, Tabla N°16b); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 357 (DS N°25/2016 MMA (D.O. 23-06-2017), Art. 28, Tabla N°17); Art. 4.1.10 357 (Tabla 2): igual
+- muro R100: plan 250 (DS N°25/2016 MMA (D.O. 23-06-2017), Art. 28, Tabla N°17); Art. 4.1.10 250 (Tabla 2): igual
+- piso ventilado R100: plan 256 (DS N°25/2016 MMA (D.O. 23-06-2017), Art. 28, Tabla N°17); Art. 4.1.10 256 (Tabla 2): igual
+- sobrecimiento R100: plan 91 (Res. Ex. N°1729 MINVU (30-07-2019; D.O. 05-08-2019), Tabla 1 reemplazada por Res. Ex. 1197 (D.O. 21-07-2021), Res. 1729, Tabla 3, Tabla 3); Art. 4.1.10 91 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 5 (DS N°25/2016 MMA (D.O. 23-06-2017), Art. 28, Tabla N°18); Art. 4.1.10 5 (Tabla 7): igual
+
 
 # PDA Osorno: DS 47/2015 MMA (D.O. 28-03-2016)
 
 Comunas: Osorno
 
-## Decreto (31 valores)
+## Decreto (32 valores)
 
 ### Art. 6 Tabla N°17 — DS N°47/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_existente
 - Etapa: desde la publicacion en D.O. (28-03-2016)
@@ -1357,7 +1543,7 @@ Comunas: Osorno
 - techo · U: **0.28** W/(m2K)
 - muro · U: **0.40** W/(m2K)
 - piso ventilado · U: **0.39** W/(m2K)
-- ventana · U: **** W/(m2K) — celda dice 'Por definir – MINVU*'; nota: exigencias de ventana para vivienda nueva seran definidas por MINVU mediante acto administrativo
+- ventana · U: celda dice 'Por definir – MINVU*'; nota: exigencias de ventana para vivienda nueva seran definidas por MINVU mediante acto administrativo
 - puerta · U: **1.70** W/(m2K)
 
 ### Art. 8 Tabla N°25 — DS N°47/2015 MMA (D.O. 28-03-2016) — aplica a: ambos
@@ -1376,7 +1562,11 @@ Comunas: Osorno
 
 ### Art. 8  — DS N°47/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_nueva
 - Etapa: a partir del 01-01-2019
-- ventana / sobrecimiento · otro [control de ganancias solares y aislacion de sobrecimiento]: ****  — N°5: exigencias a establecer por MINVU mediante acto administrativo; el decreto no fija valores
+- ventana / sobrecimiento · otro [control de ganancias solares y aislacion de sobrecimiento]: N°5: exigencias a establecer por MINVU mediante acto administrativo; el decreto no fija valores
+
+### Art. 8 N°4  — DS N°47/2015 MMA (D.O. 28-03-2016) — aplica a: vivienda_nueva
+- Etapa: a partir del 01-01-2019
+- ventilacion · otro: Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; acredita el proyectista para el permiso de edificacion
 ## Actos MINVU complementarios (144 valores)
 
 ### Ord. 209, N°1 Tabla 1 TABLA 1 — Ord. N°209 MINVU (20-04-2018) — aplica a: vivienda_nueva
@@ -1428,12 +1618,12 @@ Comunas: Osorno
 
 ### Ord. 1773, letra A  — Ord. N°1773 DITEC MINVU (16-11-2017) — aplica a: ambos
 - Etapa: criterio informado 16-11-2017 (PDA Osorno)
-- techumbre, muro, piso ventilado · otro [riesgo de condensacion; periodo de analisis]: **julio** 
+- techumbre, muro, piso ventilado · otro [riesgo de condensacion; periodo de analisis]: **julio**
 - techumbre, muro, piso ventilado · otro [riesgo de condensacion; temperatura ambiente interior]: **19** °C
 - techumbre, muro, piso ventilado · otro [riesgo de condensacion; HR ambiente interior (caso 1 de 3)]: **65** % — texto: HR interior 65%, 75% y 85% (Res. Ex. 9869 dice 80%)
 - techumbre, muro, piso ventilado · otro [riesgo de condensacion; HR ambiente interior (caso 2 de 3)]: **75** %
 - techumbre, muro, piso ventilado · otro [riesgo de condensacion; HR ambiente interior (caso 3 de 3)]: **85** % — difiere de Res. Ex. 9869/2018 (80%); confirmado en imagen de ambas copias del Ord. 1773
-- techumbre, muro, piso ventilado · otro [riesgo de condensacion; temperatura y HR exterior]: ****  — T ext = temperatura media minima de julio de la provincia de la zona PDA; HR ext = HR asociada a esa temperatura
+- techumbre, muro, piso ventilado · otro [riesgo de condensacion; temperatura y HR exterior]: T ext = temperatura media minima de julio de la provincia de la zona PDA; HR ext = HR asociada a esa temperatura
 - techumbre, muro, piso ventilado · otro [riesgo de condensacion; secciones de analisis]: **2** secciones — seccion de menor y de mayor resistencia termica; riesgo superficial e intersticial en ambas; NCh1973/2014 con planilla MINVU; aplica a techumbres, muros y pisos ventilados
 
 ### Ord. 1773, letra B Porcentaje maximo de superficie de ventanas segun orientacion y valor U — Ord. N°1773 DITEC MINVU (16-11-2017) — aplica a: vivienda_nueva
@@ -1489,7 +1679,7 @@ Comunas: Osorno
 
 ### Ord. 1773, parrafo final  — Ord. N°1773 DITEC MINVU (16-11-2017) — aplica a: vivienda_nueva
 - Etapa: criterio informado 16-11-2017 (PDA Osorno)
-- puerta y ventana · otro [infiltracion de aire acreditada por especificaciones tecnicas]: ****  — minimo lo indicado en las especificaciones tecnicas de las fichas de soluciones constructivas tipo
+- puerta y ventana · otro [infiltracion de aire acreditada por especificaciones tecnicas]: minimo lo indicado en las especificaciones tecnicas de las fichas de soluciones constructivas tipo
 
 ### Res. 9869, resuelvo N°1  — Res. Ex. N°9869 MINVU (29-11-2018) — aplica a: vivienda_nueva
 - Etapa: exigible desde 01-01-2019 (Res. N°1)
@@ -1544,7 +1734,7 @@ Comunas: Osorno
 
 ### Res. 9869, A.1 Tabla 2 TABLA 2 — Res. Ex. N°9869 MINVU (29-11-2018) — aplica a: vivienda_nueva
 - Etapa: exigible desde 01-01-2019 (Res. N°1)
-- ventana · otro [definicion de orientaciones]: ****  — N >=315°-<45°; O >=45°-<135°; S >=135°-<225°; P >=225°-<315° (identica a Tabla 3 Ord. 209)
+- ventana · otro [definicion de orientaciones]: N >=315°-<45°; O >=45°-<135°; S >=135°-<225°; P >=225°-<315° (identica a Tabla 3 Ord. 209)
 
 ### Res. 9869, A.2 Tabla 3 TABLA 3 — Res. Ex. N°9869 MINVU (29-11-2018) — aplica a: vivienda_nueva
 - Etapa: exigible desde 01-01-2019 (Res. N°1)
@@ -1552,27 +1742,43 @@ Comunas: Osorno
 
 ### Res. 9869, letra B  — Res. Ex. N°9869 MINVU (29-11-2018) — aplica a: ambos
 - Etapa: exigible desde 01-01-2019 (Res. N°1)
-- techumbre, muro, piso ventilado · otro [riesgo de condensacion; periodo de analisis]: **julio** 
+- techumbre, muro, piso ventilado · otro [riesgo de condensacion; periodo de analisis]: **julio**
 - techumbre, muro, piso ventilado · otro [riesgo de condensacion; temperatura ambiente interior]: **19** °C
 - techumbre, muro, piso ventilado · otro [riesgo de condensacion; HR ambiente interior (caso 1 de 3)]: **65** %
 - techumbre, muro, piso ventilado · otro [riesgo de condensacion; HR ambiente interior (caso 2 de 3)]: **75** %
 - techumbre, muro, piso ventilado · otro [riesgo de condensacion; HR ambiente interior (caso 3 de 3)]: **80** % — texto: 65%, 75% y 80%; difiere de Ord. 1773 (85%)
 - techumbre, muro, piso ventilado · otro [riesgo de condensacion; secciones de analisis]: **2** secciones — menor y mayor resistencia termica; NCh1973/2014 con planilla MINVU; techumbres, muros y pisos ventilados
-- techumbre, muro, piso ventilado · otro [riesgo de condensacion; temperatura y HR exterior]: ****  — T media minima de julio de la provincia de la zona PDA y HR asociada
+- techumbre, muro, piso ventilado · otro [riesgo de condensacion; temperatura y HR exterior]: T media minima de julio de la provincia de la zona PDA y HR asociada
 
 ### Ord. 840, N°1  — Ord. N°840 SEREMI MINVU Los Lagos (30-04-2019) — aplica a: vivienda_nueva
 - Etapa: respuesta a DOM Osorno 30-04-2019
-- ventana y puerta vidriada · otro [contenido minimo ETM (Art. 8 letra b PDA)]: ****  — materialidad marco; tipo apertura; ancho y alto; n° hojas fijas/operables; n° y espesor vidrios; camara de aire y espesor; material separador; tipo de cierre; burletes en marco, cristal y hojas moviles; despiches; altura riel inferior; % vidrio; % opaco
+- ventana y puerta vidriada · otro [contenido minimo ETM (Art. 8 letra b PDA)]: materialidad marco; tipo apertura; ancho y alto; n° hojas fijas/operables; n° y espesor vidrios; camara de aire y espesor; material separador; tipo de cierre; burletes en marco, cristal y hojas moviles; despiches; altura riel inferior; % vidrio; % opaco
 
 ### Ord. 840, N°2 y 2.1  — Ord. N°840 SEREMI MINVU Los Lagos (30-04-2019) — aplica a: vivienda_nueva
 - Etapa: respuesta a DOM Osorno 30-04-2019
-- puerta · otro [contenido minimo ETM (Art. 8 letra b PDA)]: ****  — materialidad marco y hoja; tipo de puerta; alto/ancho/espesor; espesor marco; burlete hoja-marco; burlete inferior hasta NPT; cerradura; si es vidriada: ancho/alto, vidrios, camara, separador, burlete cristal, riel inferior, % vidrio, % opaco
+- puerta · otro [contenido minimo ETM (Art. 8 letra b PDA)]: materialidad marco y hoja; tipo de puerta; alto/ancho/espesor; espesor marco; burlete hoja-marco; burlete inferior hasta NPT; cerradura; si es vidriada: ancho/alto, vidrios, camara, separador, burlete cristal, riel inferior, % vidrio, % opaco
+
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona G:
+- techumbre U: plan 0.28 (DS N°47/2015 MMA (D.O. 28-03-2016), Art. 8, Tabla N°24a); Art. 4.1.10 0.28 (Tabla 1): igual
+- muro U: plan 0.4 (DS N°47/2015 MMA (D.O. 28-03-2016), Art. 8, Tabla N°24a); Art. 4.1.10 0.4 (Tabla 1): igual
+- piso ventilado U: plan 0.39 (DS N°47/2015 MMA (D.O. 28-03-2016), Art. 8, Tabla N°24a); Art. 4.1.10 0.39 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS N°47/2015 MMA (D.O. 28-03-2016), Art. 8, Tabla N°24a); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 357 (DS N°47/2015 MMA (D.O. 28-03-2016), Art. 8, Tabla N°25); Art. 4.1.10 357 (Tabla 2): igual
+- muro R100: plan 250 (DS N°47/2015 MMA (D.O. 28-03-2016), Art. 8, Tabla N°25); Art. 4.1.10 250 (Tabla 2): igual
+- piso ventilado R100: plan 256 (DS N°47/2015 MMA (D.O. 28-03-2016), Art. 8, Tabla N°25); Art. 4.1.10 256 (Tabla 2): igual
+- sobrecimiento R100: plan 91 (Res. Ex. N°9869 MINVU (29-11-2018), Res. 9869, A.2 Tabla 3, TABLA 3); Art. 4.1.10 91 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 5 (DS N°47/2015 MMA (D.O. 28-03-2016), Art. 8, Tabla N°26); Art. 4.1.10 5 (Tabla 7): igual
+
 
 # PDA Coyhaique y su zona circundante: DS 7/2018 MMA (D.O. 17-07-2019)
 
 Comunas: Coihaique
 
-## Decreto (66 valores)
+## Decreto (67 valores)
 
 ### Art. 18 Tabla 7 — DS N°7/2018 MMA (D.O. 17-07-2019) — aplica a: vivienda_existente
 - Etapa: desde entrada en vigencia (D.O. 17-07-2019)
@@ -1671,7 +1877,11 @@ Comunas: Coihaique
 ### Art. 20  — DS N°7/2018 MMA (D.O. 17-07-2019) — aplica a: vivienda_nueva
 - Etapa: desde entrada en vigencia (D.O. 17-07-2019)
 - ventana en techumbre (inclinacion <=60° desde la horizontal) · U: **3.6** W/(m2K) — texto N°1.2: 'igual o menor a 3,6 W/(m²K)'
-- ventana · otro [formula superficie maxima]: **SMV = StPV * %mV / 100%**  — formula (imagen p.20) para superficie maxima de ventana por orientacion; %mV segun Tabla 12
+- ventana · otro [formula superficie maxima]: **SMV = StPV * %mV / 100%** — formula (imagen p.20) para superficie maxima de ventana por orientacion; %mV segun Tabla 12
+
+### Art. 20 N°4  — DS N°7/2018 MMA (D.O. 17-07-2019) — aplica a: vivienda_nueva
+- Etapa: desde entrada en vigencia (D.O. 17-07-2019)
+- ventilacion · otro: Ventilacion: extraccion mecanica min. 2 puntos (bano y cocina) con higrostato; NCh3308/3309; acredita el profesional competente para el permiso de edificacion
 ## Actos MINVU complementarios (41 valores)
 
 ### Ord. 209, N°1 Tabla 1 TABLA 1 — Ord. N°209 MINVU (20-04-2018) — aplica a: vivienda_nueva
@@ -1720,3 +1930,19 @@ Comunas: Coihaique
 - ventana · pct_max_ventana [zona PDA Coyhaique; orientacion POND; U ventana <= 4 W/(m2K)]: **10** % — O-P = oriente-poniente; POND aplica si la vivienda tiene <60% de muros perimetrales expuestos (se aplica al total de paramentos verticales); Ord. 209 anterior al DS 7/2018
 - ventana · pct_max_ventana [zona PDA Coyhaique; orientacion POND; U ventana <= 4.4 W/(m2K)]: **0** % — O-P = oriente-poniente; POND aplica si la vivienda tiene <60% de muros perimetrales expuestos (se aplica al total de paramentos verticales); Ord. 209 anterior al DS 7/2018
 - ventana · pct_max_ventana [zona PDA Coyhaique; orientacion POND; U ventana <= 5.8 W/(m2K)]: **0** % — O-P = oriente-poniente; POND aplica si la vivienda tiene <60% de muros perimetrales expuestos (se aplica al total de paramentos verticales); Ord. 209 anterior al DS 7/2018
+
+## Comparación informativa con el Art. 4.1.10 (vivienda nueva, última etapa del plan)
+
+El inc. 2° remite al plan y no compara exigencias. Si el 4.1.10 es más estricto o hay ambigüedad, no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.
+
+Zona I:
+- techumbre U: plan 0.25 (DS N°7/2018 MMA (D.O. 17-07-2019), Art. 20, Tabla 10); Art. 4.1.10 0.25 (Tabla 1): igual
+- muro U: plan 0.35 (DS N°7/2018 MMA (D.O. 17-07-2019), Art. 20, Tabla 10); Art. 4.1.10 0.35 (Tabla 1): igual
+- piso ventilado U: plan 0.32 (DS N°7/2018 MMA (D.O. 17-07-2019), Art. 20, Tabla 10); Art. 4.1.10 0.32 (Tabla 1): igual
+- puerta opaca U: plan 1.7 (DS N°7/2018 MMA (D.O. 17-07-2019), Art. 20, Tabla 10); Art. 4.1.10 1.7 (Tabla 1): igual
+- techumbre R100: plan 400 (DS N°7/2018 MMA (D.O. 17-07-2019), Art. 20, Tabla 11); Art. 4.1.10 400 (Tabla 2): igual
+- muro R100: plan 286 (DS N°7/2018 MMA (D.O. 17-07-2019), Art. 20, Tabla 11); Art. 4.1.10 286 (Tabla 2): igual
+- piso ventilado R100: plan 313 (DS N°7/2018 MMA (D.O. 17-07-2019), Art. 20, Tabla 11); Art. 4.1.10 313 (Tabla 2): igual
+- sobrecimiento R100: plan 91 (DS N°7/2018 MMA (D.O. 17-07-2019), Art. 20, Tabla 14); Art. 4.1.10 91 (Tabla 6): igual
+- infiltración ach a 50 Pa: plan 4 (DS N°7/2018 MMA (D.O. 17-07-2019), Art. 20, Tabla 15); Art. 4.1.10 4 (Tabla 7): igual
+

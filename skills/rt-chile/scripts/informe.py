@@ -136,6 +136,12 @@ def seccion_elementos(p: dict, z: dict, faltantes: list[str], supuestos: list[st
         if limites:
             lim = min(limites, key=lambda x: x["valor"])
             umax, fuente = lim["valor"], lim["fuente"]
+            u_4110 = ucheck.exigencia(el, zona, uso)
+            if u_4110 is not None:
+                fuente += f"; Art. 4.1.10, Tabla 1: {_num(u_4110)} (informativo)"
+                if u_4110 < umax:
+                    supuestos.append(f"{NOMBRE[el]}: el Art. 4.1.10 ({_num(u_4110)}) es más estricto que el plan ({_num(umax)}). El inc. 2° remite al "
+                                     "plan, pero no hay interpretación oficial confirmada: se recomienda usar el valor más estricto o consultar a la DOM.")
             if lim["varias_etapas"]:
                 supuestos.append(f"{NOMBRE[el]}: el plan tiene varias etapas con límites distintos; se usó el más exigente. "
                                  "Confirmar la etapa según la fecha de ingreso.")

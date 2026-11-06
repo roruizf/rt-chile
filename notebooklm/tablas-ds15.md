@@ -272,3 +272,431 @@ U en W/m²K; Rt en m²K/W; R100 = Rt × 100. Fuente: DS 15/2024, D.O. 27-05-2024
 | 17 | 24 | 3 |
 | 25 | 32 | 4 |
 | 33 | — | 10% |
+
+## Res. Ex. 1802, Anexo 1: clima exterior para el cálculo de condensación
+
+Temperatura y humedad relativa exterior por comuna o localidad. Transcrito del PDF escaneado y revisado contra sus imágenes.
+
+- Alto Hospicio, zona A: T° exterior 12,4 °C, HR exterior 69 %
+- Antofagasta, zona A, condición ≥ 70°: T° exterior 10,3 °C, HR exterior 73 %
+- Arica, zona A, condición < 1.100: T° exterior 13,6 °C, HR exterior 73 %
+- Caldera, zona A: T° exterior 10,3 °C, HR exterior 73 %
+- Camarones, zona A, condición < 1.100: T° exterior 13,6 °C, HR exterior 73 %
+- Chañaral, zona A: T° exterior 10,3 °C, HR exterior 73 %
+- Copiapó, zona A, condición > 70° 44': T° exterior 10,3 °C, HR exterior 73 %
+- Freirina, zona A: T° exterior 10,3 °C, HR exterior 73 %
+- Huara, zona A, condición < 1.100: T° exterior 12,4 °C, HR exterior 69 %
+- Huasco, zona A: T° exterior 10,3 °C, HR exterior 73 %
+- Iquique, zona A: T° exterior 12,4 °C, HR exterior 69 %
+- Mejillones, zona A: T° exterior 10,3 °C, HR exterior 73 %
+- Taltal, zona A, condición ≥ 70°: T° exterior 10,3 °C, HR exterior 73 %
+- Tocopilla, zona A: T° exterior 12,4 °C, HR exterior 69 %
+- Isla de Pascua, zona A (p): T° exterior 16 °C, HR exterior 85 %
+- Todas las comunas excepto Isla de Pascua, zona A: T° exterior 10,3 °C, HR exterior 73 %
+- Alto del Carmen, zona B, condición < 3.000: T° exterior 7,8 °C, HR exterior 76 %
+- Andacollo, zona B: T° exterior 7,8 °C, HR exterior 76 %
+- Antofagasta, zona B, condición < 3.000 | < 70°: T° exterior 7,8 °C, HR exterior 76 %
+- Arica, zona B, condición altitud 1.100 ≤ < 3.000: T° exterior 7,8 °C, HR exterior 76 %
+- Calama, zona B (p), condición < 3.000: T° exterior 0,4 °C, HR exterior 27 %
+- Camarones, zona B, condición altitud 1.100 ≤ < 3.000: T° exterior 7,8 °C, HR exterior 76 %
+- Camiña, zona B, condición altitud 1.100 ≤ < 3.000: T° exterior 7,8 °C, HR exterior 76 %
+- Combarbalá, zona B, condición < 2.000: T° exterior 7,8 °C, HR exterior 76 %
+- Copiapó, zona B, condición < 3.000 | ≤70° 44': T° exterior 6,9 °C, HR exterior 85 %
+- Diego de Almagro, zona B, condición < 3.000: T° exterior 6,9 °C, HR exterior 85 %
+- Huara, zona B, condición altitud 1.100 ≤ < 3.000: T° exterior 7,8 °C, HR exterior 76 %
+- Illapel, zona B, condición < 2.000: T° exterior 7,8 °C, HR exterior 76 %
+- La Higuera, zona B, condición ≤ 71°: T° exterior 7,8 °C, HR exterior 76 %
+- La Serena, zona B, condición ≤ 71°: T° exterior 7,8 °C, HR exterior 76 %
+- María Elena, zona B (p): T° exterior 0,4 °C, HR exterior 27 %
+- Monte Patria, zona B, condición < 2.000: T° exterior 7,8 °C, HR exterior 76 %
+- Ovalle, zona B, condición ≤ 71° 15': T° exterior 7,8 °C, HR exterior 76 %
+- Paiguano, zona B, condición < 3.000: T° exterior 7,8 °C, HR exterior 76 %
+- Pica, zona B, condición < 3.000: T° exterior 7,8 °C, HR exterior 76 %
+- Pozo Almonte, zona B, condición < 3.000: T° exterior 7,8 °C, HR exterior 76 %
+- Punitaqui, zona B: T° exterior 7,8 °C, HR exterior 76 %
+- Río Hurtado, zona B, condición < 3.000: T° exterior 7,8 °C, HR exterior 76 %
+- Salamanca, zona B, condición < 2.000: T° exterior 7,8 °C, HR exterior 76 %
+- San Pedro de Atacama, zona B (p), condición < 3.000: T° exterior 0,4 °C, HR exterior 27 %
+- Sierra Gorda, zona B (p): T° exterior 0,4 °C, HR exterior 27 %
+- Taltal, zona B, condición < 3.000 | < 70°: T° exterior 7,8 °C, HR exterior 76 %
+- Tierra Amarilla, zona B, condición < 3.000: T° exterior 6,9 °C, HR exterior 85 %
+- Vallenar, zona B: T° exterior 6,9 °C, HR exterior 85 %
+- Vicuña, zona B, condición < 3.000: T° exterior 7,8 °C, HR exterior 76 %
+- Calama, María Elena, San Pedro de Atacama y Sierra Gorda, zona B (p): T° exterior 0,4 °C, HR exterior 27 %
+- Todas las comunas excepto Calama, María Elena, San Pedro de Atacama y Sierra Gorda, zona B: T° exterior 6,9 °C, HR exterior 85 %
+- Algarrobo, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Canela, zona C: T° exterior 6,9 °C, HR exterior 85 %
+- Cartagena, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Casablanca, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Concón, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Coquimbo, zona C: T° exterior 6,9 °C, HR exterior 85 %
+- El Quisco, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- El Tabo, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- La Higuera, zona C, condición > 71°: T° exterior 6,9 °C, HR exterior 85 %
+- La Ligua, zona C, condición > 71° 15': T° exterior 4,8 °C, HR exterior 90 %
+- La Serena, zona C, condición > 71°: T° exterior 6,9 °C, HR exterior 85 %
+- Licantén, zona C: T° exterior 3,9 °C, HR exterior 95 %
+- Litueche, zona C: T° exterior 3,9 °C, HR exterior 95 %
+- Los Vilos, zona C: T° exterior 6,9 °C, HR exterior 85 %
+- Navidad, zona C: T° exterior 3,9 °C, HR exterior 95 %
+- Ovalle, zona C, condición > 71° 15': T° exterior 6,9 °C, HR exterior 85 %
+- Papudo, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Paredones, zona C: T° exterior 3,9 °C, HR exterior 95 %
+- Pichilemu, zona C: T° exterior 3,9 °C, HR exterior 95 %
+- Puchuncaví, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Quintero, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- San Antonio, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Santo Domingo, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Valparaíso, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Vichuquén, zona C: T° exterior 3,9 °C, HR exterior 95 %
+- Viña del Mar, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Zapallar, zona C: T° exterior 4,8 °C, HR exterior 90 %
+- Las islas: Alejandro Selkirk, Robinson Crusoe, Santa Clara, Salas y Gómez, San Ambrosio y San Félix, zona C (p): T° exterior 12,5 °C, HR exterior 74 %
+- Todas las comunas excepto "Las Islas", zona C: T° exterior 3,9 °C, HR exterior 95 %
+- Alhué, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Buin, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Cabildo, zona D, condición < 2.000: T° exterior 4,7 °C, HR exterior 90 %
+- Calera, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Calera de Tango, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Calle Larga, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Catemu, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Cerrillos, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Cerro Navia, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Chépica, zona D: T° exterior 4,4 °C, HR exterior 90 %
+- Chimbarongo, zona D: T° exterior 4,4 °C, HR exterior 90 %
+- Codegua, zona D, condición < 1.000: T° exterior 2,4 °C, HR exterior 97 %
+- Coinco, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- Colbún, zona D, condición < 1.000: T° exterior 2,6 °C, HR exterior 92 %
+- Colina, zona D, condición < 2.000: T° exterior 2,2 °C, HR exterior 92 %
+- Coltauco, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- Conchalí, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Curacaví, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Curicó, zona D, condición < 1.000: T° exterior 3,4 °C, HR exterior 99 %
+- Doñihue, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- El Bosque, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- El Monte, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Estación Central, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Graneros, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- Hijuelas, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Hualañé, zona D: T° exterior 3,4 °C, HR exterior 99 %
+- Huechuraba, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Independencia, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Isla de Maipo, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- La Cisterna, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- La Cruz, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- La Estrella, zona D: T° exterior 3,9 °C, HR exterior 95 %
+- La Florida, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- La Granja, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- La Ligua, zona D, condición ≤ 71° 15': T° exterior 4,7 °C, HR exterior 90 %
+- La Pintana, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- La Reina, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Lampa, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Las Cabras, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- Las Condes, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Limache, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Linares, zona D, condición < 1.000: T° exterior 2,6 °C, HR exterior 92 %
+- Llaillay, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Lo Barnechea, zona D, condición < 2.000: T° exterior 2,2 °C, HR exterior 92 %
+- Lo Espejo, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Lo Prado, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Lolol, zona D: T° exterior 4,4 °C, HR exterior 90 %
+- Longaví, zona D, condición < 1.000: T° exterior 2,6 °C, HR exterior 92 %
+- Los Andes, zona D, condición < 2.000: T° exterior 4,7 °C, HR exterior 90 %
+- Machalí, zona D, condición < 1.000: T° exterior 2,4 °C, HR exterior 97 %
+- Macul, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Maipú, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Malloa, zona D, condición < 1.000: T° exterior 2,4 °C, HR exterior 97 %
+- Marchihue, zona D: T° exterior 3,9 °C, HR exterior 95 %
+- María Pinto, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Maule, zona D: T° exterior 2,6 °C, HR exterior 92 %
+- Melipilla, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Molina, zona D, condición < 1.000: T° exterior 3,4 °C, HR exterior 99 %
+- Mostazal, zona D, condición < 1.000: T° exterior 2,4 °C, HR exterior 97 %
+- Nancagua, zona D: T° exterior 4,4 °C, HR exterior 90 %
+- Nogales, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Ñuñoa, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Olivar, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- Olmué, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Padre Hurtado, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Paine, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Palmilla, zona D: T° exterior 4,4 °C, HR exterior 90 %
+- Panquehue, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Parral, zona D, condición < 1.000: T° exterior 2,6 °C, HR exterior 92 %
+- Pedro Aguirre Cerda, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Pelarco, zona D: T° exterior 2,6 °C, HR exterior 92 %
+- Pencahue, zona D: T° exterior 2,6 °C, HR exterior 92 %
+- Peñaflor, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Peñalolén, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Peralillo, zona D: T° exterior 4,4 °C, HR exterior 90 %
+- Petorca, zona D, condición < 2.000: T° exterior 4,7 °C, HR exterior 90 %
+- Peumo, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- Pichidegua, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- Pirque, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Placilla, zona D: T° exterior 4,4 °C, HR exterior 90 %
+- Providencia, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Pudahuel, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Puente Alto, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Pumanque, zona D: T° exterior 4,4 °C, HR exterior 90 %
+- Putaendo, zona D, condición < 2.000: T° exterior 4,7 °C, HR exterior 90 %
+- Quilicura, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Quillota, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Quilpué, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Quinta de Tilcoco, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- Quinta Normal, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Rancagua, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- Rauco, zona D: T° exterior 3,4 °C, HR exterior 99 %
+- Recoleta, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Renca, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Rengo, zona D, condición < 1.000: T° exterior 2,4 °C, HR exterior 97 %
+- Requínoa, zona D, condición < 1.000: T° exterior 2,4 °C, HR exterior 97 %
+- Retiro, zona D: T° exterior 2,6 °C, HR exterior 92 %
+- Rinconada, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Río Claro, zona D: T° exterior 2,6 °C, HR exterior 92 %
+- Romeral, zona D, condición < 1.000: T° exterior 3,4 °C, HR exterior 99 %
+- Sagrada Familia, zona D: T° exterior 3,4 °C, HR exterior 99 %
+- San Bernardo, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- San Clemente, zona D, condición < 1.000: T° exterior 2,6 °C, HR exterior 92 %
+- San Esteban, zona D, condición < 2.000: T° exterior 4,7 °C, HR exterior 90 %
+- San Felipe, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- San Fernando, zona D, condición < 1.000: T° exterior 4,4 °C, HR exterior 90 %
+- San Javier, zona D: T° exterior 2,6 °C, HR exterior 92 %
+- San Joaquín, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- San José de Maipo, zona D (p), condición < 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- San Miguel, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- San Pedro, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- San Rafael, zona D: T° exterior 2,6 °C, HR exterior 92 %
+- San Ramón, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- San Vicente, zona D: T° exterior 2,4 °C, HR exterior 97 %
+- Santa Cruz, zona D: T° exterior 4,4 °C, HR exterior 90 %
+- Santa María, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Santiago, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Talagante, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Talca, zona D: T° exterior 2,6 °C, HR exterior 92 %
+- Teno, zona D, condición < 1.000: T° exterior 3,4 °C, HR exterior 99 %
+- Tiltil, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Villa Alegre, zona D: T° exterior 2,6 °C, HR exterior 92 %
+- Villa Alemana, zona D: T° exterior 4,7 °C, HR exterior 90 %
+- Vitacura, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Yerbas Buenas, zona D: T° exterior 2,6 °C, HR exterior 92 %
+- Todas las comunas excepto San José de Maipo, zona D: T° exterior 2,2 °C, HR exterior 92 %
+- Constitución, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Curepto, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Empedrado, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Cauquenes, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Chanco, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Pelluhue, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Concepción, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- Coronel, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- Chiguayante, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- Hualqui, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- Lota, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- Penco, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- San Pedro de la Paz, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- Santa Juana, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- Talcahuano, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- Tomé, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- Hualpén, zona E: T° exterior 5,7 °C, HR exterior 96 %
+- Lebu, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Arauco, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Cañete, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Contulmo, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Curanilahue, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Los Álamos, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Tirúa, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Quirihue, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Cobquecura, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Coelemu, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Treguaco, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Carahue, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Saavedra, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Teodoro Schmidt, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Toltén, zona E: T° exterior 5,1 °C, HR exterior 94 %
+- Todas las comunas, zona E: T° exterior 3,5 °C, HR exterior 95 %
+- Alto Biobío, zona F, condición < 1.000: T° exterior 4,8 °C, HR exterior 94 %
+- Angol, zona F: T° exterior 4,2 °C, HR exterior 94 %
+- Antuco, zona F, condición < 1.000 MSNM: T° exterior 4,8 °C, HR exterior 94 %
+- Bulnes, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Cabrero, zona F: T° exterior 4,8 °C, HR exterior 94 %
+- Chillán, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Chillán Viejo, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Cholchol, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Coihueco, zona F, condición < 1.000: T° exterior 3,8 °C, HR exterior 94 %
+- Collipulli, zona F: T° exterior 4,2 °C, HR exterior 94 %
+- Cunco, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Curacautín, zona F: T° exterior 4,2 °C, HR exterior 94 %
+- El Carmen, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Ercilla, zona F: T° exterior 4,2 °C, HR exterior 94 %
+- Florida, zona F: T° exterior 4,8 °C, HR exterior 94 %
+- Freire, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Futrono, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Galvarino, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Gorbea, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- La Unión, zona F, condición ≤ 73° 15': T° exterior 3,8 °C, HR exterior 94 %
+- Lago Ranco, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Laja, zona F: T° exterior 4,8 °C, HR exterior 94 %
+- Lanco, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Lautaro, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Loncoche, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Los Ángeles, zona F: T° exterior 4,8 °C, HR exterior 94 %
+- Los Lagos, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Los Sauces, zona F: T° exterior 4,2 °C, HR exterior 94 %
+- Lumaco, zona F: T° exterior 4,2 °C, HR exterior 94 %
+- Mulchén, zona F: T° exterior 4,8 °C, HR exterior 94 %
+- Nacimiento, zona F: T° exterior 4,8 °C, HR exterior 94 %
+- Negrete, zona F: T° exterior 4,8 °C, HR exterior 94 %
+- Ninhue, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Nueva Imperial, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Ñiquén, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Padre Las Casas, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Paillaco, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Panguipulli, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Pemuco, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Perquenco, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Pinto, zona F, condición < 1.000: T° exterior 3,8 °C, HR exterior 94 %
+- Pitrufquén, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Portezuelo, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Purén, zona F: T° exterior 4,2 °C, HR exterior 94 %
+- Quilaco, zona F: T° exterior 4,8 °C, HR exterior 94 %
+- Quilleco, zona F, condición < 1.000: T° exterior 4,8 °C, HR exterior 94 %
+- Quillón, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Ránquil, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Renaico, zona F: T° exterior 4,2 °C, HR exterior 94 %
+- Río Bueno, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- San Carlos, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- San Fabián, zona F, condición < 1.000: T° exterior 3,8 °C, HR exterior 94 %
+- San Ignacio, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- San Nicolás, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- San Rosendo, zona F: T° exterior 4,8 °C, HR exterior 94 %
+- Santa Bárbara, zona F, condición < 1.000: T° exterior 4,8 °C, HR exterior 94 %
+- Temuco, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Traiguén, zona F: T° exterior 4,2 °C, HR exterior 94 %
+- Tucapel, zona F, condición < 1.000: T° exterior 4,8 °C, HR exterior 94 %
+- Victoria, zona F: T° exterior 4,2 °C, HR exterior 94 %
+- Vilcún, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Villarrica, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Yumbel, zona F: T° exterior 4,8 °C, HR exterior 94 %
+- Yungay, zona F, condición < 1.000: T° exterior 3,8 °C, HR exterior 94 %
+- Todas las comunas, zona F: T° exterior 3,8 °C, HR exterior 94 %
+- Ancud, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Calbuco, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Castro, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Chaitén, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Chonchi, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Cochamó, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Corral, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Curaco de Vélez, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Dalcahue, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Fresia, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Frutillar, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Hualaihué, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- La Unión, zona G, condición > 73° 15': T° exterior 3,5 °C, HR exterior 98 %
+- Llanquihue, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Los Muermos, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Máfil, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Mariquina, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Maullín, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Osorno, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Puerto Montt, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Puerto Octay, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Puerto Varas, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Puqueldón, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Purranque, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Puyehue, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Queilén, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Quellón, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Quemchi, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Quinchao, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Río Negro, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- San Juan de la Costa, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- San Pablo, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Valdivia, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Todas las comunas, zona G: T° exterior 3,5 °C, HR exterior 98 %
+- Alto Biobío, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Alto del Carmen, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Antofagasta, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Antuco, zona H, condición > 1.000 MSNM: T° exterior 1,8 °C, HR exterior 90 %
+- Arica, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Cabildo, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- Calama, zona H (p), condición ≥ 3.000: T° exterior 0,4 °C, HR exterior 27 %
+- Camarones, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Camiña, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Codegua, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Coihueco, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Colbún, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Colchane, zona H: T° exterior 1,8 °C, HR exterior 90 %
+- Colina, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- Combarbalá, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- Copiapó, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Curarrehue, zona H: T° exterior 1,8 °C, HR exterior 90 %
+- Curicó, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Diego de Almagro, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- General Lagos, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Huara, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Illapel, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- Linares, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Lo Barnechea, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- Longaví, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Lonquimay, zona H: T° exterior 1,8 °C, HR exterior 90 %
+- Los Andes, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- Machalí, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Malloa, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Melipeuco, zona H: T° exterior 1,8 °C, HR exterior 90 %
+- Molina, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Monte Patria, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- Mostazal, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Ollagüe, zona H: T° exterior 1,8 °C, HR exterior 90 %
+- Paiguano, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Parral, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Petorca, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- Pica, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Pinto, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Pozo Almonte, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Pucón, zona H: T° exterior 1,8 °C, HR exterior 90 %
+- Putaendo, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- Putre, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Quilleco, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Rengo, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Requínoa, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Río Hurtado, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Romeral, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Salamanca, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- San Clemente, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- San Esteban, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- San Fabián, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- San Fernando, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- San José de Maipo, zona H, condición ≥ 2.000: T° exterior 1,8 °C, HR exterior 90 %
+- San Pedro de Atacama, zona H (p), condición ≥ 3.000: T° exterior 0,4 °C, HR exterior 27 %
+- Santa Bárbara, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Taltal, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Teno, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Tierra Amarilla, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Tucapel, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Vicuña, zona H, condición ≥ 3.000: T° exterior 1,8 °C, HR exterior 90 %
+- Yungay, zona H, condición ≥ 1.000: T° exterior 1,8 °C, HR exterior 90 %
+- Calama y San Pedro de Atacama, zona H (p): T° exterior 0,4 °C, HR exterior 27 %
+- Todas las comunas excepto Calama y San Pedro de Atacama, zona H: T° exterior 1,8 °C, HR exterior 90 %
+- Aysén, zona I: T° exterior 1,8 °C, HR exterior 98 %
+- Antártica chilena, zona I (p): T° exterior -6,8 °C, HR exterior 88 %
+- Cabo de Hornos, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Chile Chico, zona I: T° exterior -0,4 °C, HR exterior 95 %
+- Cisnes, zona I: T° exterior 1,8 °C, HR exterior 98 %
+- Cochrane, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Coihaique, zona I: T° exterior -0,4 °C, HR exterior 95 %
+- Futaleufú, zona I (p): T° exterior -5,6 °C, HR exterior 86 %
+- Guaitecas, zona I: T° exterior 1,8 °C, HR exterior 98 %
+- Lago Verde, zona I: T° exterior -0,4 °C, HR exterior 95 %
+- Laguna Blanca, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Natales, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- O'Higgins, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Palena, zona I (p): T° exterior -5,6 °C, HR exterior 86 %
+- Porvenir, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Primavera, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Punta Arenas, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Río Ibáñez, zona I: T° exterior -0,4 °C, HR exterior 95 %
+- Río Verde, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- San Gregorio, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Timaukel, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Torres del Paine, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Tortel, zona I: T° exterior -1,6 °C, HR exterior 93 %
+- Futaleufú y Palena, zona I (p): T° exterior -5,6 °C, HR exterior 86 %
+- Todas las comunas excepto Antártica chilena, Futaleufú y Palena, zona I: T° exterior -1,6 °C, HR exterior 93 %

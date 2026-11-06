@@ -1,0 +1,21 @@
+id: control-15
+categoria: control
+critical: false
+pregunta: ¿Qué zona térmica tiene Ovalle?
+esperado:
+  hechos:
+  - descripcion: Zona B
+    patrones:
+    - \bB\b
+  - descripcion: Zona C
+    patrones:
+    - \bC\b
+  - descripcion: Depende del meridiano
+    patrones:
+    - meridiano|longitud|71
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: Ovalle es multizona por meridiano 71° 15'.
+fuentes:
+- ds15-2024

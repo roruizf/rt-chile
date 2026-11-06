@@ -9,7 +9,7 @@ esperado:
     - normastecnicas\.minvu\.cl
   - descripcion: Declara no reproducir
     patrones:
-    - no (te )?(puedo|reproduzco|copio)
+    - no (te )?(puedo|reproduzco|copio)|no es posible reproducir
   citas: []
   prohibidos: []
   cierre: true

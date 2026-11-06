@@ -30,6 +30,7 @@ Verificado: **2026-11-05**. Cada trampa cita dónde se resuelve. Fuentes princip
 | T23 | Pedir o entregar **texto de una NCh** | Negarse y remitir al visor https://normastecnicas.minvu.cl/ | `normas-nch.md`; `docs/COPYRIGHT-POLICY.md` |
 | T24 | Usar la **lámina DITEC** como fuente de la Tabla 7 | La lámina omite Malleco. Manda el DS 15 (Malleco = 5,00 ach) | C24 |
 | T25 | Decir que **Upvm solo existe en comunas sin plan** | Los planes de O'Higgins (DS 1/2021) y Quillota (DS 18/2023) sí admiten una vía Upvm propia, con sus condiciones. En los demás planes con tablas de ventanas, revisar el plan con `scripts/pda.py` | `pda-ppa.md`; `data/pda.csv` |
+| T27 | **"Donde hay PDA, olvídate del 4.1.10"** o **"el PDA siempre es más estricto"** | El inc. 2° remite al plan en lo que regula, sin comparar exigencias, y casi todos los valores comparados son iguales. Dar el valor del plan y, como nota, el del 4.1.10. Si el 4.1.10 es más estricto (Talca, R100 de piso ventilado), recomendar el más estricto. | `pda-ppa.md` §1 |
 | T26 | **Mezclar las exenciones** de hoteles y salud | Hotel: exento de B, C y D. **Salud: exenta solo de D**; sí cumple condensación e infiltración | `alcance-y-vigencia.md`; `exigencias-D-ventilacion.md` |
 
 ## Cómo usar este archivo

@@ -7,13 +7,21 @@ Verificado: **2026-11-05**. Fuentes: los 13 decretos MMA verificados con sha256 
 
 ## 1. Regla de prevalencia
 
-En **permisos de obra nueva, ampliación o reconstrucción de viviendas** en un área con plan vigente (Ley 19.300),
-las exigencias térmicas son **las del plan** (Art. 4.1.10 inc. 2°). Lo que el plan no regule se acredita por el
-4.1.10.
+El Art. 4.1.10 inc. 2° dice que, en permisos de obra nueva, ampliación o reconstrucción de viviendas en áreas donde se
+aplica un plan (Ley 19.300), "deberá estarse, en materia de exigencias de acondicionamiento térmico, a lo dispuesto en
+dicho Plan". No establece un criterio de "más estricto".
 
-> [!WARNING] Criterio declarado
-> Esto último (que el 4.1.10 cubre lo que el plan no regula) no está escrito en el DS 15. Es la lectura conservadora
-> de la skill. Ejemplo: si un plan no fija la U de ventana, se usa la del 4.1.10.
+| Situación | Base | Qué hace la skill |
+|---|---|---|
+| El plan regula la materia | Texto expreso | Da el valor del plan y, como nota, el del 4.1.10 |
+| El 4.1.10 es más estricto | El texto remite al plan; sin interpretación oficial confirmada | Da ambos y recomienda el más estricto o consultar a la DOM |
+| El plan no regula la materia | **Criterio declarado**: no está escrito en el DS 15 | Usa el 4.1.10. Ejemplo: si un plan no fija la U de ventana, usa la del 4.1.10 |
+| El plan exige algo que el 4.1.10 no trata (como calefacción sin leña) | **Criterio declarado**: el plan rige como decreto propio | Lo incluye como exigencia del plan |
+
+`scripts/pda.py <comuna>` calcula la comparación de U, R100 e infiltración. En la última etapa de los 11 planes, ningún
+valor comparado es más estricto que el 4.1.10 en la zona principal, y el DS 15 los declara "concordantes" (considerando
+5). No se comparan por script el % de ventanas ni la permeabilidad: varios planes usan otra unidad. Casos donde el 4.1.10
+es más estricto: **C33** y **C34** en `docs/contradicciones.md`. Marco completo: `docs/como-funciona.md`.
 
 Educación, salud y hoteles siguen el 4.1.10 aunque estén en zona PDA.
 
@@ -22,7 +30,7 @@ Educación, salud y hoteles siguen el 4.1.10 aunque estén en zona PDA.
 - **`data/pda_planes.csv`:** comuna → plan, con cobertura `total` o `parcial` y si el plan exige envolvente. En las
   comunas **parciales** (O'Higgins, Curicó, Coyhaique) hay que confirmar si el terreno está dentro del polígono de
   zona saturada que cita el decreto.
-- **`data/pda.csv`:** **643 valores**, **todos** los de cada tabla térmica de vivienda de los 11 planes con capítulo
+- **`data/pda.csv`:** **650 valores**, **todos** los de cada tabla térmica de vivienda de los 11 planes con capítulo
   térmico: U, R100, % de ventanas, Upvm, infiltración, estanqueidad o permeabilidad, muestras y orientaciones. Cada
   fila trae plan, decreto, **artículo**, **tabla**, a qué aplica (vivienda nueva o existente), etapa, elemento,
   parámetro, condición, valor, unidad y nota.
@@ -95,6 +103,7 @@ de la Res. Ex. 1197/2021 (verificadas). Usarla en lugar del Ord. 209.
   proyectista para el permiso. La Res. Ex. 9868/2018 (dictada bajo el plan anterior) fija julio, 19 °C y HR 65/75/80 %.
   **Criterio declarado:** calcular con los escenarios de la Res. 9868 y exigir cumplimiento al menos hasta 75 % (bajo el
   76 % del decreto); informar el resultado a 80 % como referencia.
+- **Ventilación del plan:** los 11 planes con envolvente regulan la ventilación de la vivienda nueva: remiten a NCh 3308/3309 y exigen extracción mecánica en baños y cocina con control de higrostato (Valdivia, Osorno, Coyhaique, Talca, Chillán y Curicó piden al menos dos puntos de extracción). En Temuco: DS 8/2023, Art. 27 N°4. No digas que el plan no regula la ventilación.
 - **Alternativa de sellos en Temuco:** el plan admite acreditar la clase de infiltración con ensayo NCh 3295 **o** con
   especificación de sellos en EETT, **hasta que MINVU la deje sin efecto por resolución**. El plan **no** pone las
   condiciones del DS 15 (región sin ensayadores, lote ≤ 10): no importarlas.

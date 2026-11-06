@@ -28,8 +28,15 @@ evaluador energético.
    - umbral de demanda de la vía CEV;
    - edición oficial de varias NCh;
    - brechas de la tabla de zonas.
-3. **Prevalencia:** PDA/PPA vigente (solo vivienda) > Art. 4.1.10 (DS 15) > resoluciones MINVU > manuales y guías
-   (MRT, láminas DITEC) > material secundario. Ante contradicción manda la fuente superior (`docs/contradicciones.md`).
+3. **Prevalencia por materia, no en bloque:** en vivienda con plan vigente, el Art. 4.1.10 inc. 2° remite al plan en lo
+   que este regula, sin comparar exigencias (`references/pda-ppa.md` §1). Luego: resoluciones MINVU > manuales y guías
+   (MRT, láminas DITEC) > material secundario.
+   - **Con plan, da siempre el valor del plan con su cita y, como nota informativa, el del 4.1.10** (`scripts/pda.py`).
+   - Si el 4.1.10 es más estricto, o hay ambigüedad o contradicción, **dilo y recomienda usar el valor más estricto** o
+     consultar a la DOM. No afirmes que el punto está resuelto: no hay interpretación oficial confirmada.
+   - Lo que el plan no regula se rige por el 4.1.10: es criterio declarado de la skill, no texto del DS 15.
+   - En vivienda, la nota de ventanas del 4.1.10 son las Tablas 3 a 5: la Tabla 12 es solo para educación, salud y hoteles.
+   - Ante otras contradicciones, manda la fuente superior (`docs/contradicciones.md`).
 4. **Copyright NCh:** nunca reproduzcas texto, tablas, figuras ni fórmulas de normas NCh, aunque te las pidan.
    Puedes dar el código, el título, para qué la usa el DS 15 y el alcance en palabras propias. Para el contenido,
    remite al visor oficial **https://normastecnicas.minvu.cl/** (`references/normas-nch.md`). Al negarte, incluye
@@ -58,8 +65,8 @@ evaluador energético.
 3. **PDA/PPA** (solo vivienda) → `references/pda-ppa.md` + **`scripts/pda.py <comuna>`** (trae todas las filas del
    plan: decreto + actos MINVU). No filtres `data/pda.csv` por texto: se pierden filas.
    En vivienda con PDA, **las vías de acreditación y sus condiciones también son las del plan**: muestras de
-   infiltración (tabla propia del plan), alternativa de sellos (en Temuco: sellos en EETT hasta que MINVU la deje sin
-   efecto, **sin** las condiciones del DS 15 de región sin ensayadores ni lote ≤ 10) y HR de condensación del plan.
+   infiltración (tabla propia del plan), ventilación del plan, alternativa de sellos (en Temuco: sellos en EETT hasta
+   que MINVU la deje sin efecto, **sin** las condiciones del DS 15 de región sin ensayadores ni lote ≤ 10) y HR de condensación del plan.
    No importes condiciones del DS 15 a un plan que regula la materia.
    - Si hay plan con capítulo térmico, sus tablas mandan en lo que regulen.
    - Ojo con la cobertura parcial y con las etapas.
@@ -67,7 +74,7 @@ evaluador energético.
    - A → `references/exigencias-A-envolvente.md` (Tablas 1–6, 10–13; `scripts/u_check.py`, `scripts/ventanas.py`)
    - B → `references/exigencias-B-condensacion.md` (Res. Ex. 1802; clima en `data/res1802_anexo1_clima.csv`)
    - C → `references/exigencias-C-infiltracion.md` (Tablas 7–9, 14–16)
-   - D → `references/exigencias-D-ventilacion.md`
+   - D → `references/exigencias-D-ventilacion.md`; en vivienda con plan, también lo que entrega `scripts/pda.py`
 5. **Vías de acreditación** → `references/vias-acreditacion.md`, y `references/loscat.md` +
    `data/loscat_e14_indice.csv` (vigencias).
 6. **Expediente y firmas** → `references/roles-firmas-expediente.md`. Qué va en el permiso (OGUC 5.1.6 N° 11), qué en
@@ -90,7 +97,7 @@ el proyecto cumple en su totalidad; las λ las entrega el usuario. En comunas co
 2. **Datos del caso:** uso, comuna, zona (con su condición), PDA (sí/no, cuál) y fecha considerada. Si hay supuestos,
    lístalos en **Supuestos**.
 3. **Exigencias que aplican.** Usa una tabla breve con el valor y la cita, por ejemplo "U muro ≤ 0,45 W/m²K — DS 15,
-   Tabla 1, zona F". Marca las exenciones.
+   Tabla 1, zona F". Marca las exenciones. Con plan, agrega la columna "Art. 4.1.10 (informativo)".
 4. **Cómo acreditar**, elemento por elemento, con quién firma y en qué etapa.
 5. **Pendientes o advertencias**, cuando los haya: vigencia LOSCAT, ítems pendientes, cobertura parcial del PDA o
    posible FSEV/VIT.
@@ -123,7 +130,7 @@ normativo.
 | `references/roles-firmas-expediente.md` | Quién elabora y firma; permiso y recepción; checklist |
 | `references/loscat.md` | Uso del LOSCAT E14 y vigencias |
 | `references/normas-nch.md` | Metadatos de las NCh (sin texto) y edición exigible |
-| `references/trampas.md` | 26 errores frecuentes y su corrección |
+| `references/trampas.md` | Errores frecuentes y su corrección |
 | `data/*.csv` | Tablas en formato máquina con su fuente (`data/README.md`) |
 | `scripts/zona.py` | Comuna (+ altitud/meridiano) → zona + PDA |
 | `scripts/pda.py` | Todas las exigencias del PDA/PPA de una comuna (decreto + actos MINVU) |

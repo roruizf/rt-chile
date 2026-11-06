@@ -6,13 +6,14 @@ esperado:
   hechos:
   - descripcion: No aplica
     patrones:
-    - no (aplica|est[aá]|incluye|forma)
+    - no (le )?(aplica|rige|est[aá]|incluye|forma)
   - descripcion: Rige el 4.1.10
     patrones:
     - 4\.1\.10
   citas:
   - DS\s*(N[°º]\s*)?18
-  prohibidos: []
+  prohibidos:
+  - HR[^|\n]{0,40}\b(65|85)\b
   cierre: true
 rubrica: Limache no está en el DS 18/2023 (C26).
 fuentes:

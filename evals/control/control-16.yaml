@@ -1,0 +1,21 @@
+id: control-16
+categoria: control
+critical: false
+pregunta: ¿Qué temperatura y humedad exterior uso para calcular condensación en Ancud?
+esperado:
+  hechos:
+  - descripcion: Temperatura
+    patrones:
+    - \b3[,.]5\b
+  - descripcion: Humedad
+    patrones:
+    - \b98\b
+  - descripcion: Res. Ex. 1802
+    patrones:
+    - 1\.?802
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: 'Anexo 1 de la Res. Ex. 1802: 3,5 °C y 98 %.'
+fuentes:
+- references/exigencias-B-condensacion.md

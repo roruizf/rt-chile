@@ -1,0 +1,25 @@
+id: pda-16
+categoria: pda
+critical: true
+pregunta: 'Vivienda nueva en Talca: quiero acreditar el piso ventilado con aislante rotulado. ¿Qué R100 necesito?'
+esperado:
+  hechos:
+  - descripcion: 'R100 del plan: 150'
+    patrones:
+    - \b150\b
+  - descripcion: 'Art. 4.1.10: 167'
+    patrones:
+    - \b167\b
+  - descripcion: Recomienda el más estricto
+    patrones:
+    - m[aá]s\s+(estricto|exigente)|DOM
+  citas:
+  - DS\s*(N[°º]\s*)?49
+  prohibidos: []
+  cierre: true
+rubrica: 'DS 49 Art. 31 Tabla 19: 150. DS 15 Tabla 2 zona D: 167. Debe dar ambos, decir que el 4.1.10 es más estricto y recomendarlo
+  o consultar a la DOM (C33). Falla si da solo uno o afirma que el punto está resuelto.'
+fuentes:
+- pda-talca-ds49-2016
+- ds15-2024
+- references/pda-ppa.md

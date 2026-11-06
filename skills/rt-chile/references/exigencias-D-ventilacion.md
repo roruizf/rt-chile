@@ -15,7 +15,7 @@ Verificado: **2026-11-05**. Fuentes:
 | **Educación** | Igual, más los requisitos del sistema necesarios para una calidad de aire aceptable | **Solo NCh 3308** | num. 2.D |
 | **Salud** | **Eximida** | — | num. 2.D. Confirmado en la lámina DITEC Edu-Salud ("EXIMIDAS"). Ver `docs/contradicciones.md` C25 |
 
-En **viviendas en zona PDA**, revisar si el plan fija su propia exigencia de ventilación (`pda-ppa.md`). Según una matriz interna previa, O'Higgins (DS 1/2021) y Quillota (DS 18/2023) remiten a NCh 3308/3309. Se verifica plan por plan.
+En **viviendas en zona PDA**, los 11 planes con envolvente regulan la ventilación: remiten a NCh 3308/3309 y **exigen extracción mecánica en baños y cocina con control de higrostato**, además de lo que pida la norma. Citar el artículo del plan con `scripts/pda.py <comuna>` (`pda-ppa.md`). Revisado en el texto de cada decreto el 2026-11-05.
 
 ## 2. Cómo se acredita
 

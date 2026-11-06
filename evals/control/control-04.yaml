@@ -1,0 +1,19 @@
+id: control-04
+categoria: control
+critical: false
+pregunta: 'Escuela nueva en Melipilla: ¿qué U máximo de muro exige?'
+esperado:
+  hechos:
+  - descripcion: Zona D
+    patrones:
+    - zona\s*\**D\b
+  - descripcion: Muro educación
+    patrones:
+    - \b0[,.]60?\b
+  citas:
+  - Tabla\s*(N[°º]\s*)?10\b
+  prohibidos: []
+  cierre: true
+rubrica: 'Educación en zona D: Tabla 10, distinto de vivienda.'
+fuentes:
+- ds15-2024

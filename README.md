@@ -11,7 +11,7 @@ Le preguntas por un proyecto y responde qué exigencias aplican, de dónde sale 
 
 - **Zona térmica por comuna**, incluidas las comunas multizona por altitud o meridiano.
 - **Exigencias A–D:** envolvente (U, Rt, R100, ventanas, sobrecimientos), condensación, infiltración y permeabilidad, y ventilación, según el uso: vivienda, hotel, educación o salud.
-- **PDA/PPA:** 11 planes con capítulo térmico y los actos MINVU que los completan. En vivienda, las tablas del plan prevalecen.
+- **PDA/PPA:** 11 planes con capítulo térmico y los actos MINVU que los completan. En vivienda, manda el plan en lo que regula, con nota del valor del 4.1.10.
 - **Vías de acreditación:** LOSCAT con vigencia por fecha, ensayo DS 10, memoria de cálculo, R100 y vía por demanda (umbral aún pendiente).
 - **Expediente:** qué va en el permiso y qué en la recepción, y quién elabora y firma cada documento.
 - **Cálculos de apoyo:** U de un complejo multicapa, % de ventanas o Upvm y checklist del proyecto.
@@ -60,26 +60,28 @@ Entrega un borrador con el estado de cada verificación, los supuestos, lo que f
 - **Las normas NCh son propiedad del INN.** La skill no reproduce su texto, tablas ni fórmulas. Se consultan en el [visor oficial del MINVU](https://normastecnicas.minvu.cl/).
 - **Los modelos de IA pueden equivocarse aunque la skill tenga el dato correcto.** En las pruebas ocurrió, como se explica abajo.
 - **La vigencia importa.** La mayoría de las soluciones del LOSCAT E14 vence en diciembre de 2026. Revisa la ficha a la fecha de tu permiso.
+- **El borrador de informe solo se probó con un proyecto ficticio.** Revisa con especial cuidado lo que genere con un proyecto real.
 - **Hay temas pendientes o fuera de alcance:**
   - Pendientes: el umbral de la vía CEV por demanda, la edición oficial de varias NCh y algunas brechas de la tabla de zonas.
   - Fuera de alcance: FSEV, VIT, CES y CVS. La skill los detecta y deriva a su fuente.
 
 ## Cómo se probó
 
-La skill se evalúa con casos calificados por reglas y por un juez automático. Umbral: 100 % en los casos críticos y 95 % o más en el resto.
+Medición del 2026-11-06, versión `043d4cd34839`, con OpenCode y DeepSeek V4.1 Flash. Se califica por reglas, sin juez automático. Umbral: 100 % en los casos críticos y 95 % o más en el resto.
 
-| Agente | Críticos | Resto | Evidencia |
-|---|---|---|---|
-| OpenCode + DeepSeek V4.1 Flash | 27/27 | 58/59 (86 casos) | [resultado](evals/results/2026-11-05_1143.md) |
-| Codex | 5/5 en las preguntas de validación | no corrido | [resultado](evals/results/2026-11-05_1014_regrade.md) |
+| Prueba | Resultado | Evidencia |
+|---|---|---|
+| 90 casos | Críticos 31/31, resto 59/59 | [resultado](evals/results/2026-11-06_0649_opencode_regrade.md) |
+| 20 preguntas de control, fuera de esos casos | 20/20 | [resultado](evals/results/2026-11-06_0639_opencode_control.md) |
+| Auditoría a mano de 18 respuestas al azar | 16 sin errores; 1 valor y 1 cita incorrectos | [casos](evals/results/auditoria-2026-11-06_0649_opencode.md), [control](evals/results/auditoria-2026-11-06_0639_opencode_control.md) |
 
-El caso que falló respondía el puntaje de una certificación fuera de alcance. Se reforzó esa regla y [los 3 casos de ese tema pasan](evals/results/2026-11-05_1222.md).
+En la primera calificación, los casos críticos dieron 29/31. Esas dos respuestas estaban bien y fallaba su patrón, así que se corrigió el patrón y se recalificó sin volver a preguntar al modelo.
 
-**Lo que estas cifras no garantizan.** El juez automático no ve las fuentes, así que además se auditaron a mano 10 respuestas aprobadas, elegidas al azar. [El resultado](evals/results/auditoria-2026-11-05_1038.md), en una corrida previa: las cifras y citas estaban bien, pero **2 de las 10 incluían una afirmación secundaria falsa** que el juez no detectó. Una aprobación del 100 % no significa que cada frase sea correcta. Por eso importa verificar cada respuesta, y por eso tu evaluación con proyectos reales es tan útil.
+**Lo que estas cifras no garantizan.** Los patrones no detectan todos los errores. En la auditoría, una respuesta transcribió mal una fila de una tabla de ventanas, y otra citó NCh 853 en vez de NCh 851. No venían de la skill: el primero no se repitió en 3 intentos, y el segundo reapareció en 1 de 3. La versión actual no se midió con Claude Code ni con Codex. Por eso cada respuesta termina pidiendo verificar en la fuente oficial.
 
 ## Evalúala y cuéntame
 
-Busco que la uses en proyectos reales y me digas dónde falla:
+Es la primera versión pública. Busco que la uses en proyectos reales y me digas dónde falla:
 
 - [Reportar un error normativo](../../issues/new?template=error-normativo.yml): un valor, cita o criterio incorrecto.
 - [Enviar tu evaluación](../../issues/new?template=evaluacion.yml): para qué la usaste y qué le falta.
@@ -88,11 +90,13 @@ Lee [CONTRIBUTING.md](CONTRIBUTING.md) antes de enviar. No incluyas datos de cli
 
 ## Organización del repo
 
+Para partir de cero, lee el [manual](docs/manual.md): cómo usar la skill, qué es la RT y cómo se construyó. El detalle de qué fuente manda en cada materia está en [`docs/como-funciona.md`](docs/como-funciona.md).
+
 ```text
 skills/rt-chile/    La skill: SKILL.md, references/, data/, scripts/, examples/
 evals/              Casos de prueba, arnés y resultados
 sources/            Manifiesto de fuentes con su estado de verificación
-docs/               Guías, verificaciones, contradicciones entre fuentes y política de copyright
+docs/               Cómo funciona y qué manda sobre qué, guías, verificaciones, contradicciones y copyright
 notebooklm/         Material para el notebook de NotebookLM
 ```
 

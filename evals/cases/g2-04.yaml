@@ -9,9 +9,12 @@ esperado:
   - descripcion: Declara supuestos de λ
     patrones:
     - supuest
-  - descripcion: Usa Rsi 0,13 / Rse 0,04
+  - descripcion: Usa Rsi 0,13
     patrones:
-    - 0[,.]13|0[,.]04
+    - R_?\{?si\}?[^\n]{0,50}0[,.]13
+  - descripcion: Usa Rse 0,04
+    patrones:
+    - R_?\{?se\}?[^\n]{0,50}0[,.]04
   - descripcion: Exigencia muro zona D 0,80
     patrones:
     - 0[,.]80

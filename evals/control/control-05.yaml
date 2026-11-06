@@ -1,0 +1,22 @@
+id: control-05
+categoria: control
+critical: false
+pregunta: 'Clínica nueva en Castro: ¿qué U de ventana exige y debe acreditar ventilación?'
+esperado:
+  hechos:
+  - descripcion: Zona G
+    patrones:
+    - zona\s*\**G\b
+  - descripcion: Ventana
+    patrones:
+    - \b3[,.]00?\b
+  - descripcion: Salud eximida de ventilación
+    patrones:
+    - exim|exent|no (debe|aplica|exige|requiere|tiene|necesita)
+  citas:
+  - Tabla\s*(N[°º]\s*)?12\b
+  prohibidos: []
+  cierre: true
+rubrica: 'Salud en zona G: Tabla 12; eximida de ventilación.'
+fuentes:
+- ds15-2024

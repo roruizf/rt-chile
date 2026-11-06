@@ -32,7 +32,7 @@ def main():
         if dest.exists() and h and sha(dest) == h:
             ok += 1
             continue
-        url = str(s.get("mirror") or s.get("url") or "")
+        url = str(s.get("mirror") or s.get("url_official") or s.get("url") or "")
         if check or not url.lower().split("?")[0].endswith(DIRECT):
             (manual if not url.lower().split("?")[0].endswith(DIRECT) else bad).append((s["id"], local, url))
             continue

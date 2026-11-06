@@ -28,7 +28,7 @@ def main() -> None:
     out = [f"# Auditoría de {path.name}", "", f"Muestra: {len(muestra)} de {len(aprobados)} aprobados (semilla {args.seed}).",
            "Comparar cada cifra y cita con `data/` y `references/`. Veredicto: correcto, o el error y si es de la skill, del modelo o del caso.", ""]
     for r in muestra:
-        caso = yaml.safe_load((ROOT / "cases" / f"{r['id']}.yaml").read_text(encoding="utf-8"))
+        caso = yaml.safe_load(next(ROOT.glob(f"c*/{r['id']}.yaml")).read_text(encoding="utf-8"))
         out += [f"## {r['id']}", "", f"**Pregunta:** {caso['pregunta']}", "", f"**Rúbrica:** {caso['rubrica']}", "", "**Veredicto:** por completar", "",
                 "<details><summary>Respuesta</summary>", "", r["respuesta"], "", "</details>", ""]
     destino = path.parent / f"auditoria-{path.stem}.md"

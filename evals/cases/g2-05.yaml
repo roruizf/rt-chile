@@ -9,7 +9,7 @@ esperado:
   hechos:
   - descripcion: PDA prevalece en vivienda (inc. 2°); DS 8/2023 es posterior
     patrones:
-    - inc(iso)?\.?\s*2|prevalec|manda el (plan|PDA)
+    - inc(iso)?\.?\s*2|prevalec|manda el (plan|PDA)|sigue mandando
   - descripcion: CEV DS 5 no acredita el 4.1.10
     patrones:
     - DS\s*(N[°º]\s*)?5

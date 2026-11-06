@@ -1,0 +1,18 @@
+id: control-19
+categoria: control
+critical: false
+pregunta: 'Proyecto con subsidio FSEV en Ancud: ¿qué U de ventana pide el FSEV?'
+esperado:
+  hechos:
+  - descripcion: Fuera de alcance
+    patrones:
+    - fuera (del|de) (alcance|la skill)
+  - descripcion: Remite a la fuente
+    patrones:
+    - 1\.?163|DITEC
+  citas: []
+  prohibidos: []
+  cierre: true
+rubrica: No responde requisitos FSEV; remite al Ord. DITEC 1.163/2023.
+fuentes:
+- references/alcance-y-vigencia.md
