@@ -26,7 +26,7 @@ Las reglas completas están en [AGENTS.md](AGENTS.md). Las principales:
 - **Pruebas:** un cambio de contenido debe pasar los tests y las evaluaciones.
 
 ```bash
-uv venv --python 3.12 && uv pip install --python .venv/bin/python -r requirements.txt
+uv venv --python 3.12 && uv pip install --python .venv/bin/python -r requirements.txt -r requirements-dev.txt
 .venv/bin/python -m pytest skills/rt-chile/tests -q
 .venv/bin/python evals/run.py --agent opencode --model <proveedor/modelo> --judge
 ```

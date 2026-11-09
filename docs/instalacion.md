@@ -21,9 +21,13 @@ Para desarrollo, `./install.sh --link` crea symlinks al repo (se actualiza con `
 OpenCode) o a `.agents/skills/rt-chile/` (Codex y OpenCode) del repositorio de trabajo.
 
 **Requisitos:** Python 3.8 o superior para los scripts, que usan solo la biblioteca estándar. Para `checklist.py` e
-`informe.py` con entrada YAML se necesita `pyyaml`; con JSON no se necesita.
+`informe.py` con entrada YAML se necesita `pyyaml` (`pip install -r requirements.txt`); con JSON no se necesita.
+Python 3.12 es solo el entorno de desarrollo (tests y evaluaciones, con `requirements-dev.txt`; ver
+[CONTRIBUTING.md](../CONTRIBUTING.md)).
+
+`./install.sh --help` muestra las opciones. Si ya hay una instalación, el script avisa y la reemplaza.
 
 **Uso:** [guía con 3 casos completos](guia-de-uso.md) y [ejemplos de preguntas y respuestas](ejemplos.md).
 
-**Prueba rápida** después de reiniciar el agente: "¿Qué zona térmica es Mostazal a 600 msnm, aplica el PDA y qué U
-de muro se exige?"
+**Prueba rápida** después de reiniciar el agente: "¿Qué zona térmica es Temuco y qué U de muro exige el PDA a una
+vivienda nueva?"

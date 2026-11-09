@@ -47,9 +47,10 @@ Pregunta en lenguaje natural e incluye lo que tengas: uso, comuna, altitud, fech
 
 ### Informe de un proyecto
 
-Pídeselo al agente o genéralo tú con los datos del proyecto en un archivo YAML ([formato](skills/rt-chile/examples/proyecto-ejemplo.yaml)):
+Pídeselo al agente o genéralo tú con los datos del proyecto en un archivo YAML ([formato](skills/rt-chile/examples/proyecto-ejemplo.yaml)). Para leer YAML, `informe.py` necesita `pyyaml`; el resto de los scripts usa solo la biblioteca estándar de Python 3.8 o superior:
 
 ```bash
+pip install -r requirements.txt   # instala pyyaml
 python skills/rt-chile/scripts/informe.py skills/rt-chile/examples/proyecto-ejemplo.yaml --salida informe.md
 ```
 

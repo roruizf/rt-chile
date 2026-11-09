@@ -2,6 +2,18 @@
 
 Versionado semántico. Criterios en [docs/mantencion.md](docs/mantencion.md).
 
+## [1.0.1] — 2026-11-09
+
+Correcciones de instalación y documentación tras una prueba de instalación desde cero. Sin cambios en los datos normativos.
+
+### Corregido
+
+- `informe.py` y `checklist.py` con entrada YAML: si falta `pyyaml`, muestran un mensaje en español con qué instalar, en vez de un traceback. El README lo indica en la sección del informe.
+- `install.sh`: acepta `-h`/`--help` (muestra el uso y sale sin instalar), rechaza opciones desconocidas con error y avisa antes de reemplazar una instalación existente.
+- Dependencias separadas: `requirements.txt` solo con lo que necesita el usuario (`pyyaml`) y `requirements-dev.txt` con lo de desarrollo (pytest, pypdf, pymupdf, rapidocr).
+- Misma pregunta de prueba en el README, `docs/instalacion.md` e `install.sh`. Aclarado que los scripts funcionan con Python 3.8+ y que 3.12 es el entorno de desarrollo.
+- `SKILL.md`: los archivos temporales se escriben en el directorio de trabajo del usuario, no en `/tmp`.
+
 ## [1.0.0] — 2026-11-06
 
 Primera versión pública. Se publica para recibir evaluaciones de uso real.

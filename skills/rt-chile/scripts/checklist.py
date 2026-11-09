@@ -25,7 +25,12 @@ TABLAS = {"residencial": ("Tabla 1", "Tabla 2", "Tablas 3–5 (% u Upvm)", "Tabl
 def _load(path: str) -> dict:
     text = Path(path).read_text(encoding="utf-8")
     if path.endswith((".yaml", ".yml")):
-        import yaml
+        try:
+            import yaml
+        except ImportError:
+            sys.exit("Error: para leer archivos YAML se necesita pyyaml. Instálalo con "
+                     "'pip install pyyaml' (o 'pip install -r requirements.txt' desde la raíz del repo), "
+                     "o entrega los datos del proyecto en JSON.")
         return yaml.safe_load(text)
     return json.loads(text)
 

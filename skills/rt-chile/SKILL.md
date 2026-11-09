@@ -141,4 +141,5 @@ normativo.
 | `examples/proyecto-ejemplo.yaml` | Formato de los datos de un proyecto |
 
 Los scripts son de apoyo: corren con Python 3 estándar (`python scripts/<x>.py archivo.json`). Sus resultados no
-reemplazan una memoria de cálculo firmada.
+reemplazan una memoria de cálculo firmada. Escribe los archivos de entrada, salida o temporales en el directorio de
+trabajo del usuario, no en `/tmp`.
